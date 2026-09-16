@@ -1,9 +1,23 @@
+using System.Collections;
 using System.Linq;
 using Unity.VisualScripting;
 using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+
+    // 
+    [Header("--- DEBUG INFO ---")]
+    [SerializeField] private Vector2 currentVelocity;
+
+    private void FixedUpdate()
+    {
+        if (rb != null)
+        {
+            currentVelocity = rb.linearVelocity;
+        }
+    }
+
     public Animator anim { get; private set; }
     public Rigidbody2D rb { get; private set; }
 
@@ -18,6 +32,7 @@ public class Player : MonoBehaviour
     public Player_WallJumpState wallJumpState { get; private set; }
     public Player_DashState dashState { get; private set; }
     public Player_BasicAttackState basicAttackState { get; private set; }
+    public Player_PlungeAttackState plungeAttackState { get; private set; }
 
     [Header("Attack details")]
     public Vector2[] attackVelocity = new Vector2[]
@@ -26,8 +41,11 @@ public class Player : MonoBehaviour
         new Vector2(1f, 1.25f),
         new Vector2(2.75f, 1f)
     };
+    public Vector2 plungeAttackVelocity = new Vector2(3f, -15f);
+    public float plungePrepJumpForce = 7.5f;
     public float attackVelocityDuration = 0.1f;
     public float comboResetTime = 1;
+    private Coroutine queuedAttackCo;
 
     [Header("Movements details")]
     public float moveSpeed;
@@ -64,6 +82,7 @@ public class Player : MonoBehaviour
         wallJumpState = new Player_WallJumpState(this, stateMachine, "isMidAir");
         dashState = new Player_DashState(this, stateMachine, "dash");
         basicAttackState = new Player_BasicAttackState(this, stateMachine, "basicAttack");
+        plungeAttackState = new Player_PlungeAttackState(this, stateMachine, "plungeAttack");
     }
 
     private void OnEnable()
@@ -88,6 +107,22 @@ public class Player : MonoBehaviour
     {
         HandleCollisionDetection();
         stateMachine.UpdateActiveState();
+    }
+
+    public void EnterAttackStateWithDelay()
+    {
+        if (queuedAttackCo != null)
+        {
+            StopCoroutine(queuedAttackCo);
+        }
+
+        queuedAttackCo = StartCoroutine(EnterAttackStateWithDelayCo());
+    }
+
+    private IEnumerator EnterAttackStateWithDelayCo()
+    {
+        yield return new WaitForEndOfFrame();
+        stateMachine.ChangeState(basicAttackState);
     }
 
     public void CallAnimationTrigger()
