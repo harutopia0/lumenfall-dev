@@ -11,8 +11,8 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: floor_wood_carpet_3_0
-  m_EditorClassIdentifier: UnityEngine.dll::UnityEngine.Tilemaps.Tile
-  m_Sprite: {fileID: -6631445604136248295, guid: a75dde63a079aec4e92a0391b712c203, type: 3}
+  m_EditorClassIdentifier: 
+  m_Sprite: {fileID: -6631445604136248295, guid: 64b56a14c2447f44f9eb5a0f9eddf22d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1

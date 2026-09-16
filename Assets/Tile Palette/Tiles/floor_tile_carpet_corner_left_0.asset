@@ -11,8 +11,8 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: floor_tile_carpet_corner_left_0
-  m_EditorClassIdentifier: UnityEngine.dll::UnityEngine.Tilemaps.Tile
-  m_Sprite: {fileID: -956806399212821216, guid: f087c04889c82ac4aaf8175233ede121, type: 3}
+  m_EditorClassIdentifier: 
+  m_Sprite: {fileID: -956806399212821216, guid: 1e9c62389cf6c084e87a7331f0bc7991, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1

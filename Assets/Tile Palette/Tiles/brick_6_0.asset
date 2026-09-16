@@ -11,8 +11,8 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: brick_6_0
-  m_EditorClassIdentifier: UnityEngine.dll::UnityEngine.Tilemaps.Tile
-  m_Sprite: {fileID: -864342696791588969, guid: b8598e0a9f744604d87f436e3b860b60, type: 3}
+  m_EditorClassIdentifier: 
+  m_Sprite: {fileID: -864342696791588969, guid: 3f4e42d603ba1ba439dc0189e112f5f6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1

@@ -11,8 +11,8 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: arch_4_0
-  m_EditorClassIdentifier: UnityEngine.dll::UnityEngine.Tilemaps.Tile
-  m_Sprite: {fileID: -8205388043083265596, guid: 42e8766200d203d4cb9bd782085f130c, type: 3}
+  m_EditorClassIdentifier: 
+  m_Sprite: {fileID: -8205388043083265596, guid: c95c3313ec71fbc4cb8e23e916a8876a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1
