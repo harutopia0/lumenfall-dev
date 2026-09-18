@@ -15,6 +15,7 @@ public class Entity : MonoBehaviour
     [SerializeField] private float groundCheckDistance = 1.35f;
     [SerializeField] private float wallCheckDistance = 0.4f;
     [SerializeField] private LayerMask whatIsGround;
+    [SerializeField] private Transform groundCheck;
     [SerializeField] private Transform primaryWallCheck;
     [SerializeField] private Transform secondaryWallCheck;
     public bool ceilingDetected { get; private set; }
@@ -69,19 +70,31 @@ public class Entity : MonoBehaviour
     private void HandleCollisionDetection()
     {
         ceilingDetected = Physics2D.Raycast(transform.position, Vector2.up, groundCheckDistance, whatIsGround);
-        groundDetected = Physics2D.Raycast(transform.position, Vector2.down, groundCheckDistance, whatIsGround);
-        wallDetected = Physics2D.Raycast(primaryWallCheck.position, Vector2.right * facingDir, wallCheckDistance, whatIsGround)
+
+        groundDetected = Physics2D.Raycast(groundCheck.position, Vector2.down, groundCheckDistance, whatIsGround);
+
+        if (secondaryWallCheck != null)
+        {
+            wallDetected = Physics2D.Raycast(primaryWallCheck.position, Vector2.right * facingDir, wallCheckDistance, whatIsGround)
                     && Physics2D.Raycast(secondaryWallCheck.position, Vector2.right * facingDir, wallCheckDistance, whatIsGround);
+        }
+        else
+        {
+            wallDetected = Physics2D.Raycast(primaryWallCheck.position, Vector2.right * facingDir, wallCheckDistance, whatIsGround);
+        }
     }
 
     private void OnDrawGizmos()
     {
         GizmosDrawLine(transform.position, transform.position + new Vector3(0, ceilingCheckDistance), Color.yellow);
 
-        GizmosDrawLine(transform.position, transform.position + new Vector3(0, -groundCheckDistance), Color.green);
+        GizmosDrawLine(groundCheck.position, groundCheck.position + new Vector3(0, -groundCheckDistance), Color.green);
 
         GizmosDrawLine(primaryWallCheck.position, primaryWallCheck.position + new Vector3(wallCheckDistance * facingDir, 0), Color.red);
-        GizmosDrawLine(secondaryWallCheck.position, secondaryWallCheck.position + new Vector3(wallCheckDistance * facingDir, 0), Color.red);
+        if (secondaryWallCheck != null)
+        {
+            GizmosDrawLine(secondaryWallCheck.position, secondaryWallCheck.position + new Vector3(wallCheckDistance * facingDir, 0), Color.red);
+        }
     }
 
     private void GizmosDrawLine(Vector3 from, Vector3 to, Color color)

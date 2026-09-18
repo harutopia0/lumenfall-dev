@@ -12,5 +12,10 @@ public class EnemyState : EntityState
         this.anim = enemy.anim;
     }
 
-    
+    public override void Update()
+    {
+        base.Update();
+
+        anim.SetFloat("moveAnimSpeedMultiplier", enemy.moveAnimSpeedMultiplier);
+    }
 }
