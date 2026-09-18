@@ -11,10 +11,10 @@ public class Entity : MonoBehaviour
     public int facingDir { get; private set; } = 1;
 
     [Header("Collision detection")]
+    [SerializeField] protected LayerMask whatIsGround;
     [SerializeField] private float ceilingCheckDistance = 0.7f;
     [SerializeField] private float groundCheckDistance = 1.35f;
     [SerializeField] private float wallCheckDistance = 0.4f;
-    [SerializeField] private LayerMask whatIsGround;
     [SerializeField] private Transform groundCheck;
     [SerializeField] private Transform primaryWallCheck;
     [SerializeField] private Transform secondaryWallCheck;
@@ -84,20 +84,20 @@ public class Entity : MonoBehaviour
         }
     }
 
-    private void OnDrawGizmos()
+    protected virtual void OnDrawGizmos()
     {
-        GizmosDrawLine(transform.position, transform.position + new Vector3(0, ceilingCheckDistance), Color.yellow);
+        GizmosDrawLine(transform.position, transform.position + new Vector3(0, ceilingCheckDistance), Color.paleVioletRed);
 
-        GizmosDrawLine(groundCheck.position, groundCheck.position + new Vector3(0, -groundCheckDistance), Color.green);
+        GizmosDrawLine(groundCheck.position, groundCheck.position + new Vector3(0, -groundCheckDistance), Color.greenYellow);
 
-        GizmosDrawLine(primaryWallCheck.position, primaryWallCheck.position + new Vector3(wallCheckDistance * facingDir, 0), Color.red);
+        GizmosDrawLine(primaryWallCheck.position, primaryWallCheck.position + new Vector3(wallCheckDistance * facingDir, 0), Color.lightCoral);
         if (secondaryWallCheck != null)
         {
-            GizmosDrawLine(secondaryWallCheck.position, secondaryWallCheck.position + new Vector3(wallCheckDistance * facingDir, 0), Color.red);
+            GizmosDrawLine(secondaryWallCheck.position, secondaryWallCheck.position + new Vector3(wallCheckDistance * facingDir, 0), Color.lightCoral);
         }
     }
 
-    private void GizmosDrawLine(Vector3 from, Vector3 to, Color color)
+    protected void GizmosDrawLine(Vector3 from, Vector3 to, Color color)
     {
         Gizmos.color = color;
         Gizmos.DrawLine(from, to);
