@@ -13,9 +13,11 @@ public class Enemy_BattleState : EnemyState
     {
         base.Enter();
 
+        UpdateBattleTimer();
+
         if (player == null)
         {
-            player = enemy.PlayerDetected().transform;
+            player = enemy.GetPlayerReference();
         }
 
         if (ShouldRetreat())
