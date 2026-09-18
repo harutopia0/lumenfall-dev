@@ -35,15 +35,15 @@ public class Entity : MonoBehaviour
         
     }
 
-    private void Update()
+    protected virtual void Update()
     {
         HandleCollisionDetection();
         stateMachine.UpdateActiveState();
     }
 
-    public void CallAnimationTrigger()
+    public void CurrentStateAnimationTrigger()
     {
-        stateMachine.currentState.CallAnimationTrigger();
+        stateMachine.currentState.AnimationTrigger();
     }
 
     public void SetVelocity(float xVelocity, float yVelocity)
@@ -52,7 +52,7 @@ public class Entity : MonoBehaviour
         HandleFlip(xVelocity);
     }
 
-    private void HandleFlip(float xVelocity)
+    public void HandleFlip(float xVelocity)
     {
         if ((xVelocity > 0 && !facingRight || xVelocity < 0 && facingRight))
         {
@@ -86,7 +86,7 @@ public class Entity : MonoBehaviour
 
     protected virtual void OnDrawGizmos()
     {
-        GizmosDrawLine(transform.position, transform.position + new Vector3(0, ceilingCheckDistance), Color.paleVioletRed);
+        GizmosDrawLine(transform.position, transform.position + new Vector3(0, ceilingCheckDistance), Color.crimson);
 
         GizmosDrawLine(groundCheck.position, groundCheck.position + new Vector3(0, -groundCheckDistance), Color.greenYellow);
 
