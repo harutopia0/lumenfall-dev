@@ -14,9 +14,22 @@ public class Enemy_DeadState : EnemyState
         anim.enabled = false; // Disable animation when dead
         enemyCollider.enabled = false;
 
-        rb.gravityScale = 12;
-        rb.linearVelocity = new Vector2(rb.linearVelocity.x, 15);
+        SpriteRenderer sr = enemy.GetComponentInChildren<SpriteRenderer>();
+        PixelExplosion explosion = enemy.GetComponent<PixelExplosion>();
+        if (explosion != null && sr != null)
+        {
+            explosion.Explode(sr, new Vector2(rb.linearVelocity.x * 0.5f, 3f));
+        }
+        if (sr != null)
+        {
+            sr.enabled = false;
+        }
+
+        //rb.gravityScale = 12;
+        //rb.linearVelocity = new Vector2(rb.linearVelocity.x, 15);
 
         stateMachine.SwitchOffStateMachine();
+
+        GameObject.Destroy(enemy.gameObject, 3.5f);
     }
 }

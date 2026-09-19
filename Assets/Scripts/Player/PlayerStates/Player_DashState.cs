@@ -13,6 +13,12 @@ public class Player_DashState : PlayerState
     {
         base.Enter();
 
+        player.lastDashTime = Time.time;
+        if(!player.groundDetected)
+        {
+            player.canAirDash = false;
+        }
+
         dashDir = player.moveInput.x != 0 ? ((int)player.moveInput.x) : player.facingDir;
         stateTimer = player.dashDuration;
 

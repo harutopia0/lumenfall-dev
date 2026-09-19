@@ -33,11 +33,17 @@ public abstract class PlayerState : EntityState
 
     private bool CanDash()
     {
-        if (player.wallDetected)
+        if (player.wallDetected || stateMachine.currentState == player.dashState || stateMachine.currentState == player.deadState)
         {
             return false;
         }
-        if (stateMachine.currentState == player.dashState)
+
+        if (Time.time < player.lastDashTime + player.dashCooldown)
+        {
+            return false;
+        }
+
+        if (!player.groundDetected && !player.canAirDash)
         {
             return false;
         }

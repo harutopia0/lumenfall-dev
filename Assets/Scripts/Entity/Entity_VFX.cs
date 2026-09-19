@@ -15,6 +15,11 @@ public class Entity_VFX : MonoBehaviour
     {
         sr = GetComponentInChildren<SpriteRenderer>();
         originalMaterial = sr.material;
+
+        if (onDamageMaterial != null)
+        {
+            onDamageMaterial = new Material(onDamageMaterial);
+        }
     }
 
     public void PlayOnDamageVfx()

@@ -1695,6 +1695,7 @@ GameObject:
   - component: {fileID: 696569742}
   - component: {fileID: 696569743}
   - component: {fileID: 696569744}
+  - component: {fileID: 696569745}
   m_Layer: 8
   m_Name: Enemy_Skeleton
   m_TagString: Untagged
@@ -1830,12 +1831,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9e71ab959e3d854d8bdaa7c67a1c3db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Entity_Combat
-  damage: 25
+  damage: 1
   targetCheck: {fileID: 1783938177}
   targetCheckRadius: 1
   whatIsTarget:
     serializedVersion: 2
     m_Bits: 128
+  recoilPower: {x: 3.5, y: 0}
+  recoilDuration: 0.1
 --- !u!114 &696569743
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1848,14 +1851,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68a6b69691f811b4a8eb3a957328ba44, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Enemy_Health
-  currentHp: 0
-  maxHp: 100
   isDead: 0
   knockbackPower: {x: 2.5, y: 2}
   heavyKnockbackPower: {x: 7.5, y: 5}
   knockbackDuration: 0.2
   heavyKnockbackDuration: 0.5
-  heavyDamageThreshold: 0.3
+  maxHp: 20
+  currentHp: 0
+  heavyDamageThreshold: 0.4
 --- !u!114 &696569744
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1870,6 +1873,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Entity_VFX
   onDamageMaterial: {fileID: 2100000, guid: e3a77454b8657ba45af3abb96bf7bf96, type: 2}
   onDamageVfxDuration: 0.15
+--- !u!114 &696569745
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 696569737}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d1ffb2aece9191439570b41679e5996, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PixelExplosion
+  pixelParticlePrefab: {fileID: 6404823634014783436, guid: 7805584af5f80744a868eef0275c6a78, type: 3}
 --- !u!1 &887243936
 GameObject:
   m_ObjectHideFlags: 0
@@ -9122,8 +9138,8 @@ GameObject:
   - component: {fileID: 1774292919}
   - component: {fileID: 1774292918}
   - component: {fileID: 1774292920}
-  - component: {fileID: 1774292921}
   - component: {fileID: 1774292922}
+  - component: {fileID: 1774292923}
   m_Layer: 7
   m_Name: Player
   m_TagString: Player
@@ -9167,6 +9183,7 @@ MonoBehaviour:
   wallSlideSlowMultiplier: 0.3
   dashDuration: 0.25
   dashSpeed: 20
+  dashCooldown: 0.6
 --- !u!4 &1774292917
 Transform:
   m_ObjectHideFlags: 0
@@ -9262,32 +9279,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9e71ab959e3d854d8bdaa7c67a1c3db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Entity_Combat
-  damage: 10
+  damage: 5
   targetCheck: {fileID: 78866055}
   targetCheckRadius: 1
   whatIsTarget:
     serializedVersion: 2
     m_Bits: 256
---- !u!114 &1774292921
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1774292915}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: acbb1f2e1449e9143beb9878cc9e4c2c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Entity_Health
-  currentHp: 0
-  maxHp: 100
-  isDead: 0
-  knockbackPower: {x: 2.5, y: 2}
-  heavyKnockbackPower: {x: 7.5, y: 5}
-  knockbackDuration: 0.2
-  heavyKnockbackDuration: 0.5
-  heavyDamageThreshold: 0.3
+  recoilPower: {x: 0, y: 0}
+  recoilDuration: 0
 --- !u!114 &1774292922
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9302,6 +9301,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Entity_VFX
   onDamageMaterial: {fileID: 2100000, guid: e3a77454b8657ba45af3abb96bf7bf96, type: 2}
   onDamageVfxDuration: 0.15
+--- !u!114 &1774292923
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1774292915}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6da2d0fbc37d37499be4733a295aa7e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Player_Health
+  isDead: 0
+  knockbackPower: {x: 2.5, y: 2}
+  heavyKnockbackPower: {x: 7.5, y: 5}
+  knockbackDuration: 0.2
+  heavyKnockbackDuration: 0.5
+  maxMasks: 5
+  currentMasks: 0
+  heavyDamageThreshold: 2
+  invincibilityDuration: 1.5
 --- !u!1 &1783938176
 GameObject:
   m_ObjectHideFlags: 0

@@ -42,7 +42,10 @@ public class Player : Entity
     public float inAirMoveMultiplier = 0.75f;
     public float wallSlideSlowMultiplier = 0.3f;
     public float dashDuration = 0.25f;
-    public float dashSpeed = 20;
+    public float dashSpeed = 20f;
+    public float dashCooldown = 0.6f;
+    public float lastDashTime { get; set; }
+    public bool canAirDash { get; set; } = true;
     public Vector2 moveInput { get; private set; }
 
     protected override void Awake()
