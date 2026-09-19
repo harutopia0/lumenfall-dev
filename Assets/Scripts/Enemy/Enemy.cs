@@ -6,6 +6,7 @@ public class Enemy : Entity
     public Enemy_MoveState moveState { get; protected set; }
     public Enemy_AttackState attackState { get; protected set; }
     public Enemy_BattleState battleState { get; protected set; }
+    public Enemy_DeadState deadState { get; protected set; }
 
     [Header("Battle details")]
     public float battleMoveSpeed = 3f;
@@ -26,9 +27,30 @@ public class Enemy : Entity
     [SerializeField] private float playerCheckDistance = 10f;
     public Transform player { get; private set; }
 
+    public override void EntityDeath()
+    {
+        base.EntityDeath();
+
+        stateMachine.ChangeState(deadState);
+    }
+
+    private void HandlePlayerDeath()
+    {
+        if (stateMachine.currentState == battleState
+            || stateMachine.currentState == attackState)
+        {
+            stateMachine.ChangeState(idleState);
+        }
+    }
+
     public void TryToEnterBattleState(Transform player)
     {
-        if(stateMachine.currentState == battleState || stateMachine.currentState == attackState) return;
+        if (stateMachine.currentState == battleState
+            || stateMachine.currentState == attackState
+            || stateMachine.currentState == deadState)
+        {
+            return;
+        }
 
         this.player = player;
         stateMachine.ChangeState(battleState);
@@ -63,5 +85,15 @@ public class Enemy : Entity
         GizmosDrawLine(playerCheck.position, new Vector3(playerCheck.position.x + (facingDir * playerCheckDistance), playerCheck.position.y), Color.lightSalmon);
         GizmosDrawLine(playerCheck.position, new Vector3(playerCheck.position.x + (facingDir * attackDistance), playerCheck.position.y), Color.mediumSpringGreen);
         GizmosDrawLine(playerCheck.position, new Vector3(playerCheck.position.x + (facingDir * minRetreatDistance), playerCheck.position.y), Color.hotPink);
+    }
+
+    private void OnEnable()
+    {
+        Player.OnPlayerDeath += HandlePlayerDeath;
+    }
+
+    private void OnDisable()
+    {
+        Player.OnPlayerDeath -= HandlePlayerDeath;
     }
 }

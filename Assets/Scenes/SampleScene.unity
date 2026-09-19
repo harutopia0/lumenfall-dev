@@ -1409,7 +1409,11 @@ MonoBehaviour:
         m_SelectedSource:
           rid: -2
         m_Provider2DCache:
-          rid: -2
+          rid: 8405754732319866984
+    - rid: 8405754732319866984
+      type: {class: 'Provider2DCache`1[[UnityEngine.Rendering.Universal.Light2DProvider, Unity.RenderPipelines.Universal.2D.Runtime]]', ns: UnityEngine.Rendering.Universal, asm: Unity.RenderPipelines.Universal.2D.Runtime}
+      data:
+        m_Cache: []
 --- !u!4 &619394802
 Transform:
   m_ObjectHideFlags: 0
@@ -1575,7 +1579,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9e71ab959e3d854d8bdaa7c67a1c3db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Entity_Combat
-  damage: 10
+  damage: 25
   targetCheck: {fileID: 1783938177}
   targetCheckRadius: 1
   whatIsTarget:
@@ -1593,8 +1597,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68a6b69691f811b4a8eb3a957328ba44, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Enemy_Health
+  currentHp: 0
   maxHp: 100
   isDead: 0
+  knockbackPower: {x: 2.5, y: 2}
+  heavyKnockbackPower: {x: 7.5, y: 5}
+  knockbackDuration: 0.2
+  heavyKnockbackDuration: 0.5
+  heavyDamageThreshold: 0.3
 --- !u!114 &696569744
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9019,8 +9029,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: acbb1f2e1449e9143beb9878cc9e4c2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Entity_Health
+  currentHp: 0
   maxHp: 100
   isDead: 0
+  knockbackPower: {x: 2.5, y: 2}
+  heavyKnockbackPower: {x: 7.5, y: 5}
+  knockbackDuration: 0.2
+  heavyKnockbackDuration: 0.5
+  heavyDamageThreshold: 0.3
 --- !u!114 &1774292922
 MonoBehaviour:
   m_ObjectHideFlags: 0
