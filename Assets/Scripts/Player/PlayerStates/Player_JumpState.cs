@@ -17,6 +17,8 @@ public class Player_JumpState : Player_AiredState
     {
         base.Update();
 
+        if (stateMachine.currentState != this) return;
+
         // We need to be sure we are not in the plunge attack state before changing to fall state, otherwise we'll get stuck in the plunge attack state.
         if (rb.linearVelocity.y <= 0 && stateMachine.currentState != player.plungeAttackState)
         {

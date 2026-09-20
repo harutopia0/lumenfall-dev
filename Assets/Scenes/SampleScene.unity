@@ -907,7 +907,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &269948112
 Transform:
   m_ObjectHideFlags: 0
@@ -9145,6 +9145,7 @@ GameObject:
   - component: {fileID: 1774292920}
   - component: {fileID: 1774292922}
   - component: {fileID: 1774292923}
+  - component: {fileID: 1774292925}
   m_Layer: 7
   m_Name: Player
   m_TagString: Player
@@ -9330,6 +9331,20 @@ MonoBehaviour:
   dashDuration: 0.25
   dashSpeed: 20
   dashCooldown: 0.6
+--- !u!114 &1774292925
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1774292915}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b3b54eb65ebbb44a878a3b9bd055ea4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TimeController
+  slowMotionScale: 0.01
+  slowMotionKey: 116
 --- !u!1 &1783938176
 GameObject:
   m_ObjectHideFlags: 0

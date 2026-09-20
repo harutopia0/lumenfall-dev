@@ -56,6 +56,8 @@ public class Player_DashState : PlayerState
     {
         base.Exit();
 
+        player.SetVelocity(0, 0);
+
         rb.gravityScale = originalGravityScale;
     }
 

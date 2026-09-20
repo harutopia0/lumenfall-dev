@@ -17,9 +17,12 @@ public class Player_WallJumpState : PlayerState
     {
         base.Update();
 
+        if (stateMachine.currentState != this) return;
+
         if (rb.linearVelocity.y < 0)
         {
             stateMachine.ChangeState(player.fallState);
+            return;
         }
 
         if (player.wallDetected)

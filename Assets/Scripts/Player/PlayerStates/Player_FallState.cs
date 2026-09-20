@@ -10,9 +10,12 @@ public class Player_FallState : Player_AiredState
     {
         base.Update();
 
+        if (stateMachine.currentState != this) return;
+
         if (player.groundDetected)
         {
             stateMachine.ChangeState(player.idleState);
+            return;
         }
 
         if (player.wallDetected)

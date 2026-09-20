@@ -17,16 +17,20 @@ public class Player_WallSlideState : PlayerState
     {
         base.Update();
 
+        if (stateMachine.currentState != this) return;
+
         HandleWallSlide();
 
         if (input.Player.Jump.WasPressedThisFrame())
         {
             stateMachine.ChangeState(player.wallJumpState);
+            return;
         }
 
         if (!player.wallDetected)
         {
             stateMachine.ChangeState(player.fallState);
+            return;
         }
 
         if (player.groundDetected)

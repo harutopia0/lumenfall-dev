@@ -6,20 +6,16 @@ public class Player_RunState : Player_GroundedState
     {
     }
 
-    public override void Enter()
-    {
-        base.Enter();
-
-        player.SetVelocity(player.moveInput.x * player.moveSpeed, rb.linearVelocity.y);
-    }
-
     public override void Update()
     {
         base.Update();
 
+        if (stateMachine.currentState != this) return;
+
         if (player.moveInput.x == 0 || player.wallDetected)
         {
             stateMachine.ChangeState(player.idleState);
+            return;
         }
 
         player.SetVelocity(player.moveInput.x * player.moveSpeed, rb.linearVelocity.y);
