@@ -12,7 +12,7 @@ public class Player : Entity
     public PlayerInputSet input { get; private set; }
 
     public Player_IdleState idleState { get; private set; }
-    public Player_MoveState moveState { get; private set; }
+    public Player_RunState moveState { get; private set; }
     public Player_JumpState jumpState { get; private set; }
     public Player_FallState fallState { get; private set; }
     public Player_WallSlideState wallSlideState { get; private set; }
@@ -21,6 +21,7 @@ public class Player : Entity
     public Player_BasicAttackState basicAttackState { get; private set; }
     public Player_PlungeAttackState plungeAttackState { get; private set; }
     public Player_DeadState deadState { get; private set; }
+    public Player_DashToIdleState dashToIdleState { get; private set; }
 
     [Header("Attack details")]
     public Vector2[] attackVelocity = new Vector2[]
@@ -50,12 +51,13 @@ public class Player : Entity
 
     protected override void Awake()
     {
+        defaultFacing = FacingDirection.Left;
         base.Awake();
 
         input = new PlayerInputSet();
 
         idleState = new Player_IdleState(this, stateMachine, "idle");
-        moveState = new Player_MoveState(this, stateMachine, "move");
+        moveState = new Player_RunState(this, stateMachine, "run");
         jumpState = new Player_JumpState(this, stateMachine, "isMidAir");
         fallState = new Player_FallState(this, stateMachine, "isMidAir");
         wallSlideState = new Player_WallSlideState(this, stateMachine, "wallSlide");
@@ -64,6 +66,7 @@ public class Player : Entity
         basicAttackState = new Player_BasicAttackState(this, stateMachine, "basicAttack");
         plungeAttackState = new Player_PlungeAttackState(this, stateMachine, "plungeAttack");
         deadState = new Player_DeadState(this, stateMachine, "dead");
+        dashToIdleState = new Player_DashToIdleState(this, stateMachine, "dashToIdle");
     }
 
     protected override void Start()

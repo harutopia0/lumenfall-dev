@@ -1,0 +1,1328 @@
+fileFormatVersion: 2
+guid: 314520c5752cb1440b96a9261964f688
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2454896583317102915
+    second: Wake Up Ground_0
+  - first:
+      213: 2102550662570910182
+    second: Wake Up Ground_1
+  - first:
+      213: 2007863659521411653
+    second: Wake Up Ground_2
+  - first:
+      213: 3952658864025567112
+    second: Wake Up Ground_3
+  - first:
+      213: 7857627559548536604
+    second: Wake Up Ground_4
+  - first:
+      213: 8274607838925554447
+    second: Wake Up Ground_5
+  - first:
+      213: 1140409788005412131
+    second: Wake Up Ground_6
+  - first:
+      213: 8933500235179854093
+    second: Wake Up Ground_7
+  - first:
+      213: 9177371461785734986
+    second: Wake Up Ground_8
+  - first:
+      213: -2450546326052078901
+    second: Wake Up Ground_9
+  - first:
+      213: 8833208418389481605
+    second: Wake Up Ground_10
+  - first:
+      213: 8408680048348558610
+    second: Wake Up Ground_11
+  - first:
+      213: -6991980851406856679
+    second: Wake Up Ground_12
+  - first:
+      213: 6839033623945094620
+    second: Wake Up Ground_13
+  - first:
+      213: -46611425190188106
+    second: Wake Up Ground_14
+  - first:
+      213: -3918940187296430763
+    second: Wake Up Ground_15
+  - first:
+      213: -3001423649838973518
+    second: Wake Up Ground_16
+  - first:
+      213: 6542923525966974063
+    second: Wake Up Ground_17
+  - first:
+      213: 321615693379947004
+    second: Wake Up Ground_18
+  - first:
+      213: 4458027218158985208
+    second: Wake Up Ground_19
+  - first:
+      213: 3608156540363983949
+    second: Wake Up Ground_20
+  - first:
+      213: -2013361314125832128
+    second: Wake Up Ground_21
+  - first:
+      213: -4385928697260875871
+    second: Wake Up Ground_22
+  - first:
+      213: 7860210500341058598
+    second: Wake Up Ground_23
+  - first:
+      213: 8338713826671755831
+    second: Wake Up Ground_24
+  - first:
+      213: 3838175433831928702
+    second: Wake Up Ground_25
+  - first:
+      213: -441777702445950527
+    second: Wake Up Ground_26
+  - first:
+      213: 582102464550350966
+    second: Wake Up Ground_27
+  - first:
+      213: -3924760765517106058
+    second: Wake Up Ground_28
+  - first:
+      213: 5480595174875714584
+    second: Wake Up Ground_29
+  - first:
+      213: -4371658529005151564
+    second: Wake Up Ground_30
+  - first:
+      213: 2235125230935547803
+    second: Wake Up Ground_31
+  - first:
+      213: 8803006797703199613
+    second: Wake Up Ground_32
+  - first:
+      213: 8096036766910351687
+    second: Wake Up Ground_33
+  - first:
+      213: -6550654728930286184
+    second: Wake Up Ground_34
+  - first:
+      213: -4319621849566600564
+    second: Wake Up Ground_35
+  - first:
+      213: 9196977433932382510
+    second: Wake Up Ground_36
+  - first:
+      213: 3864069546136011068
+    second: Wake Up Ground_37
+  - first:
+      213: -9031540804926138686
+    second: Wake Up Ground_38
+  - first:
+      213: 4575529052933473804
+    second: Wake Up Ground_39
+  - first:
+      213: -1665003060863356212
+    second: Wake Up Ground_40
+  - first:
+      213: 4013535764956650962
+    second: Wake Up Ground_41
+  - first:
+      213: 4783117620409012866
+    second: Wake Up Ground_42
+  - first:
+      213: 6968739376158071924
+    second: Wake Up Ground_43
+  - first:
+      213: -5386598855829708019
+    second: Wake Up Ground_44
+  - first:
+      213: 7295964735562352204
+    second: Wake Up Ground_45
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Wake Up Ground_0
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 0
+        width: 135
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbe501760947eedd0800000000000000
+      internalID: -2454896583317102915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wake Up Ground_1
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 0
+        width: 135
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e12dc410b2cd2d10800000000000000
+      internalID: 2102550662570910182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wake Up Ground_2
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 0
+        width: 135
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54a80373c5d5ddb10800000000000000
+      internalID: 2007863659521411653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wake Up Ground_3
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 0
+        width: 135
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88ffa847b4aaad630800000000000000
+      internalID: 3952658864025567112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wake Up Ground_4
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 0
+        width: 135
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c17c53842a6eb0d60800000000000000
+      internalID: 7857627559548536604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wake Up Ground_5
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 0
+        width: 135
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0302de1dff45d270800000000000000
+      internalID: 8274607838925554447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wake Up Ground_6
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 0
+        width: 135
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32de078f8ac83df00800000000000000
+      internalID: 1140409788005412131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wake Up Ground_7
+      rect:
+        serializedVersion: 2
+        x: 1265
+        y: 0
+        width: 135
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0983c6d12b2afb70800000000000000
+      internalID: 8933500235179854093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wake Up Ground_8
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 0
+        width: 135
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4fcb8f78b29c5f70800000000000000
+      internalID: 9177371461785734986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wake Up Ground_9
+      rect:
+        serializedVersion: 2
+        x: 1615
+        y: 0
+        width: 135
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcaf60a9919edfdd0800000000000000
+      internalID: -2450546326052078901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wake Up Ground_10
+      rect:
+        serializedVersion: 2
+        x: 1790
+        y: 0
+        width: 135
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5885815914cd59a70800000000000000
+      internalID: 8833208418389481605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wake Up Ground_11
+      rect:
+        serializedVersion: 2
+        x: 1965
+        y: 0
+        width: 135
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 215fabfe3f1a1b470800000000000000
+      internalID: 8408680048348558610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wake Up Ground_12
+      rect:
+        serializedVersion: 2
+        x: 2140
+        y: 0
+        width: 135
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91e9f83f57e77fe90800000000000000
+      internalID: -6991980851406856679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wake Up Ground_13
+      rect:
+        serializedVersion: 2
+        x: 2315
+        y: 0
+        width: 135
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd52332a8d029ee50800000000000000
+      internalID: 6839033623945094620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wake Up Ground_14
+      rect:
+        serializedVersion: 2
+        x: 2490
+        y: 0
+        width: 135
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bb601fd7276a5ff0800000000000000
+      internalID: -46611425190188106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wake Up Ground_15
+      rect:
+        serializedVersion: 2
+        x: 2665
+        y: 0
+        width: 135
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5558130c9a02d99c0800000000000000
+      internalID: -3918940187296430763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wake Up Ground_16
+      rect:
+        serializedVersion: 2
+        x: 2840
+        y: 0
+        width: 135
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bd34eab71dc856d0800000000000000
+      internalID: -3001423649838973518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wake Up Ground_17
+      rect:
+        serializedVersion: 2
+        x: 3015
+        y: 0
+        width: 135
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6ccecde7422dca50800000000000000
+      internalID: 6542923525966974063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wake Up Ground_18
+      rect:
+        serializedVersion: 2
+        x: 3190
+        y: 0
+        width: 135
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf94a16e4cb967400800000000000000
+      internalID: 321615693379947004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wake Up Ground_19
+      rect:
+        serializedVersion: 2
+        x: 3365
+        y: 0
+        width: 135
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ff9361a2281edd30800000000000000
+      internalID: 4458027218158985208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wake Up Ground_20
+      rect:
+        serializedVersion: 2
+        x: 3540
+        y: 0
+        width: 135
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4cc562b14fb21230800000000000000
+      internalID: 3608156540363983949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wake Up Ground_21
+      rect:
+        serializedVersion: 2
+        x: 3715
+        y: 0
+        width: 135
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04024035d8a1f04e0800000000000000
+      internalID: -2013361314125832128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wake Up Ground_22
+      rect:
+        serializedVersion: 2
+        x: 3890
+        y: 0
+        width: 135
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1afd295661d0223c0800000000000000
+      internalID: -4385928697260875871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wake Up Ground_23
+      rect:
+        serializedVersion: 2
+        x: 4065
+        y: 0
+        width: 135
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62ccf9c0ec3151d60800000000000000
+      internalID: 7860210500341058598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wake Up Ground_24
+      rect:
+        serializedVersion: 2
+        x: 4240
+        y: 0
+        width: 135
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73288628b0019b370800000000000000
+      internalID: 8338713826671755831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wake Up Ground_25
+      rect:
+        serializedVersion: 2
+        x: 4415
+        y: 0
+        width: 135
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e73de27b830f34530800000000000000
+      internalID: 3838175433831928702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wake Up Ground_26
+      rect:
+        serializedVersion: 2
+        x: 4590
+        y: 0
+        width: 135
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c95500358d7ed9f0800000000000000
+      internalID: -441777702445950527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wake Up Ground_27
+      rect:
+        serializedVersion: 2
+        x: 4765
+        y: 0
+        width: 134
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 670376e7b1b041800800000000000000
+      internalID: 582102464550350966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wake Up Ground_28
+      rect:
+        serializedVersion: 2
+        x: 4940
+        y: 0
+        width: 130
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67476f6c0e27889c0800000000000000
+      internalID: -3924760765517106058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wake Up Ground_29
+      rect:
+        serializedVersion: 2
+        x: 5113
+        y: 0
+        width: 129
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 814df2c264cfe0c40800000000000000
+      internalID: 5480595174875714584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wake Up Ground_30
+      rect:
+        serializedVersion: 2
+        x: 5296
+        y: 0
+        width: 114
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ba575bdabfb453c0800000000000000
+      internalID: -4371658529005151564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wake Up Ground_31
+      rect:
+        serializedVersion: 2
+        x: 5481
+        y: 0
+        width: 98
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9f1d6a2e82c40f10800000000000000
+      internalID: 2235125230935547803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wake Up Ground_32
+      rect:
+        serializedVersion: 2
+        x: 5658
+        y: 0
+        width: 96
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7bb27cca009a2a70800000000000000
+      internalID: 8803006797703199613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wake Up Ground_33
+      rect:
+        serializedVersion: 2
+        x: 5833
+        y: 0
+        width: 96
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 749813c7b86ea5070800000000000000
+      internalID: 8096036766910351687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wake Up Ground_34
+      rect:
+        serializedVersion: 2
+        x: 6008
+        y: 0
+        width: 96
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 895a0eb1b366715a0800000000000000
+      internalID: -6550654728930286184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wake Up Ground_35
+      rect:
+        serializedVersion: 2
+        x: 6183
+        y: 0
+        width: 96
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c82219c60de9d04c0800000000000000
+      internalID: -4319621849566600564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wake Up Ground_36
+      rect:
+        serializedVersion: 2
+        x: 6358
+        y: 0
+        width: 96
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e21c2dc9f3a32af70800000000000000
+      internalID: 9196977433932382510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wake Up Ground_37
+      rect:
+        serializedVersion: 2
+        x: 6533
+        y: 0
+        width: 96
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3187dc87ceef9530800000000000000
+      internalID: 3864069546136011068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wake Up Ground_38
+      rect:
+        serializedVersion: 2
+        x: 6700
+        y: 0
+        width: 102
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c69ee33d7589a280800000000000000
+      internalID: -9031540804926138686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wake Up Ground_39
+      rect:
+        serializedVersion: 2
+        x: 6871
+        y: 0
+        width: 106
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0644937e6b8f7f30800000000000000
+      internalID: 4575529052933473804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wake Up Ground_40
+      rect:
+        serializedVersion: 2
+        x: 7064
+        y: 0
+        width: 114
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc23d47a988b4e8e0800000000000000
+      internalID: -1665003060863356212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wake Up Ground_41
+      rect:
+        serializedVersion: 2
+        x: 7250
+        y: 0
+        width: 85
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dd119b7381f2b730800000000000000
+      internalID: 4013535764956650962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wake Up Ground_42
+      rect:
+        serializedVersion: 2
+        x: 7429
+        y: 0
+        width: 81
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 282146b322c016240800000000000000
+      internalID: 4783117620409012866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wake Up Ground_43
+      rect:
+        serializedVersion: 2
+        x: 7608
+        y: 1
+        width: 62
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47cdd286a8fe5b060800000000000000
+      internalID: 6968739376158071924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wake Up Ground_44
+      rect:
+        serializedVersion: 2
+        x: 7785
+        y: 0
+        width: 63
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d03aeba41e4fe35b0800000000000000
+      internalID: -5386598855829708019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wake Up Ground_45
+      rect:
+        serializedVersion: 2
+        x: 7960
+        y: 1
+        width: 63
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4688f47549704560800000000000000
+      internalID: 7295964735562352204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Wake Up Ground_0: -2454896583317102915
+      Wake Up Ground_1: 2102550662570910182
+      Wake Up Ground_10: 8833208418389481605
+      Wake Up Ground_11: 8408680048348558610
+      Wake Up Ground_12: -6991980851406856679
+      Wake Up Ground_13: 6839033623945094620
+      Wake Up Ground_14: -46611425190188106
+      Wake Up Ground_15: -3918940187296430763
+      Wake Up Ground_16: -3001423649838973518
+      Wake Up Ground_17: 6542923525966974063
+      Wake Up Ground_18: 321615693379947004
+      Wake Up Ground_19: 4458027218158985208
+      Wake Up Ground_2: 2007863659521411653
+      Wake Up Ground_20: 3608156540363983949
+      Wake Up Ground_21: -2013361314125832128
+      Wake Up Ground_22: -4385928697260875871
+      Wake Up Ground_23: 7860210500341058598
+      Wake Up Ground_24: 8338713826671755831
+      Wake Up Ground_25: 3838175433831928702
+      Wake Up Ground_26: -441777702445950527
+      Wake Up Ground_27: 582102464550350966
+      Wake Up Ground_28: -3924760765517106058
+      Wake Up Ground_29: 5480595174875714584
+      Wake Up Ground_3: 3952658864025567112
+      Wake Up Ground_30: -4371658529005151564
+      Wake Up Ground_31: 2235125230935547803
+      Wake Up Ground_32: 8803006797703199613
+      Wake Up Ground_33: 8096036766910351687
+      Wake Up Ground_34: -6550654728930286184
+      Wake Up Ground_35: -4319621849566600564
+      Wake Up Ground_36: 9196977433932382510
+      Wake Up Ground_37: 3864069546136011068
+      Wake Up Ground_38: -9031540804926138686
+      Wake Up Ground_39: 4575529052933473804
+      Wake Up Ground_4: 7857627559548536604
+      Wake Up Ground_40: -1665003060863356212
+      Wake Up Ground_41: 4013535764956650962
+      Wake Up Ground_42: 4783117620409012866
+      Wake Up Ground_43: 6968739376158071924
+      Wake Up Ground_44: -5386598855829708019
+      Wake Up Ground_45: 7295964735562352204
+      Wake Up Ground_5: 8274607838925554447
+      Wake Up Ground_6: 1140409788005412131
+      Wake Up Ground_7: 8933500235179854093
+      Wake Up Ground_8: 9177371461785734986
+      Wake Up Ground_9: -2450546326052078901
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

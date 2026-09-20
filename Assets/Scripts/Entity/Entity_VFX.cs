@@ -11,6 +11,19 @@ public class Entity_VFX : MonoBehaviour
     private Material originalMaterial;
     private Coroutine onDamageVfxCoroutine;
 
+    [Header("Movement VFX")]
+    [SerializeField] private GameObject dashVfxPrefab;
+    [SerializeField] private Vector2 dashVfxOffset = new Vector2(0.6f, 0f);
+
+    public void PlayDashVfx(Vector3 position, Quaternion rotation, int facingDir)
+    {
+        if (dashVfxPrefab == null) return;
+
+        Vector3 spawnPos = position + new Vector3(dashVfxOffset.x * facingDir, dashVfxOffset.y, 0f);
+        Instantiate(dashVfxPrefab, spawnPos, rotation);
+    }
+
+
     private void Awake()
     {
         sr = GetComponentInChildren<SpriteRenderer>();

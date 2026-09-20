@@ -1,21 +1,31 @@
 using System.Collections;
 using UnityEngine;
 
+public enum FacingDirection
+{
+    Left = -1,
+    Right = 1
+}
+
 public class Entity : MonoBehaviour
 {
+    public Entity_VFX vfx { get; private set; }
     public Animator anim { get; private set; }
     public Rigidbody2D rb { get; private set; }
 
     protected StateMachine stateMachine;
 
-    private bool facingRight = true;
-    public int facingDir { get; private set; } = 1;
+    [Header("Facing Direction")]
+    [SerializeField] protected FacingDirection defaultFacing = FacingDirection.Right;
+
+    public FacingDirection facingDirection { get; private set; } = FacingDirection.Right;
+    public int facingDir => (int)facingDirection;
 
     [Header("Collision detection")]
     [SerializeField] protected LayerMask whatIsGround;
-    [SerializeField] private float ceilingCheckDistance = 0.7f;
-    [SerializeField] private float groundCheckDistance = 1.35f;
-    [SerializeField] private float wallCheckDistance = 0.4f;
+    [SerializeField] private float ceilingCheckDistance = 1.125f;
+    [SerializeField] private float groundCheckDistance = 1.025f;
+    [SerializeField] private float wallCheckDistance = 0.5f;
     [SerializeField] private Transform groundCheck;
     [SerializeField] private Transform primaryWallCheck;
     [SerializeField] private Transform secondaryWallCheck;
@@ -28,6 +38,9 @@ public class Entity : MonoBehaviour
 
     protected virtual void Awake()
     {
+        facingDirection = defaultFacing;
+
+        vfx = GetComponent<Entity_VFX>();
         anim = GetComponentInChildren<Animator>();
         rb = GetComponent<Rigidbody2D>();
 
@@ -86,7 +99,8 @@ public class Entity : MonoBehaviour
 
     public void HandleFlip(float xVelocity)
     {
-        if ((xVelocity > 0 && !facingRight || xVelocity < 0 && facingRight))
+        if ((xVelocity > 0 && facingDirection == FacingDirection.Left) || 
+            (xVelocity < 0 && facingDirection == FacingDirection.Right))
         {
             Flip();
         }
@@ -95,8 +109,9 @@ public class Entity : MonoBehaviour
     public void Flip()
     {
         transform.Rotate(0f, 180f, 0f);
-        facingRight = !facingRight;
-        facingDir = facingRight ? 1 : -1;
+        facingDirection = (facingDirection == FacingDirection.Right) 
+            ? FacingDirection.Left 
+            : FacingDirection.Right;
     }
 
     private void HandleCollisionDetection()

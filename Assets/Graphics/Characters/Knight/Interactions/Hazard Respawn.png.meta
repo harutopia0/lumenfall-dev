@@ -1,0 +1,652 @@
+fileFormatVersion: 2
+guid: 15e94fa17531fe64cb8936f260b1e0f9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1747802431673631566
+    second: Hazard Respawn_0
+  - first:
+      213: -447731168497111960
+    second: Hazard Respawn_1
+  - first:
+      213: 6631353879052384330
+    second: Hazard Respawn_2
+  - first:
+      213: -7567477147937775333
+    second: Hazard Respawn_3
+  - first:
+      213: 2871794366619628162
+    second: Hazard Respawn_4
+  - first:
+      213: -56224249766979668
+    second: Hazard Respawn_5
+  - first:
+      213: -2780195209341853757
+    second: Hazard Respawn_6
+  - first:
+      213: -1693110822195556461
+    second: Hazard Respawn_7
+  - first:
+      213: -4671464936616943898
+    second: Hazard Respawn_8
+  - first:
+      213: 4589149394544317470
+    second: Hazard Respawn_9
+  - first:
+      213: -1632749511922360907
+    second: Hazard Respawn_10
+  - first:
+      213: 8191044198130242336
+    second: Hazard Respawn_11
+  - first:
+      213: 1656194811371853401
+    second: Hazard Respawn_12
+  - first:
+      213: -9179262672976291128
+    second: Hazard Respawn_13
+  - first:
+      213: 8682962430728728175
+    second: Hazard Respawn_14
+  - first:
+      213: -6137755586086101267
+    second: Hazard Respawn_15
+  - first:
+      213: 4335272597912410911
+    second: Hazard Respawn_16
+  - first:
+      213: -2038793277815471681
+    second: Hazard Respawn_17
+  - first:
+      213: -4326050909110249144
+    second: Hazard Respawn_18
+  - first:
+      213: -4998869536965592849
+    second: Hazard Respawn_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Hazard Respawn_0
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 0
+        width: 96
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4388752d01714810800000000000000
+      internalID: 1747802431673631566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hazard Respawn_1
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 0
+        width: 96
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86cebdadfd659c9f0800000000000000
+      internalID: -447731168497111960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hazard Respawn_2
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 0
+        width: 96
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4873d4f73d470c50800000000000000
+      internalID: 6631353879052384330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hazard Respawn_3
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 0
+        width: 96
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b11684fc0abeaf690800000000000000
+      internalID: -7567477147937775333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hazard Respawn_4
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 0
+        width: 96
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 282b452d2c9aad720800000000000000
+      internalID: 2871794366619628162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hazard Respawn_5
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 0
+        width: 96
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca750ecb750483ff0800000000000000
+      internalID: -56224249766979668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hazard Respawn_6
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 0
+        width: 96
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cf9fecef23ca69d0800000000000000
+      internalID: -2780195209341853757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hazard Respawn_7
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 0
+        width: 96
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39f0aad7dacd088e0800000000000000
+      internalID: -1693110822195556461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hazard Respawn_8
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 0
+        width: 96
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ee1140046f9b2fb0800000000000000
+      internalID: -4671464936616943898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hazard Respawn_9
+      rect:
+        serializedVersion: 2
+        x: 1489
+        y: 0
+        width: 96
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e14530b5f0fefaf30800000000000000
+      internalID: 4589149394544317470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hazard Respawn_10
+      rect:
+        serializedVersion: 2
+        x: 1648
+        y: 0
+        width: 96
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bddca638fe4759e0800000000000000
+      internalID: -1632749511922360907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hazard Respawn_11
+      rect:
+        serializedVersion: 2
+        x: 1807
+        y: 0
+        width: 96
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 023d319dc4f6ca170800000000000000
+      internalID: 8191044198130242336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hazard Respawn_12
+      rect:
+        serializedVersion: 2
+        x: 1958
+        y: 0
+        width: 102
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9561aa2f76cfbf610800000000000000
+      internalID: 1656194811371853401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hazard Respawn_13
+      rect:
+        serializedVersion: 2
+        x: 2113
+        y: 0
+        width: 106
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cade359b35bc9080800000000000000
+      internalID: -9179262672976291128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hazard Respawn_14
+      rect:
+        serializedVersion: 2
+        x: 2290
+        y: 0
+        width: 98
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6ee5a19354108870800000000000000
+      internalID: 8682962430728728175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hazard Respawn_15
+      rect:
+        serializedVersion: 2
+        x: 2460
+        y: 0
+        width: 85
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dee1b2d40df42daa0800000000000000
+      internalID: -6137755586086101267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hazard Respawn_16
+      rect:
+        serializedVersion: 2
+        x: 2623
+        y: 0
+        width: 81
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1bdd03657bf92c30800000000000000
+      internalID: 4335272597912410911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hazard Respawn_17
+      rect:
+        serializedVersion: 2
+        x: 2786
+        y: 1
+        width: 62
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb1ca59d050c4b3e0800000000000000
+      internalID: -2038793277815471681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hazard Respawn_18
+      rect:
+        serializedVersion: 2
+        x: 2947
+        y: 0
+        width: 63
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8495a3a5e97c6f3c0800000000000000
+      internalID: -4326050909110249144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hazard Respawn_19
+      rect:
+        serializedVersion: 2
+        x: 3106
+        y: 1
+        width: 63
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe8f4aa24a270aab0800000000000000
+      internalID: -4998869536965592849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Hazard Respawn_0: 1747802431673631566
+      Hazard Respawn_1: -447731168497111960
+      Hazard Respawn_10: -1632749511922360907
+      Hazard Respawn_11: 8191044198130242336
+      Hazard Respawn_12: 1656194811371853401
+      Hazard Respawn_13: -9179262672976291128
+      Hazard Respawn_14: 8682962430728728175
+      Hazard Respawn_15: -6137755586086101267
+      Hazard Respawn_16: 4335272597912410911
+      Hazard Respawn_17: -2038793277815471681
+      Hazard Respawn_18: -4326050909110249144
+      Hazard Respawn_19: -4998869536965592849
+      Hazard Respawn_2: 6631353879052384330
+      Hazard Respawn_3: -7567477147937775333
+      Hazard Respawn_4: 2871794366619628162
+      Hazard Respawn_5: -56224249766979668
+      Hazard Respawn_6: -2780195209341853757
+      Hazard Respawn_7: -1693110822195556461
+      Hazard Respawn_8: -4671464936616943898
+      Hazard Respawn_9: 4589149394544317470
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

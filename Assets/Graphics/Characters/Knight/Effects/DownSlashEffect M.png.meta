@@ -1,0 +1,548 @@
+fileFormatVersion: 2
+guid: 78f634c2c91162146995519ac35a7af3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5182673412120233487
+    second: DownSlashEffect M_0
+  - first:
+      213: -833857543744608386
+    second: DownSlashEffect M_1
+  - first:
+      213: -4560927109030674412
+    second: DownSlashEffect M_2
+  - first:
+      213: 3238545719687573093
+    second: DownSlashEffect M_3
+  - first:
+      213: 5577712669031991707
+    second: DownSlashEffect M_4
+  - first:
+      213: 736175713220558426
+    second: DownSlashEffect M_5
+  - first:
+      213: -5855778931022797053
+    second: DownSlashEffect M_6
+  - first:
+      213: -3191676721081809438
+    second: DownSlashEffect M_7
+  - first:
+      213: -6523365642237668109
+    second: DownSlashEffect M_8
+  - first:
+      213: 1743630426364087768
+    second: DownSlashEffect M_9
+  - first:
+      213: 3496977092731681928
+    second: DownSlashEffect M_10
+  - first:
+      213: -4484786405482102685
+    second: DownSlashEffect M_11
+  - first:
+      213: 4939920898865423814
+    second: DownSlashEffect M_12
+  - first:
+      213: 4010428251295356363
+    second: DownSlashEffect M_13
+  - first:
+      213: 6053065016040960069
+    second: DownSlashEffect M_14
+  - first:
+      213: -4622543845236758150
+    second: DownSlashEffect M_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DownSlashEffect M_0
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 0
+        width: 176
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f936bb9df17318b0800000000000000
+      internalID: -5182673412120233487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DownSlashEffect M_1
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 0
+        width: 176
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e77a2df5bfa8d64f0800000000000000
+      internalID: -833857543744608386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DownSlashEffect M_2
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 98
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41007cb85f454b0c0800000000000000
+      internalID: -4560927109030674412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DownSlashEffect M_3
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 51
+        width: 54
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56ee6da6c20a1fc20800000000000000
+      internalID: 3238545719687573093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DownSlashEffect M_4
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 98
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9909d8de14086d40800000000000000
+      internalID: 5577712669031991707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DownSlashEffect M_5
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 51
+        width: 54
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5ef7c629eb673a00800000000000000
+      internalID: 736175713220558426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DownSlashEffect M_6
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 85
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3076b2566181cbea0800000000000000
+      internalID: -5855778931022797053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DownSlashEffect M_7
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 85
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e50902bee2e4b3d0800000000000000
+      internalID: -3191676721081809438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DownSlashEffect M_8
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 30
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f49f6ab2895875a0800000000000000
+      internalID: -6523365642237668109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DownSlashEffect M_9
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 37
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dd8ef672ae923810800000000000000
+      internalID: 1743630426364087768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DownSlashEffect M_10
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 30
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88c33f75322c78030800000000000000
+      internalID: 3496977092731681928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DownSlashEffect M_11
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 37
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3600dbf8686d2c1c0800000000000000
+      internalID: -4484786405482102685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DownSlashEffect M_12
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 22
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c5e66b72ef1e8440800000000000000
+      internalID: 4939920898865423814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DownSlashEffect M_13
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 26
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc596a31f37e7a730800000000000000
+      internalID: 4010428251295356363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DownSlashEffect M_14
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 22
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5403773cf8ec00450800000000000000
+      internalID: 6053065016040960069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DownSlashEffect M_15
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 26
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a79aef13ddc69dfb0800000000000000
+      internalID: -4622543845236758150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      DownSlashEffect M_0: -5182673412120233487
+      DownSlashEffect M_1: -833857543744608386
+      DownSlashEffect M_10: 3496977092731681928
+      DownSlashEffect M_11: -4484786405482102685
+      DownSlashEffect M_12: 4939920898865423814
+      DownSlashEffect M_13: 4010428251295356363
+      DownSlashEffect M_14: 6053065016040960069
+      DownSlashEffect M_15: -4622543845236758150
+      DownSlashEffect M_2: -4560927109030674412
+      DownSlashEffect M_3: 3238545719687573093
+      DownSlashEffect M_4: 5577712669031991707
+      DownSlashEffect M_5: 736175713220558426
+      DownSlashEffect M_6: -5855778931022797053
+      DownSlashEffect M_7: -3191676721081809438
+      DownSlashEffect M_8: -6523365642237668109
+      DownSlashEffect M_9: 1743630426364087768
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

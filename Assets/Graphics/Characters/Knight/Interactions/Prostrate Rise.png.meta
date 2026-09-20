@@ -1,0 +1,678 @@
+fileFormatVersion: 2
+guid: 1b15ce37f6f3f6941936a1af47b916d4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3422067257121439247
+    second: Prostrate Rise_0
+  - first:
+      213: 5320576134895473717
+    second: Prostrate Rise_1
+  - first:
+      213: 2310924038948662653
+    second: Prostrate Rise_2
+  - first:
+      213: -8924535311393062339
+    second: Prostrate Rise_3
+  - first:
+      213: -4420186343581736861
+    second: Prostrate Rise_4
+  - first:
+      213: -6612461730366916970
+    second: Prostrate Rise_5
+  - first:
+      213: -5885504600124409164
+    second: Prostrate Rise_6
+  - first:
+      213: 1220913103800664018
+    second: Prostrate Rise_7
+  - first:
+      213: -298994250964806724
+    second: Prostrate Rise_8
+  - first:
+      213: -6422876537600996866
+    second: Prostrate Rise_9
+  - first:
+      213: -6049347978965779539
+    second: Prostrate Rise_10
+  - first:
+      213: 3962293699798006387
+    second: Prostrate Rise_11
+  - first:
+      213: -4707035719647039014
+    second: Prostrate Rise_12
+  - first:
+      213: 1901195441217719508
+    second: Prostrate Rise_13
+  - first:
+      213: -8686078099584600194
+    second: Prostrate Rise_14
+  - first:
+      213: -6913239890998502729
+    second: Prostrate Rise_15
+  - first:
+      213: -1574717038357481669
+    second: Prostrate Rise_16
+  - first:
+      213: -1517175853184743563
+    second: Prostrate Rise_17
+  - first:
+      213: 5766241630078863662
+    second: Prostrate Rise_18
+  - first:
+      213: 2244687717342889894
+    second: Prostrate Rise_19
+  - first:
+      213: -9116681898017709612
+    second: Prostrate Rise_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Prostrate Rise_0
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 0
+        width: 134
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0ef73a1a00ad7f20800000000000000
+      internalID: 3422067257121439247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prostrate Rise_1
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 0
+        width: 130
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5349dd81ecb76d940800000000000000
+      internalID: 5320576134895473717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prostrate Rise_2
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 0
+        width: 129
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7d227c6b2d021020800000000000000
+      internalID: 2310924038948662653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prostrate Rise_3
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 0
+        width: 114
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d328cf22b6ea52480800000000000000
+      internalID: -8924535311393062339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prostrate Rise_4
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 0
+        width: 98
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36027cd80f758a2c0800000000000000
+      internalID: -4420186343581736861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prostrate Rise_5
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 0
+        width: 96
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6967d9e2711db34a0800000000000000
+      internalID: -6612461730366916970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prostrate Rise_6
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 0
+        width: 96
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ba38a9bfbc725ea0800000000000000
+      internalID: -5885504600124409164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prostrate Rise_7
+      rect:
+        serializedVersion: 2
+        x: 1283
+        y: 0
+        width: 96
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2df78adcffd81f010800000000000000
+      internalID: 1220913103800664018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prostrate Rise_8
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 0
+        width: 96
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb3db591052c9dbf0800000000000000
+      internalID: -298994250964806724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prostrate Rise_9
+      rect:
+        serializedVersion: 2
+        x: 1633
+        y: 0
+        width: 96
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef90a14a1db5dd6a0800000000000000
+      internalID: -6422876537600996866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prostrate Rise_10
+      rect:
+        serializedVersion: 2
+        x: 1808
+        y: 0
+        width: 96
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dab740f50166c0ca0800000000000000
+      internalID: -6049347978965779539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prostrate Rise_11
+      rect:
+        serializedVersion: 2
+        x: 1983
+        y: 0
+        width: 96
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37a7a387025ecf630800000000000000
+      internalID: 3962293699798006387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prostrate Rise_12
+      rect:
+        serializedVersion: 2
+        x: 2158
+        y: 0
+        width: 96
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad1fc51b3ff3daeb0800000000000000
+      internalID: -4707035719647039014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prostrate Rise_13
+      rect:
+        serializedVersion: 2
+        x: 2325
+        y: 0
+        width: 102
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dccf5a4e27626a10800000000000000
+      internalID: 1901195441217719508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prostrate Rise_14
+      rect:
+        serializedVersion: 2
+        x: 2496
+        y: 0
+        width: 106
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e77b5fe3df9d47780800000000000000
+      internalID: -8686078099584600194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prostrate Rise_15
+      rect:
+        serializedVersion: 2
+        x: 2689
+        y: 0
+        width: 114
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ba59f172fc3f00a0800000000000000
+      internalID: -6913239890998502729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prostrate Rise_16
+      rect:
+        serializedVersion: 2
+        x: 2875
+        y: 0
+        width: 85
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3772f2623b752ae0800000000000000
+      internalID: -1574717038357481669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prostrate Rise_17
+      rect:
+        serializedVersion: 2
+        x: 3054
+        y: 0
+        width: 81
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5778f119998e1fae0800000000000000
+      internalID: -1517175853184743563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prostrate Rise_18
+      rect:
+        serializedVersion: 2
+        x: 3233
+        y: 1
+        width: 62
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e298be1363ec50050800000000000000
+      internalID: 5766241630078863662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prostrate Rise_19
+      rect:
+        serializedVersion: 2
+        x: 3410
+        y: 0
+        width: 63
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a7c7e7069bb62f10800000000000000
+      internalID: 2244687717342889894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prostrate Rise_20
+      rect:
+        serializedVersion: 2
+        x: 3585
+        y: 1
+        width: 62
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d1ab62bd1a0b7180800000000000000
+      internalID: -9116681898017709612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Prostrate Rise_0: 3422067257121439247
+      Prostrate Rise_1: 5320576134895473717
+      Prostrate Rise_10: -6049347978965779539
+      Prostrate Rise_11: 3962293699798006387
+      Prostrate Rise_12: -4707035719647039014
+      Prostrate Rise_13: 1901195441217719508
+      Prostrate Rise_14: -8686078099584600194
+      Prostrate Rise_15: -6913239890998502729
+      Prostrate Rise_16: -1574717038357481669
+      Prostrate Rise_17: -1517175853184743563
+      Prostrate Rise_18: 5766241630078863662
+      Prostrate Rise_19: 2244687717342889894
+      Prostrate Rise_2: 2310924038948662653
+      Prostrate Rise_20: -9116681898017709612
+      Prostrate Rise_3: -8924535311393062339
+      Prostrate Rise_4: -4420186343581736861
+      Prostrate Rise_5: -6612461730366916970
+      Prostrate Rise_6: -5885504600124409164
+      Prostrate Rise_7: 1220913103800664018
+      Prostrate Rise_8: -298994250964806724
+      Prostrate Rise_9: -6422876537600996866
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

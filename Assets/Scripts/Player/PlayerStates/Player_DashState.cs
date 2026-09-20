@@ -13,8 +13,10 @@ public class Player_DashState : PlayerState
     {
         base.Enter();
 
+        player.vfx?.PlayDashVfx(player.transform.position, player.transform.rotation, player.facingDir);
+
         player.lastDashTime = Time.time;
-        if(!player.groundDetected)
+        if (!player.groundDetected)
         {
             player.canAirDash = false;
         }
@@ -38,7 +40,10 @@ public class Player_DashState : PlayerState
         {
             if (player.groundDetected)
             {
-                stateMachine.ChangeState(player.idleState);
+                if (player.moveInput.x != 0)
+                    stateMachine.ChangeState(player.moveState);
+                else
+                    stateMachine.ChangeState(player.dashToIdleState);
             }
             else
             {
@@ -50,8 +55,6 @@ public class Player_DashState : PlayerState
     public override void Exit()
     {
         base.Exit();
-
-        player.SetVelocity(0, 0);
 
         rb.gravityScale = originalGravityScale;
     }
