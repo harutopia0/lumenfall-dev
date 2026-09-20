@@ -1,0 +1,1276 @@
+fileFormatVersion: 2
+guid: ed37aff2d8eeb6342974fa227f25e511
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3946515025828126117
+    second: Hornet_0
+  - first:
+      213: -2021411872386868442
+    second: Hornet_1
+  - first:
+      213: -3561784008905870788
+    second: Hornet_2
+  - first:
+      213: 2305470953056813450
+    second: Hornet_3
+  - first:
+      213: -8018858682212593809
+    second: Hornet_4
+  - first:
+      213: -6897434268319336973
+    second: Hornet_5
+  - first:
+      213: 8553451177384878113
+    second: Hornet_6
+  - first:
+      213: 6435703718264942537
+    second: Hornet_7
+  - first:
+      213: 8848317844753648157
+    second: Hornet_8
+  - first:
+      213: -6533664211507253745
+    second: Hornet_9
+  - first:
+      213: -4232169508988905118
+    second: Hornet_10
+  - first:
+      213: -7597679499339845921
+    second: Hornet_11
+  - first:
+      213: -8479095448952955992
+    second: Hornet_12
+  - first:
+      213: -1225443716605055317
+    second: Hornet_13
+  - first:
+      213: -1400120978763784745
+    second: Hornet_14
+  - first:
+      213: -7020512524487598430
+    second: Hornet_15
+  - first:
+      213: 6908030771798628971
+    second: Hornet_16
+  - first:
+      213: -4768013097032329283
+    second: Hornet_17
+  - first:
+      213: 7413521253255952409
+    second: Hornet_18
+  - first:
+      213: 1660151385152040306
+    second: Hornet_19
+  - first:
+      213: 8866600829297380534
+    second: Hornet_20
+  - first:
+      213: 8849615582000568317
+    second: Hornet_21
+  - first:
+      213: 3499693578040282293
+    second: Hornet_22
+  - first:
+      213: -695914130524434603
+    second: Hornet_23
+  - first:
+      213: -9014875083442333519
+    second: Hornet_24
+  - first:
+      213: -2596946276896573859
+    second: Hornet_25
+  - first:
+      213: 2296479198848077925
+    second: Hornet_26
+  - first:
+      213: -7065541688043651084
+    second: Hornet_27
+  - first:
+      213: 4081388077351347192
+    second: Hornet_28
+  - first:
+      213: -103102042306904147
+    second: Hornet_29
+  - first:
+      213: -9072385177735555525
+    second: Hornet_30
+  - first:
+      213: 1300357191211647905
+    second: Hornet_31
+  - first:
+      213: -5348576408347393844
+    second: Hornet_32
+  - first:
+      213: 5402928059920149194
+    second: Hornet_33
+  - first:
+      213: -6822897741535976661
+    second: Hornet_34
+  - first:
+      213: 2331156185682716759
+    second: Hornet_35
+  - first:
+      213: 5009098765622503020
+    second: Hornet_36
+  - first:
+      213: -7974825965849325851
+    second: Hornet_37
+  - first:
+      213: 2717243535659245540
+    second: Hornet_38
+  - first:
+      213: -3348712051762543456
+    second: Hornet_39
+  - first:
+      213: -1167293547404089191
+    second: Hornet_40
+  - first:
+      213: 8694809501767237218
+    second: Hornet_41
+  - first:
+      213: 1834608671272443776
+    second: Hornet_42
+  - first:
+      213: -8930133225581171421
+    second: Hornet_43
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Hornet_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 942
+        width: 197
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ad1a37a186d4c630800000000000000
+      internalID: 3946515025828126117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hornet_1
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 942
+        width: 201
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62b9f99ac9082f3e0800000000000000
+      internalID: -2021411872386868442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hornet_2
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 767
+        width: 169
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c32bf76a050029ec0800000000000000
+      internalID: -3561784008905870788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hornet_3
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 802
+        width: 167
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a81ceeced9daeff10800000000000000
+      internalID: 2305470953056813450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hornet_4
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 795
+        width: 173
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6f49a6a38a47b090800000000000000
+      internalID: -8018858682212593809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hornet_5
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 942
+        width: 167
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f5383fb3146740a0800000000000000
+      internalID: -6897434268319336973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hornet_6
+      rect:
+        serializedVersion: 2
+        x: 1271
+        y: 937
+        width: 173
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1202ca71786f3b670800000000000000
+      internalID: 8553451177384878113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hornet_7
+      rect:
+        serializedVersion: 2
+        x: 1462
+        y: 813
+        width: 164
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cfa7d61f66305950800000000000000
+      internalID: 6435703718264942537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hornet_8
+      rect:
+        serializedVersion: 2
+        x: 1674
+        y: 877
+        width: 176
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1a8a4c033a8bca70800000000000000
+      internalID: 8848317844753648157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hornet_9
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 757
+        width: 219
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0e6d673403c355a0800000000000000
+      internalID: -6533664211507253745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hornet_10
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 757
+        width: 219
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2691a7b21405445c0800000000000000
+      internalID: -4232169508988905118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hornet_11
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 777
+        width: 201
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdea494efbe9f8690800000000000000
+      internalID: -7597679499339845921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hornet_12
+      rect:
+        serializedVersion: 2
+        x: 1647
+        y: 835
+        width: 60
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ab17840d93345a80800000000000000
+      internalID: -8479095448952955992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hornet_13
+      rect:
+        serializedVersion: 2
+        x: 1805
+        y: 532
+        width: 128
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bae6583be695efee0800000000000000
+      internalID: -1225443716605055317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hornet_14
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 559
+        width: 219
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dd56325365c19ce0800000000000000
+      internalID: -1400120978763784745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hornet_15
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 559
+        width: 219
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ae5cb42e01229e90800000000000000
+      internalID: -7020512524487598430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hornet_16
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 561
+        width: 178
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6a568af2614edf50800000000000000
+      internalID: 6908030771798628971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hornet_17
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 617
+        width: 218
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db75afaa95d94ddb0800000000000000
+      internalID: -4768013097032329283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hornet_18
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 606
+        width: 99
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91831232d4e12e660800000000000000
+      internalID: 7413521253255952409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hornet_19
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 614
+        width: 201
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27d2c5193ea0a0710800000000000000
+      internalID: 1660151385152040306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hornet_20
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 608
+        width: 204
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bc447b1a7e7c0b70800000000000000
+      internalID: 8866600829297380534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hornet_21
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 608
+        width: 203
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df7d7eb0c7620da70800000000000000
+      internalID: 8849615582000568317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hornet_22
+      rect:
+        serializedVersion: 2
+        x: 1477
+        y: 608
+        width: 163
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bc8ecd54c8619030800000000000000
+      internalID: 3499693578040282293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hornet_23
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 361
+        width: 224
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55f8aef09cd9756f0800000000000000
+      internalID: -695914130524434603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hornet_24
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 361
+        width: 221
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b856ecdfdab4e280800000000000000
+      internalID: -9014875083442333519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hornet_25
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 349
+        width: 173
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d567ec0de1bc5fbd0800000000000000
+      internalID: -2596946276896573859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hornet_26
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 483
+        width: 275
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 560d9610aabbedf10800000000000000
+      internalID: 2296479198848077925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hornet_27
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 365
+        width: 115
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ffb172054722fd90800000000000000
+      internalID: -7065541688043651084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hornet_28
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 486
+        width: 331
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f3aa0d05d004a830800000000000000
+      internalID: 4081388077351347192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hornet_29
+      rect:
+        serializedVersion: 2
+        x: 1534
+        y: 358
+        width: 110
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daffda02d35b19ef0800000000000000
+      internalID: -103102042306904147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hornet_30
+      rect:
+        serializedVersion: 2
+        x: 1731
+        y: 385
+        width: 204
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b369d879fb9681280800000000000000
+      internalID: -9072385177735555525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hornet_31
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 126
+        width: 525
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a38b4fc9fbcb0210800000000000000
+      internalID: 1300357191211647905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hornet_32
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 329
+        width: 99
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc04b66381a06c5b0800000000000000
+      internalID: -5348576408347393844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hornet_33
+      rect:
+        serializedVersion: 2
+        x: 1494
+        y: 326
+        width: 99
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acae78ec17e0bfa40800000000000000
+      internalID: 5402928059920149194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hornet_34
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 296
+        width: 49
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b23eee047a23051a0800000000000000
+      internalID: -6822897741535976661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hornet_35
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 272
+        width: 70
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 758a29b233ee95020800000000000000
+      internalID: 2331156185682716759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hornet_36
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 168
+        width: 386
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c66e6c9b9c4e38540800000000000000
+      internalID: 5009098765622503020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hornet_37
+      rect:
+        serializedVersion: 2
+        x: 1918
+        y: 176
+        width: 62
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ee4df7590ab35190800000000000000
+      internalID: -7974825965849325851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hornet_38
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 241
+        width: 49
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ef123f599695b520800000000000000
+      internalID: 2717243535659245540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hornet_39
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 204
+        width: 66
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a4cf93912cf681d0800000000000000
+      internalID: -3348712051762543456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hornet_40
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 2
+        width: 191
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 998af5604b0fccfe0800000000000000
+      internalID: -1167293547404089191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hornet_41
+      rect:
+        serializedVersion: 2
+        x: 1580
+        y: 2
+        width: 148
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26ef68ebc2b2aa870800000000000000
+      internalID: 8694809501767237218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hornet_42
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 2
+        width: 130
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08f9b09cdd6d57910800000000000000
+      internalID: 1834608671272443776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hornet_43
+      rect:
+        serializedVersion: 2
+        x: 1990
+        y: 1
+        width: 57
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32d225c252bc11480800000000000000
+      internalID: -8930133225581171421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Hornet_0: 3946515025828126117
+      Hornet_1: -2021411872386868442
+      Hornet_10: -4232169508988905118
+      Hornet_11: -7597679499339845921
+      Hornet_12: -8479095448952955992
+      Hornet_13: -1225443716605055317
+      Hornet_14: -1400120978763784745
+      Hornet_15: -7020512524487598430
+      Hornet_16: 6908030771798628971
+      Hornet_17: -4768013097032329283
+      Hornet_18: 7413521253255952409
+      Hornet_19: 1660151385152040306
+      Hornet_2: -3561784008905870788
+      Hornet_20: 8866600829297380534
+      Hornet_21: 8849615582000568317
+      Hornet_22: 3499693578040282293
+      Hornet_23: -695914130524434603
+      Hornet_24: -9014875083442333519
+      Hornet_25: -2596946276896573859
+      Hornet_26: 2296479198848077925
+      Hornet_27: -7065541688043651084
+      Hornet_28: 4081388077351347192
+      Hornet_29: -103102042306904147
+      Hornet_3: 2305470953056813450
+      Hornet_30: -9072385177735555525
+      Hornet_31: 1300357191211647905
+      Hornet_32: -5348576408347393844
+      Hornet_33: 5402928059920149194
+      Hornet_34: -6822897741535976661
+      Hornet_35: 2331156185682716759
+      Hornet_36: 5009098765622503020
+      Hornet_37: -7974825965849325851
+      Hornet_38: 2717243535659245540
+      Hornet_39: -3348712051762543456
+      Hornet_4: -8018858682212593809
+      Hornet_40: -1167293547404089191
+      Hornet_41: 8694809501767237218
+      Hornet_42: 1834608671272443776
+      Hornet_43: -8930133225581171421
+      Hornet_5: -6897434268319336973
+      Hornet_6: 8553451177384878113
+      Hornet_7: 6435703718264942537
+      Hornet_8: 8848317844753648157
+      Hornet_9: -6533664211507253745
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

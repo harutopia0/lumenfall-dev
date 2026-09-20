@@ -1,0 +1,548 @@
+fileFormatVersion: 2
+guid: ece84d5dcbc9a3d4bbb41210ef9e62d6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 765094759564429074
+    second: down_slash_effect_m_0
+  - first:
+      213: 8968005182031285811
+    second: down_slash_effect_m_1
+  - first:
+      213: -4536821012608007342
+    second: down_slash_effect_m_2
+  - first:
+      213: -8124685917164640146
+    second: down_slash_effect_m_3
+  - first:
+      213: 6689706125614433556
+    second: down_slash_effect_m_4
+  - first:
+      213: 4083483762532456342
+    second: down_slash_effect_m_5
+  - first:
+      213: -5269546953812806541
+    second: down_slash_effect_m_6
+  - first:
+      213: -5655696736868165719
+    second: down_slash_effect_m_7
+  - first:
+      213: 5493792803013340092
+    second: down_slash_effect_m_8
+  - first:
+      213: -7515188412121042353
+    second: down_slash_effect_m_9
+  - first:
+      213: 3463917819975975867
+    second: down_slash_effect_m_10
+  - first:
+      213: -8510872084003880569
+    second: down_slash_effect_m_11
+  - first:
+      213: -2705342861405930118
+    second: down_slash_effect_m_12
+  - first:
+      213: -7552823094100865188
+    second: down_slash_effect_m_13
+  - first:
+      213: 4593036249671478319
+    second: down_slash_effect_m_14
+  - first:
+      213: -3694914646569812352
+    second: down_slash_effect_m_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: down_slash_effect_m_0
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 0
+        width: 176
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 217c95351a92e9a00800000000000000
+      internalID: 765094759564429074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: down_slash_effect_m_1
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 0
+        width: 176
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33e46d2d231c47c70800000000000000
+      internalID: 8968005182031285811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: down_slash_effect_m_2
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 98
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 253c8fd7359f901c0800000000000000
+      internalID: -4536821012608007342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: down_slash_effect_m_3
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 51
+        width: 54
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6868cb64315f3f80800000000000000
+      internalID: -8124685917164640146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: down_slash_effect_m_4
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 98
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 415c005174c96dc50800000000000000
+      internalID: 6689706125614433556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: down_slash_effect_m_5
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 51
+        width: 54
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69792d7c8d27ba830800000000000000
+      internalID: 4083483762532456342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: down_slash_effect_m_6
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 85
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 374febaf6feced6b0800000000000000
+      internalID: -5269546953812806541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: down_slash_effect_m_7
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 85
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a713a178cde281b0800000000000000
+      internalID: -5655696736868165719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: down_slash_effect_m_8
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 30
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbb253d627fdd3c40800000000000000
+      internalID: 5493792803013340092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: down_slash_effect_m_9
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 37
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f42b463d4ffa4b790800000000000000
+      internalID: -7515188412121042353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: down_slash_effect_m_10
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 30
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb340d697ee421030800000000000000
+      internalID: 3463917819975975867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: down_slash_effect_m_11
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 37
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7810920aeee43e980800000000000000
+      internalID: -8510872084003880569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: down_slash_effect_m_12
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 22
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7db2464001b47ad0800000000000000
+      internalID: -2705342861405930118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: down_slash_effect_m_13
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 26
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5f40c8996bfe2790800000000000000
+      internalID: -7552823094100865188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: down_slash_effect_m_14
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 22
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2c2926522ebdbf30800000000000000
+      internalID: 4593036249671478319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: down_slash_effect_m_15
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 26
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08e71d794b609bcc0800000000000000
+      internalID: -3694914646569812352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      down_slash_effect_m_0: 765094759564429074
+      down_slash_effect_m_1: 8968005182031285811
+      down_slash_effect_m_10: 3463917819975975867
+      down_slash_effect_m_11: -8510872084003880569
+      down_slash_effect_m_12: -2705342861405930118
+      down_slash_effect_m_13: -7552823094100865188
+      down_slash_effect_m_14: 4593036249671478319
+      down_slash_effect_m_15: -3694914646569812352
+      down_slash_effect_m_2: -4536821012608007342
+      down_slash_effect_m_3: -8124685917164640146
+      down_slash_effect_m_4: 6689706125614433556
+      down_slash_effect_m_5: 4083483762532456342
+      down_slash_effect_m_6: -5269546953812806541
+      down_slash_effect_m_7: -5655696736868165719
+      down_slash_effect_m_8: 5493792803013340092
+      down_slash_effect_m_9: -7515188412121042353
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

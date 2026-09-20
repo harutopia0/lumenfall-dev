@@ -1,0 +1,2030 @@
+fileFormatVersion: 2
+guid: 69229a36c54ff4e4fb6f1415b2abbb6b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5545524375266057924
+    second: Knight Slug Cln_0
+  - first:
+      213: -3732849874308023511
+    second: Knight Slug Cln_1
+  - first:
+      213: 1400475986990963674
+    second: Knight Slug Cln_2
+  - first:
+      213: 7554533991115429143
+    second: Knight Slug Cln_3
+  - first:
+      213: -6103166298601138022
+    second: Knight Slug Cln_4
+  - first:
+      213: -4891189983041194386
+    second: Knight Slug Cln_5
+  - first:
+      213: -8166087076536638902
+    second: Knight Slug Cln_6
+  - first:
+      213: 7254555908745574959
+    second: Knight Slug Cln_7
+  - first:
+      213: -5146855043170995334
+    second: Knight Slug Cln_8
+  - first:
+      213: 4649881010060993966
+    second: Knight Slug Cln_9
+  - first:
+      213: -2593857385383130929
+    second: Knight Slug Cln_10
+  - first:
+      213: -7049888401497509776
+    second: Knight Slug Cln_11
+  - first:
+      213: -8804840882206715470
+    second: Knight Slug Cln_12
+  - first:
+      213: -2516498655962840877
+    second: Knight Slug Cln_13
+  - first:
+      213: 1626020761186343688
+    second: Knight Slug Cln_14
+  - first:
+      213: -4803892894407825055
+    second: Knight Slug Cln_15
+  - first:
+      213: -1260131365815535327
+    second: Knight Slug Cln_16
+  - first:
+      213: 7910481135726069677
+    second: Knight Slug Cln_17
+  - first:
+      213: -862949104589923674
+    second: Knight Slug Cln_18
+  - first:
+      213: 2723967920591506043
+    second: Knight Slug Cln_19
+  - first:
+      213: 2465454558542972288
+    second: Knight Slug Cln_20
+  - first:
+      213: -2559668796070811169
+    second: Knight Slug Cln_21
+  - first:
+      213: 5629251818221201100
+    second: Knight Slug Cln_22
+  - first:
+      213: -1775767323812193828
+    second: Knight Slug Cln_23
+  - first:
+      213: -2500775121538035765
+    second: Knight Slug Cln_24
+  - first:
+      213: 3171248667634925384
+    second: Knight Slug Cln_25
+  - first:
+      213: -3916559768367683879
+    second: Knight Slug Cln_26
+  - first:
+      213: 258791909994993871
+    second: Knight Slug Cln_27
+  - first:
+      213: 5472227184687760399
+    second: Knight Slug Cln_28
+  - first:
+      213: -8177666217037883133
+    second: Knight Slug Cln_29
+  - first:
+      213: 1751751462583003817
+    second: Knight Slug Cln_30
+  - first:
+      213: 3987310002364689726
+    second: Knight Slug Cln_31
+  - first:
+      213: -4424567138531012120
+    second: Knight Slug Cln_32
+  - first:
+      213: -3390830708392741608
+    second: Knight Slug Cln_33
+  - first:
+      213: 5090822805733366694
+    second: Knight Slug Cln_34
+  - first:
+      213: -1902811196899042379
+    second: Knight Slug Cln_35
+  - first:
+      213: 4778932941133315271
+    second: Knight Slug Cln_36
+  - first:
+      213: -8696647769458512376
+    second: Knight Slug Cln_37
+  - first:
+      213: 7289729932745652205
+    second: Knight Slug Cln_38
+  - first:
+      213: 6926312867642069819
+    second: Knight Slug Cln_39
+  - first:
+      213: 7154992700728426927
+    second: Knight Slug Cln_40
+  - first:
+      213: -4921716966403096357
+    second: Knight Slug Cln_41
+  - first:
+      213: 6958750727677931641
+    second: Knight Slug Cln_42
+  - first:
+      213: -428393773423507818
+    second: Knight Slug Cln_43
+  - first:
+      213: -327264480827906503
+    second: Knight Slug Cln_44
+  - first:
+      213: -8260107331851230362
+    second: Knight Slug Cln_45
+  - first:
+      213: -5237291468380789655
+    second: Knight Slug Cln_46
+  - first:
+      213: -6784832040628174814
+    second: Knight Slug Cln_47
+  - first:
+      213: -6993670067315527077
+    second: Knight Slug Cln_48
+  - first:
+      213: 3397752480380432682
+    second: Knight Slug Cln_49
+  - first:
+      213: 3115369507011113304
+    second: Knight Slug Cln_50
+  - first:
+      213: -5049896619584008101
+    second: Knight Slug Cln_51
+  - first:
+      213: -6368459348011835086
+    second: Knight Slug Cln_52
+  - first:
+      213: 4245215599299981878
+    second: Knight Slug Cln_53
+  - first:
+      213: 8036565478338736722
+    second: Knight Slug Cln_54
+  - first:
+      213: 2298244042393105110
+    second: Knight Slug Cln_55
+  - first:
+      213: 1951868287478917805
+    second: Knight Slug Cln_56
+  - first:
+      213: 72480851183243531
+    second: Knight Slug Cln_57
+  - first:
+      213: 8788193300795762893
+    second: Knight Slug Cln_58
+  - first:
+      213: 4291908234614423263
+    second: Knight Slug Cln_59
+  - first:
+      213: 6240638045283113889
+    second: Knight Slug Cln_60
+  - first:
+      213: -3736048469648221144
+    second: Knight Slug Cln_61
+  - first:
+      213: -5803745104057221968
+    second: Knight Slug Cln_62
+  - first:
+      213: -4695500804715269636
+    second: Knight Slug Cln_63
+  - first:
+      213: -4103072813183005950
+    second: Knight Slug Cln_64
+  - first:
+      213: 3436725525721606379
+    second: Knight Slug Cln_65
+  - first:
+      213: 2355080149136053816
+    second: Knight Slug Cln_66
+  - first:
+      213: 8247940521854710251
+    second: Knight Slug Cln_67
+  - first:
+      213: 5714773434686237163
+    second: Knight Slug Cln_68
+  - first:
+      213: 2816471526141231039
+    second: Knight Slug Cln_69
+  - first:
+      213: 1456194989518150621
+    second: Knight Slug Cln_70
+  - first:
+      213: -6376438750306346800
+    second: Knight Slug Cln_71
+  - first:
+      213: -2009367184871237494
+    second: Knight Slug Cln_72
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Knight Slug Cln_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 819
+        width: 69
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ced001b909a5fc40800000000000000
+      internalID: 5545524375266057924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight Slug Cln_1
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 818
+        width: 72
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92b320a11d0423cc0800000000000000
+      internalID: -3732849874308023511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight Slug Cln_2
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 723
+        width: 87
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adb9f097d7d7f6310800000000000000
+      internalID: 1400475986990963674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight Slug Cln_3
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 723
+        width: 72
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7159c08a3a817d860800000000000000
+      internalID: 7554533991115429143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight Slug Cln_4
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 732
+        width: 72
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a985ebe56923d4ba0800000000000000
+      internalID: -6103166298601138022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight Slug Cln_5
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 705
+        width: 73
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6671e300a00f1cb0800000000000000
+      internalID: -4891189983041194386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight Slug Cln_6
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 700
+        width: 70
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a422026d11b3cae80800000000000000
+      internalID: -8166087076536638902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight Slug Cln_7
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 697
+        width: 69
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2abdf7a92c5da460800000000000000
+      internalID: 7254555908745574959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight Slug Cln_8
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 623
+        width: 73
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a737d518b92b298b0800000000000000
+      internalID: -5146855043170995334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight Slug Cln_9
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 610
+        width: 87
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea5258c7422b78040800000000000000
+      internalID: 4649881010060993966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight Slug Cln_10
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 625
+        width: 72
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc8073a6374c00cd0800000000000000
+      internalID: -2593857385383130929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight Slug Cln_11
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 608
+        width: 73
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 070389ac9d3c92e90800000000000000
+      internalID: -7049888401497509776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight Slug Cln_12
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 609
+        width: 83
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b15b302edbeec580800000000000000
+      internalID: -8804840882206715470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight Slug Cln_13
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 637
+        width: 77
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d0469d2ec9931dd0800000000000000
+      internalID: -2516498655962840877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight Slug Cln_14
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 606
+        width: 72
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80b1ceb6449c09610800000000000000
+      internalID: 1626020761186343688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight Slug Cln_15
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 618
+        width: 70
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1696cc95dd4255db0800000000000000
+      internalID: -4803892894407825055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight Slug Cln_16
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 610
+        width: 78
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 129bc32033d138ee0800000000000000
+      internalID: -1260131365815535327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight Slug Cln_17
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 520
+        width: 86
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da781617eaca7cd60800000000000000
+      internalID: 7910481135726069677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight Slug Cln_18
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 509
+        width: 72
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6aa1da98c503604f0800000000000000
+      internalID: -862949104589923674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight Slug Cln_19
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 515
+        width: 77
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7a8a6e346a7dc520800000000000000
+      internalID: 2723967920591506043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight Slug Cln_20
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 508
+        width: 84
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08542d3cbdd073220800000000000000
+      internalID: 2465454558542972288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight Slug Cln_21
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 505
+        width: 88
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd92c8baaca3a7cd0800000000000000
+      internalID: -2559668796070811169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight Slug Cln_22
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 534
+        width: 73
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc6eb4024be1f1e40800000000000000
+      internalID: 5629251818221201100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight Slug Cln_23
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 499
+        width: 83
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd99d6407053b57e0800000000000000
+      internalID: -1775767323812193828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight Slug Cln_24
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 519
+        width: 72
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcf4791d6467b4dd0800000000000000
+      internalID: -2500775121538035765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight Slug Cln_25
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 535
+        width: 68
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84f7fc87cd9820c20800000000000000
+      internalID: 3171248667634925384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight Slug Cln_26
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 493
+        width: 68
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d6abd834a595a9c0800000000000000
+      internalID: -3916559768367683879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight Slug Cln_27
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 412
+        width: 71
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc81ff9fed9679300800000000000000
+      internalID: 258791909994993871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight Slug Cln_28
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 406
+        width: 71
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f04cc81a1a141fb40800000000000000
+      internalID: 5472227184687760399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight Slug Cln_29
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 415
+        width: 72
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3099eb917e7138e80800000000000000
+      internalID: -8177666217037883133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight Slug Cln_30
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 402
+        width: 71
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9aae70e8ca87f4810800000000000000
+      internalID: 1751751462583003817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight Slug Cln_31
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 402
+        width: 86
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3d2f4c4255c55730800000000000000
+      internalID: 3987310002364689726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight Slug Cln_32
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 422
+        width: 81
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e11efe31a7c892c0800000000000000
+      internalID: -4424567138531012120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight Slug Cln_33
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 399
+        width: 71
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 815b3c4af6951f0d0800000000000000
+      internalID: -3390830708392741608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight Slug Cln_34
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 410
+        width: 84
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6abd1369e5c36a640800000000000000
+      internalID: 5090822805733366694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight Slug Cln_35
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 436
+        width: 69
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bb52364c4bd795e0800000000000000
+      internalID: -1902811196899042379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight Slug Cln_36
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 386
+        width: 81
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ccf9a9a03e225240800000000000000
+      internalID: 4778932941133315271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight Slug Cln_37
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 308
+        width: 87
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80e6bb43eec4f4780800000000000000
+      internalID: -8696647769458512376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight Slug Cln_38
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 303
+        width: 70
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de736dd40c25a2560800000000000000
+      internalID: 7289729932745652205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight Slug Cln_39
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 311
+        width: 72
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b33d50f1bd43f1060800000000000000
+      internalID: 6926312867642069819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight Slug Cln_40
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 300
+        width: 86
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa14e69d3f3ab4360800000000000000
+      internalID: 7154992700728426927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight Slug Cln_41
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 299
+        width: 89
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd0c784de7c82bbb0800000000000000
+      internalID: -4921716966403096357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight Slug Cln_42
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 313
+        width: 73
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 970fbb3fae2729060800000000000000
+      internalID: 6958750727677931641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight Slug Cln_43
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 300
+        width: 84
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6964a1ff12a0e0af0800000000000000
+      internalID: -428393773423507818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight Slug Cln_44
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 306
+        width: 85
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93666a840b2557bf0800000000000000
+      internalID: -327264480827906503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight Slug Cln_45
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 306
+        width: 63
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 663686645243e5d80800000000000000
+      internalID: -8260107331851230362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight Slug Cln_46
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 268
+        width: 73
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 964aaf968276157b0800000000000000
+      internalID: -5237291468380789655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight Slug Cln_47
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 206
+        width: 87
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2204ba5e43f67d1a0800000000000000
+      internalID: -6784832040628174814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight Slug Cln_48
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 203
+        width: 90
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b523069b02e71fe90800000000000000
+      internalID: -6993670067315527077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight Slug Cln_49
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 208
+        width: 87
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2137cbf0ed372f20800000000000000
+      internalID: 3397752480380432682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight Slug Cln_50
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 193
+        width: 71
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8513b798f040c3b20800000000000000
+      internalID: 3115369507011113304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight Slug Cln_51
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 193
+        width: 72
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b50df3da7c92be9b0800000000000000
+      internalID: -5049896619584008101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight Slug Cln_52
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 203
+        width: 70
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2312d3be6ffae97a0800000000000000
+      internalID: -6368459348011835086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight Slug Cln_53
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 204
+        width: 86
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 632f83f68190aea30800000000000000
+      internalID: 4245215599299981878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight Slug Cln_54
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 206
+        width: 87
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2523c8619bd978f60800000000000000
+      internalID: 8036565478338736722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight Slug Cln_55
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 137
+        width: 64
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d2bff9a7c005ef10800000000000000
+      internalID: 2298244042393105110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight Slug Cln_56
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 104
+        width: 87
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daae783bddd661b10800000000000000
+      internalID: 1951868287478917805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight Slug Cln_57
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 102
+        width: 89
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b019bcb33f0810100800000000000000
+      internalID: 72480851183243531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight Slug Cln_58
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 104
+        width: 87
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc82667ce3fe5f970800000000000000
+      internalID: 8788193300795762893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight Slug Cln_59
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 100
+        width: 84
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fde34c4cccbef8b30800000000000000
+      internalID: 4291908234614423263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight Slug Cln_60
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 100
+        width: 82
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ab53e4ec333b9650800000000000000
+      internalID: 6240638045283113889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight Slug Cln_61
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 99
+        width: 83
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82cd9f616b3e62cc0800000000000000
+      internalID: -3736048469648221144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight Slug Cln_62
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 106
+        width: 82
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bcb1c1d394f47fa0800000000000000
+      internalID: -5803745104057221968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight Slug Cln_63
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 99
+        width: 85
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf1b26c55ea36deb0800000000000000
+      internalID: -4695500804715269636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight Slug Cln_64
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 4
+        width: 89
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20b0aa2f305fe07c0800000000000000
+      internalID: -4103072813183005950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight Slug Cln_65
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 3
+        width: 89
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be8672738a3b1bf20800000000000000
+      internalID: 3436725525721606379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight Slug Cln_66
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 4
+        width: 89
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83614dafaeceea020800000000000000
+      internalID: 2355080149136053816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight Slug Cln_67
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1
+        width: 88
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be133b58432967270800000000000000
+      internalID: 8247940521854710251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight Slug Cln_68
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 1
+        width: 90
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be9ef422924fe4f40800000000000000
+      internalID: 5714773434686237163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight Slug Cln_69
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 1
+        width: 82
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbf76a34eed161720800000000000000
+      internalID: 2816471526141231039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight Slug Cln_70
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 2
+        width: 87
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddbdee1b0a1753410800000000000000
+      internalID: 1456194989518150621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight Slug Cln_71
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 1
+        width: 81
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d854fb8db65287a0800000000000000
+      internalID: -6376438750306346800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight Slug Cln_72
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1
+        width: 62
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a885c62013b4d14e0800000000000000
+      internalID: -2009367184871237494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Knight Slug Cln_0: 5545524375266057924
+      Knight Slug Cln_1: -3732849874308023511
+      Knight Slug Cln_10: -2593857385383130929
+      Knight Slug Cln_11: -7049888401497509776
+      Knight Slug Cln_12: -8804840882206715470
+      Knight Slug Cln_13: -2516498655962840877
+      Knight Slug Cln_14: 1626020761186343688
+      Knight Slug Cln_15: -4803892894407825055
+      Knight Slug Cln_16: -1260131365815535327
+      Knight Slug Cln_17: 7910481135726069677
+      Knight Slug Cln_18: -862949104589923674
+      Knight Slug Cln_19: 2723967920591506043
+      Knight Slug Cln_2: 1400475986990963674
+      Knight Slug Cln_20: 2465454558542972288
+      Knight Slug Cln_21: -2559668796070811169
+      Knight Slug Cln_22: 5629251818221201100
+      Knight Slug Cln_23: -1775767323812193828
+      Knight Slug Cln_24: -2500775121538035765
+      Knight Slug Cln_25: 3171248667634925384
+      Knight Slug Cln_26: -3916559768367683879
+      Knight Slug Cln_27: 258791909994993871
+      Knight Slug Cln_28: 5472227184687760399
+      Knight Slug Cln_29: -8177666217037883133
+      Knight Slug Cln_3: 7554533991115429143
+      Knight Slug Cln_30: 1751751462583003817
+      Knight Slug Cln_31: 3987310002364689726
+      Knight Slug Cln_32: -4424567138531012120
+      Knight Slug Cln_33: -3390830708392741608
+      Knight Slug Cln_34: 5090822805733366694
+      Knight Slug Cln_35: -1902811196899042379
+      Knight Slug Cln_36: 4778932941133315271
+      Knight Slug Cln_37: -8696647769458512376
+      Knight Slug Cln_38: 7289729932745652205
+      Knight Slug Cln_39: 6926312867642069819
+      Knight Slug Cln_4: -6103166298601138022
+      Knight Slug Cln_40: 7154992700728426927
+      Knight Slug Cln_41: -4921716966403096357
+      Knight Slug Cln_42: 6958750727677931641
+      Knight Slug Cln_43: -428393773423507818
+      Knight Slug Cln_44: -327264480827906503
+      Knight Slug Cln_45: -8260107331851230362
+      Knight Slug Cln_46: -5237291468380789655
+      Knight Slug Cln_47: -6784832040628174814
+      Knight Slug Cln_48: -6993670067315527077
+      Knight Slug Cln_49: 3397752480380432682
+      Knight Slug Cln_5: -4891189983041194386
+      Knight Slug Cln_50: 3115369507011113304
+      Knight Slug Cln_51: -5049896619584008101
+      Knight Slug Cln_52: -6368459348011835086
+      Knight Slug Cln_53: 4245215599299981878
+      Knight Slug Cln_54: 8036565478338736722
+      Knight Slug Cln_55: 2298244042393105110
+      Knight Slug Cln_56: 1951868287478917805
+      Knight Slug Cln_57: 72480851183243531
+      Knight Slug Cln_58: 8788193300795762893
+      Knight Slug Cln_59: 4291908234614423263
+      Knight Slug Cln_6: -8166087076536638902
+      Knight Slug Cln_60: 6240638045283113889
+      Knight Slug Cln_61: -3736048469648221144
+      Knight Slug Cln_62: -5803745104057221968
+      Knight Slug Cln_63: -4695500804715269636
+      Knight Slug Cln_64: -4103072813183005950
+      Knight Slug Cln_65: 3436725525721606379
+      Knight Slug Cln_66: 2355080149136053816
+      Knight Slug Cln_67: 8247940521854710251
+      Knight Slug Cln_68: 5714773434686237163
+      Knight Slug Cln_69: 2816471526141231039
+      Knight Slug Cln_7: 7254555908745574959
+      Knight Slug Cln_70: 1456194989518150621
+      Knight Slug Cln_71: -6376438750306346800
+      Knight Slug Cln_72: -2009367184871237494
+      Knight Slug Cln_8: -5146855043170995334
+      Knight Slug Cln_9: 4649881010060993966
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

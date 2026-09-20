@@ -1,0 +1,1796 @@
+fileFormatVersion: 2
+guid: 45d0c81684cf89b4c9a23b15f3882d49
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 153137713695742716
+    second: Spell Effects 2_0
+  - first:
+      213: -4608399094752729898
+    second: Spell Effects 2_1
+  - first:
+      213: 5324713477024133837
+    second: Spell Effects 2_2
+  - first:
+      213: 6458304264574075756
+    second: Spell Effects 2_3
+  - first:
+      213: 1641068940611016291
+    second: Spell Effects 2_4
+  - first:
+      213: 1765581245866281649
+    second: Spell Effects 2_5
+  - first:
+      213: -6814189730193757513
+    second: Spell Effects 2_6
+  - first:
+      213: -3056839615780496852
+    second: Spell Effects 2_7
+  - first:
+      213: -2926848383781701763
+    second: Spell Effects 2_8
+  - first:
+      213: -5912520925130158167
+    second: Spell Effects 2_9
+  - first:
+      213: -1959271634061426493
+    second: Spell Effects 2_10
+  - first:
+      213: 770976174089955493
+    second: Spell Effects 2_11
+  - first:
+      213: 2058318370516671934
+    second: Spell Effects 2_12
+  - first:
+      213: -2621413754396788776
+    second: Spell Effects 2_13
+  - first:
+      213: 1168041045156317755
+    second: Spell Effects 2_14
+  - first:
+      213: -1590344958670512034
+    second: Spell Effects 2_15
+  - first:
+      213: 3529018991586135607
+    second: Spell Effects 2_16
+  - first:
+      213: 9104062160581138902
+    second: Spell Effects 2_17
+  - first:
+      213: -8166993483697464328
+    second: Spell Effects 2_18
+  - first:
+      213: 4758424642328786604
+    second: Spell Effects 2_19
+  - first:
+      213: -1810249885293640071
+    second: Spell Effects 2_20
+  - first:
+      213: -8327442039835487138
+    second: Spell Effects 2_21
+  - first:
+      213: -6931720569070619036
+    second: Spell Effects 2_22
+  - first:
+      213: 5930672157749008278
+    second: Spell Effects 2_23
+  - first:
+      213: -6965196961787434212
+    second: Spell Effects 2_24
+  - first:
+      213: 3488419980306582553
+    second: Spell Effects 2_25
+  - first:
+      213: -9090765147124890889
+    second: Spell Effects 2_26
+  - first:
+      213: 3555438478563277597
+    second: Spell Effects 2_27
+  - first:
+      213: -970432818142097000
+    second: Spell Effects 2_28
+  - first:
+      213: 2885398257437953779
+    second: Spell Effects 2_29
+  - first:
+      213: 7029684179689935296
+    second: Spell Effects 2_30
+  - first:
+      213: -593062245126944038
+    second: Spell Effects 2_31
+  - first:
+      213: -7088801679051956987
+    second: Spell Effects 2_32
+  - first:
+      213: -2877926816525159660
+    second: Spell Effects 2_33
+  - first:
+      213: -8000767339766716129
+    second: Spell Effects 2_34
+  - first:
+      213: -7721590519817881547
+    second: Spell Effects 2_35
+  - first:
+      213: -1158262728629017688
+    second: Spell Effects 2_36
+  - first:
+      213: -5815713106391178786
+    second: Spell Effects 2_37
+  - first:
+      213: -7659717954008337979
+    second: Spell Effects 2_38
+  - first:
+      213: -7193599008567939034
+    second: Spell Effects 2_39
+  - first:
+      213: -1335291400587574721
+    second: Spell Effects 2_40
+  - first:
+      213: -5645495849950619839
+    second: Spell Effects 2_41
+  - first:
+      213: 6530504961337303887
+    second: Spell Effects 2_42
+  - first:
+      213: -7874115344247376002
+    second: Spell Effects 2_43
+  - first:
+      213: -3666466058614997216
+    second: Spell Effects 2_44
+  - first:
+      213: -9165486780077622162
+    second: Spell Effects 2_45
+  - first:
+      213: -2862684294047764872
+    second: Spell Effects 2_46
+  - first:
+      213: 2470279555978346389
+    second: Spell Effects 2_47
+  - first:
+      213: 4191394319470775916
+    second: Spell Effects 2_48
+  - first:
+      213: -6649029846064838179
+    second: Spell Effects 2_49
+  - first:
+      213: 4446873628111777045
+    second: Spell Effects 2_50
+  - first:
+      213: 6159530976736329477
+    second: Spell Effects 2_51
+  - first:
+      213: -5733193713491718069
+    second: Spell Effects 2_52
+  - first:
+      213: 5066642369563184820
+    second: Spell Effects 2_53
+  - first:
+      213: -642290399231867170
+    second: Spell Effects 2_54
+  - first:
+      213: 6378993732926592817
+    second: Spell Effects 2_55
+  - first:
+      213: 6253905276380232360
+    second: Spell Effects 2_56
+  - first:
+      213: 2068386216986575662
+    second: Spell Effects 2_57
+  - first:
+      213: -4664643284050932958
+    second: Spell Effects 2_58
+  - first:
+      213: 3434422230842796216
+    second: Spell Effects 2_59
+  - first:
+      213: -3387828232185924058
+    second: Spell Effects 2_60
+  - first:
+      213: -4352027960907452219
+    second: Spell Effects 2_61
+  - first:
+      213: 5029456431628090280
+    second: Spell Effects 2_62
+  - first:
+      213: -3991291259968652670
+    second: Spell Effects 2_63
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Spell Effects 2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1654
+        width: 355
+        height: 393
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfadc8270fd002200800000000000000
+      internalID: 153137713695742716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spell Effects 2_1
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 1626
+        width: 1118
+        height: 422
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d4280e807dab00c0800000000000000
+      internalID: -4608399094752729898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spell Effects 2_2
+      rect:
+        serializedVersion: 2
+        x: 1407
+        y: 1912
+        width: 202
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc232c022be25e940800000000000000
+      internalID: 5324713477024133837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spell Effects 2_3
+      rect:
+        serializedVersion: 2
+        x: 1823
+        y: 2022
+        width: 48
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c630455d28180a950800000000000000
+      internalID: 6458304264574075756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spell Effects 2_4
+      rect:
+        serializedVersion: 2
+        x: 1856
+        y: 2011
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 366db09b18f36c610800000000000000
+      internalID: 1641068940611016291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spell Effects 2_5
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 1442
+        width: 439
+        height: 472
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ba83f5e9ca908810800000000000000
+      internalID: 1765581245866281649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spell Effects 2_6
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 1592
+        width: 407
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7baafa32b822f61a0800000000000000
+      internalID: -6814189730193757513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spell Effects 2_7
+      rect:
+        serializedVersion: 2
+        x: 1758
+        y: 1584
+        width: 188
+        height: 279
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2adf06b09ce395d0800000000000000
+      internalID: -3056839615780496852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spell Effects 2_8
+      rect:
+        serializedVersion: 2
+        x: 1877
+        y: 1861
+        width: 162
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d77f34de6eeb167d0800000000000000
+      internalID: -2926848383781701763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spell Effects 2_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1196
+        width: 207
+        height: 460
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9af8d826b8182fda0800000000000000
+      internalID: -5912520925130158167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spell Effects 2_10
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 1647
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c0054954d44fc4e0800000000000000
+      internalID: -1959271634061426493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spell Effects 2_11
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 1630
+        width: 32
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a8ebeadebe03ba00800000000000000
+      internalID: 770976174089955493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spell Effects 2_12
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 1516
+        width: 421
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebd9e4d07ad909c10800000000000000
+      internalID: 2058318370516671934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spell Effects 2_13
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 1484
+        width: 528
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d73bd7441ede9bd0800000000000000
+      internalID: -2621413754396788776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spell Effects 2_14
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 1589
+        width: 67
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3a4e9b5427b53010800000000000000
+      internalID: 1168041045156317755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spell Effects 2_15
+      rect:
+        serializedVersion: 2
+        x: 1609
+        y: 1417
+        width: 168
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e506c14afa5fde9e0800000000000000
+      internalID: -1590344958670512034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spell Effects 2_16
+      rect:
+        serializedVersion: 2
+        x: 1775
+        y: 1399
+        width: 137
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73e4917431899f030800000000000000
+      internalID: 3529018991586135607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spell Effects 2_17
+      rect:
+        serializedVersion: 2
+        x: 1845
+        y: 1548
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d99386bc40285e70800000000000000
+      internalID: 9104062160581138902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spell Effects 2_18
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 1196
+        width: 293
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fb584972b209ae80800000000000000
+      internalID: -8166993483697464328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spell Effects 2_19
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 1169
+        width: 291
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca6f8704002590240800000000000000
+      internalID: 4758424642328786604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spell Effects 2_20
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 1130
+        width: 552
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97681680253b0e6e0800000000000000
+      internalID: -1810249885293640071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spell Effects 2_21
+      rect:
+        serializedVersion: 2
+        x: 1311
+        y: 1281
+        width: 411
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5493ffd59bfe6c80800000000000000
+      internalID: -8327442039835487138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spell Effects 2_22
+      rect:
+        serializedVersion: 2
+        x: 1720
+        y: 1252
+        width: 258
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 466f6464ed49dcf90800000000000000
+      internalID: -6931720569070619036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spell Effects 2_23
+      rect:
+        serializedVersion: 2
+        x: 1965
+        y: 1365
+        width: 50
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 697dde9c7eafd4250800000000000000
+      internalID: 5930672157749008278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spell Effects 2_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 851
+        width: 585
+        height: 347
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1ba7063446a65f90800000000000000
+      internalID: -6965196961787434212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spell Effects 2_25
+      rect:
+        serializedVersion: 2
+        x: 1336
+        y: 1107
+        width: 209
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91c8c895d7b596030800000000000000
+      internalID: 3488419980306582553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spell Effects 2_26
+      rect:
+        serializedVersion: 2
+        x: 1578
+        y: 1182
+        width: 111
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f28e1d734d17d180800000000000000
+      internalID: -9090765147124890889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spell Effects 2_27
+      rect:
+        serializedVersion: 2
+        x: 1687
+        y: 1107
+        width: 293
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1bf48f6574775130800000000000000
+      internalID: 3555438478563277597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spell Effects 2_28
+      rect:
+        serializedVersion: 2
+        x: 1543
+        y: 1107
+        width: 100
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89152445e745882f0800000000000000
+      internalID: -970432818142097000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spell Effects 2_29
+      rect:
+        serializedVersion: 2
+        x: 1580
+        y: 1140
+        width: 79
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fece1a7d6efa0820800000000000000
+      internalID: 2885398257437953779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spell Effects 2_30
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 815
+        width: 275
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c11a9d34847e8160800000000000000
+      internalID: 7029684179689935296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spell Effects 2_31
+      rect:
+        serializedVersion: 2
+        x: 1877
+        y: 909
+        width: 143
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ada438db70505c7f0800000000000000
+      internalID: -593062245126944038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spell Effects 2_32
+      rect:
+        serializedVersion: 2
+        x: 1877
+        y: 719
+        width: 150
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50d5ae45e648f9d90800000000000000
+      internalID: -7088801679051956987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spell Effects 2_33
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 452
+        width: 386
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 413727beecc8f08d0800000000000000
+      internalID: -2877926816525159660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spell Effects 2_34
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 439
+        width: 332
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1968ae8e7097f090800000000000000
+      internalID: -8000767339766716129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spell Effects 2_35
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 419
+        width: 274
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5383b3d355667d490800000000000000
+      internalID: -7721590519817881547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spell Effects 2_36
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 712
+        width: 275
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a32e7f5f260defe0800000000000000
+      internalID: -1158262728629017688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spell Effects 2_37
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 0
+        width: 291
+        height: 714
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed168f12ebf6a4fa0800000000000000
+      internalID: -5815713106391178786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spell Effects 2_38
+      rect:
+        serializedVersion: 2
+        x: 1292
+        y: 250
+        width: 297
+        height: 554
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c1b6af8a1733b590800000000000000
+      internalID: -7659717954008337979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spell Effects 2_39
+      rect:
+        serializedVersion: 2
+        x: 1876
+        y: 568
+        width: 172
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 620b4b5a0d33b2c90800000000000000
+      internalID: -7193599008567939034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spell Effects 2_40
+      rect:
+        serializedVersion: 2
+        x: 1587
+        y: 422
+        width: 163
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f32085cbb87187de0800000000000000
+      internalID: -1335291400587574721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spell Effects 2_41
+      rect:
+        serializedVersion: 2
+        x: 1658
+        y: 534
+        width: 31
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14750c28f6b27a1b0800000000000000
+      internalID: -5645495849950619839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spell Effects 2_42
+      rect:
+        serializedVersion: 2
+        x: 1873
+        y: 403
+        width: 137
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f43af6889a301aa50800000000000000
+      internalID: 6530504961337303887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spell Effects 2_43
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 432
+        height: 441
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e77bea130d589b290800000000000000
+      internalID: -7874115344247376002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spell Effects 2_44
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 436
+        width: 25
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02ff933ab881e1dc0800000000000000
+      internalID: -3666466058614997216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spell Effects 2_45
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 0
+        width: 203
+        height: 465
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6c3fe79556adc080800000000000000
+      internalID: -9165486780077622162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spell Effects 2_46
+      rect:
+        serializedVersion: 2
+        x: 1749
+        y: 0
+        width: 126
+        height: 507
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87e613d3dc3b548d0800000000000000
+      internalID: -2862684294047764872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spell Effects 2_47
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 350
+        width: 324
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59fbff50b22384220800000000000000
+      internalID: 2470279555978346389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spell Effects 2_48
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 253
+        width: 92
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6e45a53de2da2a30800000000000000
+      internalID: 4191394319470775916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spell Effects 2_49
+      rect:
+        serializedVersion: 2
+        x: 1590
+        y: 0
+        width: 164
+        height: 424
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd9c5544596e9b3a0800000000000000
+      internalID: -6649029846064838179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spell Effects 2_50
+      rect:
+        serializedVersion: 2
+        x: 1877
+        y: 0
+        width: 165
+        height: 426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51da7a4110876bd30800000000000000
+      internalID: 4446873628111777045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spell Effects 2_51
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 253
+        width: 214
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50f326be9cc0b7550800000000000000
+      internalID: 6159530976736329477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spell Effects 2_52
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 253
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b40d2de71ba9f60b0800000000000000
+      internalID: -5733193713491718069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spell Effects 2_53
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 0
+        width: 311
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bec1c11464505640800000000000000
+      internalID: 5066642369563184820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spell Effects 2_54
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 175
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed6042fe8402617f0800000000000000
+      internalID: -642290399231867170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spell Effects 2_55
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 175
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1375883b00db68850800000000000000
+      internalID: 6378993732926592817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spell Effects 2_56
+      rect:
+        serializedVersion: 2
+        x: 1317
+        y: 129
+        width: 204
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8aab599d6b55ac650800000000000000
+      internalID: 6253905276380232360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spell Effects 2_57
+      rect:
+        serializedVersion: 2
+        x: 1524
+        y: 0
+        width: 68
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e238cc93e4264bc10800000000000000
+      internalID: 2068386216986575662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spell Effects 2_58
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 110
+        width: 41
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22b8b32c5abd34fb0800000000000000
+      internalID: -4664643284050932958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spell Effects 2_59
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 81
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b8e61692d489af20800000000000000
+      internalID: 3434422230842796216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spell Effects 2_60
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 59
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 626b48c1c240cf0d0800000000000000
+      internalID: -3387828232185924058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spell Effects 2_61
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 12
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c03b89a0ad7a93c0800000000000000
+      internalID: -4352027960907452219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spell Effects 2_62
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 0
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8abfe743af73cc540800000000000000
+      internalID: 5029456431628090280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spell Effects 2_63
+      rect:
+        serializedVersion: 2
+        x: 1306
+        y: 0
+        width: 68
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28a727eeeb51c98c0800000000000000
+      internalID: -3991291259968652670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Spell Effects 2_0: 153137713695742716
+      Spell Effects 2_1: -4608399094752729898
+      Spell Effects 2_10: -1959271634061426493
+      Spell Effects 2_11: 770976174089955493
+      Spell Effects 2_12: 2058318370516671934
+      Spell Effects 2_13: -2621413754396788776
+      Spell Effects 2_14: 1168041045156317755
+      Spell Effects 2_15: -1590344958670512034
+      Spell Effects 2_16: 3529018991586135607
+      Spell Effects 2_17: 9104062160581138902
+      Spell Effects 2_18: -8166993483697464328
+      Spell Effects 2_19: 4758424642328786604
+      Spell Effects 2_2: 5324713477024133837
+      Spell Effects 2_20: -1810249885293640071
+      Spell Effects 2_21: -8327442039835487138
+      Spell Effects 2_22: -6931720569070619036
+      Spell Effects 2_23: 5930672157749008278
+      Spell Effects 2_24: -6965196961787434212
+      Spell Effects 2_25: 3488419980306582553
+      Spell Effects 2_26: -9090765147124890889
+      Spell Effects 2_27: 3555438478563277597
+      Spell Effects 2_28: -970432818142097000
+      Spell Effects 2_29: 2885398257437953779
+      Spell Effects 2_3: 6458304264574075756
+      Spell Effects 2_30: 7029684179689935296
+      Spell Effects 2_31: -593062245126944038
+      Spell Effects 2_32: -7088801679051956987
+      Spell Effects 2_33: -2877926816525159660
+      Spell Effects 2_34: -8000767339766716129
+      Spell Effects 2_35: -7721590519817881547
+      Spell Effects 2_36: -1158262728629017688
+      Spell Effects 2_37: -5815713106391178786
+      Spell Effects 2_38: -7659717954008337979
+      Spell Effects 2_39: -7193599008567939034
+      Spell Effects 2_4: 1641068940611016291
+      Spell Effects 2_40: -1335291400587574721
+      Spell Effects 2_41: -5645495849950619839
+      Spell Effects 2_42: 6530504961337303887
+      Spell Effects 2_43: -7874115344247376002
+      Spell Effects 2_44: -3666466058614997216
+      Spell Effects 2_45: -9165486780077622162
+      Spell Effects 2_46: -2862684294047764872
+      Spell Effects 2_47: 2470279555978346389
+      Spell Effects 2_48: 4191394319470775916
+      Spell Effects 2_49: -6649029846064838179
+      Spell Effects 2_5: 1765581245866281649
+      Spell Effects 2_50: 4446873628111777045
+      Spell Effects 2_51: 6159530976736329477
+      Spell Effects 2_52: -5733193713491718069
+      Spell Effects 2_53: 5066642369563184820
+      Spell Effects 2_54: -642290399231867170
+      Spell Effects 2_55: 6378993732926592817
+      Spell Effects 2_56: 6253905276380232360
+      Spell Effects 2_57: 2068386216986575662
+      Spell Effects 2_58: -4664643284050932958
+      Spell Effects 2_59: 3434422230842796216
+      Spell Effects 2_6: -6814189730193757513
+      Spell Effects 2_60: -3387828232185924058
+      Spell Effects 2_61: -4352027960907452219
+      Spell Effects 2_62: 5029456431628090280
+      Spell Effects 2_63: -3991291259968652670
+      Spell Effects 2_7: -3056839615780496852
+      Spell Effects 2_8: -2926848383781701763
+      Spell Effects 2_9: -5912520925130158167
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

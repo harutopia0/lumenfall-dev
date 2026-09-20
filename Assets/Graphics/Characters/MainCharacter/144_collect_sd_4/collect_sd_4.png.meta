@@ -1,0 +1,782 @@
+fileFormatVersion: 2
+guid: c5b0487ab32d2e848b040d926e7ffe54
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4222612714679346792
+    second: collect_sd_4_0
+  - first:
+      213: 8127746605783475714
+    second: collect_sd_4_1
+  - first:
+      213: 3860057820672823421
+    second: collect_sd_4_2
+  - first:
+      213: 4741717484443696632
+    second: collect_sd_4_3
+  - first:
+      213: 5733930110976207602
+    second: collect_sd_4_4
+  - first:
+      213: -764648926106440962
+    second: collect_sd_4_5
+  - first:
+      213: 8536448834196750699
+    second: collect_sd_4_6
+  - first:
+      213: -9178035383433445582
+    second: collect_sd_4_7
+  - first:
+      213: 5331185997103716769
+    second: collect_sd_4_8
+  - first:
+      213: -815462597828393590
+    second: collect_sd_4_9
+  - first:
+      213: -341285270666451058
+    second: collect_sd_4_10
+  - first:
+      213: -1677885536282100239
+    second: collect_sd_4_11
+  - first:
+      213: 587534415283898944
+    second: collect_sd_4_12
+  - first:
+      213: -5130074757243677522
+    second: collect_sd_4_13
+  - first:
+      213: -2516469772498329944
+    second: collect_sd_4_14
+  - first:
+      213: -3170183224496824786
+    second: collect_sd_4_15
+  - first:
+      213: -3419467290780214916
+    second: collect_sd_4_16
+  - first:
+      213: 535494113298996049
+    second: collect_sd_4_17
+  - first:
+      213: 413122606360850316
+    second: collect_sd_4_18
+  - first:
+      213: -6857238712062930391
+    second: collect_sd_4_19
+  - first:
+      213: 3570674582384395818
+    second: collect_sd_4_20
+  - first:
+      213: 6875120195083644474
+    second: collect_sd_4_21
+  - first:
+      213: 7184279151935866154
+    second: collect_sd_4_22
+  - first:
+      213: -352681305160491746
+    second: collect_sd_4_23
+  - first:
+      213: -8909659880261373493
+    second: collect_sd_4_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: collect_sd_4_0
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 351
+        width: 68
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 866a28244ebb99a30800000000000000
+      internalID: 4222612714679346792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collect_sd_4_1
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 350
+        width: 68
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2066c1ea97e8bc070800000000000000
+      internalID: 8127746605783475714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collect_sd_4_2
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 350
+        width: 67
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d701cade22ea19530800000000000000
+      internalID: 3860057820672823421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collect_sd_4_3
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 350
+        width: 67
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fd768dede6fdc140800000000000000
+      internalID: 4741717484443696632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collect_sd_4_4
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 350
+        width: 67
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fa27a76e03039f40800000000000000
+      internalID: 5733930110976207602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collect_sd_4_5
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 350
+        width: 67
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efaaa8d5adb6365f0800000000000000
+      internalID: -764648926106440962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collect_sd_4_6
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 350
+        width: 67
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6148959cfe877670800000000000000
+      internalID: 8536448834196750699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collect_sd_4_7
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 350
+        width: 67
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23fbb72327111a080800000000000000
+      internalID: -9178035383433445582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collect_sd_4_8
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 234
+        width: 67
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a957e42b6d2cf940800000000000000
+      internalID: 5331185997103716769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collect_sd_4_9
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 234
+        width: 67
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8542d87615eea4f0800000000000000
+      internalID: -815462597828393590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collect_sd_4_10
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 234
+        width: 67
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e876ad2cad2834bf0800000000000000
+      internalID: -341285270666451058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collect_sd_4_11
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 234
+        width: 67
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fdb32c9ef3f6b8e0800000000000000
+      internalID: -1677885536282100239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collect_sd_4_12
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 234
+        width: 67
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04a40541077572800800000000000000
+      internalID: 587534415283898944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collect_sd_4_13
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 234
+        width: 67
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea4da4740305ec8b0800000000000000
+      internalID: -5130074757243677522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collect_sd_4_14
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 234
+        width: 67
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ae9a322314b31dd0800000000000000
+      internalID: -2516469772498329944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collect_sd_4_15
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 234
+        width: 67
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2ed6f6572f3104d0800000000000000
+      internalID: -3170183224496824786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collect_sd_4_16
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 118
+        width: 67
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c795afbbd9c9b80d0800000000000000
+      internalID: -3419467290780214916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collect_sd_4_17
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 118
+        width: 67
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15bdf721f057e6700800000000000000
+      internalID: 535494113298996049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collect_sd_4_18
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 118
+        width: 67
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8f62d852d4bbb500800000000000000
+      internalID: 413122606360850316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collect_sd_4_19
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 118
+        width: 67
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9229e6bf8b136d0a0800000000000000
+      internalID: -6857238712062930391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collect_sd_4_20
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 118
+        width: 67
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a26c98b4d959d8130800000000000000
+      internalID: 3570674582384395818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collect_sd_4_21
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 115
+        width: 72
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3e23183465596f50800000000000000
+      internalID: 6875120195083644474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collect_sd_4_22
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 116
+        width: 91
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a25c16223dfa3b360800000000000000
+      internalID: 7184279151935866154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collect_sd_4_23
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 115
+        width: 86
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1ddcf6b8360b1bf0800000000000000
+      internalID: -352681305160491746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collect_sd_4_24
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 2
+        width: 67
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc1b8775b878a5480800000000000000
+      internalID: -8909659880261373493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      collect_sd_4_0: 4222612714679346792
+      collect_sd_4_1: 8127746605783475714
+      collect_sd_4_10: -341285270666451058
+      collect_sd_4_11: -1677885536282100239
+      collect_sd_4_12: 587534415283898944
+      collect_sd_4_13: -5130074757243677522
+      collect_sd_4_14: -2516469772498329944
+      collect_sd_4_15: -3170183224496824786
+      collect_sd_4_16: -3419467290780214916
+      collect_sd_4_17: 535494113298996049
+      collect_sd_4_18: 413122606360850316
+      collect_sd_4_19: -6857238712062930391
+      collect_sd_4_2: 3860057820672823421
+      collect_sd_4_20: 3570674582384395818
+      collect_sd_4_21: 6875120195083644474
+      collect_sd_4_22: 7184279151935866154
+      collect_sd_4_23: -352681305160491746
+      collect_sd_4_24: -8909659880261373493
+      collect_sd_4_3: 4741717484443696632
+      collect_sd_4_4: 5733930110976207602
+      collect_sd_4_5: -764648926106440962
+      collect_sd_4_6: 8536448834196750699
+      collect_sd_4_7: -9178035383433445582
+      collect_sd_4_8: 5331185997103716769
+      collect_sd_4_9: -815462597828393590
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

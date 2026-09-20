@@ -144,7 +144,7 @@ Transform:
   m_GameObject: {fileID: 78866054}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.3, y: 0, z: 0}
+  m_LocalPosition: {x: -1.3, y: -0.25, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -459,7 +459,7 @@ Transform:
   m_GameObject: {fileID: 110040120}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 79.15079, y: 0.38555315, z: 9.351267}
+  m_LocalPosition: {x: 63.130795, y: -0.024446815, z: 9.351267}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1536,7 +1536,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 79.15079, y: 0.38555315, z: 9.351267}
+  m_LocalPosition: {x: 63.130795, y: -0.024446815, z: 9.351267}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -1714,7 +1714,7 @@ Transform:
   m_GameObject: {fileID: 696569737}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 61.7, y: -2.9, z: 0}
+  m_LocalPosition: {x: 62.55, y: -2.2, z: 0}
   m_LocalScale: {x: 1.3, y: 1.3, z: 1.3}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -9162,7 +9162,7 @@ Transform:
   m_GameObject: {fileID: 1774292915}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 77.88, y: -1.48, z: 0}
+  m_LocalPosition: {x: 61.86, y: -1.89, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -9206,8 +9206,8 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: -0.0027666092}
-  m_Size: {x: 0.8678881, y: 1.9874096}
+  m_Offset: {x: 0, y: -0.2685036}
+  m_Size: {x: 1.0775414, y: 1.9530364}
   m_Direction: 0
 --- !u!50 &1774292919
 Rigidbody2D:
@@ -9270,7 +9270,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Entity_VFX
   onDamageMaterial: {fileID: 2100000, guid: e3a77454b8657ba45af3abb96bf7bf96, type: 2}
   onDamageVfxDuration: 0.15
-  dashVfxPrefab: {fileID: 7783080432290864801, guid: 17b53639c6385fe4885d95bc66fe8c3f, type: 3}
+  dashVfxPrefab: {fileID: 8991136664824991262, guid: aba0d07d77894774bb4bb5d98a0a0bd5, type: 3}
   dashVfxOffset: {x: 0.6, y: 0}
 --- !u!114 &1774292923
 MonoBehaviour:
@@ -9305,13 +9305,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b9e708ae9af4ce4a8a102cff57a48a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Player
-  defaultFacing: 1
+  defaultFacing: -1
   whatIsGround:
     serializedVersion: 2
     m_Bits: 64
-  ceilingCheckDistance: 1.025
-  groundCheckDistance: 1.025
-  wallCheckDistance: 0.5
+  ceilingCheckDistance: 0.85
+  groundCheckDistance: 1.3
+  wallCheckDistance: 0.6
   groundCheck: {fileID: 1774292917}
   primaryWallCheck: {fileID: 896212885}
   secondaryWallCheck: {fileID: 1455594850}
@@ -9329,7 +9329,7 @@ MonoBehaviour:
   inAirMoveMultiplier: 0.75
   wallSlideSlowMultiplier: 0.3
   dashDuration: 0.25
-  dashSpeed: 20
+  dashSpeed: 25
   dashCooldown: 0.6
 --- !u!114 &1774292925
 MonoBehaviour:
@@ -9405,8 +9405,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 1.25, y: 1.25, z: 1.25}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1774292917}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -9481,12 +9481,12 @@ SpriteRenderer:
   m_SortingLayer: -1
   m_SortingOrder: 10
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 4723107735738678597, guid: 494c8938f8743fb4d813e8eb753abced, type: 3}
+  m_Sprite: {fileID: 8793639957104055765, guid: 3059235c5f425cf48a1a2c75b1bbdc79, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.69, y: 0.44}
+  m_Size: {x: 0.953125, y: 2.03125}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1

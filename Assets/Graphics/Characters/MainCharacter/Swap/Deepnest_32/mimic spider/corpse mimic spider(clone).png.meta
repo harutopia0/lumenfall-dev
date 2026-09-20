@@ -1,0 +1,1484 @@
+fileFormatVersion: 2
+guid: aad06f56b68f020418f51c7084cc048e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8656761639833712798
+    second: corpse mimic spider(clone)_0
+  - first:
+      213: -1895802784750690540
+    second: corpse mimic spider(clone)_1
+  - first:
+      213: 2019378063367070700
+    second: corpse mimic spider(clone)_2
+  - first:
+      213: -673504464636688079
+    second: corpse mimic spider(clone)_3
+  - first:
+      213: 1545884826385288909
+    second: corpse mimic spider(clone)_4
+  - first:
+      213: 5467907200679303104
+    second: corpse mimic spider(clone)_5
+  - first:
+      213: 8114497089675529353
+    second: corpse mimic spider(clone)_6
+  - first:
+      213: -5519529450156609454
+    second: corpse mimic spider(clone)_7
+  - first:
+      213: 5847071637403736841
+    second: corpse mimic spider(clone)_8
+  - first:
+      213: 8329916406141724819
+    second: corpse mimic spider(clone)_9
+  - first:
+      213: 876016608922240536
+    second: corpse mimic spider(clone)_10
+  - first:
+      213: -7854917813644724520
+    second: corpse mimic spider(clone)_11
+  - first:
+      213: 8476223767527763433
+    second: corpse mimic spider(clone)_12
+  - first:
+      213: -2624012960257141433
+    second: corpse mimic spider(clone)_13
+  - first:
+      213: 1240738698693790630
+    second: corpse mimic spider(clone)_14
+  - first:
+      213: 3781780396566462831
+    second: corpse mimic spider(clone)_15
+  - first:
+      213: -3410881330785246754
+    second: corpse mimic spider(clone)_16
+  - first:
+      213: 3917755107798967480
+    second: corpse mimic spider(clone)_17
+  - first:
+      213: -430384093255748830
+    second: corpse mimic spider(clone)_18
+  - first:
+      213: -3948937589688461340
+    second: corpse mimic spider(clone)_19
+  - first:
+      213: -7566431653515192480
+    second: corpse mimic spider(clone)_20
+  - first:
+      213: -9213864288923028097
+    second: corpse mimic spider(clone)_21
+  - first:
+      213: 355975873998643981
+    second: corpse mimic spider(clone)_22
+  - first:
+      213: 5177902056841887799
+    second: corpse mimic spider(clone)_23
+  - first:
+      213: -9072230911502998664
+    second: corpse mimic spider(clone)_24
+  - first:
+      213: -8132649003168436516
+    second: corpse mimic spider(clone)_25
+  - first:
+      213: 2813950985950164378
+    second: corpse mimic spider(clone)_26
+  - first:
+      213: -495516082642778113
+    second: corpse mimic spider(clone)_27
+  - first:
+      213: -583954750267106452
+    second: corpse mimic spider(clone)_28
+  - first:
+      213: -2972912839114908779
+    second: corpse mimic spider(clone)_29
+  - first:
+      213: 4087634016429334113
+    second: corpse mimic spider(clone)_30
+  - first:
+      213: -6785128762575531179
+    second: corpse mimic spider(clone)_31
+  - first:
+      213: 8732689748107639463
+    second: corpse mimic spider(clone)_32
+  - first:
+      213: -2333515466328447051
+    second: corpse mimic spider(clone)_33
+  - first:
+      213: 1788965805503807064
+    second: corpse mimic spider(clone)_34
+  - first:
+      213: -5394620347781091630
+    second: corpse mimic spider(clone)_35
+  - first:
+      213: 8589310700640043457
+    second: corpse mimic spider(clone)_36
+  - first:
+      213: -1397996991154462290
+    second: corpse mimic spider(clone)_37
+  - first:
+      213: -8642987751772370534
+    second: corpse mimic spider(clone)_38
+  - first:
+      213: 6252218248025337738
+    second: corpse mimic spider(clone)_39
+  - first:
+      213: -3903600049842735117
+    second: corpse mimic spider(clone)_40
+  - first:
+      213: 5561198914734558239
+    second: corpse mimic spider(clone)_41
+  - first:
+      213: 9212356556537185753
+    second: corpse mimic spider(clone)_42
+  - first:
+      213: -8774315126129774549
+    second: corpse mimic spider(clone)_43
+  - first:
+      213: -604328011216629828
+    second: corpse mimic spider(clone)_44
+  - first:
+      213: -5758459046571433625
+    second: corpse mimic spider(clone)_45
+  - first:
+      213: -9220975148463915835
+    second: corpse mimic spider(clone)_46
+  - first:
+      213: 969921193827281061
+    second: corpse mimic spider(clone)_47
+  - first:
+      213: 8720503946262758096
+    second: corpse mimic spider(clone)_48
+  - first:
+      213: 8256414613949955567
+    second: corpse mimic spider(clone)_49
+  - first:
+      213: -6169648652081509664
+    second: corpse mimic spider(clone)_50
+  - first:
+      213: 1371766773079841053
+    second: corpse mimic spider(clone)_51
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: corpse mimic spider(clone)_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 2735
+        width: 230
+        height: 415
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 267cb7077210dd780800000000000000
+      internalID: -8656761639833712798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpse mimic spider(clone)_1
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 2677
+        width: 199
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41f1db26961c0b5e0800000000000000
+      internalID: -1895802784750690540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpse mimic spider(clone)_2
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 2783
+        width: 222
+        height: 429
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce3e53646a5460c10800000000000000
+      internalID: 2019378063367070700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpse mimic spider(clone)_3
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 2656
+        width: 246
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 139c0bef14b37a6f0800000000000000
+      internalID: -673504464636688079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpse mimic spider(clone)_4
+      rect:
+        serializedVersion: 2
+        x: 1292
+        y: 2501
+        width: 326
+        height: 431
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dce8c542f06147510800000000000000
+      internalID: 1545884826385288909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpse mimic spider(clone)_5
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 2493
+        width: 306
+        height: 430
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c75a49f0a8e1eb40800000000000000
+      internalID: 5467907200679303104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpse mimic spider(clone)_6
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 2395
+        width: 363
+        height: 338
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98c0d015c1c7c9070800000000000000
+      internalID: 8114497089675529353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpse mimic spider(clone)_7
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 2355
+        width: 202
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 250bb147531b663b0800000000000000
+      internalID: -5519529450156609454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpse mimic spider(clone)_8
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 2449
+        width: 336
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90b16b3dca8f42150800000000000000
+      internalID: 5847071637403736841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpse mimic spider(clone)_9
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 2463
+        width: 235
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 398a6cc66dec99370800000000000000
+      internalID: 8329916406141724819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpse mimic spider(clone)_10
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 2502
+        width: 222
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8160728e67c382c00800000000000000
+      internalID: 876016608922240536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpse mimic spider(clone)_11
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 2022
+        width: 375
+        height: 369
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d671d99dd9bdf290800000000000000
+      internalID: -7854917813644724520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpse mimic spider(clone)_12
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 2047
+        width: 213
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ed273c8b9891a570800000000000000
+      internalID: 8476223767527763433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpse mimic spider(clone)_13
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 2105
+        width: 366
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7451ad18d12a59bd0800000000000000
+      internalID: -2624012960257141433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpse mimic spider(clone)_14
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 2099
+        width: 368
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ab49b2d54df73110800000000000000
+      internalID: 1240738698693790630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpse mimic spider(clone)_15
+      rect:
+        serializedVersion: 2
+        x: 1370
+        y: 2263
+        width: 325
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6141e3eb359b7430800000000000000
+      internalID: 3781780396566462831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpse mimic spider(clone)_16
+      rect:
+        serializedVersion: 2
+        x: 1697
+        y: 2269
+        width: 271
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed1a883508d1aa0d0800000000000000
+      internalID: -3410881330785246754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpse mimic spider(clone)_17
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1635
+        width: 384
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b4645d6389ae5630800000000000000
+      internalID: 3917755107798967480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpse mimic spider(clone)_18
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 1738
+        width: 211
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 223338c82f7f60af0800000000000000
+      internalID: -430384093255748830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpse mimic spider(clone)_19
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 1729
+        width: 384
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e79e6e3f2e8239c0800000000000000
+      internalID: -3948937589688461340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpse mimic spider(clone)_20
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 1737
+        width: 124
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06794f2ff72aef690800000000000000
+      internalID: -7566431653515192480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpse mimic spider(clone)_21
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 1750
+        width: 387
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f75f5121f37c12080800000000000000
+      internalID: -9213864288923028097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpse mimic spider(clone)_22
+      rect:
+        serializedVersion: 2
+        x: 1529
+        y: 1903
+        width: 366
+        height: 357
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d036c4edb2ea0f400800000000000000
+      internalID: 355975873998643981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpse mimic spider(clone)_23
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1248
+        width: 383
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73043dbac7a9bd740800000000000000
+      internalID: 5177902056841887799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpse mimic spider(clone)_24
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 1429
+        width: 214
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 873ab8f7d06f81280800000000000000
+      internalID: -9072230911502998664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpse mimic spider(clone)_25
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 1362
+        width: 403
+        height: 364
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdee53bf1d6032f80800000000000000
+      internalID: -8132649003168436516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpse mimic spider(clone)_26
+      rect:
+        serializedVersion: 2
+        x: 1142
+        y: 1386
+        width: 423
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a957be443892d0720800000000000000
+      internalID: 2813950985950164378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpse mimic spider(clone)_27
+      rect:
+        serializedVersion: 2
+        x: 1574
+        y: 1531
+        width: 411
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff785998fb29f19f0800000000000000
+      internalID: -495516082642778113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpse mimic spider(clone)_28
+      rect:
+        serializedVersion: 2
+        x: 1635
+        y: 1018
+        width: 337
+        height: 518
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6b5d61af3065e7f0800000000000000
+      internalID: -583954750267106452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpse mimic spider(clone)_29
+      rect:
+        serializedVersion: 2
+        x: 1639
+        y: 1437
+        width: 21
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59b9b5426871eb6d0800000000000000
+      internalID: -2972912839114908779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpse mimic spider(clone)_30
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 871
+        width: 400
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16ed2111b713ab830800000000000000
+      internalID: 4087634016429334113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpse mimic spider(clone)_31
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 1121
+        width: 221
+        height: 305
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 553566fe65166d1a0800000000000000
+      internalID: -6785128762575531179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpse mimic spider(clone)_32
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 985
+        width: 417
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7aab6a1ee0fb03970800000000000000
+      internalID: 8732689748107639463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpse mimic spider(clone)_33
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 1133
+        width: 90
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b7ec9ffb00bd9fd0800000000000000
+      internalID: -2333515466328447051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpse mimic spider(clone)_34
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 867
+        width: 398
+        height: 514
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85eff58fbeea3d810800000000000000
+      internalID: 1788965805503807064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpse mimic spider(clone)_35
+      rect:
+        serializedVersion: 2
+        x: 1555
+        y: 1131
+        width: 63
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dee96820657225b0800000000000000
+      internalID: -5394620347781091630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpse mimic spider(clone)_36
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 991
+        width: 71
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c18c19f29c533770800000000000000
+      internalID: 8589310700640043457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpse mimic spider(clone)_37
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 679
+        width: 102
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea16c29b421599ce0800000000000000
+      internalID: -1397996991154462290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpse mimic spider(clone)_38
+      rect:
+        serializedVersion: 2
+        x: 1556
+        y: 997
+        width: 64
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a994e89ae60fd0880800000000000000
+      internalID: -8642987751772370534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpse mimic spider(clone)_39
+      rect:
+        serializedVersion: 2
+        x: 1653
+        y: 513
+        width: 358
+        height: 499
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8fe3c3fe5754c650800000000000000
+      internalID: 6252218248025337738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpse mimic spider(clone)_40
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 868
+        width: 68
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f73de3df60a3d9c0800000000000000
+      internalID: -3903600049842735117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpse mimic spider(clone)_41
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 766
+        width: 100
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1c8a0ec2f85d2d40800000000000000
+      internalID: 5561198914734558239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpse mimic spider(clone)_42
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 453
+        width: 409
+        height: 526
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d5c3a0aa7dd8df70800000000000000
+      internalID: 9212356556537185753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpse mimic spider(clone)_43
+      rect:
+        serializedVersion: 2
+        x: 1566
+        y: 868
+        width: 81
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b20b2bf81ee5b3680800000000000000
+      internalID: -8774315126129774549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpse mimic spider(clone)_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 155
+        width: 516
+        height: 709
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbf4d9b20eefc97f0800000000000000
+      internalID: -604328011216629828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpse mimic spider(clone)_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 532
+        height: 475
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 761a97bb108d510b0800000000000000
+      internalID: -5758459046571433625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpse mimic spider(clone)_46
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 0
+        width: 702
+        height: 451
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cc7a1115f3880080800000000000000
+      internalID: -9220975148463915835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpse mimic spider(clone)_47
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 36
+        width: 114
+        height: 723
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a8a23adf2ad57d00800000000000000
+      internalID: 969921193827281061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpse mimic spider(clone)_48
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 454
+        width: 101
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d2426bc224750970800000000000000
+      internalID: 8720503946262758096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpse mimic spider(clone)_49
+      rect:
+        serializedVersion: 2
+        x: 1157
+        y: 417
+        width: 498
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fedb4d6d85da49270800000000000000
+      internalID: 8256414613949955567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpse mimic spider(clone)_50
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 1
+        width: 537
+        height: 411
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0eac6b73d31016aa0800000000000000
+      internalID: -6169648652081509664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpse mimic spider(clone)_51
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 2
+        width: 348
+        height: 508
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d199b18bc9e790310800000000000000
+      internalID: 1371766773079841053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      corpse mimic spider(clone)_0: -8656761639833712798
+      corpse mimic spider(clone)_1: -1895802784750690540
+      corpse mimic spider(clone)_10: 876016608922240536
+      corpse mimic spider(clone)_11: -7854917813644724520
+      corpse mimic spider(clone)_12: 8476223767527763433
+      corpse mimic spider(clone)_13: -2624012960257141433
+      corpse mimic spider(clone)_14: 1240738698693790630
+      corpse mimic spider(clone)_15: 3781780396566462831
+      corpse mimic spider(clone)_16: -3410881330785246754
+      corpse mimic spider(clone)_17: 3917755107798967480
+      corpse mimic spider(clone)_18: -430384093255748830
+      corpse mimic spider(clone)_19: -3948937589688461340
+      corpse mimic spider(clone)_2: 2019378063367070700
+      corpse mimic spider(clone)_20: -7566431653515192480
+      corpse mimic spider(clone)_21: -9213864288923028097
+      corpse mimic spider(clone)_22: 355975873998643981
+      corpse mimic spider(clone)_23: 5177902056841887799
+      corpse mimic spider(clone)_24: -9072230911502998664
+      corpse mimic spider(clone)_25: -8132649003168436516
+      corpse mimic spider(clone)_26: 2813950985950164378
+      corpse mimic spider(clone)_27: -495516082642778113
+      corpse mimic spider(clone)_28: -583954750267106452
+      corpse mimic spider(clone)_29: -2972912839114908779
+      corpse mimic spider(clone)_3: -673504464636688079
+      corpse mimic spider(clone)_30: 4087634016429334113
+      corpse mimic spider(clone)_31: -6785128762575531179
+      corpse mimic spider(clone)_32: 8732689748107639463
+      corpse mimic spider(clone)_33: -2333515466328447051
+      corpse mimic spider(clone)_34: 1788965805503807064
+      corpse mimic spider(clone)_35: -5394620347781091630
+      corpse mimic spider(clone)_36: 8589310700640043457
+      corpse mimic spider(clone)_37: -1397996991154462290
+      corpse mimic spider(clone)_38: -8642987751772370534
+      corpse mimic spider(clone)_39: 6252218248025337738
+      corpse mimic spider(clone)_4: 1545884826385288909
+      corpse mimic spider(clone)_40: -3903600049842735117
+      corpse mimic spider(clone)_41: 5561198914734558239
+      corpse mimic spider(clone)_42: 9212356556537185753
+      corpse mimic spider(clone)_43: -8774315126129774549
+      corpse mimic spider(clone)_44: -604328011216629828
+      corpse mimic spider(clone)_45: -5758459046571433625
+      corpse mimic spider(clone)_46: -9220975148463915835
+      corpse mimic spider(clone)_47: 969921193827281061
+      corpse mimic spider(clone)_48: 8720503946262758096
+      corpse mimic spider(clone)_49: 8256414613949955567
+      corpse mimic spider(clone)_5: 5467907200679303104
+      corpse mimic spider(clone)_50: -6169648652081509664
+      corpse mimic spider(clone)_51: 1371766773079841053
+      corpse mimic spider(clone)_6: 8114497089675529353
+      corpse mimic spider(clone)_7: -5519529450156609454
+      corpse mimic spider(clone)_8: 5847071637403736841
+      corpse mimic spider(clone)_9: 8329916406141724819
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

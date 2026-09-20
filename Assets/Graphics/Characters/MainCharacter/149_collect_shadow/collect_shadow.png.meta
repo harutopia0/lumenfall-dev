@@ -1,0 +1,626 @@
+fileFormatVersion: 2
+guid: d10f0d5c820f3f54ca93840cf0985f43
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -9022725590875353387
+    second: collect_shadow_0
+  - first:
+      213: 3681648501958943301
+    second: collect_shadow_1
+  - first:
+      213: -6065957657640112989
+    second: collect_shadow_2
+  - first:
+      213: -6413707556140521325
+    second: collect_shadow_3
+  - first:
+      213: 6062773172789728926
+    second: collect_shadow_4
+  - first:
+      213: -7455054343807123768
+    second: collect_shadow_5
+  - first:
+      213: 6102103563704877431
+    second: collect_shadow_6
+  - first:
+      213: -6720227995572801221
+    second: collect_shadow_7
+  - first:
+      213: -2195550897278504853
+    second: collect_shadow_8
+  - first:
+      213: 2951940474520795412
+    second: collect_shadow_9
+  - first:
+      213: -1593310134381747531
+    second: collect_shadow_10
+  - first:
+      213: -2783729620114191016
+    second: collect_shadow_11
+  - first:
+      213: 3102233523109088299
+    second: collect_shadow_12
+  - first:
+      213: -6324764685749915750
+    second: collect_shadow_13
+  - first:
+      213: -1424592038431299899
+    second: collect_shadow_14
+  - first:
+      213: -569337241674764498
+    second: collect_shadow_15
+  - first:
+      213: -6671669804621933231
+    second: collect_shadow_16
+  - first:
+      213: -1671883264847067007
+    second: collect_shadow_17
+  - first:
+      213: 1043876647697276426
+    second: collect_shadow_18
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: collect_shadow_0
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 164
+        width: 201
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5de4c0a21e6d8c280800000000000000
+      internalID: -9022725590875353387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collect_shadow_1
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 164
+        width: 213
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 542ac1b6ec7d71330800000000000000
+      internalID: 3681648501958943301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collect_shadow_2
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 297
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3acecc136a361dba0800000000000000
+      internalID: -6065957657640112989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collect_shadow_3
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 295
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 398610f75feedf6a0800000000000000
+      internalID: -6413707556140521325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collect_shadow_4
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 295
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9656e5241c432450800000000000000
+      internalID: 6062773172789728926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collect_shadow_5
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 294
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ceb428a2935a8890800000000000000
+      internalID: -7455054343807123768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collect_shadow_6
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 164
+        width: 129
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77146416cd60fa450800000000000000
+      internalID: 6102103563704877431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collect_shadow_7
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 164
+        width: 221
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b317f3a4e34fcb2a0800000000000000
+      internalID: -6720227995572801221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collect_shadow_8
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 269
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b60bc696716d781e0800000000000000
+      internalID: -2195550897278504853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collect_shadow_9
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 164
+        width: 105
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 419f8e5b83667f820800000000000000
+      internalID: 2951940474520795412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collect_shadow_10
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 232
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b2652fdfdc63e9e0800000000000000
+      internalID: -1593310134381747531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collect_shadow_11
+      rect:
+        serializedVersion: 2
+        x: 1369
+        y: 164
+        width: 101
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85d4c5ac8a43e59d0800000000000000
+      internalID: -2783729620114191016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collect_shadow_12
+      rect:
+        serializedVersion: 2
+        x: 1636
+        y: 167
+        width: 68
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2cc933f3f85d0b20800000000000000
+      internalID: 3102233523109088299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collect_shadow_13
+      rect:
+        serializedVersion: 2
+        x: 1898
+        y: 167
+        width: 67
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9fe0f1470ce938a0800000000000000
+      internalID: -6324764685749915750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collect_shadow_14
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 187
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c6e37fb615da3ce0800000000000000
+      internalID: -1424592038431299899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collect_shadow_15
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 199
+        width: 29
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2f23909bce4918f0800000000000000
+      internalID: -569337241674764498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collect_shadow_16
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 173
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1555fc429a77963a0800000000000000
+      internalID: -6671669804621933231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collect_shadow_17
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 175
+        width: 29
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 188ced457074cc8e0800000000000000
+      internalID: -1671883264847067007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collect_shadow_18
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 2
+        width: 67
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0e5257c7489c7e00800000000000000
+      internalID: 1043876647697276426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      collect_shadow_0: -9022725590875353387
+      collect_shadow_1: 3681648501958943301
+      collect_shadow_10: -1593310134381747531
+      collect_shadow_11: -2783729620114191016
+      collect_shadow_12: 3102233523109088299
+      collect_shadow_13: -6324764685749915750
+      collect_shadow_14: -1424592038431299899
+      collect_shadow_15: -569337241674764498
+      collect_shadow_16: -6671669804621933231
+      collect_shadow_17: -1671883264847067007
+      collect_shadow_18: 1043876647697276426
+      collect_shadow_2: -6065957657640112989
+      collect_shadow_3: -6413707556140521325
+      collect_shadow_4: 6062773172789728926
+      collect_shadow_5: -7455054343807123768
+      collect_shadow_6: 6102103563704877431
+      collect_shadow_7: -6720227995572801221
+      collect_shadow_8: -2195550897278504853
+      collect_shadow_9: 2951940474520795412
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

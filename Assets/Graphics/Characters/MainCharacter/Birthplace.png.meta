@@ -1,0 +1,2758 @@
+fileFormatVersion: 2
+guid: 01615e1285afda642bf2eb31f6800c4a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4457129787420357714
+    second: Birthplace_0
+  - first:
+      213: 1013723413779884573
+    second: Birthplace_1
+  - first:
+      213: -5039936656642932603
+    second: Birthplace_2
+  - first:
+      213: -1367164112046446700
+    second: Birthplace_3
+  - first:
+      213: -4074649036628076452
+    second: Birthplace_4
+  - first:
+      213: -577436493709821038
+    second: Birthplace_5
+  - first:
+      213: 5509149463261477407
+    second: Birthplace_6
+  - first:
+      213: 7206332488508507111
+    second: Birthplace_7
+  - first:
+      213: -2474110190240685353
+    second: Birthplace_8
+  - first:
+      213: 8036533298848564976
+    second: Birthplace_9
+  - first:
+      213: 1639025676735489919
+    second: Birthplace_10
+  - first:
+      213: -4479635098949714218
+    second: Birthplace_11
+  - first:
+      213: -4416286675965918770
+    second: Birthplace_12
+  - first:
+      213: -8204363965505892399
+    second: Birthplace_13
+  - first:
+      213: 4620896507465108814
+    second: Birthplace_14
+  - first:
+      213: -1864199310028844003
+    second: Birthplace_15
+  - first:
+      213: 7628768767356967853
+    second: Birthplace_16
+  - first:
+      213: 7060124104320537519
+    second: Birthplace_17
+  - first:
+      213: 3828695895591273633
+    second: Birthplace_18
+  - first:
+      213: -7292410979403162122
+    second: Birthplace_19
+  - first:
+      213: -8393604226357824405
+    second: Birthplace_20
+  - first:
+      213: 8808041729540978100
+    second: Birthplace_21
+  - first:
+      213: -5629438736894221202
+    second: Birthplace_22
+  - first:
+      213: -4849333852478249847
+    second: Birthplace_23
+  - first:
+      213: 1168210693653002994
+    second: Birthplace_24
+  - first:
+      213: -3693111284094218129
+    second: Birthplace_25
+  - first:
+      213: 8265886781309641859
+    second: Birthplace_26
+  - first:
+      213: 4937710964427552250
+    second: Birthplace_27
+  - first:
+      213: -1674820403681152488
+    second: Birthplace_28
+  - first:
+      213: 3481681179938509286
+    second: Birthplace_29
+  - first:
+      213: -8709208598481061338
+    second: Birthplace_30
+  - first:
+      213: 1841425149974268749
+    second: Birthplace_31
+  - first:
+      213: -4300624944898211410
+    second: Birthplace_32
+  - first:
+      213: -6856278320037288855
+    second: Birthplace_33
+  - first:
+      213: -8286754847378880930
+    second: Birthplace_34
+  - first:
+      213: -2656570356780049967
+    second: Birthplace_35
+  - first:
+      213: 7791354417433969054
+    second: Birthplace_36
+  - first:
+      213: -2484059308413015978
+    second: Birthplace_37
+  - first:
+      213: -2411710217105329464
+    second: Birthplace_38
+  - first:
+      213: -6671834183724531121
+    second: Birthplace_39
+  - first:
+      213: -8776674191074740465
+    second: Birthplace_40
+  - first:
+      213: -1683675612657076584
+    second: Birthplace_41
+  - first:
+      213: -4582922583571193780
+    second: Birthplace_42
+  - first:
+      213: -3064457039185173860
+    second: Birthplace_43
+  - first:
+      213: 5533290610698748400
+    second: Birthplace_44
+  - first:
+      213: 3041627889607090163
+    second: Birthplace_45
+  - first:
+      213: -8079018543254427455
+    second: Birthplace_46
+  - first:
+      213: -6040134439176879978
+    second: Birthplace_47
+  - first:
+      213: -4953032428383164214
+    second: Birthplace_48
+  - first:
+      213: 5060815970767967816
+    second: Birthplace_49
+  - first:
+      213: -6439932998443460463
+    second: Birthplace_50
+  - first:
+      213: 3403710526192272531
+    second: Birthplace_51
+  - first:
+      213: -4468619053127887551
+    second: Birthplace_52
+  - first:
+      213: 6672403050658241474
+    second: Birthplace_53
+  - first:
+      213: 470268182388687692
+    second: Birthplace_54
+  - first:
+      213: 2005179542144927149
+    second: Birthplace_55
+  - first:
+      213: -5911250931643520201
+    second: Birthplace_56
+  - first:
+      213: 829765270346046566
+    second: Birthplace_57
+  - first:
+      213: -2180790502170704014
+    second: Birthplace_58
+  - first:
+      213: 682071909283080222
+    second: Birthplace_59
+  - first:
+      213: -4356473864831946193
+    second: Birthplace_60
+  - first:
+      213: 8499873331691943436
+    second: Birthplace_61
+  - first:
+      213: 2373332341815738670
+    second: Birthplace_62
+  - first:
+      213: 5434948372176295269
+    second: Birthplace_63
+  - first:
+      213: -7031403267540044580
+    second: Birthplace_64
+  - first:
+      213: 6527577245140415369
+    second: Birthplace_65
+  - first:
+      213: 7673539447011917619
+    second: Birthplace_66
+  - first:
+      213: 4428720985030602767
+    second: Birthplace_67
+  - first:
+      213: 2621427535726867388
+    second: Birthplace_68
+  - first:
+      213: -3251810262398190523
+    second: Birthplace_69
+  - first:
+      213: 2307357431497749004
+    second: Birthplace_70
+  - first:
+      213: 1993576845621282331
+    second: Birthplace_71
+  - first:
+      213: 1855060881156897908
+    second: Birthplace_72
+  - first:
+      213: 164613062173823808
+    second: Birthplace_73
+  - first:
+      213: -3829210075482711133
+    second: Birthplace_74
+  - first:
+      213: -4744404180956821440
+    second: Birthplace_75
+  - first:
+      213: 5199492064061215838
+    second: Birthplace_76
+  - first:
+      213: 2708991068622964212
+    second: Birthplace_77
+  - first:
+      213: 6712307552892759995
+    second: Birthplace_78
+  - first:
+      213: -5459806033836750871
+    second: Birthplace_79
+  - first:
+      213: -7218369065749073074
+    second: Birthplace_80
+  - first:
+      213: 7196814286638587002
+    second: Birthplace_81
+  - first:
+      213: -5463181929341065609
+    second: Birthplace_82
+  - first:
+      213: -7445218933985561226
+    second: Birthplace_83
+  - first:
+      213: -2015832578944374685
+    second: Birthplace_84
+  - first:
+      213: 3739019853911851786
+    second: Birthplace_85
+  - first:
+      213: -7138124459276211569
+    second: Birthplace_86
+  - first:
+      213: -408805960079332766
+    second: Birthplace_87
+  - first:
+      213: 1546526515339615899
+    second: Birthplace_88
+  - first:
+      213: -7151565810410838636
+    second: Birthplace_89
+  - first:
+      213: 4731807587471595424
+    second: Birthplace_90
+  - first:
+      213: -8140515079298877626
+    second: Birthplace_91
+  - first:
+      213: -5652668397441932538
+    second: Birthplace_92
+  - first:
+      213: 917837995935111454
+    second: Birthplace_93
+  - first:
+      213: 2415266368037109424
+    second: Birthplace_94
+  - first:
+      213: -545496740950881649
+    second: Birthplace_95
+  - first:
+      213: -4998455846065510692
+    second: Birthplace_96
+  - first:
+      213: 577293916119636500
+    second: Birthplace_97
+  - first:
+      213: -434866465716577869
+    second: Birthplace_98
+  - first:
+      213: -7240432772237305045
+    second: Birthplace_99
+  - first:
+      213: 6957152903917718902
+    second: Birthplace_100
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Birthplace_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1493
+        width: 57
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 254b0014de7eadd30800000000000000
+      internalID: 4457129787420357714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birthplace_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1493
+        width: 59
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1aa8dae218711e00800000000000000
+      internalID: 1013723413779884573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birthplace_2
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 1513
+        width: 60
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5800452405c8e0ab0800000000000000
+      internalID: -5039936656642932603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birthplace_3
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 1444
+        width: 67
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4972fcfcb7bd60de0800000000000000
+      internalID: -1367164112046446700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birthplace_4
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1348
+        width: 58
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5855632a40f377c0800000000000000
+      internalID: -4074649036628076452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birthplace_5
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 1350
+        width: 59
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29b341081988cf7f0800000000000000
+      internalID: -577436493709821038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birthplace_6
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 1368
+        width: 57
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1afb348f3e647c40800000000000000
+      internalID: 5509149463261477407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birthplace_7
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 1399
+        width: 59
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e308eea739020460800000000000000
+      internalID: 7206332488508507111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birthplace_8
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 1346
+        width: 67
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d2a78fe3e13aadd0800000000000000
+      internalID: -2474110190240685353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birthplace_9
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1215
+        width: 65
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f68777b470878f60800000000000000
+      internalID: 8036533298848564976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birthplace_10
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 1215
+        width: 65
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7720974b2dfeb610800000000000000
+      internalID: 1639025676735489919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birthplace_11
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 1234
+        width: 59
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6defab39c9325d1c0800000000000000
+      internalID: -4479635098949714218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birthplace_12
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 1302
+        width: 59
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec1c2ccaaa236b2c0800000000000000
+      internalID: -4416286675965918770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birthplace_13
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 1257
+        width: 56
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1df8104217e342e80800000000000000
+      internalID: -8204363965505892399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birthplace_14
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 1308
+        width: 118
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4d0d4714e8b02040800000000000000
+      internalID: 4620896507465108814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birthplace_15
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 1216
+        width: 62
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d14d33fba980126e0800000000000000
+      internalID: -1864199310028844003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birthplace_16
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 1240
+        width: 58
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dab18e366c4ded960800000000000000
+      internalID: 7628768767356967853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birthplace_17
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 1275
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa3d23c77799af160800000000000000
+      internalID: 7060124104320537519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birthplace_18
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 1245
+        width: 72
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a4c6b9b1a2422530800000000000000
+      internalID: 3828695895591273633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birthplace_19
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 1166
+        width: 70
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fd1480e9d62cca90800000000000000
+      internalID: -7292410979403162122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birthplace_20
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 1203
+        width: 58
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6479b66d6de38b80800000000000000
+      internalID: -8393604226357824405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birthplace_21
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 1244
+        width: 98
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b57b1839437c3a70800000000000000
+      internalID: 8808041729540978100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birthplace_22
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 1173
+        width: 67
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e64a89a7b4730e1b0800000000000000
+      internalID: -5629438736894221202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birthplace_23
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1104
+        width: 62
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 984e1c5dd84b3bcb0800000000000000
+      internalID: -4849333852478249847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birthplace_24
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 1101
+        width: 65
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fafff9bf61563010800000000000000
+      internalID: 1168210693653002994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birthplace_25
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1157
+        width: 60
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f60d393aade6fbcc0800000000000000
+      internalID: -3693111284094218129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birthplace_26
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 1110
+        width: 72
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 384ee89ab3456b270800000000000000
+      internalID: 8265886781309641859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birthplace_27
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 1102
+        width: 57
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af5714606f5468440800000000000000
+      internalID: 4937710964427552250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birthplace_28
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 1102
+        width: 57
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 812320867b7d1c8e0800000000000000
+      internalID: -1674820403681152488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birthplace_29
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 1110
+        width: 58
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e1d56f169a615030800000000000000
+      internalID: 3481681179938509286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birthplace_30
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 1107
+        width: 63
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62a32cc4ceca22780800000000000000
+      internalID: -8709208598481061338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birthplace_31
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 1054
+        width: 60
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4bcfa8ea6e0e8910800000000000000
+      internalID: 1841425149974268749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birthplace_32
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 1172
+        width: 76
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea18827f56c1154c0800000000000000
+      internalID: -4300624944898211410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birthplace_33
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1068
+        width: 56
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96427fca13b99d0a0800000000000000
+      internalID: -6856278320037288855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birthplace_34
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 1072
+        width: 76
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e564c351f588ffc80800000000000000
+      internalID: -8286754847378880930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birthplace_35
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 1045
+        width: 69
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d9da4be557f12bd0800000000000000
+      internalID: -2656570356780049967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birthplace_36
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 1016
+        width: 110
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e918252ff83702c60800000000000000
+      internalID: 7791354417433969054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birthplace_37
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 1094
+        width: 73
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6582a095839d68dd0800000000000000
+      internalID: -2484059308413015978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birthplace_38
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 1099
+        width: 76
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c2b148d552e78ed0800000000000000
+      internalID: -2411710217105329464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birthplace_39
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 939
+        width: 62
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f428ac6a822e863a0800000000000000
+      internalID: -6671834183724531121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birthplace_40
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 952
+        width: 57
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f07b6a3f25df23680800000000000000
+      internalID: -8776674191074740465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birthplace_41
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 906
+        width: 69
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 896369663f162a8e0800000000000000
+      internalID: -1683675612657076584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birthplace_42
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 980
+        width: 79
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c40af1d01303660c0800000000000000
+      internalID: -4582922583571193780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birthplace_43
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 962
+        width: 80
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c922ced1f8cd875d0800000000000000
+      internalID: -3064457039185173860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birthplace_44
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 973
+        width: 65
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f104b96e723acc40800000000000000
+      internalID: 5533290610698748400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birthplace_45
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 1025
+        width: 92
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ff93fa4378063a20800000000000000
+      internalID: 3041627889607090163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birthplace_46
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 926
+        width: 58
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c8a68b707f81ef80800000000000000
+      internalID: -8079018543254427455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birthplace_47
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 997
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6904245cab12d2ca0800000000000000
+      internalID: -6040134439176879978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birthplace_48
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 964
+        width: 82
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac82b39af3b434bb0800000000000000
+      internalID: -4953032428383164214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birthplace_49
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 894
+        width: 63
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8469f33ef41ab3640800000000000000
+      internalID: 5060815970767967816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birthplace_50
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 851
+        width: 64
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1981672ee03c0a6a0800000000000000
+      internalID: -6439932998443460463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birthplace_51
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 914
+        width: 79
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 394c2ff90b86c3f20800000000000000
+      internalID: 3403710526192272531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birthplace_52
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 883
+        width: 80
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14515cd95a64cf1c0800000000000000
+      internalID: -4468619053127887551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birthplace_53
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 910
+        width: 60
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cb97b00933299c50800000000000000
+      internalID: 6672403050658241474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birthplace_54
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 798
+        width: 56
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4342789b6ab68600800000000000000
+      internalID: 470268182388687692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birthplace_55
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 783
+        width: 58
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da5cd607b24d3db10800000000000000
+      internalID: 2005179542144927149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birthplace_56
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 810
+        width: 59
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73be039c89407fda0800000000000000
+      internalID: -5911250931643520201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birthplace_57
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 765
+        width: 58
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66c9ee9fd1be38b00800000000000000
+      internalID: 829765270346046566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birthplace_58
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 752
+        width: 59
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 277c194b7964cb1e0800000000000000
+      internalID: -2180790502170704014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birthplace_59
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 730
+        width: 80
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e182718a9c4377900800000000000000
+      internalID: 682071909283080222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birthplace_60
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 817
+        width: 70
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f223b6df912ba83c0800000000000000
+      internalID: -4356473864831946193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birthplace_61
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 817
+        width: 56
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c06705bc2cd95f570800000000000000
+      internalID: 8499873331691943436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birthplace_62
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 780
+        width: 74
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e218fdfb035cfe020800000000000000
+      internalID: 2373332341815738670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birthplace_63
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 818
+        width: 73
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 565d728bfb0dc6b40800000000000000
+      internalID: 5434948372176295269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birthplace_64
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 819
+        width: 59
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd431cd6bff6b6e90800000000000000
+      internalID: -7031403267540044580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birthplace_65
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 669
+        width: 87
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 983748c7bec969a50800000000000000
+      internalID: 6527577245140415369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birthplace_66
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 669
+        width: 56
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33fb71d8873ed7a60800000000000000
+      internalID: 7673539447011917619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birthplace_67
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 648
+        width: 78
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f003112854af57d30800000000000000
+      internalID: 4428720985030602767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birthplace_68
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 731
+        width: 101
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb37d6f647e216420800000000000000
+      internalID: 2621427535726867388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birthplace_69
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 738
+        width: 47
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54c39c09bcf3fd2d0800000000000000
+      internalID: -3251810262398190523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birthplace_70
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 606
+        width: 101
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c02f74aeb51650020800000000000000
+      internalID: 2307357431497749004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birthplace_71
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 491
+        width: 97
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1643b3249b9aab10800000000000000
+      internalID: 1993576845621282331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birthplace_72
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 637
+        width: 58
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47c741afa008eb910800000000000000
+      internalID: 1855060881156897908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birthplace_73
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 606
+        width: 60
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 043924835b2d84200800000000000000
+      internalID: 164613062173823808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birthplace_74
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 566
+        width: 90
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ab918079b9ebdac0800000000000000
+      internalID: -3829210075482711133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birthplace_75
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 550
+        width: 69
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 048c03bc88d782eb0800000000000000
+      internalID: -4744404180956821440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birthplace_76
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 652
+        width: 26
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e54d4d2fb7e482840800000000000000
+      internalID: 5199492064061215838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birthplace_77
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 491
+        width: 61
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f54af82605489520800000000000000
+      internalID: 2708991068622964212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birthplace_78
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 547
+        width: 79
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbf2851f728e62d50800000000000000
+      internalID: 6712307552892759995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birthplace_79
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 463
+        width: 98
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e740aae65fda34b0800000000000000
+      internalID: -5459806033836750871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birthplace_80
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 392
+        width: 101
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e43bb5a449333db90800000000000000
+      internalID: -7218369065749073074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birthplace_81
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 455
+        width: 72
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7c9c8d967830e360800000000000000
+      internalID: 7196814286638587002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birthplace_82
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 396
+        width: 86
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 776ea4efaf0ee24b0800000000000000
+      internalID: -5463181929341065609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birthplace_83
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 363
+        width: 101
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67537c473d44da890800000000000000
+      internalID: -7445218933985561226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birthplace_84
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 464
+        width: 58
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3686c5523f25604e0800000000000000
+      internalID: -2015832578944374685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birthplace_85
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 339
+        width: 71
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a038c883fbaa3e330800000000000000
+      internalID: 3739019853911851786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birthplace_86
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 189
+        width: 100
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8a605aaf9940fc90800000000000000
+      internalID: -7138124459276211569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birthplace_87
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 187
+        width: 94
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26aa86f2521a35af0800000000000000
+      internalID: -408805960079332766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birthplace_88
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 183
+        width: 91
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9e5a8efbad567510800000000000000
+      internalID: 1546526515339615899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birthplace_89
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 272
+        width: 70
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49522aa39c880cc90800000000000000
+      internalID: -7151565810410838636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birthplace_90
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 284
+        width: 22
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a71ebc3ee1caa140800000000000000
+      internalID: 4731807587471595424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birthplace_91
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 188
+        width: 66
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 647fda96aa4170f80800000000000000
+      internalID: -8140515079298877626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birthplace_92
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 288
+        width: 25
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 603a569aa00bd81b0800000000000000
+      internalID: -5652668397441932538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birthplace_93
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 189
+        width: 63
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e19911d5bc0dcbc00800000000000000
+      internalID: 917837995935111454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birthplace_94
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 186
+        width: 67
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bebcc017ffb48120800000000000000
+      internalID: 2415266368037109424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birthplace_95
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 96
+        width: 109
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8a4d71ba910e68f0800000000000000
+      internalID: -545496740950881649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birthplace_96
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 97
+        width: 108
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd66ac514eae1aab0800000000000000
+      internalID: -4998455846065510692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birthplace_97
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 89
+        width: 102
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41a1e4112c5f20800800000000000000
+      internalID: 577293916119636500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birthplace_98
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 107
+        width: 9
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b9db32e04b07f9f0800000000000000
+      internalID: -434866465716577869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birthplace_99
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 102
+        width: 26
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2bd2be41c0d48b90800000000000000
+      internalID: -7240432772237305045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Birthplace_100
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 1
+        width: 70
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67dc71e94b5cc8060800000000000000
+      internalID: 6957152903917718902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Birthplace_0: 4457129787420357714
+      Birthplace_1: 1013723413779884573
+      Birthplace_10: 1639025676735489919
+      Birthplace_100: 6957152903917718902
+      Birthplace_11: -4479635098949714218
+      Birthplace_12: -4416286675965918770
+      Birthplace_13: -8204363965505892399
+      Birthplace_14: 4620896507465108814
+      Birthplace_15: -1864199310028844003
+      Birthplace_16: 7628768767356967853
+      Birthplace_17: 7060124104320537519
+      Birthplace_18: 3828695895591273633
+      Birthplace_19: -7292410979403162122
+      Birthplace_2: -5039936656642932603
+      Birthplace_20: -8393604226357824405
+      Birthplace_21: 8808041729540978100
+      Birthplace_22: -5629438736894221202
+      Birthplace_23: -4849333852478249847
+      Birthplace_24: 1168210693653002994
+      Birthplace_25: -3693111284094218129
+      Birthplace_26: 8265886781309641859
+      Birthplace_27: 4937710964427552250
+      Birthplace_28: -1674820403681152488
+      Birthplace_29: 3481681179938509286
+      Birthplace_3: -1367164112046446700
+      Birthplace_30: -8709208598481061338
+      Birthplace_31: 1841425149974268749
+      Birthplace_32: -4300624944898211410
+      Birthplace_33: -6856278320037288855
+      Birthplace_34: -8286754847378880930
+      Birthplace_35: -2656570356780049967
+      Birthplace_36: 7791354417433969054
+      Birthplace_37: -2484059308413015978
+      Birthplace_38: -2411710217105329464
+      Birthplace_39: -6671834183724531121
+      Birthplace_4: -4074649036628076452
+      Birthplace_40: -8776674191074740465
+      Birthplace_41: -1683675612657076584
+      Birthplace_42: -4582922583571193780
+      Birthplace_43: -3064457039185173860
+      Birthplace_44: 5533290610698748400
+      Birthplace_45: 3041627889607090163
+      Birthplace_46: -8079018543254427455
+      Birthplace_47: -6040134439176879978
+      Birthplace_48: -4953032428383164214
+      Birthplace_49: 5060815970767967816
+      Birthplace_5: -577436493709821038
+      Birthplace_50: -6439932998443460463
+      Birthplace_51: 3403710526192272531
+      Birthplace_52: -4468619053127887551
+      Birthplace_53: 6672403050658241474
+      Birthplace_54: 470268182388687692
+      Birthplace_55: 2005179542144927149
+      Birthplace_56: -5911250931643520201
+      Birthplace_57: 829765270346046566
+      Birthplace_58: -2180790502170704014
+      Birthplace_59: 682071909283080222
+      Birthplace_6: 5509149463261477407
+      Birthplace_60: -4356473864831946193
+      Birthplace_61: 8499873331691943436
+      Birthplace_62: 2373332341815738670
+      Birthplace_63: 5434948372176295269
+      Birthplace_64: -7031403267540044580
+      Birthplace_65: 6527577245140415369
+      Birthplace_66: 7673539447011917619
+      Birthplace_67: 4428720985030602767
+      Birthplace_68: 2621427535726867388
+      Birthplace_69: -3251810262398190523
+      Birthplace_7: 7206332488508507111
+      Birthplace_70: 2307357431497749004
+      Birthplace_71: 1993576845621282331
+      Birthplace_72: 1855060881156897908
+      Birthplace_73: 164613062173823808
+      Birthplace_74: -3829210075482711133
+      Birthplace_75: -4744404180956821440
+      Birthplace_76: 5199492064061215838
+      Birthplace_77: 2708991068622964212
+      Birthplace_78: 6712307552892759995
+      Birthplace_79: -5459806033836750871
+      Birthplace_8: -2474110190240685353
+      Birthplace_80: -7218369065749073074
+      Birthplace_81: 7196814286638587002
+      Birthplace_82: -5463181929341065609
+      Birthplace_83: -7445218933985561226
+      Birthplace_84: -2015832578944374685
+      Birthplace_85: 3739019853911851786
+      Birthplace_86: -7138124459276211569
+      Birthplace_87: -408805960079332766
+      Birthplace_88: 1546526515339615899
+      Birthplace_89: -7151565810410838636
+      Birthplace_9: 8036533298848564976
+      Birthplace_90: 4731807587471595424
+      Birthplace_91: -8140515079298877626
+      Birthplace_92: -5652668397441932538
+      Birthplace_93: 917837995935111454
+      Birthplace_94: 2415266368037109424
+      Birthplace_95: -545496740950881649
+      Birthplace_96: -4998455846065510692
+      Birthplace_97: 577293916119636500
+      Birthplace_98: -434866465716577869
+      Birthplace_99: -7240432772237305045
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
