@@ -127,12 +127,12 @@ TextureImporter:
       name: down_slash_effect_0
       rect:
         serializedVersion: 2
-        x: 365
+        x: 0
         y: 0
-        width: 175
-        height: 205
+        width: 183
+        height: 210
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -149,12 +149,12 @@ TextureImporter:
       name: down_slash_effect_1
       rect:
         serializedVersion: 2
-        x: 548
+        x: 183
         y: 0
-        width: 175
-        height: 205
+        width: 183
+        height: 210
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -171,12 +171,12 @@ TextureImporter:
       name: down_slash_effect_2
       rect:
         serializedVersion: 2
-        x: 849
-        y: 44
-        width: 64
-        height: 165
+        x: 366
+        y: 0
+        width: 183
+        height: 210
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -193,12 +193,12 @@ TextureImporter:
       name: down_slash_effect_3
       rect:
         serializedVersion: 2
-        x: 1032
-        y: 44
-        width: 64
-        height: 165
+        x: 549
+        y: 0
+        width: 183
+        height: 210
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -211,11 +211,55 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: down_slash_effect_4
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 0
+        width: 183
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae71a6e61dcab524abb45fb93527544a
+      internalID: -1137799910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: down_slash_effect_5
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 0
+        width: 183
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85d78313459b86b499559a362cb6ddec
+      internalID: -573653213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: a924b8fef73e39e459849da7160a172e
     internalID: 0
     vertices: []
     indices: 
@@ -223,12 +267,16 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":183.0,"y":210.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":true,"isAlternate":false}'
     nameFileIdTable:
       down_slash_effect_0: 3650824250026643821
       down_slash_effect_1: -6631429329870489696
       down_slash_effect_2: 5140422286661621091
       down_slash_effect_3: -5924044896423810871
+      down_slash_effect_4: -1137799910
+      down_slash_effect_5: -573653213
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

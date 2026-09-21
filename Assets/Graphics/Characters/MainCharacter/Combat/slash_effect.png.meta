@@ -139,12 +139,12 @@ TextureImporter:
       name: slash_effect_0
       rect:
         serializedVersion: 2
-        x: 313
-        y: 4
-        width: 159
-        height: 110
+        x: 0
+        y: 0
+        width: 157
+        height: 114
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -161,12 +161,12 @@ TextureImporter:
       name: slash_effect_1
       rect:
         serializedVersion: 2
-        x: 470
-        y: 4
-        width: 159
-        height: 110
+        x: 157
+        y: 0
+        width: 157
+        height: 114
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -183,12 +183,12 @@ TextureImporter:
       name: slash_effect_2
       rect:
         serializedVersion: 2
-        x: 630
+        x: 314
         y: 0
-        width: 137
-        height: 61
+        width: 157
+        height: 114
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -205,12 +205,12 @@ TextureImporter:
       name: slash_effect_3
       rect:
         serializedVersion: 2
-        x: 698
-        y: 61
-        width: 6
-        height: 7
+        x: 471
+        y: 0
+        width: 157
+        height: 114
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -227,20 +227,20 @@ TextureImporter:
       name: slash_effect_4
       rect:
         serializedVersion: 2
-        x: 722
-        y: 37
-        width: 12
-        height: 24
+        x: 628
+        y: 0
+        width: 157
+        height: 114
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 41d6294a4e06dd7a0800000000000000
-      internalID: -6350813364392661740
+      spriteID: 456fbd4acd4e1d54ab01a4a790cd91ed
+      internalID: -1140196845
       vertices: []
       indices: 
       edges: []
@@ -249,64 +249,20 @@ TextureImporter:
       name: slash_effect_5
       rect:
         serializedVersion: 2
-        x: 787
+        x: 785
         y: 0
-        width: 137
-        height: 61
+        width: 157
+        height: 114
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d7269664c89a147d0800000000000000
-      internalID: -2935879062127025539
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: slash_effect_6
-      rect:
-        serializedVersion: 2
-        x: 855
-        y: 61
-        width: 6
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b5996a00b4d147de0800000000000000
-      internalID: -1336410981451523749
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: slash_effect_7
-      rect:
-        serializedVersion: 2
-        x: 879
-        y: 37
-        width: 12
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b596618a5767a7820800000000000000
-      internalID: 2916773956379109723
+      spriteID: ec4b5368f62dac74897ca4b192ec9ab5
+      internalID: -1000642032
       vertices: []
       indices: 
       edges: []
@@ -315,7 +271,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 92a5fcd169a89d442a3293e2541b274e
     internalID: 0
     vertices: []
     indices: 
@@ -323,16 +279,16 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":157.0,"y":114.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":true,"isAlternate":false}'
     nameFileIdTable:
       slash_effect_0: -8128052507107815564
       slash_effect_1: -8858540514574795875
       slash_effect_2: 3795061438536652372
       slash_effect_3: -557566446036354525
-      slash_effect_4: -6350813364392661740
-      slash_effect_5: -2935879062127025539
-      slash_effect_6: -1336410981451523749
-      slash_effect_7: 2916773956379109723
+      slash_effect_4: -1140196845
+      slash_effect_5: -1000642032
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

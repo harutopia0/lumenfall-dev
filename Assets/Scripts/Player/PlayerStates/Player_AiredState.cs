@@ -19,7 +19,7 @@ public class Player_AiredState : PlayerState
 
         if (input.Player.Attack.WasPressedThisFrame())
         {
-            stateMachine.ChangeState(player.plungeAttackState);
+            stateMachine.ChangeState(player.slashState);
         }
     }
 }

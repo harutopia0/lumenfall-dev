@@ -148,12 +148,12 @@ TextureImporter:
       name: shadow_dash_0
       rect:
         serializedVersion: 2
-        x: 66
-        y: 140
-        width: 105
-        height: 82
+        x: 0
+        y: 139
+        width: 294
+        height: 139
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -170,12 +170,12 @@ TextureImporter:
       name: shadow_dash_1
       rect:
         serializedVersion: 2
-        x: 346
+        x: 294
         y: 139
-        width: 188
-        height: 84
+        width: 294
+        height: 139
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -192,12 +192,12 @@ TextureImporter:
       name: shadow_dash_2
       rect:
         serializedVersion: 2
-        x: 626
-        y: 153
-        width: 256
-        height: 93
+        x: 588
+        y: 139
+        width: 294
+        height: 139
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -214,12 +214,12 @@ TextureImporter:
       name: shadow_dash_3
       rect:
         serializedVersion: 2
-        x: 912
-        y: 153
-        width: 247
-        height: 95
+        x: 882
+        y: 139
+        width: 294
+        height: 139
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -236,12 +236,12 @@ TextureImporter:
       name: shadow_dash_4
       rect:
         serializedVersion: 2
-        x: 1225
-        y: 142
-        width: 214
-        height: 106
+        x: 1176
+        y: 139
+        width: 294
+        height: 139
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -258,12 +258,12 @@ TextureImporter:
       name: shadow_dash_5
       rect:
         serializedVersion: 2
-        x: 1524
+        x: 1470
         y: 139
-        width: 193
-        height: 105
+        width: 294
+        height: 139
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -280,12 +280,12 @@ TextureImporter:
       name: shadow_dash_6
       rect:
         serializedVersion: 2
-        x: 1827
+        x: 1764
         y: 139
-        width: 112
-        height: 90
+        width: 294
+        height: 139
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -302,12 +302,12 @@ TextureImporter:
       name: shadow_dash_7
       rect:
         serializedVersion: 2
-        x: 2121
+        x: 2058
         y: 139
-        width: 112
-        height: 90
+        width: 294
+        height: 139
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -324,12 +324,12 @@ TextureImporter:
       name: shadow_dash_8
       rect:
         serializedVersion: 2
-        x: 63
+        x: 0
         y: 0
-        width: 112
-        height: 90
+        width: 294
+        height: 139
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -346,12 +346,12 @@ TextureImporter:
       name: shadow_dash_9
       rect:
         serializedVersion: 2
-        x: 357
+        x: 294
         y: 0
-        width: 112
-        height: 90
+        width: 294
+        height: 139
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -368,12 +368,12 @@ TextureImporter:
       name: shadow_dash_10
       rect:
         serializedVersion: 2
-        x: 651
+        x: 588
         y: 0
-        width: 112
-        height: 90
+        width: 294
+        height: 139
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -390,7 +390,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 52748c01b1b608b44a2e3313948ca463
     internalID: 0
     vertices: []
     indices: 
@@ -398,7 +398,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":294.0,"y":139.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       shadow_dash_0: 7361273710297677040
       shadow_dash_1: 621080168303150765

@@ -28,7 +28,6 @@ public abstract class EntityState
         stateTimer -= Time.deltaTime;
 
         UpdateAnimationParameters();
-
     }
 
     public virtual void Exit()

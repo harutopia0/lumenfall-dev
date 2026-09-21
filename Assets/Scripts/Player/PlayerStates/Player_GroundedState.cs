@@ -33,7 +33,7 @@ public class Player_GroundedState : PlayerState
 
         if (input.Player.Attack.WasPerformedThisFrame())
         {
-            stateMachine.ChangeState(player.basicAttackState);
+            stateMachine.ChangeState(player.slashState);
         }
     }
 }

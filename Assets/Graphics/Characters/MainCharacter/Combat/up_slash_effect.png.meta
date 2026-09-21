@@ -133,12 +133,12 @@ TextureImporter:
       name: up_slash_effect_0
       rect:
         serializedVersion: 2
-        x: 339
-        y: 17
-        width: 159
-        height: 172
+        x: 0
+        y: 0
+        width: 170
+        height: 189
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -155,12 +155,12 @@ TextureImporter:
       name: up_slash_effect_1
       rect:
         serializedVersion: 2
-        x: 496
-        y: 19
-        width: 14
-        height: 85
+        x: 170
+        y: 0
+        width: 170
+        height: 189
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -177,12 +177,12 @@ TextureImporter:
       name: up_slash_effect_2
       rect:
         serializedVersion: 2
-        x: 509
-        y: 17
-        width: 159
-        height: 172
+        x: 340
+        y: 0
+        width: 170
+        height: 189
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -199,12 +199,12 @@ TextureImporter:
       name: up_slash_effect_3
       rect:
         serializedVersion: 2
-        x: 666
-        y: 19
-        width: 14
-        height: 85
+        x: 510
+        y: 0
+        width: 170
+        height: 189
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -221,12 +221,12 @@ TextureImporter:
       name: up_slash_effect_4
       rect:
         serializedVersion: 2
-        x: 777
+        x: 680
         y: 0
-        width: 66
-        height: 151
+        width: 170
+        height: 189
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -243,12 +243,12 @@ TextureImporter:
       name: up_slash_effect_5
       rect:
         serializedVersion: 2
-        x: 947
+        x: 850
         y: 0
-        width: 66
-        height: 151
+        width: 170
+        height: 189
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -265,7 +265,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 14495251f0e942244923ff78ea12971b
     internalID: 0
     vertices: []
     indices: 
@@ -273,7 +273,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":170.0,"y":189.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":true,"isAlternate":false}'
     nameFileIdTable:
       up_slash_effect_0: -8450284647552213072
       up_slash_effect_1: -3022282412516511372

@@ -18,24 +18,15 @@ public class Player : Entity
     public Player_WallSlideState wallSlideState { get; private set; }
     public Player_WallJumpState wallJumpState { get; private set; }
     public Player_DashState dashState { get; private set; }
-    public Player_BasicAttackState basicAttackState { get; private set; }
+    public Player_SlashState slashState { get; private set; }
     public Player_PlungeAttackState plungeAttackState { get; private set; }
     public Player_DeadState deadState { get; private set; }
     public Player_DashToIdleState dashToIdleState { get; private set; }
     public Player_LandState landState { get; private set; }
 
     [Header("Attack details")]
-    public Vector2[] attackVelocity = new Vector2[]
-{
-        new Vector2(3f, 1.5f),
-        new Vector2(1f, 1.25f),
-        new Vector2(2.75f, 1f)
-};
     public Vector2 plungeAttackVelocity = new Vector2(3f, -15f);
     public float plungePrepJumpForce = 7.5f;
-    public float attackVelocityDuration = 0.1f;
-    public float comboResetTime = 1;
-    private Coroutine queuedAttackCo;
 
     [Header("Movements details")]
     public float moveSpeed;
@@ -64,7 +55,7 @@ public class Player : Entity
         wallSlideState = new Player_WallSlideState(this, stateMachine, "wallSlide");
         wallJumpState = new Player_WallJumpState(this, stateMachine, "isMidAir");
         dashState = new Player_DashState(this, stateMachine, "dash");
-        basicAttackState = new Player_BasicAttackState(this, stateMachine, "basicAttack");
+        slashState = new Player_SlashState(this, stateMachine, "slash");
         plungeAttackState = new Player_PlungeAttackState(this, stateMachine, "plungeAttack");
         deadState = new Player_DeadState(this, stateMachine, "dead");
         dashToIdleState = new Player_DashToIdleState(this, stateMachine, "dashToIdle");
@@ -84,22 +75,6 @@ public class Player : Entity
 
         OnPlayerDeath?.Invoke();
         stateMachine.ChangeState(deadState);
-    }
-
-    public void EnterAttackStateWithDelay()
-    {
-        if (queuedAttackCo != null)
-        {
-            StopCoroutine(queuedAttackCo);
-        }
-
-        queuedAttackCo = StartCoroutine(EnterAttackStateWithDelayCo());
-    }
-
-    private IEnumerator EnterAttackStateWithDelayCo()
-    {
-        yield return new WaitForEndOfFrame();
-        stateMachine.ChangeState(basicAttackState);
     }
 
     private void OnEnable()

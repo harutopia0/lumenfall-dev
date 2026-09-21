@@ -43,13 +43,23 @@ public class Enemy_BattleState : EnemyState
 
         if (WithinAttackRange() && enemy.PlayerDetected())
         {
-            stateMachine.ChangeState(enemy.attackState);
+            if (CanAttack())
+            {
+                stateMachine.ChangeState(enemy.attackState);
+            }
+            else
+            {
+                enemy.SetVelocity(0, rb.linearVelocity.y);
+                enemy.HandleFlip(DirectionToPlayer());
+            }
         }
         else
         {
             enemy.SetVelocity(enemy.battleMoveSpeed * DirectionToPlayer(), rb.linearVelocity.y);
         }
     }
+
+    private bool CanAttack() => Time.time > enemy.lastTimeAttacked + enemy.attackCooldown;
 
     private void UpdateBattleTimer() => lastTimeWasInBattle = Time.time;
 

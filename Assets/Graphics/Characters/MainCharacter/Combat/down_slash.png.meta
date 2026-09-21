@@ -160,12 +160,12 @@ TextureImporter:
       name: down_slash_0
       rect:
         serializedVersion: 2
-        x: 23
-        y: 133
-        width: 64
-        height: 99
+        x: 0
+        y: 130
+        width: 142
+        height: 130
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -182,12 +182,12 @@ TextureImporter:
       name: down_slash_1
       rect:
         serializedVersion: 2
-        x: 164
-        y: 137
-        width: 73
-        height: 96
+        x: 142
+        y: 130
+        width: 142
+        height: 130
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -204,12 +204,12 @@ TextureImporter:
       name: down_slash_2
       rect:
         serializedVersion: 2
-        x: 306
-        y: 138
-        width: 71
-        height: 94
+        x: 284
+        y: 130
+        width: 142
+        height: 130
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -226,12 +226,12 @@ TextureImporter:
       name: down_slash_3
       rect:
         serializedVersion: 2
-        x: 448
-        y: 139
-        width: 71
-        height: 91
+        x: 426
+        y: 130
+        width: 142
+        height: 130
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -248,12 +248,12 @@ TextureImporter:
       name: down_slash_4
       rect:
         serializedVersion: 2
-        x: 590
-        y: 139
-        width: 71
-        height: 91
+        x: 568
+        y: 130
+        width: 142
+        height: 130
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -270,12 +270,12 @@ TextureImporter:
       name: down_slash_5
       rect:
         serializedVersion: 2
-        x: 728
-        y: 140
-        width: 68
-        height: 92
+        x: 710
+        y: 130
+        width: 142
+        height: 130
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -292,12 +292,12 @@ TextureImporter:
       name: down_slash_6
       rect:
         serializedVersion: 2
-        x: 870
-        y: 140
-        width: 68
-        height: 92
+        x: 852
+        y: 130
+        width: 142
+        height: 130
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -314,12 +314,12 @@ TextureImporter:
       name: down_slash_7
       rect:
         serializedVersion: 2
-        x: 1012
-        y: 140
-        width: 68
-        height: 92
+        x: 994
+        y: 130
+        width: 142
+        height: 130
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -336,12 +336,12 @@ TextureImporter:
       name: down_slash_8
       rect:
         serializedVersion: 2
-        x: 18
-        y: 10
-        width: 68
-        height: 92
+        x: 0
+        y: 0
+        width: 142
+        height: 130
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -358,12 +358,12 @@ TextureImporter:
       name: down_slash_9
       rect:
         serializedVersion: 2
-        x: 160
-        y: 10
-        width: 68
-        height: 92
+        x: 142
+        y: 0
+        width: 142
+        height: 130
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -380,12 +380,12 @@ TextureImporter:
       name: down_slash_10
       rect:
         serializedVersion: 2
-        x: 302
-        y: 10
-        width: 68
-        height: 92
+        x: 284
+        y: 0
+        width: 142
+        height: 130
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -402,12 +402,12 @@ TextureImporter:
       name: down_slash_11
       rect:
         serializedVersion: 2
-        x: 444
-        y: 10
-        width: 68
-        height: 92
+        x: 426
+        y: 0
+        width: 142
+        height: 130
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -424,12 +424,12 @@ TextureImporter:
       name: down_slash_12
       rect:
         serializedVersion: 2
-        x: 586
-        y: 10
-        width: 68
-        height: 92
+        x: 568
+        y: 0
+        width: 142
+        height: 130
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -446,12 +446,12 @@ TextureImporter:
       name: down_slash_13
       rect:
         serializedVersion: 2
-        x: 728
-        y: 10
-        width: 68
-        height: 92
+        x: 710
+        y: 0
+        width: 142
+        height: 130
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -468,12 +468,12 @@ TextureImporter:
       name: down_slash_14
       rect:
         serializedVersion: 2
-        x: 870
-        y: 10
-        width: 68
-        height: 92
+        x: 852
+        y: 0
+        width: 142
+        height: 130
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -490,7 +490,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 20bfa2e0fb0bfe749a54630a1ea309c1
     internalID: 0
     vertices: []
     indices: 
@@ -498,7 +498,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":142.0,"y":130.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       down_slash_0: -5805349758201469444
       down_slash_1: -4843258470945766401

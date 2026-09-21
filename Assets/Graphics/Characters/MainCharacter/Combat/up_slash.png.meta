@@ -160,12 +160,12 @@ TextureImporter:
       name: up_slash_0
       rect:
         serializedVersion: 2
-        x: 4
-        y: 134
-        width: 66
-        height: 98
+        x: 0
+        y: 131
+        width: 116
+        height: 131
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -182,12 +182,12 @@ TextureImporter:
       name: up_slash_1
       rect:
         serializedVersion: 2
-        x: 135
-        y: 134
-        width: 76
-        height: 99
+        x: 116
+        y: 131
+        width: 116
+        height: 131
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -204,12 +204,12 @@ TextureImporter:
       name: up_slash_2
       rect:
         serializedVersion: 2
-        x: 252
-        y: 134
-        width: 70
-        height: 97
+        x: 232
+        y: 131
+        width: 116
+        height: 131
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -226,12 +226,12 @@ TextureImporter:
       name: up_slash_3
       rect:
         serializedVersion: 2
-        x: 366
-        y: 136
-        width: 70
-        height: 96
+        x: 348
+        y: 131
+        width: 116
+        height: 131
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -248,12 +248,12 @@ TextureImporter:
       name: up_slash_4
       rect:
         serializedVersion: 2
-        x: 482
-        y: 136
-        width: 70
-        height: 96
+        x: 464
+        y: 131
+        width: 116
+        height: 131
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -270,12 +270,12 @@ TextureImporter:
       name: up_slash_5
       rect:
         serializedVersion: 2
-        x: 583
-        y: 137
-        width: 70
-        height: 97
+        x: 580
+        y: 131
+        width: 116
+        height: 131
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -292,12 +292,12 @@ TextureImporter:
       name: up_slash_6
       rect:
         serializedVersion: 2
-        x: 699
-        y: 137
-        width: 70
-        height: 97
+        x: 696
+        y: 131
+        width: 116
+        height: 131
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -314,12 +314,12 @@ TextureImporter:
       name: up_slash_7
       rect:
         serializedVersion: 2
-        x: 815
-        y: 137
-        width: 70
-        height: 97
+        x: 812
+        y: 131
+        width: 116
+        height: 131
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -336,12 +336,12 @@ TextureImporter:
       name: up_slash_8
       rect:
         serializedVersion: 2
-        x: 3
-        y: 6
-        width: 70
-        height: 97
+        x: 0
+        y: 0
+        width: 116
+        height: 131
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -358,12 +358,12 @@ TextureImporter:
       name: up_slash_9
       rect:
         serializedVersion: 2
-        x: 119
-        y: 6
-        width: 70
-        height: 97
+        x: 116
+        y: 0
+        width: 116
+        height: 131
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -380,12 +380,12 @@ TextureImporter:
       name: up_slash_10
       rect:
         serializedVersion: 2
-        x: 235
-        y: 6
-        width: 70
-        height: 97
+        x: 232
+        y: 0
+        width: 116
+        height: 131
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -402,12 +402,12 @@ TextureImporter:
       name: up_slash_11
       rect:
         serializedVersion: 2
-        x: 351
-        y: 6
-        width: 70
-        height: 97
+        x: 348
+        y: 0
+        width: 116
+        height: 131
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -424,12 +424,12 @@ TextureImporter:
       name: up_slash_12
       rect:
         serializedVersion: 2
-        x: 467
-        y: 6
-        width: 70
-        height: 97
+        x: 464
+        y: 0
+        width: 116
+        height: 131
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -446,12 +446,12 @@ TextureImporter:
       name: up_slash_13
       rect:
         serializedVersion: 2
-        x: 583
-        y: 6
-        width: 70
-        height: 97
+        x: 580
+        y: 0
+        width: 116
+        height: 131
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -468,12 +468,12 @@ TextureImporter:
       name: up_slash_14
       rect:
         serializedVersion: 2
-        x: 699
-        y: 6
-        width: 70
-        height: 97
+        x: 696
+        y: 0
+        width: 116
+        height: 131
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -490,7 +490,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: d1b70e9673e7d4d44a8d47b8bf824ad0
     internalID: 0
     vertices: []
     indices: 
@@ -498,7 +498,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":116.0,"y":131.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       up_slash_0: 6156468283484840875
       up_slash_1: 6453102283283849231

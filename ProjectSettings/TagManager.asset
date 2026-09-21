@@ -14,8 +14,8 @@ TagManager:
   - Ground
   - Player
   - Enemy
-  - 
-  - 
+  - 'Spikes '
+  - 'Interactive '
   - 
   - 
   - 
@@ -44,7 +44,7 @@ TagManager:
   - name: Ground
     uniqueID: 1427886523
     locked: 0
-  - name: Chest
+  - name: Interactive
     uniqueID: 4050971169
     locked: 0
   - name: Enemy
@@ -52,6 +52,12 @@ TagManager:
     locked: 0
   - name: Player
     uniqueID: 3206924109
+    locked: 0
+  - name: 'VFX '
+    uniqueID: 835429897
+    locked: 0
+  - name: 'UI '
+    uniqueID: 2445576419
     locked: 0
   - name: Default
     uniqueID: 0

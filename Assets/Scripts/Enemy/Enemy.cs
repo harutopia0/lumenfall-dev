@@ -9,6 +9,8 @@ public class Enemy : Entity
     public Enemy_DeadState deadState { get; protected set; }
 
     [Header("Battle details")]
+    public float attackCooldown = 1f;
+    [HideInInspector] public float lastTimeAttacked;
     public float battleMoveSpeed = 3f;
     public float attackDistance = 2f;
     public float battleTimeDuration = 3f;
