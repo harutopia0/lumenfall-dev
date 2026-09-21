@@ -1238,13 +1238,9 @@ MonoBehaviour:
   superDashTrailObj: {fileID: 0}
   superDashBurstAnim: {fileID: 0}
   superDashBreakAnim: {fileID: 0}
-  superDashCrystalAnim: {fileID: 0}
   superDashChargeObj: {fileID: 0}
   superDashBlingAnim: {fileID: 0}
   superDashTrailEndAnim: {fileID: 0}
-  groundCrystalOffset: {x: 0, y: 0, z: 0}
-  wallCrystalOffset: {x: 0.2, y: 0, z: 0}
-  wallCrystalRotation: {x: 0, y: 0, z: 45}
   crystalPrefab: {fileID: 0}
   crystalCount: 5
   groundSpreadWidth: 1.4
@@ -1661,7 +1657,7 @@ SpriteRenderer:
   m_Size: {x: 6.625, y: 3.6875}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_SpriteSortPoint: 0
   m_BlendShapeWeights: []
 --- !u!4 &581649199
@@ -1995,13 +1991,9 @@ MonoBehaviour:
   superDashTrailObj: {fileID: 0}
   superDashBurstAnim: {fileID: 0}
   superDashBreakAnim: {fileID: 0}
-  superDashCrystalAnim: {fileID: 0}
   superDashChargeObj: {fileID: 0}
   superDashBlingAnim: {fileID: 0}
   superDashTrailEndAnim: {fileID: 0}
-  groundCrystalOffset: {x: 0, y: 0, z: 0}
-  wallCrystalOffset: {x: 0.2, y: 0, z: 0}
-  wallCrystalRotation: {x: 0, y: 0, z: 45}
   crystalPrefab: {fileID: 0}
   crystalCount: 5
   groundSpreadWidth: 1.4
@@ -10325,13 +10317,9 @@ MonoBehaviour:
   superDashTrailObj: {fileID: 734305836}
   superDashBurstAnim: {fileID: 581649197}
   superDashBreakAnim: {fileID: 1517062980}
-  superDashCrystalAnim: {fileID: 1105898964}
   superDashChargeObj: {fileID: 1737543326}
   superDashBlingAnim: {fileID: 1206392039}
   superDashTrailEndAnim: {fileID: 1204544554}
-  groundCrystalOffset: {x: 0, y: -0.805, z: 0}
-  wallCrystalOffset: {x: 0, y: 0, z: 0}
-  wallCrystalRotation: {x: 0, y: 0, z: -90}
   crystalPrefab: {fileID: 2738377523963846733, guid: 1023713ac91be27499d730122af25196, type: 3}
   crystalCount: 20
   groundSpreadWidth: 5
