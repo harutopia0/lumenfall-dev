@@ -42,6 +42,12 @@ public class Player_WallSlideState : PlayerState
                 player.Flip();
             }
         }
+
+        if (input.Player.SuperDash.WasPressedThisFrame())
+        {
+            stateMachine.ChangeState(player.superDashChargeState);
+            return;
+        }
     }
 
     private void HandleWallSlide()

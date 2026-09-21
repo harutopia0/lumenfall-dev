@@ -139,199 +139,199 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: sd_wall_charge_0
+      name: super_dash_wall_charge_0
       rect:
         serializedVersion: 2
-        x: 5
-        y: 128
-        width: 70
-        height: 105
+        x: 0
+        y: 126
+        width: 84
+        height: 126
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 39f9cb3abe6005db0800000000000000
-      internalID: -4805333193270190189
+      spriteID: 2ea02c13f1a132f4396f829471110f2a
+      internalID: -745884515
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sd_wall_charge_1
+      name: super_dash_wall_charge_1
       rect:
         serializedVersion: 2
-        x: 89
-        y: 129
-        width: 68
-        height: 106
+        x: 84
+        y: 126
+        width: 84
+        height: 126
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c8429b39a342f5c80800000000000000
-      internalID: -8331900951607040884
+      spriteID: f75bf668193dad64bad7d355c38ddd7e
+      internalID: -306295391
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sd_wall_charge_2
+      name: super_dash_wall_charge_2
       rect:
         serializedVersion: 2
-        x: 173
-        y: 137
-        width: 67
-        height: 93
+        x: 168
+        y: 126
+        width: 84
+        height: 126
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1783e862b7db93210800000000000000
-      internalID: 1313289102980692081
+      spriteID: bce519268ae20564e968a93cf029a896
+      internalID: -33488274
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sd_wall_charge_3
+      name: super_dash_wall_charge_3
       rect:
         serializedVersion: 2
-        x: 257
-        y: 138
-        width: 69
-        height: 94
+        x: 252
+        y: 126
+        width: 84
+        height: 126
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c181d1ec106715d10800000000000000
-      internalID: 2112599450338531356
+      spriteID: 8456f00fef6aff540b576deb5206e8dd
+      internalID: -1428893901
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sd_wall_charge_4
+      name: super_dash_wall_charge_4
       rect:
         serializedVersion: 2
-        x: 342
-        y: 136
-        width: 67
-        height: 94
+        x: 336
+        y: 126
+        width: 84
+        height: 126
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: bd507d4efc16a83b0800000000000000
-      internalID: -5509483648608959013
+      spriteID: 72f55810c1535d447b75bfb9326f0604
+      internalID: -94546241
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sd_wall_charge_5
+      name: super_dash_wall_charge_5
       rect:
         serializedVersion: 2
-        x: 426
-        y: 139
-        width: 67
-        height: 97
+        x: 420
+        y: 126
+        width: 84
+        height: 126
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 3c4c096ee9e3a2030800000000000000
-      internalID: 3470655315036390595
+      spriteID: 29bed542197798b47a381576a33792ad
+      internalID: -935171966
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sd_wall_charge_6
+      name: super_dash_wall_charge_6
       rect:
         serializedVersion: 2
-        x: 510
-        y: 139
-        width: 68
-        height: 99
+        x: 504
+        y: 126
+        width: 84
+        height: 126
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 818ae425a948b4620800000000000000
-      internalID: 2759444995035277336
+      spriteID: 67cd41b90927e8341b3f3c296e38fb6a
+      internalID: 1513927325
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sd_wall_charge_7
+      name: super_dash_wall_charge_7
       rect:
         serializedVersion: 2
-        x: 594
-        y: 139
-        width: 69
-        height: 98
+        x: 588
+        y: 126
+        width: 84
+        height: 126
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b450751777d3e5ca0800000000000000
-      internalID: -6026311668163214005
+      spriteID: 9020606f31b4aea4ebe417301854ffe5
+      internalID: -367744175
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sd_wall_charge_8
+      name: super_dash_wall_charge_8
       rect:
         serializedVersion: 2
-        x: 7
-        y: 13
-        width: 66
-        height: 99
+        x: 0
+        y: 0
+        width: 84
+        height: 126
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 3cdf6a027a4fd3630800000000000000
-      internalID: 3908549050271989187
+      spriteID: 6592a5ba4af9edc4d964c59db81737a4
+      internalID: -1268280472
       vertices: []
       indices: 
       edges: []
@@ -340,7 +340,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: c5c86ea058e9df24d9712e82a22b3b6f
     internalID: 0
     vertices: []
     indices: 
@@ -348,17 +348,19 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":84.0,"y":126.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      sd_wall_charge_0: -4805333193270190189
-      sd_wall_charge_1: -8331900951607040884
-      sd_wall_charge_2: 1313289102980692081
-      sd_wall_charge_3: 2112599450338531356
-      sd_wall_charge_4: -5509483648608959013
-      sd_wall_charge_5: 3470655315036390595
-      sd_wall_charge_6: 2759444995035277336
-      sd_wall_charge_7: -6026311668163214005
-      sd_wall_charge_8: 3908549050271989187
+      super_dash_wall_charge_0: -745884515
+      super_dash_wall_charge_1: -306295391
+      super_dash_wall_charge_2: -33488274
+      super_dash_wall_charge_3: -1428893901
+      super_dash_wall_charge_4: -94546241
+      super_dash_wall_charge_5: -935171966
+      super_dash_wall_charge_6: 1513927325
+      super_dash_wall_charge_7: -367744175
+      super_dash_wall_charge_8: -1268280472
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -23,6 +23,11 @@ public class Player : Entity
     public Player_DeadState deadState { get; private set; }
     public Player_DashToIdleState dashToIdleState { get; private set; }
     public Player_LandState landState { get; private set; }
+    public Player_SuperDashChargeState superDashChargeState { get; private set; }
+    public Player_SuperDashChargeCancelState superDashChargeCancelState { get; private set; }
+    public Player_SuperDashState superDashState { get; private set; }
+    public Player_SuperDashAirBrakeState superDashAirBrakeState { get; private set; }
+    public Player_SuperDashHitWallState superDashHitWallState { get; private set; }
 
     [Header("Attack details")]
     public Vector2 plungeAttackVelocity = new Vector2(3f, -15f);
@@ -41,12 +46,18 @@ public class Player : Entity
     public bool canAirDash { get; set; } = true;
     public Vector2 moveInput { get; private set; }
 
+    [Header("Super Dash details")]
+    public float superDashSpeed = 35f;
+    public float superDashChargeTime = 0.8f;
+    public float defaultGravityScale { get; private set; }
+
     protected override void Awake()
     {
         defaultFacing = FacingDirection.Left;
         base.Awake();
 
         input = new PlayerInputSet();
+        defaultGravityScale = rb.gravityScale;
 
         idleState = new Player_IdleState(this, stateMachine, "idle");
         moveState = new Player_RunState(this, stateMachine, "run");
@@ -60,6 +71,11 @@ public class Player : Entity
         deadState = new Player_DeadState(this, stateMachine, "dead");
         dashToIdleState = new Player_DashToIdleState(this, stateMachine, "dashToIdle");
         landState = new Player_LandState(this, stateMachine, "land");
+        superDashChargeState = new Player_SuperDashChargeState(this, stateMachine, "superDashCharge");
+        superDashChargeCancelState = new Player_SuperDashChargeCancelState(this, stateMachine, "superDashChargeCancel");
+        superDashState = new Player_SuperDashState(this, stateMachine, "superDash");
+        superDashAirBrakeState = new Player_SuperDashAirBrakeState(this, stateMachine, "superDashAirBrake");
+        superDashHitWallState = new Player_SuperDashHitWallState(this, stateMachine, "superDashHitWall");
     }
 
     protected override void Start()

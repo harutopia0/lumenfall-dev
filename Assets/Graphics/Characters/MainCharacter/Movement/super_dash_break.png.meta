@@ -3,47 +3,20 @@ guid: 19eb0f90b4fe15f4c89342aafa1d7a31
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 390028454293575314
-    second: sd_break_0
+      213: -1960950811
+    second: super_dash_break_0
   - first:
-      213: -7900808664755471102
-    second: sd_break_1
+      213: 1634909996
+    second: super_dash_break_1
   - first:
-      213: 7780977461176320605
-    second: sd_break_2
+      213: -142149002
+    second: super_dash_break_2
   - first:
-      213: 4837821040050366968
-    second: sd_break_3
+      213: 1187142247
+    second: super_dash_break_3
   - first:
-      213: 4136773231704633570
-    second: sd_break_4
-  - first:
-      213: 9032151758986852829
-    second: sd_break_5
-  - first:
-      213: 6846306451627481327
-    second: sd_break_6
-  - first:
-      213: 4454501895896306214
-    second: sd_break_7
-  - first:
-      213: -8781234394883414652
-    second: sd_break_8
-  - first:
-      213: -6407025376641096945
-    second: sd_break_9
-  - first:
-      213: -4715703059683939055
-    second: sd_break_10
-  - first:
-      213: 1344667481463501052
-    second: sd_break_11
-  - first:
-      213: 8362007707521890137
-    second: sd_break_12
-  - first:
-      213: 9195821020634095418
-    second: sd_break_13
+      213: 683493976
+    second: super_dash_break_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -73,7 +46,7 @@ TextureImporter:
   cubemapConvolution: 0
   seamlessCubemap: 0
   textureFormat: 1
-  maxTextureSize: 2048
+  maxTextureSize: 4096
   textureSettings:
     serializedVersion: 2
     filterMode: 0
@@ -88,8 +61,8 @@ TextureImporter:
   spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
-  alignment: 0
-  spritePivot: {x: 0.5, y: 0.5}
+  alignment: 9
+  spritePivot: {x: 0.2, y: 0.5}
   spritePixelsToUnits: 64
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
@@ -113,7 +86,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -126,7 +99,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
     buildTarget: Standalone
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -139,7 +112,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
     buildTarget: WebGL
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -154,15 +127,15 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: sd_break_0
+      name: super_dash_break_0
       rect:
         serializedVersion: 2
-        x: 291
-        y: 19
-        width: 191
-        height: 158
+        x: 0
+        y: 0
+        width: 241
+        height: 179
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -170,21 +143,21 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
       spriteID: 296967e00d8a96500800000000000000
-      internalID: 390028454293575314
+      internalID: -1960950811
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sd_break_1
+      name: super_dash_break_1
       rect:
         serializedVersion: 2
-        x: 499
+        x: 241
         y: 0
-        width: 226
+        width: 241
         height: 179
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -192,271 +165,73 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
       spriteID: 20dfbe23160ba5290800000000000000
-      internalID: -7900808664755471102
+      internalID: 1634909996
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sd_break_2
+      name: super_dash_break_2
       rect:
         serializedVersion: 2
-        x: 727
-        y: 74
-        width: 228
-        height: 97
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d524cba86c59bfb60800000000000000
-      internalID: 7780977461176320605
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sd_break_3
-      rect:
-        serializedVersion: 2
-        x: 1007
-        y: 126
-        width: 145
-        height: 45
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8f9ec13aa94632340800000000000000
-      internalID: 4837821040050366968
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sd_break_4
-      rect:
-        serializedVersion: 2
-        x: 1146
-        y: 154
-        width: 17
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2e079103655c86930800000000000000
-      internalID: 4136773231704633570
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sd_break_5
-      rect:
-        serializedVersion: 2
-        x: 99
-        y: 30
-        width: 142
-        height: 120
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: dd9b4df9b26a85d70800000000000000
-      internalID: 9032151758986852829
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sd_break_6
-      rect:
-        serializedVersion: 2
-        x: 978
-        y: 99
-        width: 132
-        height: 35
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fe898b8c177f20f50800000000000000
-      internalID: 6846306451627481327
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sd_break_7
-      rect:
-        serializedVersion: 2
-        x: 1123
-        y: 114
-        width: 30
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 62214349fd191dd30800000000000000
-      internalID: 4454501895896306214
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sd_break_8
-      rect:
-        serializedVersion: 2
-        x: 734
+        x: 482
         y: 0
-        width: 219
-        height: 76
+        width: 241
+        height: 179
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4852883c7d9c22680800000000000000
-      internalID: -8781234394883414652
+      spriteID: c54ee8818f2d65942be6efaf3bbfa4bf
+      internalID: -142149002
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sd_break_9
+      name: super_dash_break_3
       rect:
         serializedVersion: 2
-        x: 1001
-        y: 70
-        width: 24
-        height: 14
+        x: 723
+        y: 0
+        width: 241
+        height: 179
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f03e466ad5ca517a0800000000000000
-      internalID: -6407025376641096945
+      spriteID: ba408a28e9fc7e64cb901b0f562b7ae4
+      internalID: 1187142247
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sd_break_10
+      name: super_dash_break_4
       rect:
         serializedVersion: 2
-        x: 981
-        y: 8
-        width: 202
-        height: 60
+        x: 964
+        y: 0
+        width: 241
+        height: 179
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 11de0555d057e8eb0800000000000000
-      internalID: -4715703059683939055
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sd_break_11
-      rect:
-        serializedVersion: 2
-        x: 1122
-        y: 50
-        width: 26
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cf0b6a533f739a210800000000000000
-      internalID: 1344667481463501052
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sd_break_12
-      rect:
-        serializedVersion: 2
-        x: 577
-        y: 5
-        width: 10
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 957bbe7c4b1db0470800000000000000
-      internalID: 8362007707521890137
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sd_break_13
-      rect:
-        serializedVersion: 2
-        x: 1155
-        y: 7
-        width: 12
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a3f17f82f7e1e9f70800000000000000
-      internalID: 9195821020634095418
+      spriteID: ef75a968eb1a92e4ab34c760bb353cfc
+      internalID: 683493976
       vertices: []
       indices: 
       edges: []
@@ -465,7 +240,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 420d2041773bad8498d9a2db0d0801a7
     internalID: 0
     vertices: []
     indices: 
@@ -473,22 +248,15 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":241.0,"y":179.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      sd_break_0: 390028454293575314
-      sd_break_1: -7900808664755471102
-      sd_break_10: -4715703059683939055
-      sd_break_11: 1344667481463501052
-      sd_break_12: 8362007707521890137
-      sd_break_13: 9195821020634095418
-      sd_break_2: 7780977461176320605
-      sd_break_3: 4837821040050366968
-      sd_break_4: 4136773231704633570
-      sd_break_5: 9032151758986852829
-      sd_break_6: 6846306451627481327
-      sd_break_7: 4454501895896306214
-      sd_break_8: -8781234394883414652
-      sd_break_9: -6407025376641096945
+      super_dash_break_0: -1960950811
+      super_dash_break_1: 1634909996
+      super_dash_break_2: -142149002
+      super_dash_break_3: 1187142247
+      super_dash_break_4: 683493976
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

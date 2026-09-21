@@ -60,9 +60,9 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 1
-  alignment: 0
-  spritePivot: {x: 0.5, y: 0.5}
+  spriteMeshType: 0
+  alignment: 9
+  spritePivot: {x: 0.5, y: 0.1}
   spritePixelsToUnits: 64
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
@@ -127,111 +127,111 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: sd_crys_flash_0
+      name: super_dash_crystal_flash_0
       rect:
         serializedVersion: 2
-        x: 17
-        y: 2
-        width: 29
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 468c6eb2f90236560800000000000000
-      internalID: 7305718888533510244
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sd_crys_flash_1
-      rect:
-        serializedVersion: 2
-        x: 64
+        x: 0
         y: 0
-        width: 66
+        width: 65
         height: 103
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 324cbc5cd427ef380800000000000000
-      internalID: -8935578932299971549
+      spriteID: cf6c9ec7a3d98b94d93b013e41e09faf
+      internalID: 576824083
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sd_crys_flash_2
+      name: super_dash_crystal_flash_1
       rect:
         serializedVersion: 2
-        x: 137
-        y: 5
-        width: 50
-        height: 86
+        x: 65
+        y: 0
+        width: 65
+        height: 103
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 802e0d0be5e895a90800000000000000
-      internalID: -7324666781596851704
+      spriteID: 322b0cae655dd90499628bfc12b7459e
+      internalID: -499309611
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sd_crys_flash_3
+      name: super_dash_crystal_flash_2
       rect:
         serializedVersion: 2
-        x: 201
-        y: 5
-        width: 52
-        height: 86
+        x: 130
+        y: 0
+        width: 65
+        height: 103
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5102c0dd405fa7b80800000000000000
-      internalID: -8396129154041634795
+      spriteID: eed700a1b01417246be2b0a87b792417
+      internalID: -541877196
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sd_crys_flash_4
+      name: super_dash_crystal_flash_3
       rect:
         serializedVersion: 2
-        x: 265
-        y: 5
-        width: 54
-        height: 88
+        x: 195
+        y: 0
+        width: 65
+        height: 103
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: fa0407cf50fd1e350800000000000000
-      internalID: 6044357391710961839
+      spriteID: a8e30824e5733ce4996a45ad6084f2f9
+      internalID: 1733089591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_dash_crystal_flash_4
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 0
+        width: 65
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ad897dca5168534c8cce277f3854747
+      internalID: -146625692
       vertices: []
       indices: 
       edges: []
@@ -240,7 +240,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: e1187fde288115948bb7f38791e47357
     internalID: 0
     vertices: []
     indices: 
@@ -248,13 +248,15 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":65.0,"y":103.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      sd_crys_flash_0: 7305718888533510244
-      sd_crys_flash_1: -8935578932299971549
-      sd_crys_flash_2: -7324666781596851704
-      sd_crys_flash_3: -8396129154041634795
-      sd_crys_flash_4: 6044357391710961839
+      super_dash_crystal_flash_0: 576824083
+      super_dash_crystal_flash_1: -499309611
+      super_dash_crystal_flash_2: -541877196
+      super_dash_crystal_flash_3: 1733089591
+      super_dash_crystal_flash_4: -146625692
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

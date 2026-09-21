@@ -3,26 +3,26 @@ guid: 3c1e66c515601554abb260bf6d52b5f0
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6143544058520118134
-    second: sd_trail_0
+      213: -411061936
+    second: super_dash_trail_0
   - first:
-      213: 5893271124911574253
-    second: sd_trail_1
+      213: -786529990
+    second: super_dash_trail_1
   - first:
-      213: -1031686352436894804
-    second: sd_trail_2
+      213: 1505691624
+    second: super_dash_trail_2
   - first:
-      213: 8287013964453250530
-    second: sd_trail_3
+      213: 634027055
+    second: super_dash_trail_3
   - first:
-      213: -8011544365363471780
-    second: sd_trail_4
+      213: 1556292580
+    second: super_dash_trail_4
   - first:
-      213: 1956143824034778568
-    second: sd_trail_5
+      213: 1171446867
+    second: super_dash_trail_5
   - first:
-      213: -4190691892923368494
-    second: sd_trail_6
+      213: 994780275
+    second: super_dash_trail_6
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -52,7 +52,7 @@ TextureImporter:
   cubemapConvolution: 0
   seamlessCubemap: 0
   textureFormat: 1
-  maxTextureSize: 2048
+  maxTextureSize: 4096
   textureSettings:
     serializedVersion: 2
     filterMode: 0
@@ -67,8 +67,8 @@ TextureImporter:
   spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
-  alignment: 0
-  spritePivot: {x: 0.5, y: 0.5}
+  alignment: 9
+  spritePivot: {x: 0.94, y: 0.5}
   spritePixelsToUnits: 64
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
@@ -92,7 +92,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -105,7 +105,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
     buildTarget: Standalone
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -118,7 +118,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
     buildTarget: WebGL
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -133,125 +133,125 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: sd_trail_0
+      name: super_dash_trail_0
       rect:
         serializedVersion: 2
-        x: 198
-        y: 45
-        width: 310
-        height: 267
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a8c52f98a3fbdbaa0800000000000000
-      internalID: -6143544058520118134
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sd_trail_1
-      rect:
-        serializedVersion: 2
-        x: 508
+        x: 0
         y: 0
-        width: 508
+        width: 509
         height: 341
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.94, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: deccb6d3dda19c150800000000000000
-      internalID: 5893271124911574253
+      spriteID: 1628c24dcd9814145be4441087aa9f50
+      internalID: -411061936
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sd_trail_2
+      name: super_dash_trail_1
       rect:
         serializedVersion: 2
-        x: 1082
+        x: 509
         y: 0
-        width: 445
+        width: 509
         height: 341
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.94, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ca361638ab6bea1f0800000000000000
-      internalID: -1031686352436894804
+      spriteID: 40d77f00acec49048a3afce6cc8f901b
+      internalID: -786529990
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sd_trail_3
+      name: super_dash_trail_2
       rect:
         serializedVersion: 2
-        x: 1582
-        y: 26
-        width: 454
-        height: 290
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1018
+        y: 0
+        width: 509
+        height: 341
+      alignment: 9
+      pivot: {x: 0.94, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2e500ff4b43610370800000000000000
-      internalID: 8287013964453250530
+      spriteID: e5e71f05fd9bfd04ca9e60c2d34910ab
+      internalID: 1505691624
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sd_trail_4
+      name: super_dash_trail_3
+      rect:
+        serializedVersion: 2
+        x: 1527
+        y: 0
+        width: 509
+        height: 341
+      alignment: 9
+      pivot: {x: 0.94, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dc7e88a9e02a714993fe0ade0f5858f
+      internalID: 634027055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_dash_trail_4
       rect:
         serializedVersion: 2
         x: 2036
-        y: 12
-        width: 506
-        height: 320
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 0
+        width: 509
+        height: 341
+      alignment: 9
+      pivot: {x: 0.94, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c5a5a30c8d641d090800000000000000
-      internalID: -8011544365363471780
+      spriteID: 61a8138424cee9040b51f83d881df00c
+      internalID: 1556292580
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sd_trail_5
+      name: super_dash_trail_5
       rect:
         serializedVersion: 2
-        x: 2594
-        y: 12
-        width: 460
-        height: 320
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 2545
+        y: 0
+        width: 509
+        height: 341
+      alignment: 9
+      pivot: {x: 0.94, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -259,21 +259,21 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
       spriteID: 8cdca21a17e952b10800000000000000
-      internalID: 1956143824034778568
+      internalID: 1171446867
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sd_trail_6
+      name: super_dash_trail_6
       rect:
         serializedVersion: 2
-        x: 3053
-        y: 16
+        x: 3054
+        y: 0
         width: 509
-        height: 313
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 341
+      alignment: 9
+      pivot: {x: 0.94, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -281,7 +281,7 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
       spriteID: 2db71373deba7d5c0800000000000000
-      internalID: -4190691892923368494
+      internalID: 994780275
       vertices: []
       indices: 
       edges: []
@@ -300,13 +300,13 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      sd_trail_0: -6143544058520118134
-      sd_trail_1: 5893271124911574253
-      sd_trail_2: -1031686352436894804
-      sd_trail_3: 8287013964453250530
-      sd_trail_4: -8011544365363471780
-      sd_trail_5: 1956143824034778568
-      sd_trail_6: -4190691892923368494
+      super_dash_trail_0: -411061936
+      super_dash_trail_1: -786529990
+      super_dash_trail_2: 1505691624
+      super_dash_trail_3: 634027055
+      super_dash_trail_4: 1556292580
+      super_dash_trail_5: 1171446867
+      super_dash_trail_6: 994780275
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

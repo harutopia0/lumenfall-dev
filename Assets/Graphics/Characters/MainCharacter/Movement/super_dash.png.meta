@@ -124,89 +124,89 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: sd_dash_0
+      name: super_dash_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 9
-        width: 117
-        height: 68
+        y: 0
+        width: 171
+        height: 99
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 7a3ea85811328e1a0800000000000000
-      internalID: -6780130680844393561
+      spriteID: c97efa5ab77b9b940bc677c83e4bec1d
+      internalID: 1831069116
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sd_dash_1
+      name: super_dash_1
       rect:
         serializedVersion: 2
-        x: 170
-        y: 10
-        width: 117
-        height: 66
+        x: 171
+        y: 0
+        width: 171
+        height: 99
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: fbc0cd314575656e0800000000000000
-      internalID: -1849194578366952257
+      spriteID: d40a756d7a2dfa741b6fc57ef1299f65
+      internalID: -572071804
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sd_dash_2
+      name: super_dash_2
       rect:
         serializedVersion: 2
-        x: 343
-        y: 10
-        width: 115
-        height: 67
+        x: 342
+        y: 0
+        width: 171
+        height: 99
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 05cbf24fae78434b0800000000000000
-      internalID: -5461591004904702896
+      spriteID: 0d1f9375158a80448a9135ea9d6f6f89
+      internalID: 1541558520
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sd_dash_3
+      name: super_dash_3
       rect:
         serializedVersion: 2
         x: 513
-        y: 7
-        width: 117
-        height: 71
+        y: 0
+        width: 171
+        height: 99
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b2c9dc07152fc64b0800000000000000
-      internalID: -5445711417798976469
+      spriteID: f573722687cfc8c45bcabb1a42bf6745
+      internalID: -1360149642
       vertices: []
       indices: 
       edges: []
@@ -215,7 +215,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: b9385381166f8154a8589c164352932b
     internalID: 0
     vertices: []
     indices: 
@@ -223,12 +223,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":171.0,"y":99.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      sd_dash_0: -6780130680844393561
-      sd_dash_1: -1849194578366952257
-      sd_dash_2: -5461591004904702896
-      sd_dash_3: -5445711417798976469
+      super_dash_0: 1831069116
+      super_dash_1: -572071804
+      super_dash_2: 1541558520
+      super_dash_3: -1360149642
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

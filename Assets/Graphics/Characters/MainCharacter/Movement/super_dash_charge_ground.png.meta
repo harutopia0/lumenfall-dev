@@ -136,177 +136,177 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: sd_charge_ground_0
+      name: super_dash_charge_ground_0
       rect:
         serializedVersion: 2
-        x: 6
-        y: 1
-        width: 64
-        height: 99
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7b3045cccc7f46240800000000000000
-      internalID: 4784221163147756471
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sd_charge_ground_1
-      rect:
-        serializedVersion: 2
-        x: 92
+        x: 0
         y: 0
-        width: 62
-        height: 97
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 88
+        height: 127
+      alignment: 9
+      pivot: {x: 0.5, y: 0.52}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b82b98c9acbc2dbb0800000000000000
-      internalID: -4912640172437687669
+      spriteID: 04e94c752e7e9804ab77ce39e9383aa7
+      internalID: -2086021346
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sd_charge_ground_2
+      name: super_dash_charge_ground_1
       rect:
         serializedVersion: 2
-        x: 177
+        x: 88
         y: 0
-        width: 68
-        height: 91
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 88
+        height: 127
+      alignment: 9
+      pivot: {x: 0.5, y: 0.52}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2e10bba9efec4b1f0800000000000000
-      internalID: -1029970821848038942
+      spriteID: 7add5c8a2181da74e96c20c1af150ebd
+      internalID: -93853387
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sd_charge_ground_3
+      name: super_dash_charge_ground_2
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 0
+        width: 88
+        height: 127
+      alignment: 9
+      pivot: {x: 0.5, y: 0.52}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5304f884c4538024db42628517317aa5
+      internalID: -2089271195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super_dash_charge_ground_3
       rect:
         serializedVersion: 2
         x: 264
-        y: 1
-        width: 72
-        height: 84
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 0
+        width: 88
+        height: 127
+      alignment: 9
+      pivot: {x: 0.5, y: 0.52}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 0c16f543c9aae06b0800000000000000
-      internalID: -5328133721262431808
+      spriteID: ba65d3c2ba3db244ab5d5b0340c9b139
+      internalID: -1963660622
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sd_charge_ground_4
+      name: super_dash_charge_ground_4
       rect:
         serializedVersion: 2
-        x: 353
-        y: 1
-        width: 72
-        height: 83
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 352
+        y: 0
+        width: 88
+        height: 127
+      alignment: 9
+      pivot: {x: 0.5, y: 0.52}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: dbf6e241d4452b6b0800000000000000
-      internalID: -5282066722924367939
+      spriteID: c6449d4218215304682c5aa5d6c333a6
+      internalID: -1276202818
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sd_charge_ground_5
+      name: super_dash_charge_ground_5
       rect:
         serializedVersion: 2
         x: 440
-        y: 1
-        width: 71
-        height: 82
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 0
+        width: 88
+        height: 127
+      alignment: 9
+      pivot: {x: 0.5, y: 0.52}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a884cc66499269130800000000000000
-      internalID: 3573089071721629834
+      spriteID: 528d90baaeaaeec4787cdde79769b1d4
+      internalID: 2070961937
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sd_charge_ground_6
+      name: super_dash_charge_ground_6
       rect:
         serializedVersion: 2
         x: 528
-        y: 1
-        width: 72
-        height: 82
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 0
+        width: 88
+        height: 127
+      alignment: 9
+      pivot: {x: 0.5, y: 0.52}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 4c7cea03020c0d9c0800000000000000
-      internalID: -3904409632441972796
+      spriteID: 3dd9f733923a6684083322d23cf58110
+      internalID: 1000048781
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sd_charge_ground_7
+      name: super_dash_charge_ground_7
       rect:
         serializedVersion: 2
-        x: 617
-        y: 1
-        width: 69
-        height: 84
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 616
+        y: 0
+        width: 88
+        height: 127
+      alignment: 9
+      pivot: {x: 0.5, y: 0.52}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 254d4039cf5171f40800000000000000
-      internalID: 5699048028003161170
+      spriteID: 4569825232b169848b7346bc607b351e
+      internalID: -1815794015
       vertices: []
       indices: 
       edges: []
@@ -315,7 +315,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 1450997f09f2d1849aec5fb5c412ecef
     internalID: 0
     vertices: []
     indices: 
@@ -323,16 +323,18 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":88.0,"y":127.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5199999809265137},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":9,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      sd_charge_ground_0: 4784221163147756471
-      sd_charge_ground_1: -4912640172437687669
-      sd_charge_ground_2: -1029970821848038942
-      sd_charge_ground_3: -5328133721262431808
-      sd_charge_ground_4: -5282066722924367939
-      sd_charge_ground_5: 3573089071721629834
-      sd_charge_ground_6: -3904409632441972796
-      sd_charge_ground_7: 5699048028003161170
+      super_dash_charge_ground_0: -2086021346
+      super_dash_charge_ground_1: -93853387
+      super_dash_charge_ground_2: -2089271195
+      super_dash_charge_ground_3: -1963660622
+      super_dash_charge_ground_4: -1276202818
+      super_dash_charge_ground_5: 2070961937
+      super_dash_charge_ground_6: 1000048781
+      super_dash_charge_ground_7: -1815794015
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

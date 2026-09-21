@@ -136,177 +136,177 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: sd_air_brake_0
+      name: super_dash_air_brake_0
       rect:
         serializedVersion: 2
-        x: 10
-        y: 1
-        width: 74
-        height: 93
+        x: 0
+        y: 0
+        width: 109
+        height: 144
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 8ab1c470640fc5cf0800000000000000
-      internalID: -262070494733526104
+      spriteID: 333408f30c1d19945a398c26a0a0af9f
+      internalID: 1256526972
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sd_air_brake_1
+      name: super_dash_air_brake_1
       rect:
         serializedVersion: 2
-        x: 132
-        y: 3
-        width: 70
-        height: 89
+        x: 109
+        y: 0
+        width: 109
+        height: 144
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a60cee22f832bf210800000000000000
-      internalID: 1367726009510445162
+      spriteID: b4d2446bec238454db1962d9a8ebd5a0
+      internalID: -331457414
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sd_air_brake_2
+      name: super_dash_air_brake_2
       rect:
         serializedVersion: 2
-        x: 232
-        y: 6
-        width: 66
-        height: 85
+        x: 218
+        y: 0
+        width: 109
+        height: 144
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 56cc6c750f007e840800000000000000
-      internalID: 5253168522615770213
+      spriteID: eb731ce5b65729d40b2c2090c691dba5
+      internalID: 2111387753
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sd_air_brake_3
+      name: super_dash_air_brake_3
       rect:
         serializedVersion: 2
-        x: 334
-        y: 9
-        width: 65
-        height: 83
+        x: 327
+        y: 0
+        width: 109
+        height: 144
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 17a87d9f2881679f0800000000000000
-      internalID: -471162160197170575
+      spriteID: a7885a3394fcc084b8faca63d6bf628c
+      internalID: -1000478519
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sd_air_brake_4
+      name: super_dash_air_brake_4
       rect:
         serializedVersion: 2
-        x: 443
-        y: 6
-        width: 64
-        height: 94
+        x: 436
+        y: 0
+        width: 109
+        height: 144
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 35093134c18922630800000000000000
-      internalID: 3900847474408132691
+      spriteID: 86342f35094da5f43b13e9942b71459e
+      internalID: -844868355
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sd_air_brake_5
+      name: super_dash_air_brake_5
       rect:
         serializedVersion: 2
-        x: 547
-        y: 4
-        width: 65
-        height: 97
+        x: 545
+        y: 0
+        width: 109
+        height: 144
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2f6c15e37b74cea30800000000000000
-      internalID: 4245847401053669106
+      spriteID: 00f8628644b477b46a82d4051bf68ff2
+      internalID: -1486977765
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sd_air_brake_6
+      name: super_dash_air_brake_6
       rect:
         serializedVersion: 2
-        x: 655
-        y: 7
-        width: 67
-        height: 95
+        x: 654
+        y: 0
+        width: 109
+        height: 144
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: cb0bd282c8efe66b0800000000000000
-      internalID: -5301019833445535556
+      spriteID: c6fe4324277939642b4c0f30d72daf75
+      internalID: 1295735369
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sd_air_brake_7
+      name: super_dash_air_brake_7
       rect:
         serializedVersion: 2
-        x: 764
-        y: 8
-        width: 66
-        height: 95
+        x: 763
+        y: 0
+        width: 109
+        height: 144
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 093e27f1bbf1df5c0800000000000000
-      internalID: -4180149990582983792
+      spriteID: 012504bfa7f0e2e4ab564907a63fdf9e
+      internalID: -1651489454
       vertices: []
       indices: 
       edges: []
@@ -315,7 +315,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: e103233e8a56d5e4d8bda87e8485bc8e
     internalID: 0
     vertices: []
     indices: 
@@ -323,16 +323,18 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":109.0,"y":144.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      sd_air_brake_0: -262070494733526104
-      sd_air_brake_1: 1367726009510445162
-      sd_air_brake_2: 5253168522615770213
-      sd_air_brake_3: -471162160197170575
-      sd_air_brake_4: 3900847474408132691
-      sd_air_brake_5: 4245847401053669106
-      sd_air_brake_6: -5301019833445535556
-      sd_air_brake_7: -4180149990582983792
+      super_dash_air_brake_0: 1256526972
+      super_dash_air_brake_1: -331457414
+      super_dash_air_brake_2: 2111387753
+      super_dash_air_brake_3: -1000478519
+      super_dash_air_brake_4: -844868355
+      super_dash_air_brake_5: -1486977765
+      super_dash_air_brake_6: 1295735369
+      super_dash_air_brake_7: -1651489454
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

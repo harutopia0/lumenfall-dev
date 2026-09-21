@@ -3,41 +3,23 @@ guid: f447e1c6a99f1a144bf8be6fe1ee2d2a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6841472925082364970
-    second: sd_fx_burst_0
+      213: 913921881
+    second: super_dash_fx_burst_0
   - first:
-      213: 5079576506910574419
-    second: sd_fx_burst_1
+      213: 481992324
+    second: super_dash_fx_burst_1
   - first:
-      213: 2358872290526458747
-    second: sd_fx_burst_2
+      213: 621838594
+    second: super_dash_fx_burst_2
   - first:
-      213: 5665670271468476439
-    second: sd_fx_burst_3
+      213: 1756178464
+    second: super_dash_fx_burst_3
   - first:
-      213: -872112863367840074
-    second: sd_fx_burst_4
+      213: -1849992285
+    second: super_dash_fx_burst_4
   - first:
-      213: 8449426685886559340
-    second: sd_fx_burst_5
-  - first:
-      213: -2166602987734818366
-    second: sd_fx_burst_6
-  - first:
-      213: 1696886661605648941
-    second: sd_fx_burst_7
-  - first:
-      213: -6237323959817314244
-    second: sd_fx_burst_8
-  - first:
-      213: 3685691931711473301
-    second: sd_fx_burst_9
-  - first:
-      213: 5502896194680609738
-    second: sd_fx_burst_10
-  - first:
-      213: -7940790709168161341
-    second: sd_fx_burst_11
+      213: 1178352628
+    second: super_dash_fx_burst_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -67,7 +49,7 @@ TextureImporter:
   cubemapConvolution: 0
   seamlessCubemap: 0
   textureFormat: 1
-  maxTextureSize: 2048
+  maxTextureSize: 4096
   textureSettings:
     serializedVersion: 2
     filterMode: 0
@@ -82,8 +64,8 @@ TextureImporter:
   spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
-  alignment: 0
-  spritePivot: {x: 0.5, y: 0.5}
+  alignment: 9
+  spritePivot: {x: 0.22, y: 0.5}
   spritePixelsToUnits: 64
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
@@ -107,7 +89,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -120,7 +102,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
     buildTarget: Standalone
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -133,7 +115,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
     buildTarget: WebGL
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -148,15 +130,15 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: sd_fx_burst_0
+      name: super_dash_fx_burst_0
       rect:
         serializedVersion: 2
-        x: 423
-        y: 27
-        width: 269
-        height: 182
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 0
+        width: 424
+        height: 236
+      alignment: 9
+      pivot: {x: 0.22, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -164,21 +146,21 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
       spriteID: a2cacffa06bc1fe50800000000000000
-      internalID: 6841472925082364970
+      internalID: 913921881
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sd_fx_burst_1
+      name: super_dash_fx_burst_1
       rect:
         serializedVersion: 2
-        x: 858
-        y: 21
-        width: 376
-        height: 193
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 424
+        y: 0
+        width: 424
+        height: 236
+      alignment: 9
+      pivot: {x: 0.22, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -186,227 +168,95 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
       spriteID: 35703d79be74e7640800000000000000
-      internalID: 5079576506910574419
+      internalID: 481992324
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sd_fx_burst_2
+      name: super_dash_fx_burst_2
       rect:
         serializedVersion: 2
-        x: 1294
-        y: 13
-        width: 402
-        height: 210
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b737753b9d56cb020800000000000000
-      internalID: 2358872290526458747
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sd_fx_burst_3
-      rect:
-        serializedVersion: 2
-        x: 1729
+        x: 848
         y: 0
-        width: 362
+        width: 424
         height: 236
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.22, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7189e59081180ae40800000000000000
-      internalID: 5665670271468476439
+      spriteID: e871ef3b64cf6f04da12a201b1a7d65f
+      internalID: 621838594
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sd_fx_burst_4
+      name: super_dash_fx_burst_3
       rect:
         serializedVersion: 2
-        x: 2271
-        y: 149
-        width: 254
-        height: 53
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1272
+        y: 0
+        width: 424
+        height: 236
+      alignment: 9
+      pivot: {x: 0.22, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6be39eea8f1a5e3f0800000000000000
-      internalID: -872112863367840074
+      spriteID: d29c212891bbd7a488667c4ec2a52efc
+      internalID: 1756178464
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sd_fx_burst_5
+      name: super_dash_fx_burst_4
       rect:
         serializedVersion: 2
-        x: 7
-        y: 82
-        width: 242
-        height: 56
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1696
+        y: 0
+        width: 424
+        height: 236
+      alignment: 9
+      pivot: {x: 0.22, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c6479f7cdc4624570800000000000000
-      internalID: 8449426685886559340
+      spriteID: dca00bc6880ee1147a468d6f51cbff88
+      internalID: -1849992285
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sd_fx_burst_6
+      name: super_dash_fx_burst_5
       rect:
         serializedVersion: 2
-        x: 2279
-        y: 118
-        width: 208
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 2120
+        y: 0
+        width: 424
+        height: 236
+      alignment: 9
+      pivot: {x: 0.22, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2c124c2df0eaee1e0800000000000000
-      internalID: -2166602987734818366
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sd_fx_burst_7
-      rect:
-        serializedVersion: 2
-        x: 2375
-        y: 94
-        width: 128
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d2a6a11ad6d8c8710800000000000000
-      internalID: 1696886661605648941
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sd_fx_burst_8
-      rect:
-        serializedVersion: 2
-        x: 2199
-        y: 42
-        width: 79
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c306e02c7e29079a0800000000000000
-      internalID: -6237323959817314244
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sd_fx_burst_9
-      rect:
-        serializedVersion: 2
-        x: 2295
-        y: 74
-        width: 187
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5968f25c845362330800000000000000
-      internalID: 3685691931711473301
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sd_fx_burst_10
-      rect:
-        serializedVersion: 2
-        x: 2284
-        y: 43
-        width: 220
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: acb59c7fee63e5c40800000000000000
-      internalID: 5502896194680609738
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sd_fx_burst_11
-      rect:
-        serializedVersion: 2
-        x: 2304
-        y: 29
-        width: 121
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3cd3f401ce4acc190800000000000000
-      internalID: -7940790709168161341
+      spriteID: 0147e4479e0a6be46a36294ae07ec255
+      internalID: 1178352628
       vertices: []
       indices: 
       edges: []
@@ -425,18 +275,12 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      sd_fx_burst_0: 6841472925082364970
-      sd_fx_burst_1: 5079576506910574419
-      sd_fx_burst_10: 5502896194680609738
-      sd_fx_burst_11: -7940790709168161341
-      sd_fx_burst_2: 2358872290526458747
-      sd_fx_burst_3: 5665670271468476439
-      sd_fx_burst_4: -872112863367840074
-      sd_fx_burst_5: 8449426685886559340
-      sd_fx_burst_6: -2166602987734818366
-      sd_fx_burst_7: 1696886661605648941
-      sd_fx_burst_8: -6237323959817314244
-      sd_fx_burst_9: 3685691931711473301
+      super_dash_fx_burst_0: 913921881
+      super_dash_fx_burst_1: 481992324
+      super_dash_fx_burst_2: 621838594
+      super_dash_fx_burst_3: 1756178464
+      super_dash_fx_burst_4: -1849992285
+      super_dash_fx_burst_5: 1178352628
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

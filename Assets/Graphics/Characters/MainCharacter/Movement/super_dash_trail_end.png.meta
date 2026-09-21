@@ -79,8 +79,8 @@ TextureImporter:
   spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
-  alignment: 0
-  spritePivot: {x: 0.5, y: 0.5}
+  alignment: 9
+  spritePivot: {x: 0.94, y: 0.5}
   spritePixelsToUnits: 64
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
@@ -145,243 +145,67 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: sd_trail_end_0
+      name: super_dash_trail_end_0
       rect:
         serializedVersion: 2
-        x: 14
+        x: 0
         y: 0
-        width: 469
+        width: 483
         height: 280
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.94, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c75cd49945b9e0100800000000000000
-      internalID: 76169031363446140
+      spriteID: c8169939ec2a858419c9f7def3baccca
+      internalID: -225642688
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sd_trail_end_1
+      name: super_dash_trail_end_1
       rect:
         serializedVersion: 2
-        x: 482
-        y: 133
-        width: 431
-        height: 142
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 483
+        y: 0
+        width: 483
+        height: 280
+      alignment: 9
+      pivot: {x: 0.94, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 84f31b1c71ca1b3c0800000000000000
-      internalID: -4345502947401973944
+      spriteID: 84faffe4e08baae45a0a11d1a8ae807f
+      internalID: -2001515707
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sd_trail_end_2
+      name: super_dash_trail_end_2
       rect:
         serializedVersion: 2
-        x: 988
-        y: 141
-        width: 334
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 966
+        y: 0
+        width: 483
+        height: 280
+      alignment: 9
+      pivot: {x: 0.94, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a0396847d2ab0b660800000000000000
-      internalID: 7399618892160996106
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sd_trail_end_3
-      rect:
-        serializedVersion: 2
-        x: 1150
-        y: 204
-        width: 212
-        height: 71
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3104c3c1b07d0ca20800000000000000
-      internalID: 3080698587839741971
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sd_trail_end_4
-      rect:
-        serializedVersion: 2
-        x: 576
-        y: 103
-        width: 226
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3235e32e706451880800000000000000
-      internalID: -8640923310365977821
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sd_trail_end_5
-      rect:
-        serializedVersion: 2
-        x: 1012
-        y: 132
-        width: 97
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7a24152dd5ceb9ec0800000000000000
-      internalID: -3558991192801590617
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sd_trail_end_6
-      rect:
-        serializedVersion: 2
-        x: 1028
-        y: 110
-        width: 159
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 68c43ea0e6f276650800000000000000
-      internalID: 6225997159538576518
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sd_trail_end_7
-      rect:
-        serializedVersion: 2
-        x: 631
-        y: 3
-        width: 303
-        height: 97
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 30186827ef8ae6330800000000000000
-      internalID: 3706085354169073923
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sd_trail_end_8
-      rect:
-        serializedVersion: 2
-        x: 1061
-        y: 53
-        width: 222
-        height: 46
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8a90c60133459bce0800000000000000
-      internalID: -1388986431771506264
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sd_trail_end_9
-      rect:
-        serializedVersion: 2
-        x: 1325
-        y: 87
-        width: 66
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 99c02844d1b811ad0800000000000000
-      internalID: -2733250541017494375
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sd_trail_end_10
-      rect:
-        serializedVersion: 2
-        x: 1229
-        y: 7
-        width: 137
-        height: 57
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fc734b97834627130800000000000000
-      internalID: 3563020448926283727
+      spriteID: cd3e87a88633a9c4783cbddf441c304e
+      internalID: -440386925
       vertices: []
       indices: 
       edges: []
@@ -390,7 +214,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5145fdbb9b58e884b8d251cca3fe1ce1
     internalID: 0
     vertices: []
     indices: 
@@ -398,19 +222,13 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":483.0,"y":280.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.9399999976158142,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":9,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      sd_trail_end_0: 76169031363446140
-      sd_trail_end_1: -4345502947401973944
-      sd_trail_end_10: 3563020448926283727
-      sd_trail_end_2: 7399618892160996106
-      sd_trail_end_3: 3080698587839741971
-      sd_trail_end_4: -8640923310365977821
-      sd_trail_end_5: -3558991192801590617
-      sd_trail_end_6: 6225997159538576518
-      sd_trail_end_7: 3706085354169073923
-      sd_trail_end_8: -1388986431771506264
-      sd_trail_end_9: -2733250541017494375
+      super_dash_trail_end_0: -225642688
+      super_dash_trail_end_1: -2001515707
+      super_dash_trail_end_2: -440386925
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

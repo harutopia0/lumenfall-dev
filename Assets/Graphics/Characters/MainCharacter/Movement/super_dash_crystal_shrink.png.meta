@@ -52,8 +52,8 @@ TextureImporter:
   spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
-  alignment: 0
-  spritePivot: {x: 0.5, y: 0.5}
+  alignment: 9
+  spritePivot: {x: 0.5, y: 0.1}
   spritePixelsToUnits: 64
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
@@ -118,45 +118,45 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: sd_crys_shrink_0
+      name: super_dash_crystal_shrink_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 4
+        y: 0
         width: 26
-        height: 53
+        height: 57
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 0bb5daec16b592a60800000000000000
-      internalID: 7649745917702921136
+      spriteID: cdd95138c7155cb4e936082fdc2ddd9b
+      internalID: -122778885
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sd_crys_shrink_1
+      name: super_dash_crystal_shrink_1
       rect:
         serializedVersion: 2
         x: 26
         y: 0
-        width: 23
-        height: 37
+        width: 26
+        height: 57
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: dbe0ee30ddf17dfd0800000000000000
-      internalID: -2317348449144664387
+      spriteID: 336c4e26b08b00e4b955b75db20e8161
+      internalID: 108110880
       vertices: []
       indices: 
       edges: []
@@ -165,7 +165,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 10f2669a89aea5e4db022cad30e6e931
     internalID: 0
     vertices: []
     indices: 
@@ -173,10 +173,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":26.0,"y":57.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      sd_crys_shrink_0: 7649745917702921136
-      sd_crys_shrink_1: -2317348449144664387
+      super_dash_crystal_shrink_0: -122778885
+      super_dash_crystal_shrink_1: 108110880
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -35,5 +35,11 @@ public class Player_GroundedState : PlayerState
         {
             stateMachine.ChangeState(player.slashState);
         }
+
+        if (input.Player.SuperDash.WasPressedThisFrame())
+        {
+            stateMachine.ChangeState(player.superDashChargeState);
+            return;
+        }
     }
 }
