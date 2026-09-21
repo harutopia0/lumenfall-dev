@@ -41,6 +41,9 @@ TagManager:
   - name: Background
     uniqueID: 440767189
     locked: 0
+  - name: VFX_Below_Ground
+    uniqueID: 19484681
+    locked: 0
   - name: Ground
     uniqueID: 1427886523
     locked: 0
@@ -50,10 +53,13 @@ TagManager:
   - name: Enemy
     uniqueID: 2911425973
     locked: 0
+  - name: VFX_Below_Player
+    uniqueID: 3815261423
+    locked: 0
   - name: Player
     uniqueID: 3206924109
     locked: 0
-  - name: 'VFX '
+  - name: VFX_Above_Player
     uniqueID: 835429897
     locked: 0
   - name: 'UI '
