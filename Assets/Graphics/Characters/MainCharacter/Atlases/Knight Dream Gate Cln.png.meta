@@ -1,0 +1,1016 @@
+fileFormatVersion: 2
+guid: bed0453b41b1c884dabf71a156d90a88
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -549886848453867198
+    second: Knight Dream Gate Cln_0
+  - first:
+      213: 5853624654150018812
+    second: Knight Dream Gate Cln_1
+  - first:
+      213: 3023931998143527550
+    second: Knight Dream Gate Cln_2
+  - first:
+      213: -7014726594852169975
+    second: Knight Dream Gate Cln_3
+  - first:
+      213: 9209367090832393798
+    second: Knight Dream Gate Cln_4
+  - first:
+      213: 1921238532071744562
+    second: Knight Dream Gate Cln_5
+  - first:
+      213: -1066730141327205730
+    second: Knight Dream Gate Cln_6
+  - first:
+      213: 695686821846326263
+    second: Knight Dream Gate Cln_7
+  - first:
+      213: 8121220322778708523
+    second: Knight Dream Gate Cln_8
+  - first:
+      213: -8108954457807755571
+    second: Knight Dream Gate Cln_9
+  - first:
+      213: 3326116944173743977
+    second: Knight Dream Gate Cln_10
+  - first:
+      213: -8236823779274569163
+    second: Knight Dream Gate Cln_11
+  - first:
+      213: 5904982475984071041
+    second: Knight Dream Gate Cln_12
+  - first:
+      213: 6367169006583009145
+    second: Knight Dream Gate Cln_13
+  - first:
+      213: -3794229260443347655
+    second: Knight Dream Gate Cln_14
+  - first:
+      213: 3570824023094150418
+    second: Knight Dream Gate Cln_15
+  - first:
+      213: 491503630330224377
+    second: Knight Dream Gate Cln_16
+  - first:
+      213: 362979185499208690
+    second: Knight Dream Gate Cln_17
+  - first:
+      213: -7295074707430451737
+    second: Knight Dream Gate Cln_18
+  - first:
+      213: 2299324805553618897
+    second: Knight Dream Gate Cln_19
+  - first:
+      213: -4795813277857610130
+    second: Knight Dream Gate Cln_20
+  - first:
+      213: 4076824982973692289
+    second: Knight Dream Gate Cln_21
+  - first:
+      213: 1149438218288909378
+    second: Knight Dream Gate Cln_22
+  - first:
+      213: -5027716778952248864
+    second: Knight Dream Gate Cln_23
+  - first:
+      213: -8659216918460837754
+    second: Knight Dream Gate Cln_24
+  - first:
+      213: -8699300803959511083
+    second: Knight Dream Gate Cln_25
+  - first:
+      213: -5885127086722096580
+    second: Knight Dream Gate Cln_26
+  - first:
+      213: 8894769135008270105
+    second: Knight Dream Gate Cln_27
+  - first:
+      213: 2942740376164902197
+    second: Knight Dream Gate Cln_28
+  - first:
+      213: 4506686990951930541
+    second: Knight Dream Gate Cln_29
+  - first:
+      213: 4969967549454114571
+    second: Knight Dream Gate Cln_30
+  - first:
+      213: 3972771342854402062
+    second: Knight Dream Gate Cln_31
+  - first:
+      213: -6089624444957598376
+    second: Knight Dream Gate Cln_32
+  - first:
+      213: -4611458806911751417
+    second: Knight Dream Gate Cln_33
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Knight Dream Gate Cln_0
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 851
+        width: 62
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2498f3323d86e58f0800000000000000
+      internalID: -549886848453867198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight Dream Gate Cln_1
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 866
+        width: 63
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf6a41feb904c3150800000000000000
+      internalID: 5853624654150018812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight Dream Gate Cln_2
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 786
+        width: 64
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7a384e712a27f920800000000000000
+      internalID: 3023931998143527550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight Dream Gate Cln_3
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 723
+        width: 62
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 907d95dd35fa6ae90800000000000000
+      internalID: -7014726594852169975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight Dream Gate Cln_4
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 780
+        width: 93
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 646cc37639e3ecf70800000000000000
+      internalID: 9209367090832393798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight Dream Gate Cln_5
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 732
+        width: 97
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 234ede8044c99aa10800000000000000
+      internalID: 1921238532071744562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight Dream Gate Cln_6
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 757
+        width: 69
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9a5df696963231f0800000000000000
+      internalID: -1066730141327205730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight Dream Gate Cln_7
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 609
+        width: 64
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fb12138a7397a900800000000000000
+      internalID: 695686821846326263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight Dream Gate Cln_8
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 659
+        width: 68
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2a78e10bde54b070800000000000000
+      internalID: 8121220322778708523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight Dream Gate Cln_9
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 660
+        width: 63
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc66c8a32e4377f80800000000000000
+      internalID: -8108954457807755571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight Dream Gate Cln_10
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 636
+        width: 88
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96f32eafcbdb82e20800000000000000
+      internalID: 3326116944173743977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight Dream Gate Cln_11
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 626
+        width: 63
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53a49dec96ce0bd80800000000000000
+      internalID: -8236823779274569163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight Dream Gate Cln_12
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 493
+        width: 66
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 189efe5a646b2f150800000000000000
+      internalID: 5904982475984071041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight Dream Gate Cln_13
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 576
+        width: 87
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97fc14e0a7abc5850800000000000000
+      internalID: 6367169006583009145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight Dream Gate Cln_14
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 575
+        width: 87
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93591ee1790385bc0800000000000000
+      internalID: -3794229260443347655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight Dream Gate Cln_15
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 538
+        width: 97
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21545fba78d1e8130800000000000000
+      internalID: 3570824023094150418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight Dream Gate Cln_16
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 377
+        width: 73
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fed5ab92fb22d600800000000000000
+      internalID: 491503630330224377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight Dream Gate Cln_17
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 475
+        width: 101
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fb7a8465af890500800000000000000
+      internalID: 362979185499208690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight Dream Gate Cln_18
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 476
+        width: 96
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e5dbad5430b2ca90800000000000000
+      internalID: -7295074707430451737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight Dream Gate Cln_19
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 456
+        width: 89
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1df74427ab7d8ef10800000000000000
+      internalID: 2299324805553618897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight Dream Gate Cln_20
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 254
+        width: 33
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e66023cab39d17db0800000000000000
+      internalID: -4795813277857610130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight Dream Gate Cln_21
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 378
+        width: 101
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 189b599d8bac39830800000000000000
+      internalID: 4076824982973692289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight Dream Gate Cln_22
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 381
+        width: 96
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24c4e5438ff93ff00800000000000000
+      internalID: 1149438218288909378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight Dream Gate Cln_23
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 363
+        width: 104
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e1b74f3a36f93ab0800000000000000
+      internalID: -5027716778952248864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight Dream Gate Cln_24
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 245
+        width: 67
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 680d616571844d780800000000000000
+      internalID: -8659216918460837754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight Dream Gate Cln_25
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 239
+        width: 67
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d729b97200e54780800000000000000
+      internalID: -8699300803959511083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight Dream Gate Cln_26
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 278
+        width: 101
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3266e96814d35ea0800000000000000
+      internalID: -5885127086722096580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight Dream Gate Cln_27
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 283
+        width: 100
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 917c64bd661907b70800000000000000
+      internalID: 8894769135008270105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight Dream Gate Cln_28
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 168
+        width: 99
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5352283e7c6b6d820800000000000000
+      internalID: 2942740376164902197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight Dream Gate Cln_29
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 142
+        width: 111
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daa5099d0f7fa8e30800000000000000
+      internalID: 4506686990951930541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight Dream Gate Cln_30
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 147
+        width: 67
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0f5e6a772fd8f440800000000000000
+      internalID: 4969967549454114571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight Dream Gate Cln_31
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 171
+        width: 79
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0030b8dc7e122730800000000000000
+      internalID: 3972771342854402062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight Dream Gate Cln_32
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 359
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85d54ced4de4d7ba0800000000000000
+      internalID: -6089624444957598376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight Dream Gate Cln_33
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 16
+        width: 90
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70badadc5aec000c0800000000000000
+      internalID: -4611458806911751417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Knight Dream Gate Cln_0: -549886848453867198
+      Knight Dream Gate Cln_1: 5853624654150018812
+      Knight Dream Gate Cln_10: 3326116944173743977
+      Knight Dream Gate Cln_11: -8236823779274569163
+      Knight Dream Gate Cln_12: 5904982475984071041
+      Knight Dream Gate Cln_13: 6367169006583009145
+      Knight Dream Gate Cln_14: -3794229260443347655
+      Knight Dream Gate Cln_15: 3570824023094150418
+      Knight Dream Gate Cln_16: 491503630330224377
+      Knight Dream Gate Cln_17: 362979185499208690
+      Knight Dream Gate Cln_18: -7295074707430451737
+      Knight Dream Gate Cln_19: 2299324805553618897
+      Knight Dream Gate Cln_2: 3023931998143527550
+      Knight Dream Gate Cln_20: -4795813277857610130
+      Knight Dream Gate Cln_21: 4076824982973692289
+      Knight Dream Gate Cln_22: 1149438218288909378
+      Knight Dream Gate Cln_23: -5027716778952248864
+      Knight Dream Gate Cln_24: -8659216918460837754
+      Knight Dream Gate Cln_25: -8699300803959511083
+      Knight Dream Gate Cln_26: -5885127086722096580
+      Knight Dream Gate Cln_27: 8894769135008270105
+      Knight Dream Gate Cln_28: 2942740376164902197
+      Knight Dream Gate Cln_29: 4506686990951930541
+      Knight Dream Gate Cln_3: -7014726594852169975
+      Knight Dream Gate Cln_30: 4969967549454114571
+      Knight Dream Gate Cln_31: 3972771342854402062
+      Knight Dream Gate Cln_32: -6089624444957598376
+      Knight Dream Gate Cln_33: -4611458806911751417
+      Knight Dream Gate Cln_4: 9209367090832393798
+      Knight Dream Gate Cln_5: 1921238532071744562
+      Knight Dream Gate Cln_6: -1066730141327205730
+      Knight Dream Gate Cln_7: 695686821846326263
+      Knight Dream Gate Cln_8: 8121220322778708523
+      Knight Dream Gate Cln_9: -8108954457807755571
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

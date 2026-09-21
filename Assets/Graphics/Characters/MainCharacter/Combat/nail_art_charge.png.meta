@@ -1,0 +1,1042 @@
+fileFormatVersion: 2
+guid: 5d013c8340201414abb5e48834182d0b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8582390960733299444
+    second: na_charge_0
+  - first:
+      213: -3127518784352442379
+    second: na_charge_1
+  - first:
+      213: 8973492767732519415
+    second: na_charge_2
+  - first:
+      213: -4674703040102294589
+    second: na_charge_3
+  - first:
+      213: -805720983972886040
+    second: na_charge_4
+  - first:
+      213: -3014932716354168314
+    second: na_charge_5
+  - first:
+      213: 5525331356733841441
+    second: na_charge_6
+  - first:
+      213: 7661630242281059145
+    second: na_charge_7
+  - first:
+      213: -8548202303169808261
+    second: na_charge_8
+  - first:
+      213: -3708032811594838594
+    second: na_charge_9
+  - first:
+      213: -6580544027428128931
+    second: na_charge_10
+  - first:
+      213: 1189728344773247893
+    second: na_charge_11
+  - first:
+      213: 4585891182174565174
+    second: na_charge_12
+  - first:
+      213: -6883330884938712195
+    second: na_charge_13
+  - first:
+      213: 3169451252374552088
+    second: na_charge_14
+  - first:
+      213: 2018532851400644155
+    second: na_charge_15
+  - first:
+      213: 8940068421000456487
+    second: na_charge_16
+  - first:
+      213: -2057497205419000437
+    second: na_charge_17
+  - first:
+      213: -7871948481930461277
+    second: na_charge_18
+  - first:
+      213: 4127247492640292290
+    second: na_charge_19
+  - first:
+      213: 4350525682187219687
+    second: na_charge_20
+  - first:
+      213: -3355685342614608613
+    second: na_charge_21
+  - first:
+      213: 2910343393864698033
+    second: na_charge_22
+  - first:
+      213: -5701430018706562882
+    second: na_charge_23
+  - first:
+      213: 5340598403479038735
+    second: na_charge_24
+  - first:
+      213: 1292564745340575110
+    second: na_charge_25
+  - first:
+      213: 137111289210021598
+    second: na_charge_26
+  - first:
+      213: 890093525693587454
+    second: na_charge_27
+  - first:
+      213: 5066376603354248393
+    second: na_charge_28
+  - first:
+      213: -8933441943934624593
+    second: na_charge_29
+  - first:
+      213: 4253318263056680926
+    second: na_charge_30
+  - first:
+      213: -6721661997765808240
+    second: na_charge_31
+  - first:
+      213: -3889604160525168407
+    second: na_charge_32
+  - first:
+      213: 3067321873008689202
+    second: na_charge_33
+  - first:
+      213: 422474637933785789
+    second: na_charge_34
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: na_charge_0
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 235
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0dd7f584e835e880800000000000000
+      internalID: -8582390960733299444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: na_charge_1
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 232
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f7af466c32d894d0800000000000000
+      internalID: -3127518784352442379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: na_charge_2
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 232
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f1db3fe020488c70800000000000000
+      internalID: 8973492767732519415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: na_charge_3
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 252
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cb93484a5e102fb0800000000000000
+      internalID: -4674703040102294589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: na_charge_4
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 246
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e9c732b80181d4f0800000000000000
+      internalID: -805720983972886040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: na_charge_5
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 222
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60a91041baec826d0800000000000000
+      internalID: -3014932716354168314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: na_charge_6
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 219
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 120a270389bedac40800000000000000
+      internalID: 5525331356733841441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: na_charge_7
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 205
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9437d8fbc14935a60800000000000000
+      internalID: 7661630242281059145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: na_charge_8
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 178
+        width: 41
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b78336bab4fae5980800000000000000
+      internalID: -8548202303169808261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: na_charge_9
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 224
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebd8569cdcb6a8cc0800000000000000
+      internalID: -3708032811594838594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: na_charge_10
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 211
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d57f35082163da4a0800000000000000
+      internalID: -6580544027428128931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: na_charge_11
+      rect:
+        serializedVersion: 2
+        x: 1327
+        y: 205
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5934c6940a3c28010800000000000000
+      internalID: 1189728344773247893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: na_charge_12
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 197
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6337c1cabbb54af30800000000000000
+      internalID: 4585891182174565174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: na_charge_13
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 189
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7bb0c3970f7970a0800000000000000
+      internalID: -6883330884938712195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: na_charge_14
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 197
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81eb3be1f172cfb20800000000000000
+      internalID: 3169451252374552088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: na_charge_15
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 192
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3611370fe4430c10800000000000000
+      internalID: 2018532851400644155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: na_charge_16
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 189
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7296b65ccd0811c70800000000000000
+      internalID: 8940068421000456487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: na_charge_17
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 175
+        width: 41
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8d34a8513d4273e0800000000000000
+      internalID: -2057497205419000437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: na_charge_18
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 186
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3affb54209831c290800000000000000
+      internalID: -7871948481930461277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: na_charge_19
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 181
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cd32fa3abde64930800000000000000
+      internalID: 4127247492640292290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: na_charge_20
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 172
+        width: 45
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e2bbf0de0c206c30800000000000000
+      internalID: 4350525682187219687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: na_charge_21
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 174
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b15a877c5f53e61d0800000000000000
+      internalID: -3355685342614608613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: na_charge_22
+      rect:
+        serializedVersion: 2
+        x: 1126
+        y: 192
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b8c5b5a5ed936820800000000000000
+      internalID: 2910343393864698033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: na_charge_23
+      rect:
+        serializedVersion: 2
+        x: 1285
+        y: 168
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb02f3ffa9370e0b0800000000000000
+      internalID: -5701430018706562882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: na_charge_24
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 136
+        width: 77
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0be267c3fd9d1a40800000000000000
+      internalID: 5340598403479038735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: na_charge_25
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 158
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68dd73f99cc10f110800000000000000
+      internalID: 1292564745340575110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: na_charge_26
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 155
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed62f08bdfd17e100800000000000000
+      internalID: 137111289210021598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: na_charge_27
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 153
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eff57df785f3a5c00800000000000000
+      internalID: 890093525693587454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: na_charge_28
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 148
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c4b74d8da26f4640800000000000000
+      internalID: 5066376603354248393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: na_charge_29
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 142
+        width: 47
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fac933622e9060480800000000000000
+      internalID: -8933441943934624593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: na_charge_30
+      rect:
+        serializedVersion: 2
+        x: 1217
+        y: 140
+        width: 55
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed7cc2adc62d60b30800000000000000
+      internalID: 4253318263056680926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: na_charge_31
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 105
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09f2de2a60cd7b2a0800000000000000
+      internalID: -6721661997765808240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: na_charge_32
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 103
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e0140fbf99550ac0800000000000000
+      internalID: -3889604160525168407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: na_charge_33
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 64
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 230087cfdf0519a20800000000000000
+      internalID: 3067321873008689202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: na_charge_34
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 0
+        width: 87
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db2b7a0e17eecd500800000000000000
+      internalID: 422474637933785789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      na_charge_0: -8582390960733299444
+      na_charge_1: -3127518784352442379
+      na_charge_10: -6580544027428128931
+      na_charge_11: 1189728344773247893
+      na_charge_12: 4585891182174565174
+      na_charge_13: -6883330884938712195
+      na_charge_14: 3169451252374552088
+      na_charge_15: 2018532851400644155
+      na_charge_16: 8940068421000456487
+      na_charge_17: -2057497205419000437
+      na_charge_18: -7871948481930461277
+      na_charge_19: 4127247492640292290
+      na_charge_2: 8973492767732519415
+      na_charge_20: 4350525682187219687
+      na_charge_21: -3355685342614608613
+      na_charge_22: 2910343393864698033
+      na_charge_23: -5701430018706562882
+      na_charge_24: 5340598403479038735
+      na_charge_25: 1292564745340575110
+      na_charge_26: 137111289210021598
+      na_charge_27: 890093525693587454
+      na_charge_28: 5066376603354248393
+      na_charge_29: -8933441943934624593
+      na_charge_3: -4674703040102294589
+      na_charge_30: 4253318263056680926
+      na_charge_31: -6721661997765808240
+      na_charge_32: -3889604160525168407
+      na_charge_33: 3067321873008689202
+      na_charge_34: 422474637933785789
+      na_charge_4: -805720983972886040
+      na_charge_5: -3014932716354168314
+      na_charge_6: 5525331356733841441
+      na_charge_7: 7661630242281059145
+      na_charge_8: -8548202303169808261
+      na_charge_9: -3708032811594838594
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,7282 @@
+fileFormatVersion: 2
+guid: 87c69e2c7e1320740a349617fb7d447c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2244013936419837430
+    second: VoidSpells_0
+  - first:
+      213: 2746197618204723948
+    second: VoidSpells_1
+  - first:
+      213: -8027332220894970603
+    second: VoidSpells_2
+  - first:
+      213: -3950929658272960929
+    second: VoidSpells_3
+  - first:
+      213: 4203166019171978569
+    second: VoidSpells_4
+  - first:
+      213: 2378062835994676391
+    second: VoidSpells_5
+  - first:
+      213: -3616835575180885110
+    second: VoidSpells_6
+  - first:
+      213: 5210431995430225300
+    second: VoidSpells_7
+  - first:
+      213: 3922430512915793724
+    second: VoidSpells_8
+  - first:
+      213: -483229349466330872
+    second: VoidSpells_9
+  - first:
+      213: 8379248526774423686
+    second: VoidSpells_10
+  - first:
+      213: 3936771985810237254
+    second: VoidSpells_11
+  - first:
+      213: -1028756044327985434
+    second: VoidSpells_12
+  - first:
+      213: -167833707886574212
+    second: VoidSpells_13
+  - first:
+      213: -4808883880252514680
+    second: VoidSpells_14
+  - first:
+      213: -1987197306422143749
+    second: VoidSpells_15
+  - first:
+      213: 5114176986414972496
+    second: VoidSpells_16
+  - first:
+      213: -1359162661173548087
+    second: VoidSpells_17
+  - first:
+      213: -6905316190793163234
+    second: VoidSpells_18
+  - first:
+      213: -1632534305367698458
+    second: VoidSpells_19
+  - first:
+      213: -2742139461692474871
+    second: VoidSpells_20
+  - first:
+      213: 6048669759877078173
+    second: VoidSpells_21
+  - first:
+      213: 6848268253696930582
+    second: VoidSpells_22
+  - first:
+      213: -8597071591831392583
+    second: VoidSpells_23
+  - first:
+      213: 1688199986523470522
+    second: VoidSpells_24
+  - first:
+      213: -2425481615924267690
+    second: VoidSpells_25
+  - first:
+      213: -3678628216004615562
+    second: VoidSpells_26
+  - first:
+      213: -2702240674863888870
+    second: VoidSpells_27
+  - first:
+      213: 8697366663834023527
+    second: VoidSpells_28
+  - first:
+      213: 5896774152963437751
+    second: VoidSpells_29
+  - first:
+      213: -2058561246384683397
+    second: VoidSpells_30
+  - first:
+      213: 6093704919956778326
+    second: VoidSpells_31
+  - first:
+      213: -6641940196146354723
+    second: VoidSpells_32
+  - first:
+      213: 1848936047659845432
+    second: VoidSpells_33
+  - first:
+      213: -4496876716576349893
+    second: VoidSpells_34
+  - first:
+      213: 485364614250645456
+    second: VoidSpells_35
+  - first:
+      213: 3020604536427156251
+    second: VoidSpells_36
+  - first:
+      213: -5988907258583476333
+    second: VoidSpells_37
+  - first:
+      213: 3826183213446775591
+    second: VoidSpells_38
+  - first:
+      213: 7470524944785213227
+    second: VoidSpells_39
+  - first:
+      213: 4695365888116558936
+    second: VoidSpells_40
+  - first:
+      213: -6342271648379837641
+    second: VoidSpells_41
+  - first:
+      213: -2726634779002931572
+    second: VoidSpells_42
+  - first:
+      213: 2209789377206661718
+    second: VoidSpells_43
+  - first:
+      213: -1975047263511337352
+    second: VoidSpells_44
+  - first:
+      213: -1117436346825155068
+    second: VoidSpells_45
+  - first:
+      213: -8945658514958717949
+    second: VoidSpells_46
+  - first:
+      213: -4827562382200684306
+    second: VoidSpells_47
+  - first:
+      213: -3391748107298608863
+    second: VoidSpells_48
+  - first:
+      213: 8693131414447465082
+    second: VoidSpells_49
+  - first:
+      213: -8558180017074853196
+    second: VoidSpells_50
+  - first:
+      213: 782412652971537308
+    second: VoidSpells_51
+  - first:
+      213: -7879572236613344477
+    second: VoidSpells_52
+  - first:
+      213: -8057132319283914864
+    second: VoidSpells_53
+  - first:
+      213: -2451002351861324444
+    second: VoidSpells_54
+  - first:
+      213: -9130877041342098669
+    second: VoidSpells_55
+  - first:
+      213: 8484854089400498330
+    second: VoidSpells_56
+  - first:
+      213: -7670387532502878185
+    second: VoidSpells_57
+  - first:
+      213: -7878102020496069725
+    second: VoidSpells_58
+  - first:
+      213: -723593930187984163
+    second: VoidSpells_59
+  - first:
+      213: -1840441994226544802
+    second: VoidSpells_60
+  - first:
+      213: -4473625775532465627
+    second: VoidSpells_61
+  - first:
+      213: -6149894555164158621
+    second: VoidSpells_62
+  - first:
+      213: -3620286017410801552
+    second: VoidSpells_63
+  - first:
+      213: -3416335145965285721
+    second: VoidSpells_64
+  - first:
+      213: -7929451548145693729
+    second: VoidSpells_65
+  - first:
+      213: -9092602281949741119
+    second: VoidSpells_66
+  - first:
+      213: 6963444253824604840
+    second: VoidSpells_67
+  - first:
+      213: -2402420802651736003
+    second: VoidSpells_68
+  - first:
+      213: -3642986101071385484
+    second: VoidSpells_69
+  - first:
+      213: -7273495301700688598
+    second: VoidSpells_70
+  - first:
+      213: 2877281741555246718
+    second: VoidSpells_71
+  - first:
+      213: -3151198290077666541
+    second: VoidSpells_72
+  - first:
+      213: 6374627414748291836
+    second: VoidSpells_73
+  - first:
+      213: 5111822122220069140
+    second: VoidSpells_74
+  - first:
+      213: -4488208162216672798
+    second: VoidSpells_75
+  - first:
+      213: 1645273249244242379
+    second: VoidSpells_76
+  - first:
+      213: -833213916790346874
+    second: VoidSpells_77
+  - first:
+      213: -7539128145669782671
+    second: VoidSpells_78
+  - first:
+      213: -7610688025316736658
+    second: VoidSpells_79
+  - first:
+      213: 480295412103125574
+    second: VoidSpells_80
+  - first:
+      213: 6225374245964510300
+    second: VoidSpells_81
+  - first:
+      213: 7594053865459171900
+    second: VoidSpells_82
+  - first:
+      213: -4671444208237400512
+    second: VoidSpells_83
+  - first:
+      213: 5233245169246206761
+    second: VoidSpells_84
+  - first:
+      213: 6258255420957808350
+    second: VoidSpells_85
+  - first:
+      213: -5851554995029611687
+    second: VoidSpells_86
+  - first:
+      213: 9092948322647791097
+    second: VoidSpells_87
+  - first:
+      213: 6821331610703993464
+    second: VoidSpells_88
+  - first:
+      213: -739159957902245117
+    second: VoidSpells_89
+  - first:
+      213: -1288802932070706447
+    second: VoidSpells_90
+  - first:
+      213: -5101714262840131289
+    second: VoidSpells_91
+  - first:
+      213: 3772282524489662834
+    second: VoidSpells_92
+  - first:
+      213: 5755134168650658381
+    second: VoidSpells_93
+  - first:
+      213: -8533337200841527534
+    second: VoidSpells_94
+  - first:
+      213: 6150543771513891594
+    second: VoidSpells_95
+  - first:
+      213: -71113806392038323
+    second: VoidSpells_96
+  - first:
+      213: -4968628770347942541
+    second: VoidSpells_97
+  - first:
+      213: 650578668169411617
+    second: VoidSpells_98
+  - first:
+      213: 7509460196463875203
+    second: VoidSpells_99
+  - first:
+      213: 5949389104711420648
+    second: VoidSpells_100
+  - first:
+      213: -3363735438665143051
+    second: VoidSpells_101
+  - first:
+      213: 8441889569349586091
+    second: VoidSpells_102
+  - first:
+      213: -3703075601141525984
+    second: VoidSpells_103
+  - first:
+      213: -567868363080250894
+    second: VoidSpells_104
+  - first:
+      213: -7379442531210217705
+    second: VoidSpells_105
+  - first:
+      213: 4032013093081695915
+    second: VoidSpells_106
+  - first:
+      213: -4648785220368695856
+    second: VoidSpells_107
+  - first:
+      213: -140889779823342413
+    second: VoidSpells_108
+  - first:
+      213: -908691197118094874
+    second: VoidSpells_109
+  - first:
+      213: -3266121967077815106
+    second: VoidSpells_110
+  - first:
+      213: -5707525191468675018
+    second: VoidSpells_111
+  - first:
+      213: 3476437474886251083
+    second: VoidSpells_112
+  - first:
+      213: 596346532149401759
+    second: VoidSpells_113
+  - first:
+      213: 1714419934289133250
+    second: VoidSpells_114
+  - first:
+      213: -5402837787821942438
+    second: VoidSpells_115
+  - first:
+      213: 2691922836030502076
+    second: VoidSpells_116
+  - first:
+      213: -6631307313712438177
+    second: VoidSpells_117
+  - first:
+      213: 7434196889234767562
+    second: VoidSpells_118
+  - first:
+      213: 5725161388890677195
+    second: VoidSpells_119
+  - first:
+      213: 5319148666754495822
+    second: VoidSpells_120
+  - first:
+      213: 4554172600064055086
+    second: VoidSpells_121
+  - first:
+      213: -4166634385905851630
+    second: VoidSpells_122
+  - first:
+      213: -2841658930918172842
+    second: VoidSpells_123
+  - first:
+      213: -7856926532333852924
+    second: VoidSpells_124
+  - first:
+      213: -1947967724654684749
+    second: VoidSpells_125
+  - first:
+      213: -3294849368391973323
+    second: VoidSpells_126
+  - first:
+      213: 8330112171852947937
+    second: VoidSpells_127
+  - first:
+      213: -895290176246811581
+    second: VoidSpells_128
+  - first:
+      213: 3692918144914899763
+    second: VoidSpells_129
+  - first:
+      213: 8505442594169623825
+    second: VoidSpells_130
+  - first:
+      213: -191403024849445965
+    second: VoidSpells_131
+  - first:
+      213: 8555497775446972553
+    second: VoidSpells_132
+  - first:
+      213: 5740039872015686770
+    second: VoidSpells_133
+  - first:
+      213: 3760901483327649589
+    second: VoidSpells_134
+  - first:
+      213: -6495708920608073678
+    second: VoidSpells_135
+  - first:
+      213: 2993056173438624596
+    second: VoidSpells_136
+  - first:
+      213: -2687735098010814410
+    second: VoidSpells_137
+  - first:
+      213: -6007728471606401040
+    second: VoidSpells_138
+  - first:
+      213: -569769898311850229
+    second: VoidSpells_139
+  - first:
+      213: 5834613662510752739
+    second: VoidSpells_140
+  - first:
+      213: 912620495666470995
+    second: VoidSpells_141
+  - first:
+      213: -5341027984764853969
+    second: VoidSpells_142
+  - first:
+      213: -2627914588593269544
+    second: VoidSpells_143
+  - first:
+      213: 6892187476338260766
+    second: VoidSpells_144
+  - first:
+      213: 1142716436973749961
+    second: VoidSpells_145
+  - first:
+      213: 4697554888208910092
+    second: VoidSpells_146
+  - first:
+      213: 4182898316990023944
+    second: VoidSpells_147
+  - first:
+      213: 7455951015662534707
+    second: VoidSpells_148
+  - first:
+      213: -7365594204680227636
+    second: VoidSpells_149
+  - first:
+      213: 4688605372418497855
+    second: VoidSpells_150
+  - first:
+      213: 8616002132866599860
+    second: VoidSpells_151
+  - first:
+      213: -2493439377674300437
+    second: VoidSpells_152
+  - first:
+      213: -1585721456054861344
+    second: VoidSpells_153
+  - first:
+      213: -6220705427520358960
+    second: VoidSpells_154
+  - first:
+      213: 3457269517076856648
+    second: VoidSpells_155
+  - first:
+      213: -4381986665128333800
+    second: VoidSpells_156
+  - first:
+      213: -8757628961376990323
+    second: VoidSpells_157
+  - first:
+      213: -8958612526201104640
+    second: VoidSpells_158
+  - first:
+      213: 6211280111759699817
+    second: VoidSpells_159
+  - first:
+      213: -3520934732617907475
+    second: VoidSpells_160
+  - first:
+      213: -5191524199245291588
+    second: VoidSpells_161
+  - first:
+      213: -760935399812682046
+    second: VoidSpells_162
+  - first:
+      213: 7859251998419824848
+    second: VoidSpells_163
+  - first:
+      213: -719925727095279728
+    second: VoidSpells_164
+  - first:
+      213: -3056266835224024308
+    second: VoidSpells_165
+  - first:
+      213: 7518293474366998184
+    second: VoidSpells_166
+  - first:
+      213: -6068805112713129818
+    second: VoidSpells_167
+  - first:
+      213: 3334309322976669847
+    second: VoidSpells_168
+  - first:
+      213: 150084713075268735
+    second: VoidSpells_169
+  - first:
+      213: 4236413601028800141
+    second: VoidSpells_170
+  - first:
+      213: 3813562512604018859
+    second: VoidSpells_171
+  - first:
+      213: -7660186261007178086
+    second: VoidSpells_172
+  - first:
+      213: 2296600395136178995
+    second: VoidSpells_173
+  - first:
+      213: -1126038687423653118
+    second: VoidSpells_174
+  - first:
+      213: 6507978439057603476
+    second: VoidSpells_175
+  - first:
+      213: -6425692334646693624
+    second: VoidSpells_176
+  - first:
+      213: 7600836424927424426
+    second: VoidSpells_177
+  - first:
+      213: 8811388677873349946
+    second: VoidSpells_178
+  - first:
+      213: 690520775302190574
+    second: VoidSpells_179
+  - first:
+      213: 8676542583372978316
+    second: VoidSpells_180
+  - first:
+      213: 629290375360557363
+    second: VoidSpells_181
+  - first:
+      213: 1452216361633522585
+    second: VoidSpells_182
+  - first:
+      213: -4389642787113102435
+    second: VoidSpells_183
+  - first:
+      213: 3483666589365910060
+    second: VoidSpells_184
+  - first:
+      213: 4051795352642864614
+    second: VoidSpells_185
+  - first:
+      213: 2600000067999806636
+    second: VoidSpells_186
+  - first:
+      213: -150437061750787834
+    second: VoidSpells_187
+  - first:
+      213: 8910217225065808488
+    second: VoidSpells_188
+  - first:
+      213: -4463908195108416054
+    second: VoidSpells_189
+  - first:
+      213: 8117275068266805035
+    second: VoidSpells_190
+  - first:
+      213: 6589428268412549625
+    second: VoidSpells_191
+  - first:
+      213: 3671682371129224453
+    second: VoidSpells_192
+  - first:
+      213: 6115972175413044138
+    second: VoidSpells_193
+  - first:
+      213: -5888877000606511214
+    second: VoidSpells_194
+  - first:
+      213: 5717736780643225608
+    second: VoidSpells_195
+  - first:
+      213: -2174402532731184161
+    second: VoidSpells_196
+  - first:
+      213: 5830484898813842613
+    second: VoidSpells_197
+  - first:
+      213: 5907684711033933610
+    second: VoidSpells_198
+  - first:
+      213: 8859639133025264850
+    second: VoidSpells_199
+  - first:
+      213: -8807887389103681707
+    second: VoidSpells_200
+  - first:
+      213: 6058701109075058993
+    second: VoidSpells_201
+  - first:
+      213: -5033283927945150710
+    second: VoidSpells_202
+  - first:
+      213: 4801745842681789673
+    second: VoidSpells_203
+  - first:
+      213: -609879459675466837
+    second: VoidSpells_204
+  - first:
+      213: 5471049985884444203
+    second: VoidSpells_205
+  - first:
+      213: 4989567007495263300
+    second: VoidSpells_206
+  - first:
+      213: 3449489287851740253
+    second: VoidSpells_207
+  - first:
+      213: -9139961865419834373
+    second: VoidSpells_208
+  - first:
+      213: -3006388459823814394
+    second: VoidSpells_209
+  - first:
+      213: -8842025560618442178
+    second: VoidSpells_210
+  - first:
+      213: 4842260891181437098
+    second: VoidSpells_211
+  - first:
+      213: -4033466592470104602
+    second: VoidSpells_212
+  - first:
+      213: 7651697374310350003
+    second: VoidSpells_213
+  - first:
+      213: 1908907953585852815
+    second: VoidSpells_214
+  - first:
+      213: -7935930682146299860
+    second: VoidSpells_215
+  - first:
+      213: -3573438710963571179
+    second: VoidSpells_216
+  - first:
+      213: -9007103852384647473
+    second: VoidSpells_217
+  - first:
+      213: 1083781856868006520
+    second: VoidSpells_218
+  - first:
+      213: 5528261943864173532
+    second: VoidSpells_219
+  - first:
+      213: 4764359237988257358
+    second: VoidSpells_220
+  - first:
+      213: 4215537512263214254
+    second: VoidSpells_221
+  - first:
+      213: -5171069053647161301
+    second: VoidSpells_222
+  - first:
+      213: 4405134176280600107
+    second: VoidSpells_223
+  - first:
+      213: -3104261957215345059
+    second: VoidSpells_224
+  - first:
+      213: 5193467030861629783
+    second: VoidSpells_225
+  - first:
+      213: 7773608377484875312
+    second: VoidSpells_226
+  - first:
+      213: -7395156459057420014
+    second: VoidSpells_227
+  - first:
+      213: -3813010888357900060
+    second: VoidSpells_228
+  - first:
+      213: -1484412347008841947
+    second: VoidSpells_229
+  - first:
+      213: -3317757144423221809
+    second: VoidSpells_230
+  - first:
+      213: 981461594341146208
+    second: VoidSpells_231
+  - first:
+      213: -2900727302749035403
+    second: VoidSpells_232
+  - first:
+      213: 3901220558334486495
+    second: VoidSpells_233
+  - first:
+      213: 3629455410027577137
+    second: VoidSpells_234
+  - first:
+      213: -2321507391278046487
+    second: VoidSpells_235
+  - first:
+      213: -4395529556746953830
+    second: VoidSpells_236
+  - first:
+      213: -7354796225999069889
+    second: VoidSpells_237
+  - first:
+      213: -767285256356199829
+    second: VoidSpells_238
+  - first:
+      213: 2406120854871105535
+    second: VoidSpells_239
+  - first:
+      213: -5269578143089362703
+    second: VoidSpells_240
+  - first:
+      213: -8807383134909752625
+    second: VoidSpells_241
+  - first:
+      213: -5523551688874081403
+    second: VoidSpells_242
+  - first:
+      213: 4023272378690872511
+    second: VoidSpells_243
+  - first:
+      213: -5962137887699018656
+    second: VoidSpells_244
+  - first:
+      213: 4085064606224576233
+    second: VoidSpells_245
+  - first:
+      213: 6275479012139772797
+    second: VoidSpells_246
+  - first:
+      213: -7907575562341515958
+    second: VoidSpells_247
+  - first:
+      213: 6055705126820868515
+    second: VoidSpells_248
+  - first:
+      213: -2593336360124646978
+    second: VoidSpells_249
+  - first:
+      213: 2604437299735338338
+    second: VoidSpells_250
+  - first:
+      213: -4235803503266386843
+    second: VoidSpells_251
+  - first:
+      213: -5823364678087660333
+    second: VoidSpells_252
+  - first:
+      213: 7576735973737373043
+    second: VoidSpells_253
+  - first:
+      213: -6368671638877576753
+    second: VoidSpells_254
+  - first:
+      213: 6002367912162097551
+    second: VoidSpells_255
+  - first:
+      213: -3561239909007201762
+    second: VoidSpells_256
+  - first:
+      213: -6811244469510370112
+    second: VoidSpells_257
+  - first:
+      213: 482988824714049134
+    second: VoidSpells_258
+  - first:
+      213: 1831137514282485225
+    second: VoidSpells_259
+  - first:
+      213: 3514864819739638566
+    second: VoidSpells_260
+  - first:
+      213: -3978460190943093436
+    second: VoidSpells_261
+  - first:
+      213: 5082854781719897592
+    second: VoidSpells_262
+  - first:
+      213: 8174579743072429598
+    second: VoidSpells_263
+  - first:
+      213: -3148054133193848792
+    second: VoidSpells_264
+  - first:
+      213: -4695846768433975457
+    second: VoidSpells_265
+  - first:
+      213: -3324461246741978799
+    second: VoidSpells_266
+  - first:
+      213: 5694126219243457633
+    second: VoidSpells_267
+  - first:
+      213: 6436529234873386211
+    second: VoidSpells_268
+  - first:
+      213: 6511091316664933534
+    second: VoidSpells_269
+  - first:
+      213: 7451332713563243017
+    second: VoidSpells_270
+  - first:
+      213: 7298248226745418321
+    second: VoidSpells_271
+  - first:
+      213: -2776243374421493372
+    second: VoidSpells_272
+  - first:
+      213: 2776268486730934638
+    second: VoidSpells_273
+  - first:
+      213: -7407145601578541318
+    second: VoidSpells_274
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: VoidSpells_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1966
+        width: 302
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0a6ba0d639abd0e0800000000000000
+      internalID: -2244013936419837430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_1
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 2012
+        width: 211
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ceacd1c0f247c1620800000000000000
+      internalID: 2746197618204723948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_2
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 1966
+        width: 283
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51df18f20ef299090800000000000000
+      internalID: -8027332220894970603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_3
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 2006
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5ea512a86a7b29c0800000000000000
+      internalID: -3950929658272960929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_4
+      rect:
+        serializedVersion: 2
+        x: 1443
+        y: 2013
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94d0db0a935a45a30800000000000000
+      internalID: 4203166019171978569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_5
+      rect:
+        serializedVersion: 2
+        x: 1551
+        y: 2022
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ac4501cc83900120800000000000000
+      internalID: 2378062835994676391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_6
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 2025
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a83095a053b6ecdc0800000000000000
+      internalID: -3616835575180885110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_7
+      rect:
+        serializedVersion: 2
+        x: 1772
+        y: 2029
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 495c2f53b4c2f4840800000000000000
+      internalID: 5210431995430225300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_8
+      rect:
+        serializedVersion: 2
+        x: 1959
+        y: 2021
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c37cf7205c54f6630800000000000000
+      internalID: 3922430512915793724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_9
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 1966
+        width: 115
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 809240887793b49f0800000000000000
+      internalID: -483229349466330872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_10
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 2021
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 680da13d322194470800000000000000
+      internalID: 8379248526774423686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_11
+      rect:
+        serializedVersion: 2
+        x: 1321
+        y: 1998
+        width: 12
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 647adef534932a630800000000000000
+      internalID: 3936771985810237254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_12
+      rect:
+        serializedVersion: 2
+        x: 1378
+        y: 1992
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ee5b4904df19b1f0800000000000000
+      internalID: -1028756044327985434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_13
+      rect:
+        serializedVersion: 2
+        x: 1526
+        y: 1966
+        width: 339
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c758514c12cbbadf0800000000000000
+      internalID: -167833707886574212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_14
+      rect:
+        serializedVersion: 2
+        x: 1561
+        y: 2019
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88e5277e699634db0800000000000000
+      internalID: -4808883880252514680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_15
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 1981
+        width: 95
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf45814149e0c64e0800000000000000
+      internalID: -1987197306422143749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_16
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 1994
+        width: 212
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05efdb18fd439f640800000000000000
+      internalID: 5114176986414972496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_17
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 1972
+        width: 60
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cba6c4c2c8432de0800000000000000
+      internalID: -1359162661173548087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_18
+      rect:
+        serializedVersion: 2
+        x: 1236
+        y: 1985
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1e150aa2836b20a0800000000000000
+      internalID: -6905316190793163234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_19
+      rect:
+        serializedVersion: 2
+        x: 1366
+        y: 1980
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e35be4e2b21859e0800000000000000
+      internalID: -1632534305367698458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_20
+      rect:
+        serializedVersion: 2
+        x: 1447
+        y: 1979
+        width: 36
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90a3d3520b6f1f9d0800000000000000
+      internalID: -2742139461692474871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_21
+      rect:
+        serializedVersion: 2
+        x: 1495
+        y: 2009
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9cde11791131f350800000000000000
+      internalID: 6048669759877078173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_22
+      rect:
+        serializedVersion: 2
+        x: 1961
+        y: 1977
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 613b03c61bfe90f50800000000000000
+      internalID: 6848268253696930582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_23
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 2000
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bea94cbfe011b880800000000000000
+      internalID: -8597071591831392583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_24
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1993
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abafc8a71f0bd6710800000000000000
+      internalID: 1688199986523470522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_25
+      rect:
+        serializedVersion: 2
+        x: 1270
+        y: 1995
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 655f7913255f65ed0800000000000000
+      internalID: -2425481615924267690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_26
+      rect:
+        serializedVersion: 2
+        x: 1481
+        y: 1996
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 672e054b023e2fcc0800000000000000
+      internalID: -3678628216004615562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_27
+      rect:
+        serializedVersion: 2
+        x: 1503
+        y: 1985
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a16402d5c66bf7ad0800000000000000
+      internalID: -2702240674863888870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_28
+      rect:
+        serializedVersion: 2
+        x: 1881
+        y: 1993
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 766b62f66e043b870800000000000000
+      internalID: 8697366663834023527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_29
+      rect:
+        serializedVersion: 2
+        x: 1952
+        y: 1982
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b4371489dc85d150800000000000000
+      internalID: 5896774152963437751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_30
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 1970
+        width: 204
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b760bd004758e63e0800000000000000
+      internalID: -2058561246384683397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_31
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 1973
+        width: 27
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65de210c650319450800000000000000
+      internalID: 6093704919956778326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_32
+      rect:
+        serializedVersion: 2
+        x: 1245
+        y: 1966
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd5ee45059613d3a0800000000000000
+      internalID: -6641940196146354723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_33
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 1970
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8370e2d0a8db8a910800000000000000
+      internalID: 1848936047659845432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_34
+      rect:
+        serializedVersion: 2
+        x: 1493
+        y: 1974
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b31edb5a372e791c0800000000000000
+      internalID: -4496876716576349893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_35
+      rect:
+        serializedVersion: 2
+        x: 1867
+        y: 1969
+        width: 40
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d744fa8b8c5cb600800000000000000
+      internalID: 485364614250645456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_36
+      rect:
+        serializedVersion: 2
+        x: 1886
+        y: 1966
+        width: 81
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b139ca072d75be920800000000000000
+      internalID: 3020604536427156251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_37
+      rect:
+        serializedVersion: 2
+        x: 1352
+        y: 1810
+        width: 27
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3979f53349023eca0800000000000000
+      internalID: -5988907258583476333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_38
+      rect:
+        serializedVersion: 2
+        x: 1354
+        y: 1870
+        width: 18
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 723ce035c55591530800000000000000
+      internalID: 3826183213446775591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_39
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 1874
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b270e935bd2aca760800000000000000
+      internalID: 7470524944785213227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_40
+      rect:
+        serializedVersion: 2
+        x: 1449
+        y: 1865
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85c8cabe56a492140800000000000000
+      internalID: 4695365888116558936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_41
+      rect:
+        serializedVersion: 2
+        x: 1451
+        y: 1831
+        width: 124
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 733e941e989bbf7a0800000000000000
+      internalID: -6342271648379837641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_42
+      rect:
+        serializedVersion: 2
+        x: 1566
+        y: 1845
+        width: 181
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c86fd456d1c092ad0800000000000000
+      internalID: -2726634779002931572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_43
+      rect:
+        serializedVersion: 2
+        x: 1718
+        y: 1841
+        width: 68
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 652b5d80bbfbaae10800000000000000
+      internalID: 2209789377206661718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_44
+      rect:
+        serializedVersion: 2
+        x: 1739
+        y: 1832
+        width: 63
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 876acc36af83794e0800000000000000
+      internalID: -1975047263511337352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_45
+      rect:
+        serializedVersion: 2
+        x: 1804
+        y: 1725
+        width: 137
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40e506020911e70f0800000000000000
+      internalID: -1117436346825155068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_46
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 1793
+        width: 44
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30cefed0af2aad380800000000000000
+      internalID: -8945658514958717949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_47
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 1716
+        width: 43
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee0c3e5479d010db0800000000000000
+      internalID: -4827562382200684306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_48
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 1814
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 129ecd011171ee0d0800000000000000
+      internalID: -3391748107298608863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_49
+      rect:
+        serializedVersion: 2
+        x: 1126
+        y: 1804
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a722ee796f434a870800000000000000
+      internalID: 8693131414447465082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_50
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 1767
+        width: 27
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ba286e1e9c3b3980800000000000000
+      internalID: -8558180017074853196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_51
+      rect:
+        serializedVersion: 2
+        x: 1363
+        y: 1784
+        width: 41
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c93b3289920bbda00800000000000000
+      internalID: 782412652971537308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_52
+      rect:
+        serializedVersion: 2
+        x: 1368
+        y: 1812
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 323a1ae6cc226a290800000000000000
+      internalID: -7879572236613344477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_53
+      rect:
+        serializedVersion: 2
+        x: 1407
+        y: 1814
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09753c818d05f2090800000000000000
+      internalID: -8057132319283914864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_54
+      rect:
+        serializedVersion: 2
+        x: 1449
+        y: 1686
+        width: 55
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 465a8a1d85a4cfdd0800000000000000
+      internalID: -2451002351861324444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_55
+      rect:
+        serializedVersion: 2
+        x: 1965
+        y: 1658
+        width: 23
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 313d80755bb984180800000000000000
+      internalID: -9130877041342098669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_56
+      rect:
+        serializedVersion: 2
+        x: 1991
+        y: 1737
+        width: 16
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a98bcb1f6d140c570800000000000000
+      internalID: 8484854089400498330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_57
+      rect:
+        serializedVersion: 2
+        x: 2010
+        y: 1667
+        width: 22
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 718b49bbd2f4d8590800000000000000
+      internalID: -7670387532502878185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_58
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 1598
+        width: 52
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ab6b0cc3fb5ba290800000000000000
+      internalID: -7878102020496069725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_59
+      rect:
+        serializedVersion: 2
+        x: 1184
+        y: 1698
+        width: 41
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd2348d772745f5f0800000000000000
+      internalID: -723593930187984163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_60
+      rect:
+        serializedVersion: 2
+        x: 1187
+        y: 1674
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5f4a60e1cf6576e0800000000000000
+      internalID: -1840441994226544802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_61
+      rect:
+        serializedVersion: 2
+        x: 1341
+        y: 1609
+        width: 82
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5222b573f0d7ae1c0800000000000000
+      internalID: -4473625775532465627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_62
+      rect:
+        serializedVersion: 2
+        x: 1346
+        y: 1700
+        width: 39
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 365d4515c7f27aaa0800000000000000
+      internalID: -6149894555164158621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_63
+      rect:
+        serializedVersion: 2
+        x: 1506
+        y: 1699
+        width: 164
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0706aea5c0922cdc0800000000000000
+      internalID: -3620286017410801552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_64
+      rect:
+        serializedVersion: 2
+        x: 1674
+        y: 1699
+        width: 126
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ae8e07094db690d0800000000000000
+      internalID: -3416335145965285721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_65
+      rect:
+        serializedVersion: 2
+        x: 1839
+        y: 1701
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdbca1934dde4f190800000000000000
+      internalID: -7929451548145693729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_66
+      rect:
+        serializedVersion: 2
+        x: 1870
+        y: 1703
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cfba74366690d180800000000000000
+      internalID: -9092602281949741119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_67
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1669
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8aa537aa7af13a060800000000000000
+      internalID: 6963444253824604840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_68
+      rect:
+        serializedVersion: 2
+        x: 1341
+        y: 1589
+        width: 28
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d383fe03203e8aed0800000000000000
+      internalID: -2402420802651736003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_69
+      rect:
+        serializedVersion: 2
+        x: 1449
+        y: 1641
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47c64f34173817dc0800000000000000
+      internalID: -3642986101071385484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_70
+      rect:
+        serializedVersion: 2
+        x: 1508
+        y: 1575
+        width: 140
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2568aa4f8a5f0b90800000000000000
+      internalID: -7273495301700688598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_71
+      rect:
+        serializedVersion: 2
+        x: 1803
+        y: 1679
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e762e1cdf782ee720800000000000000
+      internalID: 2877281741555246718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_72
+      rect:
+        serializedVersion: 2
+        x: 1894
+        y: 1673
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3133a17d9d1b444d0800000000000000
+      internalID: -3151198290077666541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_73
+      rect:
+        serializedVersion: 2
+        x: 1905
+        y: 1662
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf2e9870cd9377850800000000000000
+      internalID: 6374627414748291836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_74
+      rect:
+        serializedVersion: 2
+        x: 1449
+        y: 1668
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41129e5f227d0f640800000000000000
+      internalID: 5111822122220069140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_75
+      rect:
+        serializedVersion: 2
+        x: 1802
+        y: 1653
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e1011db47ea6b1c0800000000000000
+      internalID: -4488208162216672798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_76
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 1431
+        width: 78
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc1e7ab9d4f25d610800000000000000
+      internalID: 1645273249244242379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_77
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 1607
+        width: 18
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68bacc37b54df64f0800000000000000
+      internalID: -833213916790346874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_78
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 1225
+        width: 101
+        height: 418
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 173043145e2af5790800000000000000
+      internalID: -7539128145669782671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_79
+      rect:
+        serializedVersion: 2
+        x: 1362
+        y: 1588
+        width: 45
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e614daa6097616690800000000000000
+      internalID: -7610688025316736658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_80
+      rect:
+        serializedVersion: 2
+        x: 1427
+        y: 1603
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64a18a1f12a5aa600800000000000000
+      internalID: 480295412103125574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_81
+      rect:
+        serializedVersion: 2
+        x: 1449
+        y: 1588
+        width: 36
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c54749ca4e8f46650800000000000000
+      internalID: 6225374245964510300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_82
+      rect:
+        serializedVersion: 2
+        x: 1467
+        y: 1611
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3240ef61cf736960800000000000000
+      internalID: 7594053865459171900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_83
+      rect:
+        serializedVersion: 2
+        x: 1709
+        y: 1607
+        width: 11
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04e24f33e32bb2fb0800000000000000
+      internalID: -4671444208237400512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_84
+      rect:
+        serializedVersion: 2
+        x: 1732
+        y: 1551
+        width: 23
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92bf27721c830a840800000000000000
+      internalID: 5233245169246206761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_85
+      rect:
+        serializedVersion: 2
+        x: 1786
+        y: 1611
+        width: 9
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed65adfc52ac9d650800000000000000
+      internalID: 6258255420957808350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_86
+      rect:
+        serializedVersion: 2
+        x: 1827
+        y: 1619
+        width: 9
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95be8912cb91bcea0800000000000000
+      internalID: -5851554995029611687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_87
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 1328
+        width: 65
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f5d76ca254a03e70800000000000000
+      internalID: 9092948322647791097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_88
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 1485
+        width: 28
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87a972f75fc3aae50800000000000000
+      internalID: 6821331610703993464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_89
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 1446
+        width: 82
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3034b0d3fe9fdb5f0800000000000000
+      internalID: -739159957902245117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_90
+      rect:
+        serializedVersion: 2
+        x: 1421
+        y: 1508
+        width: 46
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f29178cf804d1ee0800000000000000
+      internalID: -1288802932070706447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_91
+      rect:
+        serializedVersion: 2
+        x: 1486
+        y: 1548
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 721ced178e11339b0800000000000000
+      internalID: -5101714262840131289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_92
+      rect:
+        serializedVersion: 2
+        x: 1508
+        y: 1403
+        width: 102
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 271ce9838f6d95430800000000000000
+      internalID: 3772282524489662834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_93
+      rect:
+        serializedVersion: 2
+        x: 1801
+        y: 1564
+        width: 9
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d42b22dc8085edf40800000000000000
+      internalID: 5755134168650658381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_94
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 1245
+        width: 78
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21fe633070f739980800000000000000
+      internalID: -8533337200841527534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_95
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 1491
+        width: 33
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0ba39429fe1b5550800000000000000
+      internalID: 6150543771513891594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_96
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 1448
+        width: 38
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4c606fae5a530ff0800000000000000
+      internalID: -71113806392038323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_97
+      rect:
+        serializedVersion: 2
+        x: 1847
+        y: 1178
+        width: 112
+        height: 381
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37dff925572eb0bb0800000000000000
+      internalID: -4968628770347942541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_98
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 1411
+        width: 21
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12c3fae0ad1570900800000000000000
+      internalID: 650578668169411617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_99
+      rect:
+        serializedVersion: 2
+        x: 2003
+        y: 1455
+        width: 14
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3841a290346f63860800000000000000
+      internalID: 7509460196463875203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_100
+      rect:
+        serializedVersion: 2
+        x: 2015
+        y: 1405
+        width: 17
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ea47e89ed9709250800000000000000
+      internalID: 5949389104711420648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_101
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1193
+        width: 272
+        height: 281
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fca8fbb07c9151d0800000000000000
+      internalID: -3363735438665143051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_102
+      rect:
+        serializedVersion: 2
+        x: 1405
+        y: 1438
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bac482616dd972570800000000000000
+      internalID: 8441889569349586091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_103
+      rect:
+        serializedVersion: 2
+        x: 1407
+        y: 1434
+        width: 37
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0221b894c580c9cc0800000000000000
+      internalID: -3703075601141525984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_104
+      rect:
+        serializedVersion: 2
+        x: 1669
+        y: 1036
+        width: 130
+        height: 410
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f94b638bb68e18f0800000000000000
+      internalID: -567868363080250894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_105
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 1095
+        width: 89
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7173ec6ad14f69990800000000000000
+      internalID: -7379442531210217705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_106
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 1095
+        width: 58
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba6cbdeab8694f730800000000000000
+      internalID: 4032013093081695915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_107
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 1245
+        width: 106
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dd76dee8723c7fb0800000000000000
+      internalID: -4648785220368695856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_108
+      rect:
+        serializedVersion: 2
+        x: 1394
+        y: 1242
+        width: 66
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bc8521ed757b0ef0800000000000000
+      internalID: -140889779823342413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_109
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 1336
+        width: 25
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e16041bb2ea363f0800000000000000
+      internalID: -908691197118094874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_110
+      rect:
+        serializedVersion: 2
+        x: 1522
+        y: 1036
+        width: 145
+        height: 365
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebc0a3720676ca2d0800000000000000
+      internalID: -3266121967077815106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_111
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 1248
+        width: 48
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6309aeff31ccac0b0800000000000000
+      internalID: -5707525191468675018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_112
+      rect:
+        serializedVersion: 2
+        x: 1450
+        y: 1275
+        width: 43
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b427376e679ce3030800000000000000
+      internalID: 3476437474886251083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_113
+      rect:
+        serializedVersion: 2
+        x: 1841
+        y: 1319
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f981dcbe206a64800800000000000000
+      internalID: 596346532149401759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_114
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 967
+        width: 86
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cef62bc8d7dac710800000000000000
+      internalID: 1714419934289133250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_115
+      rect:
+        serializedVersion: 2
+        x: 1341
+        y: 1275
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a59d0dd48a34505b0800000000000000
+      internalID: -5402837787821942438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_116
+      rect:
+        serializedVersion: 2
+        x: 1381
+        y: 1268
+        width: 11
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb43c549e81ab5520800000000000000
+      internalID: 2691922836030502076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_117
+      rect:
+        serializedVersion: 2
+        x: 1444
+        y: 1267
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5468b1e12dd8f3a0800000000000000
+      internalID: -6631307313712438177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_118
+      rect:
+        serializedVersion: 2
+        x: 1843
+        y: 1258
+        width: 11
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acef625cea29b2760800000000000000
+      internalID: 7434196889234767562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_119
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 1200
+        width: 21
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcf5c9233fbd37f40800000000000000
+      internalID: 5725161388890677195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_120
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 1237
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e45f465c78961d940800000000000000
+      internalID: 5319148666754495822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_121
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 1235
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2792a8c9dba33f30800000000000000
+      internalID: 4554172600064055086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_122
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 1105
+        width: 90
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 213672f0a142d26c0800000000000000
+      internalID: -4166634385905851630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_123
+      rect:
+        serializedVersion: 2
+        x: 1369
+        y: 1225
+        width: 10
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6575ec112466098d0800000000000000
+      internalID: -2841658930918172842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_124
+      rect:
+        serializedVersion: 2
+        x: 1395
+        y: 842
+        width: 125
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40726e552f696f290800000000000000
+      internalID: -7856926532333852924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_125
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 1203
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b5180adcad67f4e0800000000000000
+      internalID: -1947967724654684749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_126
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 1154
+        width: 60
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5368390d4f75642d0800000000000000
+      internalID: -3294849368391973323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_127
+      rect:
+        serializedVersion: 2
+        x: 1229
+        y: 1222
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e1e37ea2e08a9370800000000000000
+      internalID: 8330112171852947937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_128
+      rect:
+        serializedVersion: 2
+        x: 1253
+        y: 842
+        width: 140
+        height: 381
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34479e1045a4393f0800000000000000
+      internalID: -895290176246811581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_129
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 1214
+        width: 25
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3334f34ac71ef3330800000000000000
+      internalID: 3692918144914899763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_130
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 1174
+        width: 10
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11515f2c9f6690670800000000000000
+      internalID: 8505442594169623825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_131
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 1192
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bbd9e686fff75df0800000000000000
+      internalID: -191403024849445965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_132
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 1168
+        width: 37
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9885926d5eb3bb670800000000000000
+      internalID: 8555497775446972553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_133
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 1179
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27cd2100ad7b8af40800000000000000
+      internalID: 5740039872015686770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_134
+      rect:
+        serializedVersion: 2
+        x: 1947
+        y: 1196
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 537fbf419f7613430800000000000000
+      internalID: 3760901483327649589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_135
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 741
+        width: 185
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 238d1d6072b9ad5a0800000000000000
+      internalID: -6495708920608073678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_136
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 1099
+        width: 405
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 453699a5bb8798920800000000000000
+      internalID: 2993056173438624596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_137
+      rect:
+        serializedVersion: 2
+        x: 1112
+        y: 1171
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63837b82b2f33bad0800000000000000
+      internalID: -2687735098010814410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_138
+      rect:
+        serializedVersion: 2
+        x: 1658
+        y: 1176
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f766ee09c240aca0800000000000000
+      internalID: -6007728471606401040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_139
+      rect:
+        serializedVersion: 2
+        x: 1851
+        y: 778
+        width: 129
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b076967db45c718f0800000000000000
+      internalID: -569769898311850229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_140
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 1140
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e328938636b8f050800000000000000
+      internalID: 5834613662510752739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_141
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 1110
+        width: 41
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 350e0fa61874aac00800000000000000
+      internalID: 912620495666470995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_142
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 1112
+        width: 88
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f21aba8885bd0e5b0800000000000000
+      internalID: -5341027984764853969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_143
+      rect:
+        serializedVersion: 2
+        x: 1790
+        y: 1036
+        width: 49
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d4d4deda95c78bd0800000000000000
+      internalID: -2627914588593269544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_144
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 1115
+        width: 20
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1bb98c4ef7f5af50800000000000000
+      internalID: 6892187476338260766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_145
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 1080
+        width: 35
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c602d88b8ebbdf00800000000000000
+      internalID: 1142716436973749961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_146
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 1106
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0787983841113140800000000000000
+      internalID: 4697554888208910092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_147
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 1095
+        width: 6
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80905cb7bd3ac0a30800000000000000
+      internalID: 4182898316990023944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_148
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 1090
+        width: 7
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 330474702fbd87760800000000000000
+      internalID: 7455951015662534707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_149
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 1092
+        width: 7
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc4fb5e681728c990800000000000000
+      internalID: -7365594204680227636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_150
+      rect:
+        serializedVersion: 2
+        x: 1021
+        y: 1099
+        width: 6
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3d1ef2beb5411140800000000000000
+      internalID: 4688605372418497855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_151
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 1102
+        width: 6
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bb85815a40329770800000000000000
+      internalID: 8616002132866599860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_152
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 1095
+        width: 6
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be390c8c816856dd0800000000000000
+      internalID: -2493439377674300437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_153
+      rect:
+        serializedVersion: 2
+        x: 2005
+        y: 953
+        width: 19
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e1822bbcb26ef9e0800000000000000
+      internalID: -1585721456054861344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_154
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 1093
+        width: 32
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d5fd445f5d9ba9a0800000000000000
+      internalID: -6220705427520358960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_155
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 1097
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84ff622fe40baff20800000000000000
+      internalID: 3457269517076856648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_156
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 1079
+        width: 7
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81ee686485e0033c0800000000000000
+      internalID: -4381986665128333800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_157
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 1086
+        width: 8
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8b837a0cd6a67680800000000000000
+      internalID: -8757628961376990323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_158
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 1083
+        width: 7
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0071b674f5d9ca380800000000000000
+      internalID: -8958612526201104640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_159
+      rect:
+        serializedVersion: 2
+        x: 1082
+        y: 1084
+        width: 6
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96fa2e55a56e23650800000000000000
+      internalID: 6211280111759699817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_160
+      rect:
+        serializedVersion: 2
+        x: 1983
+        y: 935
+        width: 23
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de289f0f380232fc0800000000000000
+      internalID: -3520934732617907475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_161
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 793
+        width: 278
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbfd3252f3004f7b0800000000000000
+      internalID: -5191524199245291588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_162
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 1086
+        width: 15
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ce2525194d9075f0800000000000000
+      internalID: -760935399812682046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_163
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 1079
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d0b71e6d0ca11d60800000000000000
+      internalID: 7859251998419824848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_164
+      rect:
+        serializedVersion: 2
+        x: 2023
+        y: 933
+        width: 19
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09f22d39d5f4206f0800000000000000
+      internalID: -719925727095279728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_165
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 811
+        width: 272
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0b2aa39185f595d0800000000000000
+      internalID: -3056266835224024308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_166
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 967
+        width: 398
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a648c0d418565860800000000000000
+      internalID: 7518293474366998184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_167
+      rect:
+        serializedVersion: 2
+        x: 1251
+        y: 983
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a0d8a567e547cba0800000000000000
+      internalID: -6068805112713129818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_168
+      rect:
+        serializedVersion: 2
+        x: 1542
+        y: 816
+        width: 236
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7903c4fc9a8d54e20800000000000000
+      internalID: 3334309322976669847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_169
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 778
+        width: 43
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7c51195045351200800000000000000
+      internalID: 150084713075268735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_170
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 855
+        width: 410
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8e74f289b3caca30800000000000000
+      internalID: 4236413601028800141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_171
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 731
+        width: 311
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba8328c66ee7ce430800000000000000
+      internalID: 3813562512604018859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_172
+      rect:
+        serializedVersion: 2
+        x: 1297
+        y: 699
+        width: 201
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a96e6575e2d81b590800000000000000
+      internalID: -7660186261007178086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_173
+      rect:
+        serializedVersion: 2
+        x: 1681
+        y: 791
+        width: 32
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33b1d1734e92fdf10800000000000000
+      internalID: 2296600395136178995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_174
+      rect:
+        serializedVersion: 2
+        x: 1715
+        y: 800
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20b14c0a7c18f50f0800000000000000
+      internalID: -1126038687423653118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_175
+      rect:
+        serializedVersion: 2
+        x: 1715
+        y: 789
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49bfde9d8ebf05a50800000000000000
+      internalID: 6507978439057603476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_176
+      rect:
+        serializedVersion: 2
+        x: 1782
+        y: 792
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 801fe6dcdda53d6a0800000000000000
+      internalID: -6425692334646693624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_177
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 377
+        width: 141
+        height: 414
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaf26af15789b7960800000000000000
+      internalID: 7600836424927424426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_178
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 789
+        width: 16
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a353a8a5157584a70800000000000000
+      internalID: 8811388677873349946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_179
+      rect:
+        serializedVersion: 2
+        x: 1695
+        y: 782
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee51ae19cf8359900800000000000000
+      internalID: 690520775302190574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_180
+      rect:
+        serializedVersion: 2
+        x: 1746
+        y: 750
+        width: 52
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c881f706285496870800000000000000
+      internalID: 8676542583372978316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_181
+      rect:
+        serializedVersion: 2
+        x: 1898
+        y: 758
+        width: 16
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33130f32340bbb800800000000000000
+      internalID: 629290375360557363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_182
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 776
+        width: 53
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9932d24361f472410800000000000000
+      internalID: 1452216361633522585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_183
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 766
+        width: 52
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d939447742bd413c0800000000000000
+      internalID: -4389642787113102435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_184
+      rect:
+        serializedVersion: 2
+        x: 1712
+        y: 768
+        width: 25
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2a3d074e48785030800000000000000
+      internalID: 3483666589365910060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_185
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 753
+        width: 64
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e54bd8e76eda3830800000000000000
+      internalID: 4051795352642864614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_186
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 752
+        width: 83
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca4be15594e051420800000000000000
+      internalID: 2600000067999806636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_187
+      rect:
+        serializedVersion: 2
+        x: 1690
+        y: 759
+        width: 27
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6017a451a4a89edf0800000000000000
+      internalID: -150437061750787834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_188
+      rect:
+        serializedVersion: 2
+        x: 1724
+        y: 758
+        width: 29
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8624d9b9b5377ab70800000000000000
+      internalID: 8910217225065808488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_189
+      rect:
+        serializedVersion: 2
+        x: 1780
+        y: 757
+        width: 28
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac59b98b5230d02c0800000000000000
+      internalID: -4463908195108416054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_190
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 297
+        width: 194
+        height: 442
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b277d2cdaaa56a070800000000000000
+      internalID: 8117275068266805035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_191
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 581
+        width: 448
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f9b5ab091a527b50800000000000000
+      internalID: 6589428268412549625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_192
+      rect:
+        serializedVersion: 2
+        x: 1488
+        y: 728
+        width: 48
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50da833c9af64f230800000000000000
+      internalID: 3671682371129224453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_193
+      rect:
+        serializedVersion: 2
+        x: 1712
+        y: 733
+        width: 31
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa3eaab2a4c40e450800000000000000
+      internalID: 6115972175413044138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_194
+      rect:
+        serializedVersion: 2
+        x: 1745
+        y: 731
+        width: 35
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29f81ec8191864ea0800000000000000
+      internalID: -5888877000606511214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_195
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 581
+        width: 396
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 800dc61ee4b795f40800000000000000
+      internalID: 5717736780643225608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_196
+      rect:
+        serializedVersion: 2
+        x: 1347
+        y: 697
+        width: 76
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdb19ddba68f2d1e0800000000000000
+      internalID: -2174402532731184161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_197
+      rect:
+        serializedVersion: 2
+        x: 1725
+        y: 723
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b4141ecf1b0ae050800000000000000
+      internalID: 5830484898813842613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_198
+      rect:
+        serializedVersion: 2
+        x: 1752
+        y: 700
+        width: 37
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2f0f26c1ff4cf150800000000000000
+      internalID: 5907684711033933610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_199
+      rect:
+        serializedVersion: 2
+        x: 1791
+        y: 671
+        width: 47
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d4ee12e9d2c3fa70800000000000000
+      internalID: 8859639133025264850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_200
+      rect:
+        serializedVersion: 2
+        x: 1797
+        y: 705
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55f05d6f51914c580800000000000000
+      internalID: -8807887389103681707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_201
+      rect:
+        serializedVersion: 2
+        x: 1867
+        y: 292
+        width: 138
+        height: 414
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1312faeee84d41450800000000000000
+      internalID: 6058701109075058993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_202
+      rect:
+        serializedVersion: 2
+        x: 1785
+        y: 693
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0f752d5fee262ab0800000000000000
+      internalID: -5033283927945150710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_203
+      rect:
+        serializedVersion: 2
+        x: 1295
+        y: 556
+        width: 163
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ecb1c6376a33a240800000000000000
+      internalID: 4801745842681789673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_204
+      rect:
+        serializedVersion: 2
+        x: 1762
+        y: 664
+        width: 24
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba39c3adcd54987f0800000000000000
+      internalID: -609879459675466837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_205
+      rect:
+        serializedVersion: 2
+        x: 1781
+        y: 645
+        width: 50
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b265c0da9f21deb40800000000000000
+      internalID: 5471049985884444203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_206
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 638
+        width: 46
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44493c8e1c08e3540800000000000000
+      internalID: 4989567007495263300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_207
+      rect:
+        serializedVersion: 2
+        x: 1738
+        y: 653
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5c0bea2b3c0fdf20800000000000000
+      internalID: 3449489287851740253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_208
+      rect:
+        serializedVersion: 2
+        x: 1725
+        y: 626
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfbb807eb15582180800000000000000
+      internalID: -9139961865419834373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_209
+      rect:
+        serializedVersion: 2
+        x: 1744
+        y: 624
+        width: 73
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6092e53df992746d0800000000000000
+      internalID: -3006388459823814394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_210
+      rect:
+        serializedVersion: 2
+        x: 1712
+        y: 599
+        width: 31
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e32e9648990da4580800000000000000
+      internalID: -8842025560618442178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_211
+      rect:
+        serializedVersion: 2
+        x: 1713
+        y: 619
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa0d2a800aa233340800000000000000
+      internalID: 4842260891181437098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_212
+      rect:
+        serializedVersion: 2
+        x: 1773
+        y: 608
+        width: 32
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e50a6e118f3608c0800000000000000
+      internalID: -4033466592470104602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_213
+      rect:
+        serializedVersion: 2
+        x: 1811
+        y: 602
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bcbe84b83a403a60800000000000000
+      internalID: 7651697374310350003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_214
+      rect:
+        serializedVersion: 2
+        x: 1690
+        y: 584
+        width: 27
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8117628badcd7a10800000000000000
+      internalID: 1908907953585852815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_215
+      rect:
+        serializedVersion: 2
+        x: 1724
+        y: 590
+        width: 29
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c20eb884719edd190800000000000000
+      internalID: -7935930682146299860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_216
+      rect:
+        serializedVersion: 2
+        x: 1751
+        y: 598
+        width: 19
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 516f26edc68986ec0800000000000000
+      internalID: -3573438710963571179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_217
+      rect:
+        serializedVersion: 2
+        x: 1767
+        y: 591
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc68f8794c6500380800000000000000
+      internalID: -9007103852384647473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_218
+      rect:
+        serializedVersion: 2
+        x: 1778
+        y: 596
+        width: 19
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87a71a05bdd5a0f00800000000000000
+      internalID: 1083781856868006520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_219
+      rect:
+        serializedVersion: 2
+        x: 1809
+        y: 581
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd3a55da2f458bc40800000000000000
+      internalID: 5528261943864173532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_220
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 289
+        width: 156
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4e04aafb776e1240800000000000000
+      internalID: 4764359237988257358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_221
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 287
+        width: 295
+        height: 292
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea468c35809908a30800000000000000
+      internalID: 4215537512263214254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_222
+      rect:
+        serializedVersion: 2
+        x: 1712
+        y: 576
+        width: 25
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b28785cd71cac38b0800000000000000
+      internalID: -5171069053647161301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_223
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 556
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2e5325a13e222d30800000000000000
+      internalID: 4405134176280600107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_224
+      rect:
+        serializedVersion: 2
+        x: 1782
+        y: 579
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d56ab6e62327be4d0800000000000000
+      internalID: -3104261957215345059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_225
+      rect:
+        serializedVersion: 2
+        x: 1783
+        y: 566
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 759c5379fb6e21840800000000000000
+      internalID: 5193467030861629783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_226
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 311
+        width: 271
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0369cfa02a761eb60800000000000000
+      internalID: 7773608377484875312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_227
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 563
+        width: 16
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2196277b1602f5990800000000000000
+      internalID: -7395156459057420014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_228
+      rect:
+        serializedVersion: 2
+        x: 1681
+        y: 554
+        width: 32
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e01bba9cc6751bc0800000000000000
+      internalID: -3813010888357900060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_229
+      rect:
+        serializedVersion: 2
+        x: 1695
+        y: 565
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 527855cc5de466be0800000000000000
+      internalID: -1484412347008841947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_230
+      rect:
+        serializedVersion: 2
+        x: 1715
+        y: 553
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc5b3a39475f4f1d0800000000000000
+      internalID: -3317757144423221809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_231
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 529
+        width: 9
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06e746bbe1ade9d00800000000000000
+      internalID: 981461594341146208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_232
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 311
+        width: 278
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 574ed5903eb8eb7d0800000000000000
+      internalID: -2900727302749035403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_233
+      rect:
+        serializedVersion: 2
+        x: 1715
+        y: 551
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd76af1ad6be32630800000000000000
+      internalID: 3901220558334486495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_234
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 293
+        width: 140
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13f30da377a6e5230800000000000000
+      internalID: 3629455410027577137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_235
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 485
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e2ad67d35958cfd0800000000000000
+      internalID: -2321507391278046487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_236
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 481
+        width: 9
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9b1e5a1821fff2c0800000000000000
+      internalID: -4395529556746953830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_237
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 468
+        width: 8
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3d11f1ccc38ee990800000000000000
+      internalID: -7354796225999069889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_238
+      rect:
+        serializedVersion: 2
+        x: 1577
+        y: 271
+        width: 285
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b628e75ef1e0a55f0800000000000000
+      internalID: -767285256356199829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_239
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 435
+        width: 8
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fff50495b22446120800000000000000
+      internalID: 2406120854871105535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_240
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 343
+        width: 28
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f8fef82992bed6b0800000000000000
+      internalID: -5269578143089362703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_241
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 1
+        width: 202
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fca10fac3b3e5c580800000000000000
+      internalID: -8807383134909752625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_242
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 1
+        width: 298
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 583c62601076853b0800000000000000
+      internalID: -5523551688874081403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_243
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 5
+        width: 166
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb4a28689e885d730800000000000000
+      internalID: 4023272378690872511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_244
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 1
+        width: 165
+        height: 292
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06c5dcd0e2b324da0800000000000000
+      internalID: -5962137887699018656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_245
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1
+        width: 294
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ee6982ad9011b830800000000000000
+      internalID: 4085064606224576233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_246
+      rect:
+        serializedVersion: 2
+        x: 1313
+        y: 84
+        width: 176
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7ba202a9eaf61750800000000000000
+      internalID: 6275479012139772797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_247
+      rect:
+        serializedVersion: 2
+        x: 1511
+        y: 229
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4df2141ce5a24290800000000000000
+      internalID: -7907575562341515958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_248
+      rect:
+        serializedVersion: 2
+        x: 1675
+        y: 99
+        width: 79
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a17ba47abf2a0450800000000000000
+      internalID: 6055705126820868515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_249
+      rect:
+        serializedVersion: 2
+        x: 1765
+        y: 153
+        width: 24
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb97aaf025e920cd0800000000000000
+      internalID: -2593336360124646978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_250
+      rect:
+        serializedVersion: 2
+        x: 1799
+        y: 214
+        width: 10
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26d908adce1d42420800000000000000
+      internalID: 2604437299735338338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_251
+      rect:
+        serializedVersion: 2
+        x: 1876
+        y: 212
+        width: 12
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56ca371f7276735c0800000000000000
+      internalID: -4235803503266386843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_252
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 137
+        width: 46
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dc2705cda04f2fa0800000000000000
+      internalID: -5823364678087660333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_253
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 74
+        width: 53
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37d1a8f8939f52960800000000000000
+      internalID: 7576735973737373043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_254
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 148
+        width: 48
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc1e89913eeed97a0800000000000000
+      internalID: -6368671638877576753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_255
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 84
+        width: 99
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f89ff9f60d1bc4350800000000000000
+      internalID: 6002367912162097551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_256
+      rect:
+        serializedVersion: 2
+        x: 1894
+        y: 207
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1a6ea7cb2fe39ec0800000000000000
+      internalID: -3561239909007201762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_257
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 26
+        width: 49
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cc8d741e399971a0800000000000000
+      internalID: -6811244469510370112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_258
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 39
+        width: 47
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e66709fe6cbe3b600800000000000000
+      internalID: 482988824714049134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_259
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 157
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e503b11ed1896910800000000000000
+      internalID: 1831137514282485225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_260
+      rect:
+        serializedVersion: 2
+        x: 1619
+        y: 45
+        width: 49
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62b39165eee47c030800000000000000
+      internalID: 3514864819739638566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_261
+      rect:
+        serializedVersion: 2
+        x: 1623
+        y: 125
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44dddcdf88ba9c8c0800000000000000
+      internalID: -3978460190943093436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_262
+      rect:
+        serializedVersion: 2
+        x: 1839
+        y: 89
+        width: 35
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f56f4d6e7de98640800000000000000
+      internalID: 5082854781719897592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_263
+      rect:
+        serializedVersion: 2
+        x: 1878
+        y: 7
+        width: 157
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e16afed27f0f17170800000000000000
+      internalID: 8174579743072429598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_264
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 10
+        width: 42
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 828c749e17ddf44d0800000000000000
+      internalID: -3148054133193848792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_265
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 37
+        width: 13
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5fa3d76e3005deb0800000000000000
+      internalID: -4695846768433975457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_266
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 11
+        width: 39
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 151646e1c142dd1d0800000000000000
+      internalID: -3324461246741978799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_267
+      rect:
+        serializedVersion: 2
+        x: 1335
+        y: 71
+        width: 10
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16c8e3ca0a9950f40800000000000000
+      internalID: 5694126219243457633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_268
+      rect:
+        serializedVersion: 2
+        x: 1544
+        y: 71
+        width: 10
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e48b07ac35235950800000000000000
+      internalID: 6436529234873386211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_269
+      rect:
+        serializedVersion: 2
+        x: 1648
+        y: 12
+        width: 43
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9c91f52e0b0c5a50800000000000000
+      internalID: 6511091316664933534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_270
+      rect:
+        serializedVersion: 2
+        x: 1669
+        y: 1
+        width: 46
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9024f27cf93786760800000000000000
+      internalID: 7451332713563243017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_271
+      rect:
+        serializedVersion: 2
+        x: 1746
+        y: 94
+        width: 17
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15209cd2816984560800000000000000
+      internalID: 7298248226745418321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_272
+      rect:
+        serializedVersion: 2
+        x: 1785
+        y: 42
+        width: 40
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48933913c5dc879d0800000000000000
+      internalID: -2776243374421493372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_273
+      rect:
+        serializedVersion: 2
+        x: 1585
+        y: 11
+        width: 14
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6965b8ba79478620800000000000000
+      internalID: 2776268486730934638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoidSpells_274
+      rect:
+        serializedVersion: 2
+        x: 1702
+        y: 26
+        width: 25
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afe5052f158843990800000000000000
+      internalID: -7407145601578541318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      VoidSpells_0: -2244013936419837430
+      VoidSpells_1: 2746197618204723948
+      VoidSpells_10: 8379248526774423686
+      VoidSpells_100: 5949389104711420648
+      VoidSpells_101: -3363735438665143051
+      VoidSpells_102: 8441889569349586091
+      VoidSpells_103: -3703075601141525984
+      VoidSpells_104: -567868363080250894
+      VoidSpells_105: -7379442531210217705
+      VoidSpells_106: 4032013093081695915
+      VoidSpells_107: -4648785220368695856
+      VoidSpells_108: -140889779823342413
+      VoidSpells_109: -908691197118094874
+      VoidSpells_11: 3936771985810237254
+      VoidSpells_110: -3266121967077815106
+      VoidSpells_111: -5707525191468675018
+      VoidSpells_112: 3476437474886251083
+      VoidSpells_113: 596346532149401759
+      VoidSpells_114: 1714419934289133250
+      VoidSpells_115: -5402837787821942438
+      VoidSpells_116: 2691922836030502076
+      VoidSpells_117: -6631307313712438177
+      VoidSpells_118: 7434196889234767562
+      VoidSpells_119: 5725161388890677195
+      VoidSpells_12: -1028756044327985434
+      VoidSpells_120: 5319148666754495822
+      VoidSpells_121: 4554172600064055086
+      VoidSpells_122: -4166634385905851630
+      VoidSpells_123: -2841658930918172842
+      VoidSpells_124: -7856926532333852924
+      VoidSpells_125: -1947967724654684749
+      VoidSpells_126: -3294849368391973323
+      VoidSpells_127: 8330112171852947937
+      VoidSpells_128: -895290176246811581
+      VoidSpells_129: 3692918144914899763
+      VoidSpells_13: -167833707886574212
+      VoidSpells_130: 8505442594169623825
+      VoidSpells_131: -191403024849445965
+      VoidSpells_132: 8555497775446972553
+      VoidSpells_133: 5740039872015686770
+      VoidSpells_134: 3760901483327649589
+      VoidSpells_135: -6495708920608073678
+      VoidSpells_136: 2993056173438624596
+      VoidSpells_137: -2687735098010814410
+      VoidSpells_138: -6007728471606401040
+      VoidSpells_139: -569769898311850229
+      VoidSpells_14: -4808883880252514680
+      VoidSpells_140: 5834613662510752739
+      VoidSpells_141: 912620495666470995
+      VoidSpells_142: -5341027984764853969
+      VoidSpells_143: -2627914588593269544
+      VoidSpells_144: 6892187476338260766
+      VoidSpells_145: 1142716436973749961
+      VoidSpells_146: 4697554888208910092
+      VoidSpells_147: 4182898316990023944
+      VoidSpells_148: 7455951015662534707
+      VoidSpells_149: -7365594204680227636
+      VoidSpells_15: -1987197306422143749
+      VoidSpells_150: 4688605372418497855
+      VoidSpells_151: 8616002132866599860
+      VoidSpells_152: -2493439377674300437
+      VoidSpells_153: -1585721456054861344
+      VoidSpells_154: -6220705427520358960
+      VoidSpells_155: 3457269517076856648
+      VoidSpells_156: -4381986665128333800
+      VoidSpells_157: -8757628961376990323
+      VoidSpells_158: -8958612526201104640
+      VoidSpells_159: 6211280111759699817
+      VoidSpells_16: 5114176986414972496
+      VoidSpells_160: -3520934732617907475
+      VoidSpells_161: -5191524199245291588
+      VoidSpells_162: -760935399812682046
+      VoidSpells_163: 7859251998419824848
+      VoidSpells_164: -719925727095279728
+      VoidSpells_165: -3056266835224024308
+      VoidSpells_166: 7518293474366998184
+      VoidSpells_167: -6068805112713129818
+      VoidSpells_168: 3334309322976669847
+      VoidSpells_169: 150084713075268735
+      VoidSpells_17: -1359162661173548087
+      VoidSpells_170: 4236413601028800141
+      VoidSpells_171: 3813562512604018859
+      VoidSpells_172: -7660186261007178086
+      VoidSpells_173: 2296600395136178995
+      VoidSpells_174: -1126038687423653118
+      VoidSpells_175: 6507978439057603476
+      VoidSpells_176: -6425692334646693624
+      VoidSpells_177: 7600836424927424426
+      VoidSpells_178: 8811388677873349946
+      VoidSpells_179: 690520775302190574
+      VoidSpells_18: -6905316190793163234
+      VoidSpells_180: 8676542583372978316
+      VoidSpells_181: 629290375360557363
+      VoidSpells_182: 1452216361633522585
+      VoidSpells_183: -4389642787113102435
+      VoidSpells_184: 3483666589365910060
+      VoidSpells_185: 4051795352642864614
+      VoidSpells_186: 2600000067999806636
+      VoidSpells_187: -150437061750787834
+      VoidSpells_188: 8910217225065808488
+      VoidSpells_189: -4463908195108416054
+      VoidSpells_19: -1632534305367698458
+      VoidSpells_190: 8117275068266805035
+      VoidSpells_191: 6589428268412549625
+      VoidSpells_192: 3671682371129224453
+      VoidSpells_193: 6115972175413044138
+      VoidSpells_194: -5888877000606511214
+      VoidSpells_195: 5717736780643225608
+      VoidSpells_196: -2174402532731184161
+      VoidSpells_197: 5830484898813842613
+      VoidSpells_198: 5907684711033933610
+      VoidSpells_199: 8859639133025264850
+      VoidSpells_2: -8027332220894970603
+      VoidSpells_20: -2742139461692474871
+      VoidSpells_200: -8807887389103681707
+      VoidSpells_201: 6058701109075058993
+      VoidSpells_202: -5033283927945150710
+      VoidSpells_203: 4801745842681789673
+      VoidSpells_204: -609879459675466837
+      VoidSpells_205: 5471049985884444203
+      VoidSpells_206: 4989567007495263300
+      VoidSpells_207: 3449489287851740253
+      VoidSpells_208: -9139961865419834373
+      VoidSpells_209: -3006388459823814394
+      VoidSpells_21: 6048669759877078173
+      VoidSpells_210: -8842025560618442178
+      VoidSpells_211: 4842260891181437098
+      VoidSpells_212: -4033466592470104602
+      VoidSpells_213: 7651697374310350003
+      VoidSpells_214: 1908907953585852815
+      VoidSpells_215: -7935930682146299860
+      VoidSpells_216: -3573438710963571179
+      VoidSpells_217: -9007103852384647473
+      VoidSpells_218: 1083781856868006520
+      VoidSpells_219: 5528261943864173532
+      VoidSpells_22: 6848268253696930582
+      VoidSpells_220: 4764359237988257358
+      VoidSpells_221: 4215537512263214254
+      VoidSpells_222: -5171069053647161301
+      VoidSpells_223: 4405134176280600107
+      VoidSpells_224: -3104261957215345059
+      VoidSpells_225: 5193467030861629783
+      VoidSpells_226: 7773608377484875312
+      VoidSpells_227: -7395156459057420014
+      VoidSpells_228: -3813010888357900060
+      VoidSpells_229: -1484412347008841947
+      VoidSpells_23: -8597071591831392583
+      VoidSpells_230: -3317757144423221809
+      VoidSpells_231: 981461594341146208
+      VoidSpells_232: -2900727302749035403
+      VoidSpells_233: 3901220558334486495
+      VoidSpells_234: 3629455410027577137
+      VoidSpells_235: -2321507391278046487
+      VoidSpells_236: -4395529556746953830
+      VoidSpells_237: -7354796225999069889
+      VoidSpells_238: -767285256356199829
+      VoidSpells_239: 2406120854871105535
+      VoidSpells_24: 1688199986523470522
+      VoidSpells_240: -5269578143089362703
+      VoidSpells_241: -8807383134909752625
+      VoidSpells_242: -5523551688874081403
+      VoidSpells_243: 4023272378690872511
+      VoidSpells_244: -5962137887699018656
+      VoidSpells_245: 4085064606224576233
+      VoidSpells_246: 6275479012139772797
+      VoidSpells_247: -7907575562341515958
+      VoidSpells_248: 6055705126820868515
+      VoidSpells_249: -2593336360124646978
+      VoidSpells_25: -2425481615924267690
+      VoidSpells_250: 2604437299735338338
+      VoidSpells_251: -4235803503266386843
+      VoidSpells_252: -5823364678087660333
+      VoidSpells_253: 7576735973737373043
+      VoidSpells_254: -6368671638877576753
+      VoidSpells_255: 6002367912162097551
+      VoidSpells_256: -3561239909007201762
+      VoidSpells_257: -6811244469510370112
+      VoidSpells_258: 482988824714049134
+      VoidSpells_259: 1831137514282485225
+      VoidSpells_26: -3678628216004615562
+      VoidSpells_260: 3514864819739638566
+      VoidSpells_261: -3978460190943093436
+      VoidSpells_262: 5082854781719897592
+      VoidSpells_263: 8174579743072429598
+      VoidSpells_264: -3148054133193848792
+      VoidSpells_265: -4695846768433975457
+      VoidSpells_266: -3324461246741978799
+      VoidSpells_267: 5694126219243457633
+      VoidSpells_268: 6436529234873386211
+      VoidSpells_269: 6511091316664933534
+      VoidSpells_27: -2702240674863888870
+      VoidSpells_270: 7451332713563243017
+      VoidSpells_271: 7298248226745418321
+      VoidSpells_272: -2776243374421493372
+      VoidSpells_273: 2776268486730934638
+      VoidSpells_274: -7407145601578541318
+      VoidSpells_28: 8697366663834023527
+      VoidSpells_29: 5896774152963437751
+      VoidSpells_3: -3950929658272960929
+      VoidSpells_30: -2058561246384683397
+      VoidSpells_31: 6093704919956778326
+      VoidSpells_32: -6641940196146354723
+      VoidSpells_33: 1848936047659845432
+      VoidSpells_34: -4496876716576349893
+      VoidSpells_35: 485364614250645456
+      VoidSpells_36: 3020604536427156251
+      VoidSpells_37: -5988907258583476333
+      VoidSpells_38: 3826183213446775591
+      VoidSpells_39: 7470524944785213227
+      VoidSpells_4: 4203166019171978569
+      VoidSpells_40: 4695365888116558936
+      VoidSpells_41: -6342271648379837641
+      VoidSpells_42: -2726634779002931572
+      VoidSpells_43: 2209789377206661718
+      VoidSpells_44: -1975047263511337352
+      VoidSpells_45: -1117436346825155068
+      VoidSpells_46: -8945658514958717949
+      VoidSpells_47: -4827562382200684306
+      VoidSpells_48: -3391748107298608863
+      VoidSpells_49: 8693131414447465082
+      VoidSpells_5: 2378062835994676391
+      VoidSpells_50: -8558180017074853196
+      VoidSpells_51: 782412652971537308
+      VoidSpells_52: -7879572236613344477
+      VoidSpells_53: -8057132319283914864
+      VoidSpells_54: -2451002351861324444
+      VoidSpells_55: -9130877041342098669
+      VoidSpells_56: 8484854089400498330
+      VoidSpells_57: -7670387532502878185
+      VoidSpells_58: -7878102020496069725
+      VoidSpells_59: -723593930187984163
+      VoidSpells_6: -3616835575180885110
+      VoidSpells_60: -1840441994226544802
+      VoidSpells_61: -4473625775532465627
+      VoidSpells_62: -6149894555164158621
+      VoidSpells_63: -3620286017410801552
+      VoidSpells_64: -3416335145965285721
+      VoidSpells_65: -7929451548145693729
+      VoidSpells_66: -9092602281949741119
+      VoidSpells_67: 6963444253824604840
+      VoidSpells_68: -2402420802651736003
+      VoidSpells_69: -3642986101071385484
+      VoidSpells_7: 5210431995430225300
+      VoidSpells_70: -7273495301700688598
+      VoidSpells_71: 2877281741555246718
+      VoidSpells_72: -3151198290077666541
+      VoidSpells_73: 6374627414748291836
+      VoidSpells_74: 5111822122220069140
+      VoidSpells_75: -4488208162216672798
+      VoidSpells_76: 1645273249244242379
+      VoidSpells_77: -833213916790346874
+      VoidSpells_78: -7539128145669782671
+      VoidSpells_79: -7610688025316736658
+      VoidSpells_8: 3922430512915793724
+      VoidSpells_80: 480295412103125574
+      VoidSpells_81: 6225374245964510300
+      VoidSpells_82: 7594053865459171900
+      VoidSpells_83: -4671444208237400512
+      VoidSpells_84: 5233245169246206761
+      VoidSpells_85: 6258255420957808350
+      VoidSpells_86: -5851554995029611687
+      VoidSpells_87: 9092948322647791097
+      VoidSpells_88: 6821331610703993464
+      VoidSpells_89: -739159957902245117
+      VoidSpells_9: -483229349466330872
+      VoidSpells_90: -1288802932070706447
+      VoidSpells_91: -5101714262840131289
+      VoidSpells_92: 3772282524489662834
+      VoidSpells_93: 5755134168650658381
+      VoidSpells_94: -8533337200841527534
+      VoidSpells_95: 6150543771513891594
+      VoidSpells_96: -71113806392038323
+      VoidSpells_97: -4968628770347942541
+      VoidSpells_98: 650578668169411617
+      VoidSpells_99: 7509460196463875203
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

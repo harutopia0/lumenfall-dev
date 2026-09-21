@@ -22,6 +22,7 @@ public class Player : Entity
     public Player_PlungeAttackState plungeAttackState { get; private set; }
     public Player_DeadState deadState { get; private set; }
     public Player_DashToIdleState dashToIdleState { get; private set; }
+    public Player_LandState landState { get; private set; }
 
     [Header("Attack details")]
     public Vector2[] attackVelocity = new Vector2[]
@@ -67,6 +68,7 @@ public class Player : Entity
         plungeAttackState = new Player_PlungeAttackState(this, stateMachine, "plungeAttack");
         deadState = new Player_DeadState(this, stateMachine, "dead");
         dashToIdleState = new Player_DashToIdleState(this, stateMachine, "dashToIdle");
+        landState = new Player_LandState(this, stateMachine, "land");
     }
 
     protected override void Start()

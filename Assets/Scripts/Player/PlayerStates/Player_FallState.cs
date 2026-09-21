@@ -14,7 +14,14 @@ public class Player_FallState : Player_AiredState
 
         if (player.groundDetected)
         {
-            stateMachine.ChangeState(player.idleState);
+            if (player.moveInput.x != 0)
+            {
+                stateMachine.ChangeState(player.moveState);
+            }
+            else
+            {
+                stateMachine.ChangeState(player.landState);
+            }
             return;
         }
 

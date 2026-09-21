@@ -1,0 +1,834 @@
+fileFormatVersion: 2
+guid: 1b1423a33c82dc54a80c6691a63ab6df
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8120516224415460213
+    second: shadow_dash_burst_0
+  - first:
+      213: -1222224196711300491
+    second: shadow_dash_burst_1
+  - first:
+      213: 1136989936952915231
+    second: shadow_dash_burst_2
+  - first:
+      213: 2060944110172060809
+    second: shadow_dash_burst_3
+  - first:
+      213: -5002572525441615126
+    second: shadow_dash_burst_4
+  - first:
+      213: 1909260281690522508
+    second: shadow_dash_burst_5
+  - first:
+      213: 4023764723447453896
+    second: shadow_dash_burst_6
+  - first:
+      213: 8405856797484964186
+    second: shadow_dash_burst_7
+  - first:
+      213: 7232242449153372761
+    second: shadow_dash_burst_8
+  - first:
+      213: -8603976060949115619
+    second: shadow_dash_burst_9
+  - first:
+      213: 7008414843683533349
+    second: shadow_dash_burst_10
+  - first:
+      213: 8462516321950982317
+    second: shadow_dash_burst_11
+  - first:
+      213: -6019161184793808291
+    second: shadow_dash_burst_12
+  - first:
+      213: 4291042060413861118
+    second: shadow_dash_burst_13
+  - first:
+      213: 4996031137199848685
+    second: shadow_dash_burst_14
+  - first:
+      213: -4160992361607363648
+    second: shadow_dash_burst_15
+  - first:
+      213: -5754406337634378071
+    second: shadow_dash_burst_16
+  - first:
+      213: 4769238304462163056
+    second: shadow_dash_burst_17
+  - first:
+      213: -1396142309528119525
+    second: shadow_dash_burst_18
+  - first:
+      213: -5556569664586357430
+    second: shadow_dash_burst_19
+  - first:
+      213: -3273402464804049216
+    second: shadow_dash_burst_20
+  - first:
+      213: 1391891824785573246
+    second: shadow_dash_burst_21
+  - first:
+      213: -8284448414645048736
+    second: shadow_dash_burst_22
+  - first:
+      213: -1977596413227790884
+    second: shadow_dash_burst_23
+  - first:
+      213: -1569687712709157830
+    second: shadow_dash_burst_24
+  - first:
+      213: -6861038134552607834
+    second: shadow_dash_burst_25
+  - first:
+      213: 3501171235605772463
+    second: shadow_dash_burst_26
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: shadow_dash_burst_0
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 194
+        width: 215
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57b64155b7ed1b070800000000000000
+      internalID: 8120516224415460213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_dash_burst_1
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 175
+        width: 267
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 572c2279199c90fe0800000000000000
+      internalID: -1222224196711300491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_dash_burst_2
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 178
+        width: 330
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f15b549d25667cf00800000000000000
+      internalID: 1136989936952915231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_dash_burst_3
+      rect:
+        serializedVersion: 2
+        x: 1403
+        y: 242
+        width: 277
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98c3db4bfb1f99c10800000000000000
+      internalID: 2060944110172060809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_dash_burst_4
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 329
+        width: 27
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aea7ce9faca439ab0800000000000000
+      internalID: -5002572525441615126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_dash_burst_5
+      rect:
+        serializedVersion: 2
+        x: 1471
+        y: 338
+        width: 41
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c830de94c1e0f7a10800000000000000
+      internalID: 1909260281690522508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_dash_burst_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 271
+        width: 136
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c855d872b847d730800000000000000
+      internalID: 4023764723447453896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_dash_burst_7
+      rect:
+        serializedVersion: 2
+        x: 1784
+        y: 280
+        width: 84
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a59d4ee983a97a470800000000000000
+      internalID: 8405856797484964186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_dash_burst_8
+      rect:
+        serializedVersion: 2
+        x: 1897
+        y: 277
+        width: 110
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 952b94f70361e5460800000000000000
+      internalID: 7232242449153372761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_dash_burst_9
+      rect:
+        serializedVersion: 2
+        x: 2282
+        y: 278
+        width: 34
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1dc92fbb59889880800000000000000
+      internalID: -8603976060949115619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_dash_burst_10
+      rect:
+        serializedVersion: 2
+        x: 2306
+        y: 286
+        width: 38
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 522f45c0b24e24160800000000000000
+      internalID: 7008414843683533349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_dash_burst_11
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 207
+        width: 117
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da065db22c5e07570800000000000000
+      internalID: 8462516321950982317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_dash_burst_12
+      rect:
+        serializedVersion: 2
+        x: 1639
+        y: 263
+        width: 72
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d52bb861bc4a77ca0800000000000000
+      internalID: -6019161184793808291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_dash_burst_13
+      rect:
+        serializedVersion: 2
+        x: 1837
+        y: 264
+        width: 84
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efc7a3fd408dc8b30800000000000000
+      internalID: 4291042060413861118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_dash_burst_14
+      rect:
+        serializedVersion: 2
+        x: 2005
+        y: 262
+        width: 48
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dec769369d7755540800000000000000
+      internalID: 4996031137199848685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_dash_burst_15
+      rect:
+        serializedVersion: 2
+        x: 2209
+        y: 266
+        width: 33
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c387453e7f2146c0800000000000000
+      internalID: -4160992361607363648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_dash_burst_16
+      rect:
+        serializedVersion: 2
+        x: 2359
+        y: 264
+        width: 36
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9aedb009ced3420b0800000000000000
+      internalID: -5754406337634378071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_dash_burst_17
+      rect:
+        serializedVersion: 2
+        x: 1780
+        y: 243
+        width: 54
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07c47aa28fcbf2240800000000000000
+      internalID: 4769238304462163056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_dash_burst_18
+      rect:
+        serializedVersion: 2
+        x: 1837
+        y: 249
+        width: 34
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b17dea077f7ef9ce0800000000000000
+      internalID: -1396142309528119525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_dash_burst_19
+      rect:
+        serializedVersion: 2
+        x: 1943
+        y: 251
+        width: 37
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a456e9c745913e2b0800000000000000
+      internalID: -5556569664586357430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_dash_burst_20
+      rect:
+        serializedVersion: 2
+        x: 1521
+        y: 231
+        width: 65
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ce677e2dc98292d0800000000000000
+      internalID: -3273402464804049216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_dash_burst_21
+      rect:
+        serializedVersion: 2
+        x: 1551
+        y: 214
+        width: 88
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e754d167d3ef05310800000000000000
+      internalID: 1391891824785573246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_dash_burst_22
+      rect:
+        serializedVersion: 2
+        x: 1465
+        y: 217
+        width: 59
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06aa80d4f0ab70d80800000000000000
+      internalID: -8284448414645048736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_dash_burst_23
+      rect:
+        serializedVersion: 2
+        x: 1477
+        y: 210
+        width: 52
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdd88783a8a2e84e0800000000000000
+      internalID: -1977596413227790884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_dash_burst_24
+      rect:
+        serializedVersion: 2
+        x: 1529
+        y: 218
+        width: 30
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3cdca38759573ae0800000000000000
+      internalID: -1569687712709157830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_dash_burst_25
+      rect:
+        serializedVersion: 2
+        x: 1261
+        y: 177
+        width: 29
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a3459ffa22b8c0a0800000000000000
+      internalID: -6861038134552607834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_dash_burst_26
+      rect:
+        serializedVersion: 2
+        x: 1525
+        y: 179
+        width: 75
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa8f81450b8a69030800000000000000
+      internalID: 3501171235605772463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      shadow_dash_burst_0: 8120516224415460213
+      shadow_dash_burst_1: -1222224196711300491
+      shadow_dash_burst_10: 7008414843683533349
+      shadow_dash_burst_11: 8462516321950982317
+      shadow_dash_burst_12: -6019161184793808291
+      shadow_dash_burst_13: 4291042060413861118
+      shadow_dash_burst_14: 4996031137199848685
+      shadow_dash_burst_15: -4160992361607363648
+      shadow_dash_burst_16: -5754406337634378071
+      shadow_dash_burst_17: 4769238304462163056
+      shadow_dash_burst_18: -1396142309528119525
+      shadow_dash_burst_19: -5556569664586357430
+      shadow_dash_burst_2: 1136989936952915231
+      shadow_dash_burst_20: -3273402464804049216
+      shadow_dash_burst_21: 1391891824785573246
+      shadow_dash_burst_22: -8284448414645048736
+      shadow_dash_burst_23: -1977596413227790884
+      shadow_dash_burst_24: -1569687712709157830
+      shadow_dash_burst_25: -6861038134552607834
+      shadow_dash_burst_26: 3501171235605772463
+      shadow_dash_burst_3: 2060944110172060809
+      shadow_dash_burst_4: -5002572525441615126
+      shadow_dash_burst_5: 1909260281690522508
+      shadow_dash_burst_6: 4023764723447453896
+      shadow_dash_burst_7: 8405856797484964186
+      shadow_dash_burst_8: 7232242449153372761
+      shadow_dash_burst_9: -8603976060949115619
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
