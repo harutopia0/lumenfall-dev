@@ -16,6 +16,8 @@ public class Player_DashToIdleState : Player_GroundedState
     {
         base.Update();
 
+        if (stateMachine.currentState != this) return;
+
         player.SetVelocity(0, 0);
 
         if (player.moveInput.x != 0)
