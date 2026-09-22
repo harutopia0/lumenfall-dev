@@ -41,7 +41,7 @@ public class Player_DashState : PlayerState
             if (player.groundDetected)
             {
                 if (player.moveInput.x != 0)
-                    stateMachine.ChangeState(player.moveState);
+                    stateMachine.ChangeState(player.runState);
                 else
                     stateMachine.ChangeState(player.dashToIdleState);
             }

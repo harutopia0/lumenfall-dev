@@ -22,7 +22,7 @@ public class Player_SuperDashState : PlayerState
 
         launchDir = player.facingDir;
 
-        player.vfx?.PlaySuperDashBurstVfx(launchDir);
+        player.vfx?.PlaySuperDashBurstVfx(player.transform.position, player.transform.rotation, launchDir);
         player.vfx?.SetSuperDashTrail(true);
     }
 

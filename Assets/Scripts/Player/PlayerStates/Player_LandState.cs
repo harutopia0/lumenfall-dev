@@ -20,7 +20,7 @@ public class Player_LandState : Player_GroundedState
 
         if (player.moveInput.x != 0)
         {
-            stateMachine.ChangeState(player.moveState);
+            stateMachine.ChangeState(player.runState);
             return;
         }
 

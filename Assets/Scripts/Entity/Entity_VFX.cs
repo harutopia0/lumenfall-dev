@@ -25,11 +25,14 @@ public class Entity_VFX : MonoBehaviour
 
     [Header("Super Dash VFX")]
     [SerializeField] private GameObject superDashTrailObj;
-    [SerializeField] private Animator superDashBurstAnim;
-    [SerializeField] private Animator superDashBreakAnim;
+    [SerializeField] private GameObject superDashBurstPrefab;
+    [SerializeField] private Vector2 superDashBurstOffset = Vector2.zero;
+    [SerializeField] private GameObject superDashTrailEndPrefab;
+    [SerializeField] private Vector2 superDashTrailEndOffset = Vector2.zero;
+    [SerializeField] private GameObject superDashBreakPrefab;
+    [SerializeField] private Vector2 superDashBreakOffset = Vector2.zero;
     [SerializeField] private GameObject superDashChargeObj; 
     [SerializeField] private Animator superDashBlingAnim;
-    [SerializeField] private Animator superDashTrailEndAnim;
 
     private enum CornerType { DropCliff, ClimbWall }
 
@@ -388,12 +391,11 @@ public class Entity_VFX : MonoBehaviour
         }
     }
 
-    public void PlaySuperDashTrailEndVfx()
+    public void PlaySuperDashTrailEndVfx(Vector3 position, Quaternion rotation, int facingDir)
     {
-        if (superDashTrailEndAnim != null)
-        {
-            superDashTrailEndAnim.Play("sdTrailEnd", 0, 0f);
-        }
+        if (superDashTrailEndPrefab == null) return;
+        Vector3 spawnPos = position + new Vector3(superDashTrailEndOffset.x * facingDir, superDashTrailEndOffset.y, 0f);
+        Instantiate(superDashTrailEndPrefab, spawnPos, rotation);
     }
 
     public void SetSuperDashTrail(bool active)
@@ -401,24 +403,20 @@ public class Entity_VFX : MonoBehaviour
         if (superDashTrailObj != null) superDashTrailObj.SetActive(active);
     }
 
-    public void PlaySuperDashBurstVfx(int dir)
+    public void PlaySuperDashBurstVfx(Vector3 position, Quaternion rotation, int facingDir)
     {
-        if (superDashBurstAnim != null)
-        {
-            superDashBurstAnim.gameObject.SetActive(true);
-            superDashBurstAnim.Play("sdFxBurst", 0, 0f);
-        }
+        if (superDashBurstPrefab == null) return;
+
+        Vector3 spawnPos = position + new Vector3(superDashBurstOffset.x * facingDir, superDashBurstOffset.y, 0f);
+        Instantiate(superDashBurstPrefab, spawnPos, rotation);
     }
 
-    public void PlaySuperDashBreakVfx()
+    public void PlaySuperDashBreakVfx(Vector3 position, Quaternion rotation, int facingDir)
     {
-        if (superDashBreakAnim != null)
-        {
-            superDashBreakAnim.gameObject.SetActive(true);
-            superDashBreakAnim.Play("sdBreak", 0, 0f);
-        }
+        if (superDashBreakPrefab == null) return;
+        Vector3 spawnPos = position + new Vector3(superDashBreakOffset.x * facingDir, superDashBreakOffset.y, 0f);
+        Instantiate(superDashBreakPrefab, spawnPos, rotation);
     }
-
 
     private void Awake()
     {

@@ -16,7 +16,7 @@ public class Player_FallState : Player_AiredState
         {
             if (player.moveInput.x != 0)
             {
-                stateMachine.ChangeState(player.moveState);
+                stateMachine.ChangeState(player.runState);
             }
             else
             {

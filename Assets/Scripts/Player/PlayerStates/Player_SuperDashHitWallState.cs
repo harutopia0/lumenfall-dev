@@ -11,7 +11,7 @@ public class Player_SuperDashHitWallState : PlayerState
         rb.gravityScale = 0;
         player.SetVelocity(0, 0);
 
-        player.vfx?.PlaySuperDashBreakVfx();
+        player.vfx?.PlaySuperDashBreakVfx(player.transform.position, player.transform.rotation, player.facingDir);
     }
 
     public override void Update()

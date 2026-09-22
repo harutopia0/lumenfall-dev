@@ -9,7 +9,7 @@ public class Player_SuperDashAirBrakeState : PlayerState
         base.Enter();
 
         player.SetVelocity(player.facingDir * (player.moveSpeed * 0.4f), rb.linearVelocity.y);
-        player.vfx?.PlaySuperDashTrailEndVfx();
+        player.vfx?.PlaySuperDashTrailEndVfx(player.transform.position, player.transform.rotation, player.facingDir);
     }
 
     public override void Update()

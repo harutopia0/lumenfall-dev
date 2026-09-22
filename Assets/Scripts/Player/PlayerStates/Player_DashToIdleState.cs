@@ -22,7 +22,7 @@ public class Player_DashToIdleState : Player_GroundedState
 
         if (player.moveInput.x != 0)
         {
-            stateMachine.ChangeState(player.moveState);
+            stateMachine.ChangeState(player.runState);
             return;
         }
 

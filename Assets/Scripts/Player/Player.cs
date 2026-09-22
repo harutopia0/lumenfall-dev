@@ -12,7 +12,7 @@ public class Player : Entity
     public PlayerInputSet input { get; private set; }
 
     public Player_IdleState idleState { get; private set; }
-    public Player_RunState moveState { get; private set; }
+    public Player_RunState runState { get; private set; }
     public Player_JumpState jumpState { get; private set; }
     public Player_FallState fallState { get; private set; }
     public Player_WallSlideState wallSlideState { get; private set; }
@@ -60,7 +60,7 @@ public class Player : Entity
         defaultGravityScale = rb.gravityScale;
 
         idleState = new Player_IdleState(this, stateMachine, "idle");
-        moveState = new Player_RunState(this, stateMachine, "run");
+        runState = new Player_RunState(this, stateMachine, "run");
         jumpState = new Player_JumpState(this, stateMachine, "isMidAir");
         fallState = new Player_FallState(this, stateMachine, "isMidAir");
         wallSlideState = new Player_WallSlideState(this, stateMachine, "wallSlide");
