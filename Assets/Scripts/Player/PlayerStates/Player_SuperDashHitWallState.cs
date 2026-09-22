@@ -1,5 +1,3 @@
-using UnityEngine;
-
 public class Player_SuperDashHitWallState : PlayerState
 {
     public Player_SuperDashHitWallState(Player player, StateMachine stateMachine, string animBoolName) : base(player, stateMachine, animBoolName)
@@ -10,6 +8,7 @@ public class Player_SuperDashHitWallState : PlayerState
     {
         base.Enter();
 
+        rb.gravityScale = 0;
         player.SetVelocity(0, 0);
 
         player.vfx?.PlaySuperDashBreakVfx();
@@ -25,5 +24,12 @@ public class Player_SuperDashHitWallState : PlayerState
         {
             stateMachine.ChangeState(player.wallSlideState);
         }
+    }
+
+    public override void Exit()
+    {
+        base.Exit();
+
+        rb.gravityScale = player.defaultGravityScale;
     }
 }
