@@ -1,0 +1,1068 @@
+fileFormatVersion: 2
+guid: 0be27cbc7c884b3478aa32c95149670e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7703584424226310029
+    second: Sprint_0
+  - first:
+      213: -9102539629598265650
+    second: Sprint_1
+  - first:
+      213: -6858568464912003800
+    second: Sprint_2
+  - first:
+      213: 6017848573569685862
+    second: Sprint_3
+  - first:
+      213: 4314031480865302091
+    second: Sprint_4
+  - first:
+      213: 1340682475711366111
+    second: Sprint_5
+  - first:
+      213: 3841573269253113524
+    second: Sprint_6
+  - first:
+      213: 830618508929693542
+    second: Sprint_7
+  - first:
+      213: -5283576640945434787
+    second: Sprint_8
+  - first:
+      213: -1340763799457801719
+    second: Sprint_9
+  - first:
+      213: -598831117515178806
+    second: Sprint_10
+  - first:
+      213: -3870937509543901745
+    second: Sprint_11
+  - first:
+      213: 8526674496266598021
+    second: Sprint_12
+  - first:
+      213: -5902382282550890786
+    second: Sprint_13
+  - first:
+      213: -3088331165559897782
+    second: Sprint_14
+  - first:
+      213: 2202252376165769580
+    second: Sprint_15
+  - first:
+      213: -8265054329274409203
+    second: Sprint_16
+  - first:
+      213: -93740935580831910
+    second: Sprint_17
+  - first:
+      213: -2047417280568281976
+    second: Sprint_18
+  - first:
+      213: -2940367535985850443
+    second: Sprint_19
+  - first:
+      213: -9168700804283855765
+    second: Sprint_20
+  - first:
+      213: -5162238900491224917
+    second: Sprint_21
+  - first:
+      213: 5180156579678398528
+    second: Sprint_22
+  - first:
+      213: 4810393010517545103
+    second: Sprint_23
+  - first:
+      213: 8750955460465699665
+    second: Sprint_24
+  - first:
+      213: 5747564706947623173
+    second: Sprint_25
+  - first:
+      213: -2494920100669831250
+    second: Sprint_26
+  - first:
+      213: -6381295675370005678
+    second: Sprint_27
+  - first:
+      213: 945383520520539986
+    second: Sprint_28
+  - first:
+      213: 4162368719642300414
+    second: Sprint_29
+  - first:
+      213: 2787151043770342884
+    second: Sprint_30
+  - first:
+      213: -3946992487373573547
+    second: Sprint_31
+  - first:
+      213: -3296870364225107498
+    second: Sprint_32
+  - first:
+      213: 5203171487733380734
+    second: Sprint_33
+  - first:
+      213: -326819706264432619
+    second: Sprint_34
+  - first:
+      213: 3820502052557377221
+    second: Sprint_35
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Sprint_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 847
+        width: 74
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37832c018ce571590800000000000000
+      internalID: -7703584424226310029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprint_1
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 863
+        width: 81
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ece21e72f684da180800000000000000
+      internalID: -9102539629598265650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprint_2
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 778
+        width: 114
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82d4935c15871d0a0800000000000000
+      internalID: -6858568464912003800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprint_3
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 782
+        width: 82
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66956bbc461b38350800000000000000
+      internalID: 6017848573569685862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprint_4
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 746
+        width: 87
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4624de66c48edb30800000000000000
+      internalID: 4314031480865302091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprint_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 723
+        width: 77
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd30e51cb9f0b9210800000000000000
+      internalID: 1340682475711366111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprint_6
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 657
+        width: 87
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b6c77ce882005530800000000000000
+      internalID: 3841573269253113524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprint_7
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 663
+        width: 81
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6677e901223f68b00800000000000000
+      internalID: 830618508929693542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprint_8
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 721
+        width: 122
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5f45e4e907fca6b0800000000000000
+      internalID: -5283576640945434787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprint_9
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 753
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90a5d959d66a46de0800000000000000
+      internalID: -1340763799457801719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprint_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 607
+        width: 91
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: accbe08754680b7f0800000000000000
+      internalID: -598831117515178806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprint_11
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 627
+        width: 116
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc586eb18daa74ac0800000000000000
+      internalID: -3870937509543901745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprint_12
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 716
+        width: 25
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5867a513745d45670800000000000000
+      internalID: 8526674496266598021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprint_13
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 624
+        width: 75
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edeaeff0696861ea0800000000000000
+      internalID: -5902382282550890786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprint_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 488
+        width: 93
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a41c808ea2b0425d0800000000000000
+      internalID: -3088331165559897782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprint_15
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 559
+        width: 115
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c61ee1b3ed8ff8e10800000000000000
+      internalID: 2202252376165769580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprint_16
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 565
+        width: 112
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0f5b4ea0e0ac4d80800000000000000
+      internalID: -8265054329274409203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprint_17
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 533
+        width: 121
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5faac1ad17f2bef0800000000000000
+      internalID: -93740935580831910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprint_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 370
+        width: 92
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8843bbcb4dc1693e0800000000000000
+      internalID: -2047417280568281976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprint_19
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 468
+        width: 120
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b709740e47b137d0800000000000000
+      internalID: -2940367535985850443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprint_20
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 364
+        width: 119
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6c82d4423b32c080800000000000000
+      internalID: -9168700804283855765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprint_21
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 467
+        width: 119
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba8748a121b0c58b0800000000000000
+      internalID: -5162238900491224917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprint_22
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 368
+        width: 121
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04822aca6fc93e740800000000000000
+      internalID: 5180156579678398528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprint_23
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 452
+        width: 128
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f809bedd4f2f1c240800000000000000
+      internalID: 4810393010517545103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprint_24
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 252
+        width: 42
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15ba25270a3a17970800000000000000
+      internalID: 8750955460465699665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprint_25
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 267
+        width: 121
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5096f2926a373cf40800000000000000
+      internalID: 5747564706947623173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprint_26
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 360
+        width: 119
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea7c7981363406dd0800000000000000
+      internalID: -2494920100669831250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprint_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 97
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25b95de84651177a0800000000000000
+      internalID: -6381295675370005678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprint_28
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 236
+        width: 87
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25f82259d4dae1d00800000000000000
+      internalID: 945383520520539986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprint_29
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 133
+        width: 87
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eff0a7e1c44b3c930800000000000000
+      internalID: 4162368719642300414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprint_30
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 250
+        width: 118
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ed5a4b7b13fda620800000000000000
+      internalID: 2787151043770342884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprint_31
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 147
+        width: 126
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55276faae377939c0800000000000000
+      internalID: -3946992487373573547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprint_32
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 131
+        width: 132
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d989dd0fd92f32d0800000000000000
+      internalID: -3296870364225107498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprint_33
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 154
+        width: 134
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e76f9c786e0653840800000000000000
+      internalID: 5203171487733380734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprint_34
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 364
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 510d28e6537e67bf0800000000000000
+      internalID: -326819706264432619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprint_35
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 0
+        width: 120
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ce455aff56250530800000000000000
+      internalID: 3820502052557377221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Sprint_0: -7703584424226310029
+      Sprint_1: -9102539629598265650
+      Sprint_10: -598831117515178806
+      Sprint_11: -3870937509543901745
+      Sprint_12: 8526674496266598021
+      Sprint_13: -5902382282550890786
+      Sprint_14: -3088331165559897782
+      Sprint_15: 2202252376165769580
+      Sprint_16: -8265054329274409203
+      Sprint_17: -93740935580831910
+      Sprint_18: -2047417280568281976
+      Sprint_19: -2940367535985850443
+      Sprint_2: -6858568464912003800
+      Sprint_20: -9168700804283855765
+      Sprint_21: -5162238900491224917
+      Sprint_22: 5180156579678398528
+      Sprint_23: 4810393010517545103
+      Sprint_24: 8750955460465699665
+      Sprint_25: 5747564706947623173
+      Sprint_26: -2494920100669831250
+      Sprint_27: -6381295675370005678
+      Sprint_28: 945383520520539986
+      Sprint_29: 4162368719642300414
+      Sprint_3: 6017848573569685862
+      Sprint_30: 2787151043770342884
+      Sprint_31: -3946992487373573547
+      Sprint_32: -3296870364225107498
+      Sprint_33: 5203171487733380734
+      Sprint_34: -326819706264432619
+      Sprint_35: 3820502052557377221
+      Sprint_4: 4314031480865302091
+      Sprint_5: 1340682475711366111
+      Sprint_6: 3841573269253113524
+      Sprint_7: 830618508929693542
+      Sprint_8: -5283576640945434787
+      Sprint_9: -1340763799457801719
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
