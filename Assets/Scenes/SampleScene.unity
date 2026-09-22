@@ -1968,7 +1968,7 @@ MonoBehaviour:
   heavyKnockbackPower: {x: 7.5, y: 5}
   knockbackDuration: 0.2
   heavyKnockbackDuration: 0.5
-  maxHp: 20
+  maxHp: 10000
   currentHp: 0
   heavyDamageThreshold: 0.4
 --- !u!114 &696569744
