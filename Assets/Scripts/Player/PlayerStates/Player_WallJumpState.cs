@@ -3,7 +3,6 @@ using UnityEngine;
 public class Player_WallJumpState : PlayerState
 {
     private int jumpDir;
-    private bool isJumpCut;
 
     public Player_WallJumpState(Player player, StateMachine stateMachine, string animBoolName)
         : base(player, stateMachine, animBoolName)
@@ -17,17 +16,8 @@ public class Player_WallJumpState : PlayerState
         player.canAirDash = true;
         jumpDir = -player.facingDir;
         stateTimer = player.wallJumpPushOffDuration;
-        isJumpCut = false;
 
-        if (!input.Player.Jump.IsPressed())
-        {
-            isJumpCut = true;
-            player.SetVelocity(jumpDir * player.wallJumpForce.x, player.wallJumpForce.y * player.jumpCutMultiplier);
-        }
-        else
-        {
-            player.SetVelocity(jumpDir * player.wallJumpForce.x, player.wallJumpForce.y);
-        }
+        player.SetVelocity(jumpDir * player.wallJumpForce.x, player.wallJumpForce.y);
 
         player.vfx?.PlayWallJumpPuffVfx(player.transform.position, jumpDir);
     }
@@ -38,9 +28,8 @@ public class Player_WallJumpState : PlayerState
 
         if (stateMachine.currentState != this) return;
 
-        if (!isJumpCut && !input.Player.Jump.IsPressed() && rb.linearVelocity.y > 0)
+        if (input.Player.Jump.WasReleasedThisFrame() && rb.linearVelocity.y > 0)
         {
-            isJumpCut = true;
             player.SetVelocity(rb.linearVelocity.x, rb.linearVelocity.y * player.jumpCutMultiplier);
         }
 
