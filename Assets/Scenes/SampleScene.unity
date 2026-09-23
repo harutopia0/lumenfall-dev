@@ -1235,6 +1235,8 @@ MonoBehaviour:
   dashVfxPrefab: {fileID: 0}
   dashVfxOffset: {x: 0.6, y: 0}
   slashVfxAnim: {fileID: 0}
+  wallJumpPuffPrefab: {fileID: 0}
+  wallJumpPuffOffset: {x: 0, y: 0}
   superDashTrailObj: {fileID: 0}
   superDashBurstPrefab: {fileID: 0}
   superDashBurstOffset: {x: 0, y: 0}
@@ -1243,6 +1245,7 @@ MonoBehaviour:
   superDashBreakPrefab: {fileID: 0}
   superDashBreakOffset: {x: 0, y: 0}
   superDashChargeObj: {fileID: 0}
+  superDashChargeGroundOffset: {x: 0, y: 0}
   superDashChargeWallOffset: {x: 0.75, y: 0}
   superDashBlingAnim: {fileID: 0}
   crystalPrefab: {fileID: 0}
@@ -1877,6 +1880,8 @@ MonoBehaviour:
   dashVfxPrefab: {fileID: 0}
   dashVfxOffset: {x: 0.6, y: 0}
   slashVfxAnim: {fileID: 0}
+  wallJumpPuffPrefab: {fileID: 0}
+  wallJumpPuffOffset: {x: 0, y: 0}
   superDashTrailObj: {fileID: 0}
   superDashBurstPrefab: {fileID: 0}
   superDashBurstOffset: {x: 0, y: 0}
@@ -1885,6 +1890,7 @@ MonoBehaviour:
   superDashBreakPrefab: {fileID: 0}
   superDashBreakOffset: {x: 0, y: 0}
   superDashChargeObj: {fileID: 0}
+  superDashChargeGroundOffset: {x: 0, y: 0}
   superDashChargeWallOffset: {x: 0.75, y: 0}
   superDashBlingAnim: {fileID: 0}
   crystalPrefab: {fileID: 0}
@@ -2173,7 +2179,7 @@ Transform:
   m_GameObject: {fileID: 896212884}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.75, z: 0}
+  m_LocalPosition: {x: 0, y: 0.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9702,7 +9708,7 @@ Transform:
   m_GameObject: {fileID: 1737543326}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.75, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -9919,7 +9925,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDamping: 0.1
   m_AngularDamping: 0.05
-  m_GravityScale: 3.5
+  m_GravityScale: 4.5
   m_Material: {fileID: 6200000, guid: 2abcaab8c096d1e449db92152278ce03, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
@@ -9974,6 +9980,8 @@ MonoBehaviour:
   dashVfxPrefab: {fileID: 8991136664824991262, guid: aba0d07d77894774bb4bb5d98a0a0bd5, type: 3}
   dashVfxOffset: {x: -1.5, y: 0}
   slashVfxAnim: {fileID: 913840306}
+  wallJumpPuffPrefab: {fileID: 576263223237463726, guid: ac3e06c5202589f499365a3541e19540, type: 3}
+  wallJumpPuffOffset: {x: 0.5, y: 0}
   superDashTrailObj: {fileID: 734305836}
   superDashBurstPrefab: {fileID: 4400033791243246886, guid: fee4126941bd39f489ede78fb37cb865, type: 3}
   superDashBurstOffset: {x: 0, y: 0}
@@ -9982,6 +9990,7 @@ MonoBehaviour:
   superDashBreakPrefab: {fileID: 3412074748612761282, guid: 3ad7c8c0754c6f243ac3b42552c59f8e, type: 3}
   superDashBreakOffset: {x: 1, y: 0}
   superDashChargeObj: {fileID: 1737543326}
+  superDashChargeGroundOffset: {x: 0, y: 0.85}
   superDashChargeWallOffset: {x: 1.75, y: 0}
   superDashBlingAnim: {fileID: 1206392039}
   crystalPrefab: {fileID: 2738377523963846733, guid: 1023713ac91be27499d730122af25196, type: 3}
@@ -10033,20 +10042,25 @@ MonoBehaviour:
     m_Bits: 64
   ceilingCheckDistance: 0.85
   groundCheckDistance: 1.3
-  wallCheckDistance: 0.6
+  wallCheckDistance: 0.45
   groundCheck: {fileID: 1774292917}
   primaryWallCheck: {fileID: 896212885}
   secondaryWallCheck: {fileID: 1455594850}
   plungeAttackVelocity: {x: 3, y: -15}
   plungePrepJumpForce: 7.5
-  moveSpeed: 8
-  jumpForce: 12
-  wallJumpForce: {x: 8, y: 15}
-  inAirMoveMultiplier: 0.75
-  wallSlideSlowMultiplier: 0.3
+  moveSpeed: 10
+  jumpForce: 23
+  jumpCutMultiplier: 0.35
+  fallGravityMultiplier: 1.45
+  coyoteTime: 0.1
+  jumpBufferTime: 0.1
   dashDuration: 0.25
   dashSpeed: 25
   dashCooldown: 0.6
+  wallJumpForce: {x: 15, y: 22}
+  wallJumpPushOffDuration: 0.15
+  wallSlideSpeed: 1.5
+  wallSlideFastSpeed: 12
   superDashSpeed: 30
   superDashChargeTime: 0.8
 --- !u!114 &1774292925

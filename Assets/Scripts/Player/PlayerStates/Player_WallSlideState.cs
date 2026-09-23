@@ -53,13 +53,16 @@ public class Player_WallSlideState : PlayerState
 
     private void HandleWallSlide()
     {
-        if (player.moveInput.y < 0)
+        float targetSlideSpeed = (player.moveInput.y < 0) ? -player.wallSlideFastSpeed : -player.wallSlideSpeed;
+
+        if (rb.linearVelocity.y < targetSlideSpeed)
         {
-            player.SetVelocity(player.moveInput.x, rb.linearVelocity.y);
+            player.SetVelocity(0, targetSlideSpeed);
         }
         else
         {
-            player.SetVelocity(player.moveInput.x, rb.linearVelocity.y * player.wallSlideSlowMultiplier);
+            player.SetVelocity(0, rb.linearVelocity.y);
         }
     }
+
 }

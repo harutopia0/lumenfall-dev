@@ -1,7 +1,7 @@
-using UnityEngine;
-
 public class Player_JumpState : Player_AiredState
 {
+    private bool isJumpCut;
+
     public Player_JumpState(Player player, StateMachine stateMachine, string animBoolName) : base(player, stateMachine, animBoolName)
     {
     }
@@ -10,7 +10,17 @@ public class Player_JumpState : Player_AiredState
     {
         base.Enter();
 
-        player.SetVelocity(rb.linearVelocity.x, player.jumpForce);
+        isJumpCut = false;
+
+        if (!input.Player.Jump.IsPressed())
+        {
+            isJumpCut = true;
+            player.SetVelocity(rb.linearVelocity.x, player.jumpForce * player.jumpCutMultiplier);
+        }
+        else
+        {
+            player.SetVelocity(rb.linearVelocity.x, player.jumpForce);
+        }
     }
 
     public override void Update()
@@ -19,7 +29,12 @@ public class Player_JumpState : Player_AiredState
 
         if (stateMachine.currentState != this) return;
 
-        // We need to be sure we are not in the plunge attack state before changing to fall state, otherwise we'll get stuck in the plunge attack state.
+        if (!isJumpCut && !input.Player.Jump.IsPressed() && rb.linearVelocity.y > 0)
+        {
+            isJumpCut = true;
+            player.SetVelocity(rb.linearVelocity.x, rb.linearVelocity.y * player.jumpCutMultiplier);
+        }
+
         if (rb.linearVelocity.y < 0 && stateMachine.currentState != player.plungeAttackState)
         {
             stateMachine.ChangeState(player.fallState);

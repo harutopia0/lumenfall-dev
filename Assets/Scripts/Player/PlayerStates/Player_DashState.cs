@@ -13,8 +13,6 @@ public class Player_DashState : PlayerState
     {
         base.Enter();
 
-        player.vfx?.PlayDashVfx(player.transform.position, player.transform.rotation, player.facingDir);
-
         player.lastDashTime = Time.time;
         if (!player.groundDetected)
         {
@@ -26,6 +24,10 @@ public class Player_DashState : PlayerState
 
         originalGravityScale = rb.gravityScale;
         rb.gravityScale = 0;
+
+        player.SetVelocity(player.dashSpeed * dashDir, 0);
+
+        player.vfx?.PlayDashVfx(player.transform.position, player.transform.rotation, player.facingDir);
     }
 
     public override void Update()

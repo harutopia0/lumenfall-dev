@@ -34,17 +34,26 @@ public class Player : Entity
     public float plungePrepJumpForce = 7.5f;
 
     [Header("Movements details")]
-    public float moveSpeed;
-    public float jumpForce = 12;
-    public Vector2 wallJumpForce;
-    public float inAirMoveMultiplier = 0.75f;
-    public float wallSlideSlowMultiplier = 0.3f;
+    public float moveSpeed = 8.5f;
+    public float jumpForce = 13.5f;
+    public float jumpCutMultiplier = 0.5f;
+    public float fallGravityMultiplier = 1.4f;
+    public float coyoteTime = 0.1f;
+    public float coyoteTimer { get; set; }
+    public float jumpBufferTime = 0.1f;
+    public float jumpBufferTimer { get; set; }
     public float dashDuration = 0.25f;
-    public float dashSpeed = 20f;
+    public float dashSpeed = 25f;
     public float dashCooldown = 0.6f;
     public float lastDashTime { get; set; }
     public bool canAirDash { get; set; } = true;
     public Vector2 moveInput { get; private set; }
+
+    [Header("Wall Jump Details")]
+    public Vector2 wallJumpForce = new Vector2(10f, 14f);
+    public float wallJumpPushOffDuration = 0.16f;
+    public float wallSlideSpeed = 4.5f;
+    public float wallSlideFastSpeed = 12f;
 
     [Header("Super Dash details")]
     public float superDashSpeed = 35f;
@@ -64,7 +73,7 @@ public class Player : Entity
         jumpState = new Player_JumpState(this, stateMachine, "isMidAir");
         fallState = new Player_FallState(this, stateMachine, "isMidAir");
         wallSlideState = new Player_WallSlideState(this, stateMachine, "wallSlide");
-        wallJumpState = new Player_WallJumpState(this, stateMachine, "isMidAir");
+        wallJumpState = new Player_WallJumpState(this, stateMachine, "wallJump");
         dashState = new Player_DashState(this, stateMachine, "dash");
         slashState = new Player_SlashState(this, stateMachine, "slash");
         plungeAttackState = new Player_PlungeAttackState(this, stateMachine, "plungeAttack");
@@ -77,6 +86,21 @@ public class Player : Entity
         superDashAirBrakeState = new Player_SuperDashAirBrakeState(this, stateMachine, "superDashAirBrake");
         superDashHitWallState = new Player_SuperDashHitWallState(this, stateMachine, "superDashHitWall");
     }
+    protected override void Update()
+    {
+        base.Update();
+
+        if (groundDetected)
+            coyoteTimer = coyoteTime;
+        else
+            coyoteTimer -= Time.deltaTime;
+
+        if (input.Player.Jump.WasPressedThisFrame())
+            jumpBufferTimer = jumpBufferTime;
+        else
+            jumpBufferTimer -= Time.deltaTime;
+    }
+
 
     protected override void Start()
     {

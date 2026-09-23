@@ -25,8 +25,10 @@ public class Player_GroundedState : PlayerState
             return;
         }
 
-        if(input.Player.Jump.WasPerformedThisFrame() && !player.ceilingDetected)
+        if (player.jumpBufferTimer > 0 && !player.ceilingDetected)
         {
+            player.jumpBufferTimer = 0;
+            player.coyoteTimer = 0;
             stateMachine.ChangeState(player.jumpState);
             return;
         }

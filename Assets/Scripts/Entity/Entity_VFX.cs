@@ -18,10 +18,14 @@ public class Entity_VFX : MonoBehaviour
 
     [Header("Movement VFX")]
     [SerializeField] private GameObject dashVfxPrefab;
-    [SerializeField] private Vector2 dashVfxOffset = new Vector2(0.6f, 0f);
+    [SerializeField] private Vector2 dashVfxOffset = Vector2.zero;
 
     [Header("Slash VFX")]
     [SerializeField] private Animator slashVfxAnim;
+
+    [Header("Wall Jump VFX")]
+    [SerializeField] private GameObject wallJumpPuffPrefab;
+    [SerializeField] private Vector2 wallJumpPuffOffset = Vector2.zero;
 
     [Header("Super Dash VFX")]
     [SerializeField] private GameObject superDashTrailObj;
@@ -86,15 +90,12 @@ public class Entity_VFX : MonoBehaviour
         if (vfxContainer != null) Destroy(vfxContainer.gameObject);
     }
 
-    [ContextMenu("Apply Extreme Criss-Cross Arch Settings")]
-    private void ApplyExtremeCrissCrossSettings()
+    public void PlayWallJumpPuffVfx(Vector3 position, int jumpDirection)
     {
-        crystalCount = 14;
-        groundSpreadWidth = 2.4f;
-        wallSpreadHeight = 2.0f;
-        waveInterval = 0.018f;
-        centerScale = new Vector2(0.45f, 0.4f);
-        edgeScale = new Vector2(1.65f, 2.6f);
+        if (wallJumpPuffPrefab == null) return;
+        Vector3 spawnPos = position + new Vector3(wallJumpPuffOffset.x * jumpDirection, wallJumpPuffOffset.y, 0f);
+        Quaternion rotation = jumpDirection > 0 ? Quaternion.identity : Quaternion.Euler(0f, 180f, 0f);
+        Instantiate(wallJumpPuffPrefab, spawnPos, rotation);
     }
 
     public void SetSuperDashCharging(bool charging, bool isWallCharge = false)

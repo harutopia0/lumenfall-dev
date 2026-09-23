@@ -48,8 +48,11 @@ public class Player_SlashState : PlayerState
         else
         {
             if (player.moveInput.x != 0)
-                player.SetVelocity(player.moveInput.x * (player.moveSpeed * player.inAirMoveMultiplier), rb.linearVelocity.y);
+                player.SetVelocity(player.moveInput.x * player.moveSpeed, rb.linearVelocity.y);
+            else
+                player.SetVelocity(0, rb.linearVelocity.y);
         }
+
 
         if (triggerCalled)
         {

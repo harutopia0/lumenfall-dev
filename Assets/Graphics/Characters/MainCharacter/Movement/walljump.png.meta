@@ -142,12 +142,12 @@ TextureImporter:
       name: walljump_0
       rect:
         serializedVersion: 2
-        x: 18
-        y: 141
-        width: 85
-        height: 93
+        x: 0
+        y: 142
+        width: 118
+        height: 142
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -164,12 +164,12 @@ TextureImporter:
       name: walljump_1
       rect:
         serializedVersion: 2
-        x: 131
-        y: 148
-        width: 73
-        height: 89
+        x: 118
+        y: 142
+        width: 118
+        height: 142
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -186,12 +186,12 @@ TextureImporter:
       name: walljump_2
       rect:
         serializedVersion: 2
-        x: 263
-        y: 144
-        width: 68
-        height: 94
+        x: 236
+        y: 142
+        width: 118
+        height: 142
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -208,12 +208,12 @@ TextureImporter:
       name: walljump_3
       rect:
         serializedVersion: 2
-        x: 379
-        y: 144
-        width: 65
-        height: 97
+        x: 354
+        y: 142
+        width: 118
+        height: 142
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -230,12 +230,12 @@ TextureImporter:
       name: walljump_4
       rect:
         serializedVersion: 2
-        x: 497
-        y: 144
-        width: 65
-        height: 97
+        x: 472
+        y: 142
+        width: 118
+        height: 142
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -252,12 +252,12 @@ TextureImporter:
       name: walljump_5
       rect:
         serializedVersion: 2
-        x: 613
-        y: 147
-        width: 67
-        height: 95
+        x: 590
+        y: 142
+        width: 118
+        height: 142
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -274,12 +274,12 @@ TextureImporter:
       name: walljump_6
       rect:
         serializedVersion: 2
-        x: 731
-        y: 147
-        width: 67
-        height: 95
+        x: 708
+        y: 142
+        width: 118
+        height: 142
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -296,12 +296,12 @@ TextureImporter:
       name: walljump_7
       rect:
         serializedVersion: 2
-        x: 849
-        y: 148
-        width: 66
-        height: 95
+        x: 826
+        y: 142
+        width: 118
+        height: 142
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -318,12 +318,12 @@ TextureImporter:
       name: walljump_8
       rect:
         serializedVersion: 2
-        x: 23
-        y: 6
-        width: 66
-        height: 95
+        x: 0
+        y: 0
+        width: 118
+        height: 142
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -340,7 +340,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 6b6352fbfeba2904e9551398a64f3d5a
     internalID: 0
     vertices: []
     indices: 
@@ -348,7 +348,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":118.0,"y":142.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       walljump_0: 8778465242545132121
       walljump_1: -8395796036614904578
