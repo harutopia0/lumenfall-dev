@@ -28,6 +28,7 @@ public class Player : Entity
     public Player_SuperDashState superDashState { get; private set; }
     public Player_SuperDashAirBrakeState superDashAirBrakeState { get; private set; }
     public Player_SuperDashHitWallState superDashHitWallState { get; private set; }
+    public Player_DoubleJumpState doubleJumpState { get; private set; }
 
     [Header("Attack details")]
     public Vector2 plungeAttackVelocity = new Vector2(3f, -15f);
@@ -54,6 +55,10 @@ public class Player : Entity
     public float wallJumpPushOffDuration = 0.16f;
     public float wallSlideSpeed = 4.5f;
     public float wallSlideFastSpeed = 12f;
+
+    [Header("Double Jump Details")]
+    public float doubleJumpForce = 21f;
+    public bool canDoubleJump { get; set; } = true;
 
     [Header("Super Dash details")]
     public float superDashSpeed = 35f;
@@ -85,6 +90,7 @@ public class Player : Entity
         superDashState = new Player_SuperDashState(this, stateMachine, "superDash");
         superDashAirBrakeState = new Player_SuperDashAirBrakeState(this, stateMachine, "superDashAirBrake");
         superDashHitWallState = new Player_SuperDashHitWallState(this, stateMachine, "superDashHitWall");
+        doubleJumpState = new Player_DoubleJumpState(this, stateMachine, "doubleJump");
     }
     protected override void Update()
     {

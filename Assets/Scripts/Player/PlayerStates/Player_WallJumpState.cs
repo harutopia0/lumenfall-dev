@@ -14,6 +14,8 @@ public class Player_WallJumpState : PlayerState
         base.Enter();
 
         player.canAirDash = true;
+        player.canDoubleJump = true;
+
         jumpDir = -player.facingDir;
         stateTimer = player.wallJumpPushOffDuration;
 

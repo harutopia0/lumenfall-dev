@@ -11,6 +11,8 @@ public class Player_WallSlideState : PlayerState
         base.Enter();
 
         player.canAirDash = true;
+        player.canDoubleJump = true;
+
         anim.Play("playerWallSlide", 0, 0f);
     }
 

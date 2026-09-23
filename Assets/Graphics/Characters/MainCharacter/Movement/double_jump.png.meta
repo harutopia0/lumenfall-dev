@@ -142,12 +142,12 @@ TextureImporter:
       name: double_jump_0
       rect:
         serializedVersion: 2
-        x: 4
-        y: 4
-        width: 83
-        height: 95
+        x: 0
+        y: 0
+        width: 137
+        height: 150
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -164,12 +164,12 @@ TextureImporter:
       name: double_jump_1
       rect:
         serializedVersion: 2
-        x: 152
-        y: 6
-        width: 70
-        height: 84
+        x: 137
+        y: 0
+        width: 137
+        height: 150
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -186,12 +186,12 @@ TextureImporter:
       name: double_jump_2
       rect:
         serializedVersion: 2
-        x: 293
-        y: 18
-        width: 72
-        height: 95
+        x: 274
+        y: 0
+        width: 137
+        height: 150
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -208,12 +208,12 @@ TextureImporter:
       name: double_jump_3
       rect:
         serializedVersion: 2
-        x: 433
-        y: 30
-        width: 76
-        height: 89
+        x: 411
+        y: 0
+        width: 137
+        height: 150
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -230,12 +230,12 @@ TextureImporter:
       name: double_jump_4
       rect:
         serializedVersion: 2
-        x: 568
-        y: 2
-        width: 78
-        height: 117
+        x: 548
+        y: 0
+        width: 137
+        height: 150
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -252,12 +252,12 @@ TextureImporter:
       name: double_jump_5
       rect:
         serializedVersion: 2
-        x: 702
-        y: 5
-        width: 70
-        height: 124
+        x: 685
+        y: 0
+        width: 137
+        height: 150
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -274,12 +274,12 @@ TextureImporter:
       name: double_jump_6
       rect:
         serializedVersion: 2
-        x: 832
-        y: 8
-        width: 85
-        height: 126
+        x: 822
+        y: 0
+        width: 137
+        height: 150
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -296,12 +296,12 @@ TextureImporter:
       name: double_jump_7
       rect:
         serializedVersion: 2
-        x: 958
+        x: 959
         y: 0
-        width: 94
-        height: 136
+        width: 137
+        height: 150
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -314,33 +314,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: double_jump_8
-      rect:
-        serializedVersion: 2
-        x: 1043
-        y: 53
-        width: 6
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0c22d33663e60def0800000000000000
-      internalID: -85447213047799104
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: e99dc680d0c3c884e9d09782d14b518d
     internalID: 0
     vertices: []
     indices: 
@@ -348,7 +326,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":137.0,"y":150.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       double_jump_0: -6169159234755722469
       double_jump_1: -6470151467633595150
@@ -358,7 +338,6 @@ TextureImporter:
       double_jump_5: 3948881211912718083
       double_jump_6: 1441615010862144925
       double_jump_7: 1576356400837538439
-      double_jump_8: -85447213047799104
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

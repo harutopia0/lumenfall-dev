@@ -27,6 +27,9 @@ public class Entity_VFX : MonoBehaviour
     [SerializeField] private GameObject wallJumpPuffPrefab;
     [SerializeField] private Vector2 wallJumpPuffOffset = Vector2.zero;
 
+    [Header("Double Jump VFX")]
+    [SerializeField] private Animator doubleJumpWingsAnim;
+
     [Header("Super Dash VFX")]
     [SerializeField] private GameObject superDashTrailObj;
     [SerializeField] private GameObject superDashBurstPrefab;
@@ -65,6 +68,14 @@ public class Entity_VFX : MonoBehaviour
     private Coroutine spawnWaveCoroutine;
     private Coroutine disableCrystalsCoroutine;
     private Transform vfxContainer;
+
+    public void PlayDoubleJumpWingsVfx()
+    {
+        if (doubleJumpWingsAnim != null)
+        {
+            doubleJumpWingsAnim.Play("doubleJumpWings", 0, 0f);
+        }
+    }
 
     private void InitializeCrystalPool()
     {

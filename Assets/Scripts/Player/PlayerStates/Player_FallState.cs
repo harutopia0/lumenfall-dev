@@ -25,6 +25,13 @@ public class Player_FallState : Player_AiredState
             return;
         }
 
+        if (input.Player.Jump.WasPressedThisFrame() && player.canDoubleJump)
+        {
+            player.jumpBufferTimer = 0;
+            stateMachine.ChangeState(player.doubleJumpState);
+            return;
+        }
+
         if (player.groundDetected)
         {
             if (player.moveInput.x != 0)

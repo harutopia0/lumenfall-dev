@@ -11,6 +11,8 @@ public class Player_GroundedState : PlayerState
         base.Enter();
 
         player.canAirDash = true;
+        player.canDoubleJump = true;
+
     }
 
     public override void Update()

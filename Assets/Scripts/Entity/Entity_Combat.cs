@@ -98,6 +98,7 @@ public class Entity_Combat : MonoBehaviour
         if (entity is Player player)
         {
             player.canAirDash = true;
+            player.canDoubleJump = true;
         }
     }
 

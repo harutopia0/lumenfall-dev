@@ -1,8 +1,11 @@
-public class Player_JumpState : Player_AiredState
+using UnityEngine;
+
+public class Player_DoubleJumpState : Player_AiredState
 {
     private bool isJumpCut;
 
-    public Player_JumpState(Player player, StateMachine stateMachine, string animBoolName) : base(player, stateMachine, animBoolName)
+    public Player_DoubleJumpState(Player player, StateMachine stateMachine, string animBoolName)
+        : base(player, stateMachine, animBoolName)
     {
     }
 
@@ -11,16 +14,19 @@ public class Player_JumpState : Player_AiredState
         base.Enter();
 
         isJumpCut = false;
+        player.canDoubleJump = false;
 
         if (!input.Player.Jump.IsPressed())
         {
             isJumpCut = true;
-            player.SetVelocity(rb.linearVelocity.x, player.jumpForce * player.jumpCutMultiplier);
+            player.SetVelocity(rb.linearVelocity.x, player.doubleJumpForce * player.jumpCutMultiplier);
         }
         else
         {
-            player.SetVelocity(rb.linearVelocity.x, player.jumpForce);
+            player.SetVelocity(rb.linearVelocity.x, player.doubleJumpForce);
         }
+
+        player.vfx?.PlayDoubleJumpWingsVfx();
     }
 
     public override void Update()
@@ -28,12 +34,6 @@ public class Player_JumpState : Player_AiredState
         base.Update();
 
         if (stateMachine.currentState != this) return;
-
-        if (input.Player.Jump.WasPressedThisFrame() && player.canDoubleJump)
-        {
-            stateMachine.ChangeState(player.doubleJumpState);
-            return;
-        }
 
         if (!isJumpCut && !input.Player.Jump.IsPressed() && rb.linearVelocity.y > 0)
         {
