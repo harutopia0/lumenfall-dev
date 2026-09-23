@@ -30,11 +30,6 @@ public class Player_SlashState : PlayerState
         }
 
         player.vfx?.PlaySlashVfx(combat.currentAttackDir);
-
-        if (player.groundDetected)
-        {
-            player.SetVelocity(0, rb.linearVelocity.y);
-        }
     }
 
     public override void Update()
