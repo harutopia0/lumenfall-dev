@@ -94,8 +94,6 @@ public class Player : Entity
     }
     protected override void Update()
     {
-        base.Update();
-
         if (groundDetected)
             coyoteTimer = coyoteTime;
         else
@@ -105,6 +103,8 @@ public class Player : Entity
             jumpBufferTimer = jumpBufferTime;
         else
             jumpBufferTimer -= Time.deltaTime;
+
+        base.Update();
     }
 
 
