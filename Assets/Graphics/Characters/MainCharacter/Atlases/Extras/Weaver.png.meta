@@ -1,0 +1,1380 @@
+fileFormatVersion: 2
+guid: a38a9da54f3bdbb4d8927b6672859d49
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -268855193751873569
+    second: Weaver_0
+  - first:
+      213: 1223815584467821487
+    second: Weaver_1
+  - first:
+      213: -3243331882095320755
+    second: Weaver_2
+  - first:
+      213: -4370071353129462945
+    second: Weaver_3
+  - first:
+      213: 2899452425462815041
+    second: Weaver_4
+  - first:
+      213: 2456083765713423279
+    second: Weaver_5
+  - first:
+      213: 5435664035726861657
+    second: Weaver_6
+  - first:
+      213: 6059294892715248392
+    second: Weaver_7
+  - first:
+      213: 316681973624895624
+    second: Weaver_8
+  - first:
+      213: 7970047499453011851
+    second: Weaver_9
+  - first:
+      213: 6405327363302273363
+    second: Weaver_10
+  - first:
+      213: 1455878035210172034
+    second: Weaver_11
+  - first:
+      213: -5251379479958359303
+    second: Weaver_12
+  - first:
+      213: 475461176675033738
+    second: Weaver_13
+  - first:
+      213: -6708128403822822898
+    second: Weaver_14
+  - first:
+      213: 9189734454345130889
+    second: Weaver_15
+  - first:
+      213: -4730939694895148726
+    second: Weaver_16
+  - first:
+      213: 3329877751469964324
+    second: Weaver_17
+  - first:
+      213: 558270462486153564
+    second: Weaver_18
+  - first:
+      213: 2757911454798034135
+    second: Weaver_19
+  - first:
+      213: 825995510978845885
+    second: Weaver_20
+  - first:
+      213: 1472010289190513983
+    second: Weaver_21
+  - first:
+      213: 6823736105678905399
+    second: Weaver_22
+  - first:
+      213: -4497083039107448232
+    second: Weaver_23
+  - first:
+      213: -5887144701419822341
+    second: Weaver_24
+  - first:
+      213: 1168798733432392918
+    second: Weaver_25
+  - first:
+      213: -6421179870859398255
+    second: Weaver_26
+  - first:
+      213: -7510431268330282726
+    second: Weaver_27
+  - first:
+      213: 6123323126044552059
+    second: Weaver_28
+  - first:
+      213: -8971771903240383906
+    second: Weaver_29
+  - first:
+      213: -3812443811426182265
+    second: Weaver_30
+  - first:
+      213: 8177142138114804736
+    second: Weaver_31
+  - first:
+      213: -4369433470820723326
+    second: Weaver_32
+  - first:
+      213: 7289114069669095435
+    second: Weaver_33
+  - first:
+      213: 1123467920319477548
+    second: Weaver_34
+  - first:
+      213: -1215413855248304844
+    second: Weaver_35
+  - first:
+      213: 9020619488860336872
+    second: Weaver_36
+  - first:
+      213: 321645246665939974
+    second: Weaver_37
+  - first:
+      213: -4690568272912987086
+    second: Weaver_38
+  - first:
+      213: 8490287130507987591
+    second: Weaver_39
+  - first:
+      213: 6619702077214816815
+    second: Weaver_40
+  - first:
+      213: -2567347438598001703
+    second: Weaver_41
+  - first:
+      213: -3301640258459801367
+    second: Weaver_42
+  - first:
+      213: 8708471697913254925
+    second: Weaver_43
+  - first:
+      213: -3052603700658990180
+    second: Weaver_44
+  - first:
+      213: 6800978689497790385
+    second: Weaver_45
+  - first:
+      213: 2682351772566908581
+    second: Weaver_46
+  - first:
+      213: -6770926517300748015
+    second: Weaver_47
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Weaver_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 789
+        width: 63
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd7966030a5d44cf0800000000000000
+      internalID: -268855193751873569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weaver_1
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 745
+        width: 65
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa3aace3acddbf010800000000000000
+      internalID: 1223815584467821487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weaver_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 727
+        width: 73
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d41620f46de5df2d0800000000000000
+      internalID: -3243331882095320755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weaver_3
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 665
+        width: 61
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f539b9902436a53c0800000000000000
+      internalID: -4370071353129462945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weaver_4
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 672
+        width: 119
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1491bd67e9cec3820800000000000000
+      internalID: 2899452425462815041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weaver_5
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 663
+        width: 76
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fabc3f90c23c51220800000000000000
+      internalID: 2456083765713423279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weaver_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 658
+        width: 72
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 955addf14ab5f6b40800000000000000
+      internalID: 5435664035726861657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weaver_7
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 698
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80b81a5f990f61450800000000000000
+      internalID: 6059294892715248392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weaver_8
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 666
+        width: 62
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8887ea0c394156400800000000000000
+      internalID: 316681973624895624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weaver_9
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 616
+        width: 64
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8713ef39fb4b9e60800000000000000
+      internalID: 7970047499453011851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weaver_10
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 669
+        width: 6
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 351b8bfcc4b44e850800000000000000
+      internalID: 6405327363302273363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weaver_11
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 656
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 286fef40c51543410800000000000000
+      internalID: 1455878035210172034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weaver_12
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 574
+        width: 71
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f27e4c9f2a5f17b0800000000000000
+      internalID: -5251379479958359303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weaver_13
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 598
+        width: 72
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a82643ccb6d299600800000000000000
+      internalID: 475461176675033738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weaver_14
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 585
+        width: 93
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0abe6602c0f7e2a0800000000000000
+      internalID: -6708128403822822898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weaver_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 537
+        width: 141
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 983e8630cce788f70800000000000000
+      internalID: 9189734454345130889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weaver_16
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 495
+        width: 64
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a41daffb963585eb0800000000000000
+      internalID: -4730939694895148726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weaver_17
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 512
+        width: 89
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42cf7d92c2a163e20800000000000000
+      internalID: 3329877751469964324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weaver_18
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 514
+        width: 70
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c59841d17006fb700800000000000000
+      internalID: 558270462486153564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weaver_19
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 513
+        width: 63
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d4b7392bd1164620800000000000000
+      internalID: 2757911454798034135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weaver_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 368
+        width: 156
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbc16f97a86867b00800000000000000
+      internalID: 825995510978845885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weaver_21
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 402
+        width: 65
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3dabe81f81ad6410800000000000000
+      internalID: 1472010289190513983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weaver_22
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 370
+        width: 160
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 730affb95d7c2be50800000000000000
+      internalID: 6823736105678905399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weaver_23
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 404
+        width: 96
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85201907dc62791c0800000000000000
+      internalID: -4497083039107448232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weaver_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 207
+        width: 151
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf26c82e519ac4ea0800000000000000
+      internalID: -5887144701419822341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weaver_25
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 277
+        width: 54
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dc0a286148683010800000000000000
+      internalID: 1168798733432392918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weaver_26
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 189
+        width: 195
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1937986ade263e6a0800000000000000
+      internalID: -6421179870859398255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weaver_27
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 317
+        width: 62
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a11ef2dad8695c790800000000000000
+      internalID: -7510431268330282726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weaver_28
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 285
+        width: 6
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7be1dcb0f96af450800000000000000
+      internalID: 6123323126044552059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weaver_29
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 191
+        width: 67
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e52d68d0dfcdd7380800000000000000
+      internalID: -8971771903240383906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weaver_30
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 209
+        width: 55
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78b5ecd7d8a771bc0800000000000000
+      internalID: -3812443811426182265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weaver_31
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 178
+        width: 44
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00c0634437b0b7170800000000000000
+      internalID: 8177142138114804736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weaver_32
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 171
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28557069867ac53c0800000000000000
+      internalID: -4369433470820723326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weaver_33
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 112
+        width: 120
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b08ade180a2282560800000000000000
+      internalID: 7289114069669095435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weaver_34
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 107
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2770330f1c579f00800000000000000
+      internalID: 1123467920319477548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weaver_35
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 33
+        width: 137
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43536d6c98bf12fe0800000000000000
+      internalID: -1215413855248304844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weaver_36
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 109
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e27c7fb1adaf2d70800000000000000
+      internalID: 9020619488860336872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weaver_37
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 61
+        width: 52
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60c573fc5a6b67400800000000000000
+      internalID: 321645246665939974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weaver_38
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 87
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23ccd4ae101c7eeb0800000000000000
+      internalID: -4690568272912987086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weaver_39
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 86
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78acff6692f83d570800000000000000
+      internalID: 8490287130507987591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weaver_40
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 29
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2afd4f67f7eddb50800000000000000
+      internalID: 6619702077214816815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weaver_41
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 37
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9db6b536b13fe5cd0800000000000000
+      internalID: -2567347438598001703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weaver_42
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 22
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e8ef528da73e22d0800000000000000
+      internalID: -3301640258459801367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weaver_43
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 0
+        width: 120
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0499aaaed4bad870800000000000000
+      internalID: 8708471697913254925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weaver_44
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 16
+        width: 102
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c939d2e8b19f2a5d0800000000000000
+      internalID: -3052603700658990180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weaver_45
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 0
+        width: 29
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b77480c51ee16e50800000000000000
+      internalID: 6800978689497790385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weaver_46
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 17
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ae6d76b9b0a93520800000000000000
+      internalID: 2682351772566908581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weaver_47
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 9
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1112408d436d802a0800000000000000
+      internalID: -6770926517300748015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Weaver_0: -268855193751873569
+      Weaver_1: 1223815584467821487
+      Weaver_10: 6405327363302273363
+      Weaver_11: 1455878035210172034
+      Weaver_12: -5251379479958359303
+      Weaver_13: 475461176675033738
+      Weaver_14: -6708128403822822898
+      Weaver_15: 9189734454345130889
+      Weaver_16: -4730939694895148726
+      Weaver_17: 3329877751469964324
+      Weaver_18: 558270462486153564
+      Weaver_19: 2757911454798034135
+      Weaver_2: -3243331882095320755
+      Weaver_20: 825995510978845885
+      Weaver_21: 1472010289190513983
+      Weaver_22: 6823736105678905399
+      Weaver_23: -4497083039107448232
+      Weaver_24: -5887144701419822341
+      Weaver_25: 1168798733432392918
+      Weaver_26: -6421179870859398255
+      Weaver_27: -7510431268330282726
+      Weaver_28: 6123323126044552059
+      Weaver_29: -8971771903240383906
+      Weaver_3: -4370071353129462945
+      Weaver_30: -3812443811426182265
+      Weaver_31: 8177142138114804736
+      Weaver_32: -4369433470820723326
+      Weaver_33: 7289114069669095435
+      Weaver_34: 1123467920319477548
+      Weaver_35: -1215413855248304844
+      Weaver_36: 9020619488860336872
+      Weaver_37: 321645246665939974
+      Weaver_38: -4690568272912987086
+      Weaver_39: 8490287130507987591
+      Weaver_4: 2899452425462815041
+      Weaver_40: 6619702077214816815
+      Weaver_41: -2567347438598001703
+      Weaver_42: -3301640258459801367
+      Weaver_43: 8708471697913254925
+      Weaver_44: -3052603700658990180
+      Weaver_45: 6800978689497790385
+      Weaver_46: 2682351772566908581
+      Weaver_47: -6770926517300748015
+      Weaver_5: 2456083765713423279
+      Weaver_6: 5435664035726861657
+      Weaver_7: 6059294892715248392
+      Weaver_8: 316681973624895624
+      Weaver_9: 7970047499453011851
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

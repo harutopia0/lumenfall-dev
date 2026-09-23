@@ -12,7 +12,7 @@ public class Player_RunState : Player_GroundedState
 
         if (stateMachine.currentState != this) return;
 
-        if (player.moveInput.x == 0 || player.wallDetected)
+        if (player.moveInput.x == 0 || (player.moveInput.x == player.facingDir && player.wallDetected))
         {
             stateMachine.ChangeState(player.idleState);
             return;

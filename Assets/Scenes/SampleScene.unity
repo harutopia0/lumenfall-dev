@@ -1243,6 +1243,7 @@ MonoBehaviour:
   superDashBreakPrefab: {fileID: 0}
   superDashBreakOffset: {x: 0, y: 0}
   superDashChargeObj: {fileID: 0}
+  superDashChargeWallOffset: {x: 0.75, y: 0}
   superDashBlingAnim: {fileID: 0}
   crystalPrefab: {fileID: 0}
   crystalCount: 5
@@ -1884,6 +1885,7 @@ MonoBehaviour:
   superDashBreakPrefab: {fileID: 0}
   superDashBreakOffset: {x: 0, y: 0}
   superDashChargeObj: {fileID: 0}
+  superDashChargeWallOffset: {x: 0.75, y: 0}
   superDashBlingAnim: {fileID: 0}
   crystalPrefab: {fileID: 0}
   crystalCount: 5
@@ -9980,6 +9982,7 @@ MonoBehaviour:
   superDashBreakPrefab: {fileID: 3412074748612761282, guid: 3ad7c8c0754c6f243ac3b42552c59f8e, type: 3}
   superDashBreakOffset: {x: 1, y: 0}
   superDashChargeObj: {fileID: 1737543326}
+  superDashChargeWallOffset: {x: 1.75, y: 0}
   superDashBlingAnim: {fileID: 1206392039}
   crystalPrefab: {fileID: 2738377523963846733, guid: 1023713ac91be27499d730122af25196, type: 3}
   crystalCount: 20

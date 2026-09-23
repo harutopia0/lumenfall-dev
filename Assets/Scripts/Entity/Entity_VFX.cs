@@ -32,7 +32,10 @@ public class Entity_VFX : MonoBehaviour
     [SerializeField] private GameObject superDashBreakPrefab;
     [SerializeField] private Vector2 superDashBreakOffset = Vector2.zero;
     [SerializeField] private GameObject superDashChargeObj; 
+    [SerializeField] private Vector2 superDashChargeGroundOffset = Vector2.zero;
+    [SerializeField] private Vector2 superDashChargeWallOffset = Vector2.zero;
     [SerializeField] private Animator superDashBlingAnim;
+    private Quaternion initialChargeLocalRot;
 
     private enum CornerType { DropCliff, ClimbWall }
 
@@ -121,6 +124,25 @@ public class Entity_VFX : MonoBehaviour
 
         if (superDashChargeObj != null)
         {
+            if (charging)
+            {
+                if (isWallCharge)
+                {
+                    superDashChargeObj.transform.localRotation = Quaternion.FromToRotation(Vector3.up, Vector3.right);
+                    superDashChargeObj.transform.localPosition = (Vector3)superDashChargeWallOffset;
+                }
+                else
+                {
+                    superDashChargeObj.transform.localRotation = initialChargeLocalRot;
+                    superDashChargeObj.transform.localPosition = (Vector3)superDashChargeGroundOffset;
+                }
+            }
+            else
+            {
+                superDashChargeObj.transform.localRotation = initialChargeLocalRot;
+                superDashChargeObj.transform.localPosition = (Vector3)superDashChargeGroundOffset;
+            }
+
             superDashChargeObj.SetActive(charging);
         }
     }
@@ -382,7 +404,6 @@ public class Entity_VFX : MonoBehaviour
         return false;
     }
 
-
     public void PlaySuperDashBlingVfx()
     {
         if (superDashBlingAnim != null)
@@ -424,6 +445,11 @@ public class Entity_VFX : MonoBehaviour
         entity = GetComponent<Entity>();
         combat = GetComponent<Entity_Combat>();
         originalMaterial = sr.material;
+
+        if (superDashChargeObj != null)
+        {
+            initialChargeLocalRot = superDashChargeObj.transform.localRotation;
+        }
 
         if (onDamageMaterial != null)
         {
