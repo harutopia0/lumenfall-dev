@@ -17,7 +17,7 @@ Shader "Sprites/Default with Fog"
 		Tags
 		{ 
 			"RenderPipeline"="UniversalPipeline"
-			"Queue"="Transparent" 
+			"Queue"="AlphaTest" 
 			"IgnoreProjector"="True" 
 			"RenderType"="TransparentCutout" 
 			"PreviewType"="Plane"
@@ -33,7 +33,7 @@ Shader "Sprites/Default with Fog"
 			Name "Universal2D"
 			Tags { "LightMode"="Universal2D" }
 
-			ZWrite Off
+			ZWrite On
 			Blend One OneMinusSrcAlpha
 
 		HLSLPROGRAM
