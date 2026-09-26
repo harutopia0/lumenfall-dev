@@ -108,10 +108,12 @@ public class Entity : MonoBehaviour
 
     public void Flip()
     {
-        transform.Rotate(0f, 180f, 0f);
         facingDirection = (facingDirection == FacingDirection.Right) 
             ? FacingDirection.Left 
             : FacingDirection.Right;
+
+        float scaleX = (facingDirection == defaultFacing) ? 1f : -1f;
+        transform.localScale = new Vector3(scaleX * Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
     }
 
     private void HandleCollisionDetection()

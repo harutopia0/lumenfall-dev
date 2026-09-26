@@ -174,7 +174,7 @@ public class Entity_VFX : MonoBehaviour
 
         LayerMask mask = surfaceLayer.value != 0 ? surfaceLayer : LayerMask.GetMask("Ground");
         Vector2 origin = transform.position;
-        int facingDir = entity != null ? entity.facingDir : (transform.eulerAngles.y > 90f ? -1 : 1);
+        int facingDir = entity != null ? entity.facingDir : (transform.localScale.x < 0f ? 1 : -1);
 
         Vector2 centerPoint;
         bool hasLeftCorner = false, hasRightCorner = false;
@@ -428,7 +428,8 @@ public class Entity_VFX : MonoBehaviour
     {
         if (superDashTrailEndPrefab == null) return;
         Vector3 spawnPos = position + new Vector3(superDashTrailEndOffset.x * facingDir, superDashTrailEndOffset.y, 0f);
-        Instantiate(superDashTrailEndPrefab, spawnPos, rotation);
+        Quaternion vfxRot = Quaternion.Euler(0f, facingDir == -1 ? 0f : 180f, rotation.eulerAngles.z);
+        Instantiate(superDashTrailEndPrefab, spawnPos, vfxRot);
     }
 
     public void SetSuperDashTrail(bool active)
@@ -441,14 +442,16 @@ public class Entity_VFX : MonoBehaviour
         if (superDashBurstPrefab == null) return;
 
         Vector3 spawnPos = position + new Vector3(superDashBurstOffset.x * facingDir, superDashBurstOffset.y, 0f);
-        Instantiate(superDashBurstPrefab, spawnPos, rotation);
+        Quaternion vfxRot = Quaternion.Euler(0f, facingDir == -1 ? 0f : 180f, rotation.eulerAngles.z);
+        Instantiate(superDashBurstPrefab, spawnPos, vfxRot);
     }
 
     public void PlaySuperDashBreakVfx(Vector3 position, Quaternion rotation, int facingDir)
     {
         if (superDashBreakPrefab == null) return;
         Vector3 spawnPos = position + new Vector3(superDashBreakOffset.x * facingDir, superDashBreakOffset.y, 0f);
-        Instantiate(superDashBreakPrefab, spawnPos, rotation);
+        Quaternion vfxRot = Quaternion.Euler(0f, facingDir == -1 ? 0f : 180f, rotation.eulerAngles.z);
+        Instantiate(superDashBreakPrefab, spawnPos, vfxRot);
     }
 
     private void Awake()
@@ -498,7 +501,8 @@ public class Entity_VFX : MonoBehaviour
         if (dashVfxPrefab == null) return;
 
         Vector3 spawnPos = position + new Vector3(dashVfxOffset.x * facingDir, dashVfxOffset.y, 0f);
-        Instantiate(dashVfxPrefab, spawnPos, rotation);
+        Quaternion vfxRot = Quaternion.Euler(0f, facingDir == -1 ? 0f : 180f, rotation.eulerAngles.z);
+        Instantiate(dashVfxPrefab, spawnPos, vfxRot);
     }
 
     public void PlayOnDamageVfx()

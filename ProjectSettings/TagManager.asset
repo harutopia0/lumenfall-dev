@@ -16,7 +16,7 @@ TagManager:
   - Enemy
   - 'Spikes '
   - 'Interactive '
-  - 
+  - Anti-detect
   - 
   - 
   - 
@@ -47,6 +47,9 @@ TagManager:
   - name: Ground
     uniqueID: 1427886523
     locked: 0
+  - name: Anti-detect
+    uniqueID: 2884456807
+    locked: 0
   - name: Interactive
     uniqueID: 4050971169
     locked: 0
@@ -61,6 +64,15 @@ TagManager:
     locked: 0
   - name: VFX_Above_Player
     uniqueID: 835429897
+    locked: 0
+  - name: Foreground
+    uniqueID: 2589653417
+    locked: 0
+  - name: Object Above Player
+    uniqueID: 3288031199
+    locked: 0
+  - name: Gameplay
+    uniqueID: 822795231
     locked: 0
   - name: 'UI '
     uniqueID: 2445576419
