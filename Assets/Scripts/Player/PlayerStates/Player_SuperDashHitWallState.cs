@@ -14,11 +14,16 @@ public class Player_SuperDashHitWallState : PlayerState
         player.vfx?.PlaySuperDashBreakVfx(player.transform.position, player.transform.rotation, player.facingDir);
     }
 
+    public override void PhysicsUpdate()
+    {
+        base.PhysicsUpdate();
+
+        player.SetVelocity(0, 0);
+    }
+
     public override void Update()
     {
         base.Update();
-
-        player.SetVelocity(0, 0);
 
         if (triggerCalled)
         {

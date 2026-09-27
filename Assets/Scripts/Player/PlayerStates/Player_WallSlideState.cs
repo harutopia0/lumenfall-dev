@@ -16,13 +16,18 @@ public class Player_WallSlideState : PlayerState
         anim.Play("playerWallSlide", 0, 0f);
     }
 
+    public override void PhysicsUpdate()
+    {
+        base.PhysicsUpdate();
+
+        HandleWallSlide();
+    }
+
     public override void Update()
     {
         base.Update();
 
         if (stateMachine.currentState != this) return;
-
-        HandleWallSlide();
 
         if (input.Player.Jump.WasPressedThisFrame())
         {

@@ -459,7 +459,11 @@ public class Entity_VFX : MonoBehaviour
         sr = GetComponentInChildren<SpriteRenderer>();
         entity = GetComponent<Entity>();
         combat = GetComponent<Entity_Combat>();
-        originalMaterial = sr.material;
+
+        if (sr != null)
+        {
+            originalMaterial = sr.material;
+        }
 
         if (superDashChargeObj != null)
         {

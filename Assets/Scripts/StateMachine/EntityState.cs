@@ -17,6 +17,12 @@ public abstract class EntityState
         this.animBoolName = animBoolName;
     }
 
+    public virtual void PhysicsUpdate()
+    {
+        // This method can be overridden in derived classes to handle physics updates
+    }
+
+
     public virtual void Enter()
     {
         anim.SetBool(animBoolName, true);

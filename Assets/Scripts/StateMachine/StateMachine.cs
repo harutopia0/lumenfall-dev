@@ -11,6 +11,11 @@ public class StateMachine
         currentState.Enter();
     }
 
+    public void PhysicsUpdateActiveState()
+    {
+        currentState.PhysicsUpdate();
+    }
+
     public void ChangeState(EntityState newState)
     {
         if (!canChangeState) return;

@@ -42,6 +42,7 @@ public class Player_Health : Entity_Health
 
     protected override void ReduceHp(float damage)
     {
+        if (damage <= 0) return;
         int masksToLose = Mathf.Max(1, Mathf.RoundToInt(damage));
         currentMasks -= masksToLose;
         currentMasks = Mathf.Clamp(currentMasks, 0, maxMasks);

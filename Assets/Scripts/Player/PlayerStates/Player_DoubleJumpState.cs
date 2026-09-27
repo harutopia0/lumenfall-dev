@@ -4,8 +4,7 @@ public class Player_DoubleJumpState : Player_AiredState
 {
     private bool isJumpCut;
 
-    public Player_DoubleJumpState(Player player, StateMachine stateMachine, string animBoolName)
-        : base(player, stateMachine, animBoolName)
+    public Player_DoubleJumpState(Player player, StateMachine stateMachine, string animBoolName) : base(player, stateMachine, animBoolName)
     {
     }
 
@@ -29,19 +28,24 @@ public class Player_DoubleJumpState : Player_AiredState
         player.vfx?.PlayDoubleJumpWingsVfx();
     }
 
-    public override void Update()
+    public override void PhysicsUpdate()
     {
-        base.Update();
-
-        if (stateMachine.currentState != this) return;
+        base.PhysicsUpdate();
 
         if (!isJumpCut && !input.Player.Jump.IsPressed() && rb.linearVelocity.y > 0)
         {
             isJumpCut = true;
             player.SetVelocity(rb.linearVelocity.x, rb.linearVelocity.y * player.jumpCutMultiplier);
         }
+    }
 
-        if (rb.linearVelocity.y < 0 && stateMachine.currentState != player.plungeAttackState)
+    public override void Update()
+    {
+        base.Update();
+
+        if (stateMachine.currentState != this) return;
+
+        if (rb.linearVelocity.y < 0)
         {
             stateMachine.ChangeState(player.fallState);
         }

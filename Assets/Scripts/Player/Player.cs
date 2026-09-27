@@ -19,7 +19,6 @@ public class Player : Entity
     public Player_WallJumpState wallJumpState { get; private set; }
     public Player_DashState dashState { get; private set; }
     public Player_SlashState slashState { get; private set; }
-    public Player_PlungeAttackState plungeAttackState { get; private set; }
     public Player_DeadState deadState { get; private set; }
     public Player_DashToIdleState dashToIdleState { get; private set; }
     public Player_LandState landState { get; private set; }
@@ -29,10 +28,6 @@ public class Player : Entity
     public Player_SuperDashAirBrakeState superDashAirBrakeState { get; private set; }
     public Player_SuperDashHitWallState superDashHitWallState { get; private set; }
     public Player_DoubleJumpState doubleJumpState { get; private set; }
-
-    [Header("Attack details")]
-    public Vector2 plungeAttackVelocity = new Vector2(3f, -15f);
-    public float plungePrepJumpForce = 7.5f;
 
     [Header("Movements details")]
     public float moveSpeed = 8.5f;
@@ -81,7 +76,6 @@ public class Player : Entity
         wallJumpState = new Player_WallJumpState(this, stateMachine, "wallJump");
         dashState = new Player_DashState(this, stateMachine, "dash");
         slashState = new Player_SlashState(this, stateMachine, "slash");
-        plungeAttackState = new Player_PlungeAttackState(this, stateMachine, "plungeAttack");
         deadState = new Player_DeadState(this, stateMachine, "dead");
         dashToIdleState = new Player_DashToIdleState(this, stateMachine, "dashToIdle");
         landState = new Player_LandState(this, stateMachine, "land");
@@ -126,13 +120,24 @@ public class Player : Entity
     private void OnEnable()
     {
         input.Enable();
-
-        input.Player.Movement.performed += ctx => moveInput = ctx.ReadValue<Vector2>();
-        input.Player.Movement.canceled += ctx => moveInput = Vector2.zero;
+        input.Player.Movement.performed += OnMovementPerformed;
+        input.Player.Movement.canceled += OnMovementCanceled;
     }
 
     private void OnDisable()
     {
+        input.Player.Movement.performed -= OnMovementPerformed;
+        input.Player.Movement.canceled -= OnMovementCanceled;
         input.Disable();
+    }
+
+    private void OnMovementPerformed(UnityEngine.InputSystem.InputAction.CallbackContext ctx)
+    {
+        moveInput = ctx.ReadValue<Vector2>();
+    }
+
+    private void OnMovementCanceled(UnityEngine.InputSystem.InputAction.CallbackContext ctx)
+    {
+        moveInput = Vector2.zero;
     }
 }

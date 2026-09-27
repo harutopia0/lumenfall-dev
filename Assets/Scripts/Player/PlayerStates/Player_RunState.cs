@@ -6,6 +6,13 @@ public class Player_RunState : Player_GroundedState
     {
     }
 
+    public override void PhysicsUpdate()
+    {
+        base.PhysicsUpdate();
+
+        player.SetVelocity(player.moveInput.x * player.moveSpeed, rb.linearVelocity.y);
+    }
+
     public override void Update()
     {
         base.Update();
@@ -17,7 +24,5 @@ public class Player_RunState : Player_GroundedState
             stateMachine.ChangeState(player.idleState);
             return;
         }
-
-        player.SetVelocity(player.moveInput.x * player.moveSpeed, rb.linearVelocity.y);
     }
 }

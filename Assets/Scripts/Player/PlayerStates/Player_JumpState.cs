@@ -23,6 +23,17 @@ public class Player_JumpState : Player_AiredState
         }
     }
 
+    public override void PhysicsUpdate()
+    {
+        base.PhysicsUpdate();
+
+        if (!isJumpCut && !input.Player.Jump.IsPressed() && rb.linearVelocity.y > 0)
+        {
+            isJumpCut = true;
+            player.SetVelocity(rb.linearVelocity.x, rb.linearVelocity.y * player.jumpCutMultiplier);
+        }
+    }
+
     public override void Update()
     {
         base.Update();
@@ -35,13 +46,7 @@ public class Player_JumpState : Player_AiredState
             return;
         }
 
-        if (!isJumpCut && !input.Player.Jump.IsPressed() && rb.linearVelocity.y > 0)
-        {
-            isJumpCut = true;
-            player.SetVelocity(rb.linearVelocity.x, rb.linearVelocity.y * player.jumpCutMultiplier);
-        }
-
-        if (rb.linearVelocity.y < 0 && stateMachine.currentState != player.plungeAttackState)
+        if (rb.linearVelocity.y < 0)
         {
             stateMachine.ChangeState(player.fallState);
         }

@@ -84,9 +84,14 @@ public class Enemy : Entity
     {
         base.OnDrawGizmos();
 
-        GizmosDrawLine(playerCheck.position, new Vector3(playerCheck.position.x + (facingDir * playerCheckDistance), playerCheck.position.y), Color.lightSalmon);
-        GizmosDrawLine(playerCheck.position, new Vector3(playerCheck.position.x + (facingDir * attackDistance), playerCheck.position.y), Color.mediumSpringGreen);
-        GizmosDrawLine(playerCheck.position, new Vector3(playerCheck.position.x + (facingDir * minRetreatDistance), playerCheck.position.y), Color.hotPink);
+        Gizmos.color = Color.lightSalmon;
+        Gizmos.DrawLine(playerCheck.position, new Vector3(playerCheck.position.x + (facingDir * playerCheckDistance), playerCheck.position.y));
+
+        Gizmos.color = Color.mediumSpringGreen;
+        Gizmos.DrawLine(playerCheck.position, new Vector3(playerCheck.position.x + (facingDir * attackDistance), playerCheck.position.y));
+
+        Gizmos.color = Color.hotPink;
+        Gizmos.DrawLine(playerCheck.position, new Vector3(playerCheck.position.x + (facingDir * minRetreatDistance), playerCheck.position.y));
     }
 
     private void OnEnable()

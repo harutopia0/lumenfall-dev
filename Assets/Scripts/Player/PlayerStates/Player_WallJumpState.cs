@@ -3,9 +3,10 @@ using UnityEngine;
 public class Player_WallJumpState : PlayerState
 {
     private int jumpDir;
+    private bool isJumpCut;
+    private float pushOffTimer;
 
-    public Player_WallJumpState(Player player, StateMachine stateMachine, string animBoolName)
-        : base(player, stateMachine, animBoolName)
+    public Player_WallJumpState(Player player, StateMachine stateMachine, string animBoolName) : base(player, stateMachine, animBoolName)
     {
     }
 
@@ -17,25 +18,27 @@ public class Player_WallJumpState : PlayerState
         player.canDoubleJump = true;
 
         jumpDir = -player.facingDir;
-        stateTimer = player.wallJumpPushOffDuration;
+        pushOffTimer = player.wallJumpPushOffDuration;
+        isJumpCut = false;
 
         player.SetVelocity(jumpDir * player.wallJumpForce.x, player.wallJumpForce.y);
 
         player.vfx?.PlayWallJumpPuffVfx(player.transform.position, jumpDir);
     }
 
-    public override void Update()
+    public override void PhysicsUpdate()
     {
-        base.Update();
+        base.PhysicsUpdate();
 
-        if (stateMachine.currentState != this) return;
+        pushOffTimer -= Time.fixedDeltaTime;
 
-        if (input.Player.Jump.WasReleasedThisFrame() && rb.linearVelocity.y > 0)
+        if (!isJumpCut && !input.Player.Jump.IsPressed() && rb.linearVelocity.y > 0)
         {
+            isJumpCut = true;
             player.SetVelocity(rb.linearVelocity.x, rb.linearVelocity.y * player.jumpCutMultiplier);
         }
 
-        if (stateTimer > 0)
+        if (pushOffTimer > 0)
         {
             player.SetVelocity(jumpDir * player.wallJumpForce.x, rb.linearVelocity.y);
         }
@@ -49,17 +52,24 @@ public class Player_WallJumpState : PlayerState
             {
                 player.SetVelocity(0, rb.linearVelocity.y);
             }
-
-            if (player.wallDetected)
-            {
-                stateMachine.ChangeState(player.wallSlideState);
-                return;
-            }
         }
+    }
+
+    public override void Update()
+    {
+        base.Update();
+
+        if (stateMachine.currentState != this) return;
 
         if (input.Player.Attack.WasPressedThisFrame())
         {
             stateMachine.ChangeState(player.slashState);
+            return;
+        }
+
+        if (pushOffTimer <= 0 && player.wallDetected && rb.linearVelocity.y < 0)
+        {
+            stateMachine.ChangeState(player.wallSlideState);
             return;
         }
 

@@ -12,13 +12,18 @@ public class Player_DashToIdleState : Player_GroundedState
         player.SetVelocity(0, 0);
     }
 
+    public override void PhysicsUpdate()
+    {
+        base.PhysicsUpdate();
+
+        player.SetVelocity(0, 0);
+    }
+
     public override void Update()
     {
         base.Update();
 
         if (stateMachine.currentState != this) return;
-
-        player.SetVelocity(0, 0);
 
         if (player.moveInput.x != 0)
         {

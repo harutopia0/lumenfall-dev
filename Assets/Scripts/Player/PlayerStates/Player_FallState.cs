@@ -8,7 +8,14 @@ public class Player_FallState : Player_AiredState
     {
         base.Enter();
 
-        rb.gravityScale = player.defaultGravityScale * player.fallGravityMultiplier;
+        UpdateGravity();
+    }
+
+    public override void PhysicsUpdate()
+    {
+        base.PhysicsUpdate();
+
+        UpdateGravity();
     }
 
     public override void Update()
@@ -35,15 +42,31 @@ public class Player_FallState : Player_AiredState
         if (player.groundDetected)
         {
             if (player.moveInput.x != 0)
+            {
                 stateMachine.ChangeState(player.runState);
+            }
             else
+            {
                 stateMachine.ChangeState(player.landState);
+            }
             return;
         }
 
         if (player.wallDetected)
         {
             stateMachine.ChangeState(player.wallSlideState);
+        }
+    }
+
+    private void UpdateGravity()
+    {
+        if (rb.linearVelocity.y < 0)
+        {
+            rb.gravityScale = player.defaultGravityScale * player.fallGravityMultiplier;
+        }
+        else
+        {
+            rb.gravityScale = player.defaultGravityScale;
         }
     }
 

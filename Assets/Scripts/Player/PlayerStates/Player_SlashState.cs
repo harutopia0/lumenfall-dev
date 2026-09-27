@@ -32,43 +32,41 @@ public class Player_SlashState : PlayerState
         player.vfx?.PlaySlashVfx(combat.currentAttackDir);
     }
 
+    public override void PhysicsUpdate()
+    {
+        base.PhysicsUpdate();
+
+        if (player.moveInput.x != 0)
+            player.SetVelocity(player.moveInput.x * player.moveSpeed, rb.linearVelocity.y);
+        else
+            player.SetVelocity(0, rb.linearVelocity.y);
+    }
+
     public override void Update()
     {
         base.Update();
 
         if (stateMachine.currentState != this) return;
 
-        if (player.groundDetected)
-        {
-            if (player.moveInput.x != 0)
-                player.SetVelocity(player.moveInput.x * player.moveSpeed, rb.linearVelocity.y);
-            else
-                player.SetVelocity(0, rb.linearVelocity.y);
-        }
-        else
-        {
-            if (player.moveInput.x != 0)
-                player.SetVelocity(player.moveInput.x * player.moveSpeed, rb.linearVelocity.y);
-            else
-                player.SetVelocity(0, rb.linearVelocity.y);
-        }
-
-
         if (triggerCalled)
         {
             if (player.groundDetected)
             {
                 if (player.moveInput.x != 0)
+                {
                     stateMachine.ChangeState(player.runState);
+                }
                 else
+                {
                     stateMachine.ChangeState(player.idleState);
+                }
             }
             else
             {
                 stateMachine.ChangeState(player.fallState);
             }
         }
-
     }
+
 
 }

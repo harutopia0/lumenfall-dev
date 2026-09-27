@@ -7,11 +7,9 @@ public class Player_AiredState : PlayerState
     {
     }
 
-    public override void Update()
+    public override void PhysicsUpdate()
     {
-        base.Update();
-
-        if (stateMachine.currentState != this) return;
+        base.PhysicsUpdate();
 
         if (player.moveInput.x != 0)
         {
@@ -21,6 +19,13 @@ public class Player_AiredState : PlayerState
         {
             player.SetVelocity(0, rb.linearVelocity.y);
         }
+    }
+
+    public override void Update()
+    {
+        base.Update();
+
+        if (stateMachine.currentState != this) return;
 
         if (input.Player.Attack.WasPressedThisFrame())
         {

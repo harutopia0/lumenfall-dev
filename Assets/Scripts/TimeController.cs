@@ -9,6 +9,12 @@ public class TimeController : MonoBehaviour
     [Range(0.01f, 1f)] [SerializeField] private float slowMotionScale = 0.1f;
     [SerializeField] private KeyCode slowMotionKey = KeyCode.T;
 
+    private float originalFixedDeltaTime;
+    private void Awake()
+    {
+        originalFixedDeltaTime = Time.fixedDeltaTime;
+    }
+
     private void Update()
     {
         bool isSlowMotion = false;
@@ -26,15 +32,7 @@ public class TimeController : MonoBehaviour
         isSlowMotion = Input.GetKey(slowMotionKey);
 #endif
 
-        if (isSlowMotion)
-        {
-            Time.timeScale = slowMotionScale;
-            Time.fixedDeltaTime = 0.02f * Time.timeScale;
-        }
-        else
-        {
-            Time.timeScale = 1f;
-            Time.fixedDeltaTime = 0.02f;
-        }
+        Time.timeScale = isSlowMotion ? slowMotionScale : 1f;
+        Time.fixedDeltaTime = isSlowMotion ? originalFixedDeltaTime * Time.timeScale : originalFixedDeltaTime;
     }
 }

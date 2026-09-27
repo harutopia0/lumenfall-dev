@@ -3,6 +3,7 @@ using UnityEngine;
 public class Player_DashState : PlayerState
 {
     private float originalGravityScale;
+    private float dashTimer;
     private int dashDir;
 
     public Player_DashState(Player player, StateMachine stateMachine, string animBoolName) : base(player, stateMachine, animBoolName)
@@ -19,8 +20,8 @@ public class Player_DashState : PlayerState
             player.canAirDash = false;
         }
 
-        dashDir = player.moveInput.x != 0 ? ((int)player.moveInput.x) : player.facingDir;
-        stateTimer = player.dashDuration;
+        dashDir = player.moveInput.x != 0 ? (int)Mathf.Sign(player.moveInput.x) : player.facingDir;
+        dashTimer = player.dashDuration;
 
         originalGravityScale = rb.gravityScale;
         rb.gravityScale = 0;
@@ -30,15 +31,22 @@ public class Player_DashState : PlayerState
         player.vfx?.PlayDashVfx(player.transform.position, player.transform.rotation, player.facingDir);
     }
 
+    public override void PhysicsUpdate()
+    {
+        base.PhysicsUpdate();
+
+        dashTimer -= Time.fixedDeltaTime;
+
+        player.SetVelocity(player.dashSpeed * dashDir, 0);
+    }
+
     public override void Update()
     {
         base.Update();
 
         CancelDashIfNeeded();
 
-        player.SetVelocity(player.dashSpeed * dashDir, 0);
-
-        if (stateTimer < 0)
+        if (dashTimer < 0)
         {
             if (player.groundDetected)
             {

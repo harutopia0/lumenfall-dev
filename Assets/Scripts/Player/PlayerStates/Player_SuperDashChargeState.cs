@@ -25,11 +25,16 @@ public class Player_SuperDashChargeState : PlayerState
         player.vfx?.SetSuperDashCharging(true, isFromWall);
     }
 
+    public override void PhysicsUpdate()
+    {
+        base.PhysicsUpdate();
+
+        player.SetVelocity(0, 0);
+    }
+
     public override void Update()
     {
         base.Update();
-
-        player.SetVelocity(0, 0);
 
         if (input.Player.SuperDash.WasReleasedThisFrame())
         {

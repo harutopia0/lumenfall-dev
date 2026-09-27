@@ -26,11 +26,16 @@ public class Player_SuperDashState : PlayerState
         player.vfx?.SetSuperDashTrail(true);
     }
 
+    public override void PhysicsUpdate()
+    {
+        base.PhysicsUpdate();
+
+        player.SetVelocity(launchDir * player.superDashSpeed, 0);
+    }
+
     public override void Update()
     {
         base.Update();
-
-        player.SetVelocity(launchDir * player.superDashSpeed, 0);
 
         if (input.Player.Jump.WasPressedThisFrame() || input.Player.Dash.WasPressedThisFrame())
         {

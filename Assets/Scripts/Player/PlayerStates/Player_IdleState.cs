@@ -13,6 +13,13 @@ public class Player_IdleState : Player_GroundedState
         player.SetVelocity(0, rb.linearVelocity.y);
     }
 
+    public override void PhysicsUpdate()
+    {
+        base.PhysicsUpdate();
+
+        player.SetVelocity(0, rb.linearVelocity.y);
+    }
+
     public override void Update()
     {
         base.Update();

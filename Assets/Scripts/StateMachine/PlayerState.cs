@@ -33,7 +33,13 @@ public abstract class PlayerState : EntityState
 
     private bool CanDash()
     {
-        if (player.wallDetected || stateMachine.currentState == player.dashState || stateMachine.currentState == player.deadState)
+        if (stateMachine.currentState == player.dashState || stateMachine.currentState == player.deadState)
+        {
+            return false;
+        }
+
+        int intendedDashDir = player.moveInput.x != 0 ? (int)Mathf.Sign(player.moveInput.x) : player.facingDir;
+        if (player.wallDetected && intendedDashDir == player.facingDir)
         {
             return false;
         }

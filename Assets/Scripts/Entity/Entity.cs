@@ -23,12 +23,22 @@ public class Entity : MonoBehaviour
 
     [Header("Collision detection")]
     [SerializeField] protected LayerMask whatIsGround;
-    [SerializeField] private float ceilingCheckDistance = 1.125f;
-    [SerializeField] private float groundCheckDistance = 1.025f;
-    [SerializeField] private float wallCheckDistance = 0.5f;
+
+    [Header("Ground Check")]
     [SerializeField] private Transform groundCheck;
+    [SerializeField] private float groundCheckDistance = 1.3f;
+    [SerializeField] private Vector2 groundBoxSize = new Vector2(0.7f, 0.1f);
+
+    [Header("Ceiling Check")]
+    [SerializeField] private Transform ceilingCheck;
+    [SerializeField] private float ceilingCheckDistance = 0.85f;
+    [SerializeField] private Vector2 ceilingBoxSize = new Vector2(0.7f, 0.1f);
+
+    [Header("Wall Check")]
     [SerializeField] private Transform primaryWallCheck;
     [SerializeField] private Transform secondaryWallCheck;
+    [SerializeField] private float wallCheckDistance = 0.45f;
+
     public bool ceilingDetected { get; private set; }
     public bool groundDetected { get; private set; }
     public bool wallDetected { get; private set; }
@@ -52,9 +62,14 @@ public class Entity : MonoBehaviour
         
     }
 
-    protected virtual void Update()
+    protected virtual void FixedUpdate()
     {
         HandleCollisionDetection();
+        stateMachine.PhysicsUpdateActiveState();
+    }
+
+    protected virtual void Update()
+    {
         stateMachine.UpdateActiveState();
     }
 
@@ -85,7 +100,7 @@ public class Entity : MonoBehaviour
 
         yield return new WaitForSeconds(duration);
 
-        rb.linearVelocity = Vector2.zero;
+        rb.linearVelocity = new Vector2(0f, rb.linearVelocity.y);
         isKnocked = false;
     }
 
@@ -118,37 +133,56 @@ public class Entity : MonoBehaviour
 
     private void HandleCollisionDetection()
     {
-        ceilingDetected = Physics2D.Raycast(transform.position, Vector2.up, groundCheckDistance, whatIsGround);
+        Vector2 originBase = rb != null ? rb.position : (Vector2)transform.position;
 
-        groundDetected = Physics2D.Raycast(groundCheck.position, Vector2.down, groundCheckDistance, whatIsGround);
+        Vector2 ceilingOrigin = ceilingCheck != null
+            ? originBase + (Vector2)(ceilingCheck.position - transform.position)
+            : originBase;
+        RaycastHit2D ceilingHit = Physics2D.BoxCast(ceilingOrigin, ceilingBoxSize, 0f, Vector2.up, ceilingCheckDistance, whatIsGround);
+        ceilingDetected = ceilingHit.collider != null;
+
+        Vector2 groundOrigin = groundCheck != null
+            ? originBase + (Vector2)(groundCheck.position - transform.position)
+            : originBase;
+        RaycastHit2D groundHit = Physics2D.BoxCast(groundOrigin, groundBoxSize, 0f, Vector2.down, groundCheckDistance, whatIsGround);
+        groundDetected = groundHit.collider != null;
+
+        Vector2 wallOrigin = primaryWallCheck != null
+            ? originBase + (Vector2)(primaryWallCheck.position - transform.position)
+            : originBase;
 
         if (secondaryWallCheck != null)
         {
-            wallDetected = Physics2D.Raycast(primaryWallCheck.position, Vector2.right * facingDir, wallCheckDistance, whatIsGround)
-                    && Physics2D.Raycast(secondaryWallCheck.position, Vector2.right * facingDir, wallCheckDistance, whatIsGround);
+            Vector2 secondaryWallOrigin = originBase + (Vector2)(secondaryWallCheck.position - transform.position);
+            wallDetected = Physics2D.Raycast(wallOrigin, Vector2.right * facingDir, wallCheckDistance, whatIsGround)
+                    && Physics2D.Raycast(secondaryWallOrigin, Vector2.right * facingDir, wallCheckDistance, whatIsGround);
         }
         else
         {
-            wallDetected = Physics2D.Raycast(primaryWallCheck.position, Vector2.right * facingDir, wallCheckDistance, whatIsGround);
+            wallDetected = Physics2D.Raycast(wallOrigin, Vector2.right * facingDir, wallCheckDistance, whatIsGround);
         }
     }
 
     protected virtual void OnDrawGizmos()
     {
-        GizmosDrawLine(transform.position, transform.position + new Vector3(0, ceilingCheckDistance), Color.crimson);
+        Vector3 ceilingPos = ceilingCheck != null ? ceilingCheck.position : transform.position;
+        Gizmos.color = Color.crimson;
+        Gizmos.DrawLine(ceilingPos, ceilingPos + new Vector3(0, ceilingCheckDistance));
+        Gizmos.DrawWireCube(ceilingPos + new Vector3(0, ceilingCheckDistance), ceilingBoxSize);
 
-        GizmosDrawLine(groundCheck.position, groundCheck.position + new Vector3(0, -groundCheckDistance), Color.greenYellow);
+        Vector3 groundPos = groundCheck != null ? groundCheck.position : transform.position;
+        Gizmos.color = Color.greenYellow;
+        Gizmos.DrawLine(groundPos, groundPos + new Vector3(0, -groundCheckDistance));
+        Gizmos.DrawWireCube(groundPos + new Vector3(0, -groundCheckDistance), groundBoxSize);
 
-        GizmosDrawLine(primaryWallCheck.position, primaryWallCheck.position + new Vector3(wallCheckDistance * facingDir, 0), Color.lightCoral);
+        Gizmos.color = Color.lightCoral;
+        Vector3 primaryWallPos = primaryWallCheck != null ? primaryWallCheck.position : transform.position;
+        Gizmos.DrawLine(primaryWallPos, primaryWallPos + new Vector3(wallCheckDistance * facingDir, 0));
+
         if (secondaryWallCheck != null)
         {
-            GizmosDrawLine(secondaryWallCheck.position, secondaryWallCheck.position + new Vector3(wallCheckDistance * facingDir, 0), Color.lightCoral);
+            Gizmos.DrawLine(secondaryWallCheck.position, secondaryWallCheck.position + new Vector3(wallCheckDistance * facingDir, 0));
         }
     }
 
-    protected void GizmosDrawLine(Vector3 from, Vector3 to, Color color)
-    {
-        Gizmos.color = color;
-        Gizmos.DrawLine(from, to);
-    }
 }
