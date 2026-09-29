@@ -172,7 +172,6 @@ Shader "Sprites/Default with Fog"
 				UNITY_SETUP_INSTANCE_ID(IN);
 				UNITY_INITIALIZE_VERTEX_OUTPUT_STEREO(OUT);
 
-				// Đồng bộ lật đỉnh cho Depth Pass
 				SetUpSpriteInstanceProperties();
 				IN.vertex.xyz = UnityFlipSprite(IN.vertex.xyz, unity_SpriteProps.xy);
 
