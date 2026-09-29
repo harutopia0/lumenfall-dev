@@ -25,16 +25,14 @@ Shader "Sprites/Default with Fog"
 		}
 
 		Cull Off
-		Lighting Off
 
-		// Main color pass
 		Pass
 		{
 			Name "Universal2D"
 			Tags { "LightMode"="Universal2D" }
 
 			ZWrite On
-			Blend One OneMinusSrcAlpha
+			Blend SrcAlpha OneMinusSrcAlpha, One OneMinusSrcAlpha
 
 		HLSLPROGRAM
 			#pragma vertex SpriteVertFog
@@ -44,7 +42,10 @@ Shader "Sprites/Default with Fog"
 			#pragma multi_compile _ PIXELSNAP_ON
 			#pragma multi_compile_fog
 
-			#include "Packages/com.unity.render-pipelines.universal/ShaderLibrary/Core.hlsl"
+			#include_with_pragmas "Packages/com.unity.render-pipelines.universal/Shaders/2D/Include/ShapeLightShared.hlsl"
+
+			#include "Packages/com.unity.render-pipelines.universal/Shaders/2D/Include/Core2D.hlsl"
+			#include "Packages/com.unity.render-pipelines.universal/Shaders/2D/Include/CombinedShapeLightShared.hlsl"
 
 			TEXTURE2D(_MainTex);
 			SAMPLER(sampler_MainTex);
@@ -66,10 +67,11 @@ Shader "Sprites/Default with Fog"
 
 			struct v2f_fog
 			{
-				float4 vertex   : SV_POSITION;
-				half4 color     : COLOR;
-				float2 texcoord : TEXCOORD0;
-				float fogCoord  : TEXCOORD1;
+				float4 vertex    : SV_POSITION;
+				half4 color      : COLOR;
+				float2 texcoord  : TEXCOORD0;
+				float fogCoord   : TEXCOORD1;
+				half2 lightingUV : TEXCOORD2;
 				UNITY_VERTEX_OUTPUT_STEREO
 			};
 
@@ -80,19 +82,20 @@ Shader "Sprites/Default with Fog"
 				UNITY_SETUP_INSTANCE_ID(IN);
 				UNITY_INITIALIZE_VERTEX_OUTPUT_STEREO(OUT);
 
-			#ifdef UNITY_INSTANCING_ENABLED
-				IN.vertex.xy *= _Flip.xy;
-			#endif
+				SetUpSpriteInstanceProperties();
+				IN.vertex.xyz = UnityFlipSprite(IN.vertex.xyz, unity_SpriteProps.xy);
 
 				OUT.vertex = TransformObjectToHClip(IN.vertex.xyz);
 				OUT.texcoord = IN.texcoord;
-				OUT.color = IN.color * _Color * _RendererColor;
+
+				OUT.color = IN.color * _Color * unity_SpriteColor;
 
 			#ifdef PIXELSNAP_ON
 				OUT.vertex = UnityPixelSnap(OUT.vertex);
 			#endif
 
 				OUT.fogCoord = ComputeFogFactor(OUT.vertex.z);
+				OUT.lightingUV = half2(ComputeScreenPos(OUT.vertex / OUT.vertex.w).xy);
 
 				return OUT;
 			}
@@ -102,20 +105,24 @@ Shader "Sprites/Default with Fog"
 				half4 texColor = SAMPLE_TEXTURE2D(_MainTex, sampler_MainTex, IN.texcoord);
 				half4 c = texColor * IN.color;
 
-				// Discard transparent pixels so they don't write to depth
 				clip(c.a - _AlphaCutoff);
 
-				// Apply fog
-				c.rgb = MixFog(c.rgb, IN.fogCoord);
-				c.rgb *= c.a;
+				SurfaceData2D surfaceData;
+				InputData2D inputData;
 
-				return c;
+				InitializeSurfaceData(c.rgb, c.a, surfaceData);
+				InitializeInputData(IN.texcoord, IN.lightingUV, inputData);
+
+				half4 litColor = CombinedShapeLightShared(surfaceData, inputData);
+
+				litColor.rgb = MixFog(litColor.rgb, IN.fogCoord);
+
+				return litColor;
 			}
 
 		ENDHLSL
 		}
 
-		// Depth only pass - writes to depth buffer for Depth of Field
 		Pass
 		{
 			Name "DepthOnly"
@@ -132,7 +139,7 @@ Shader "Sprites/Default with Fog"
 			#pragma multi_compile_instancing
 			#pragma multi_compile _ PIXELSNAP_ON
 
-			#include "Packages/com.unity.render-pipelines.universal/ShaderLibrary/Core.hlsl"
+			#include "Packages/com.unity.render-pipelines.universal/Shaders/2D/Include/Core2D.hlsl"
 
 			TEXTURE2D(_MainTex);
 			SAMPLER(sampler_MainTex);
@@ -165,9 +172,9 @@ Shader "Sprites/Default with Fog"
 				UNITY_SETUP_INSTANCE_ID(IN);
 				UNITY_INITIALIZE_VERTEX_OUTPUT_STEREO(OUT);
 
-			#ifdef UNITY_INSTANCING_ENABLED
-				IN.vertex.xy *= _Flip.xy;
-			#endif
+				// Đồng bộ lật đỉnh cho Depth Pass
+				SetUpSpriteInstanceProperties();
+				IN.vertex.xyz = UnityFlipSprite(IN.vertex.xyz, unity_SpriteProps.xy);
 
 				OUT.vertex = TransformObjectToHClip(IN.vertex.xyz);
 				OUT.texcoord = IN.texcoord;
@@ -190,6 +197,5 @@ Shader "Sprites/Default with Fog"
 		}
 	}
 
-	// Fallback for compatibility
 	Fallback "Sprites/Default"
 }
