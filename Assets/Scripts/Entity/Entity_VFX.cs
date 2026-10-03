@@ -84,6 +84,7 @@ public class Entity_VFX : MonoBehaviour
         if (vfxContainer == null)
         {
             GameObject containerObj = new GameObject("_SuperDash_Crystal_Container");
+            containerObj.transform.SetParent(transform);
             vfxContainer = containerObj.transform;
         }
 
@@ -124,7 +125,7 @@ public class Entity_VFX : MonoBehaviour
 
             foreach (var anim in crystalPool)
             {
-                if (anim.gameObject.activeSelf)
+                if (anim != null && anim.gameObject.activeSelf)
                 {
                     anim.SetBool("charging", false);
                 }
@@ -170,7 +171,12 @@ public class Entity_VFX : MonoBehaviour
 
     private IEnumerator SpawnCrissCrossUArchWaveRoutine(bool isWallCharge)
     {
-        if (crystalPool.Count == 0) InitializeCrystalPool();
+        if (crystalPool.Count == 0 || crystalPool[0] == null)
+        {
+            crystalPool.Clear();
+            crystalRenderers.Clear();
+            InitializeCrystalPool();
+        }
 
         LayerMask mask = surfaceLayer.value != 0 ? surfaceLayer : LayerMask.GetMask("Ground");
         Vector2 origin = transform.position;
@@ -222,6 +228,8 @@ public class Entity_VFX : MonoBehaviour
             }
 
             float t = crystalPool.Count > 1 ? ((float)i / (crystalPool.Count - 1)) - 0.5f : 0f;
+
+            if (i >= crystalPool.Count || crystalPool[i] == null) continue;
             Animator crystalAnim = crystalPool[i];
             SpriteRenderer crystalSr = crystalRenderers[i];
             crystalAnim.gameObject.SetActive(true);

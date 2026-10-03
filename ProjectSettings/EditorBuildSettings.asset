@@ -6,7 +6,13 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+    path: Assets/Scenes/Core_Persistent.unity
+    guid: ac6a72737f37e6c4893539402841662d
+  - enabled: 1
+    path: Assets/Scenes/Moss_Grotto_01.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/Moss_Grotto_02.unity
+    guid: c001fe4748aa5ea488d3fcee65a31994
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}

@@ -137,6 +137,8 @@ public class CameraController : MonoBehaviour
                     RegisterArea(area);
                 }
             }
+
+            SnapToTarget();
         }
     }
 
@@ -147,6 +149,54 @@ public class CameraController : MonoBehaviour
             activeAreas.Add(area);
         }
         UpdateCurrentArea();
+    }
+
+    public void ForceSetArea(CameraLockArea newArea)
+    {
+        activeAreas.Clear();
+        if (newArea != null)
+        {
+            activeAreas.Add(newArea);
+        }
+        currentArea = newArea;
+        isTransitioning = false;
+        SnapToTarget();
+    }
+
+    public void SnapToTarget()
+    {
+        if (target == null) return;
+
+        if (cam == null) cam = GetComponent<Camera>();
+
+        isTransitioning = false;
+        transitionTimer = 0f;
+        lookUpTimer = 0f;
+        lookDownTimer = 0f;
+        currentScoutOffsetY = 0f;
+        currentFallLeadOffset = 0f;
+
+        Vector2 desiredPos = (Vector2)target.position + targetOffset;
+
+        if (currentArea != null)
+        {
+            float halfHeight = cam.orthographic
+                ? cam.orthographicSize
+                : Mathf.Abs(cameraDistanceZ - target.position.z) * Mathf.Tan(cam.fieldOfView * 0.5f * Mathf.Deg2Rad);
+            float halfWidth = halfHeight * cam.aspect;
+
+            float minX = currentArea.MinX + halfWidth;
+            float maxX = currentArea.MaxX - halfWidth;
+            float minY = currentArea.MinY + halfHeight;
+            float maxY = currentArea.MaxY - halfHeight;
+
+            float clampedX = (minX > maxX) ? (currentArea.MinX + currentArea.MaxX) * 0.5f : Mathf.Clamp(desiredPos.x, minX, maxX);
+            float clampedY = (minY > maxY) ? (currentArea.MinY + currentArea.MaxY) * 0.5f : Mathf.Clamp(desiredPos.y, minY, maxY);
+
+            desiredPos = new Vector2(clampedX, clampedY);
+        }
+
+        transform.position = new Vector3(desiredPos.x, desiredPos.y, cameraDistanceZ);
     }
 
     public void UnregisterArea(CameraLockArea area)

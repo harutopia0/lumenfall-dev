@@ -1,37 +1,81 @@
 using UnityEngine;
 using UnityEngine.Tilemaps;
 
+[ExecuteAlways]
 [DisallowMultipleComponent]
 public class HideTilemap : MonoBehaviour
 {
-    [Tooltip("Nếu bật, sẽ ẩn cả Renderer của các GameObject con (nếu có)")]
+    [Tooltip("If enabled, hides renderers of child GameObjects as well.")]
     [SerializeField] private bool hideChildren = false;
+
+    [Tooltip("Toggles hiding in Edit mode for previewing final visuals.")]
+    [SerializeField] private bool hideInEditMode = true;
 
     private void Awake()
     {
-        Hide();
+        ApplyVisibility();
+    }
+
+    private void OnEnable()
+    {
+        ApplyVisibility();
+    }
+
+    private void OnValidate()
+    {
+        ApplyVisibility();
+    }
+
+    private void ApplyVisibility()
+    {
+        if (Application.isPlaying || hideInEditMode)
+        {
+            Hide();
+        }
+        else
+        {
+            Show();
+        }
     }
 
     public void Hide()
     {
-        // Ẩn TilemapRenderer nếu có trên GameObject này
         if (TryGetComponent<TilemapRenderer>(out var tilemapRenderer))
         {
             tilemapRenderer.enabled = false;
         }
-        // Hỗ trợ Renderer chung (nếu gắn vào SpriteRenderer hoặc MeshRenderer)
         else if (TryGetComponent<Renderer>(out var genericRenderer))
         {
             genericRenderer.enabled = false;
         }
 
-        // Ẩn thêm các Renderer con nếu tùy chọn được bật
         if (hideChildren)
         {
             Renderer[] childRenderers = GetComponentsInChildren<Renderer>();
             foreach (Renderer r in childRenderers)
             {
                 r.enabled = false;
+            }
+        }
+    }
+
+    public void Show()
+    {
+        if (TryGetComponent<TilemapRenderer>(out var tilemapRenderer))
+        {
+            tilemapRenderer.enabled = true;
+        }
+        else if (TryGetComponent<Renderer>(out var genericRenderer))
+        {
+            genericRenderer.enabled = true;
+        }
+
+        if (hideChildren)
+        {
+            Renderer[] childRenderers = GetComponentsInChildren<Renderer>();
+            foreach (Renderer r in childRenderers)
+            {
+                r.enabled = true;
             }
         }
     }
