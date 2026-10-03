@@ -224,11 +224,6 @@ public class CameraController : MonoBehaviour
         trauma = Mathf.Clamp01(trauma + amount);
     }
 
-    public void Shake(float intensity, float duration)
-    {
-        AddTrauma(Mathf.Clamp01(intensity * 0.5f));
-    }
-
     private void LateUpdate()
     {
         if (target == null) return;
