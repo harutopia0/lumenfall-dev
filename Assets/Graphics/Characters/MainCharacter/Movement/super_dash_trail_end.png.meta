@@ -78,7 +78,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 9
   spritePivot: {x: 0.94, y: 0.5}
   spritePixelsToUnits: 64
@@ -87,8 +87,8 @@ TextureImporter:
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationMethod: 0
-  spriteTessellationDetail: -1
-  spriteGeometrySubdivision: -1
+  spriteTessellationDetail: 0
+  spriteGeometrySubdivision: 0
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0

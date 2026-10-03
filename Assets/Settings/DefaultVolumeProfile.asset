@@ -381,7 +381,7 @@ MonoBehaviour:
     m_Value: 10
   gaussianEnd:
     m_OverrideState: 1
-    m_Value: 30
+    m_Value: 12
   gaussianMaxRadius:
     m_OverrideState: 1
     m_Value: 1
