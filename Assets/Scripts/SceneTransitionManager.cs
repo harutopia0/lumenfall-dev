@@ -43,7 +43,7 @@ public class SceneTransitionManager : MonoBehaviour
         if (activeScene.name != gameObject.scene.name)
         {
             currentLoadedRoomScene = activeScene.name;
-            InitializePlayerPosition(defaultSpawnPointName);
+            InitializePlayerPosition(defaultSpawnPointName, activeScene);
         }
         else if (!string.IsNullOrEmpty(initialRoomScene))
         {
@@ -57,21 +57,31 @@ public class SceneTransitionManager : MonoBehaviour
         StartCoroutine(TransitionRoutine(nextSceneName, targetSpawnPointName));
     }
 
-    private void InitializePlayerPosition(string spawnPointName)
+    private void InitializePlayerPosition(string spawnPointName, Scene targetScene)
     {
-        GameObject spawnPoint = GameObject.Find(spawnPointName);
+        GameObject spawnPoint = FindObjectInScene(targetScene, spawnPointName);
         Player player = Object.FindAnyObjectByType<Player>();
+
+        Vector2 targetPosition = Vector2.zero;
 
         if (spawnPoint != null && player != null)
         {
             player.transform.position = spawnPoint.transform.position;
+            targetPosition = spawnPoint.transform.position;
             if (player.TryGetComponent<Rigidbody2D>(out var rb))
             {
+                rb.position = spawnPoint.transform.position;
                 rb.linearVelocity = Vector2.zero;
             }
         }
+        else if (player != null)
+        {
+            targetPosition = player.transform.position;
+        }
 
-        CameraLockArea area = Object.FindAnyObjectByType<CameraLockArea>();
+        Physics2D.SyncTransforms();
+
+        CameraLockArea area = FindTargetAreaInScene(targetScene, targetPosition);
         if (CameraController.Instance != null && area != null)
         {
             CameraController.Instance.ForceSetArea(area);
@@ -88,7 +98,7 @@ public class SceneTransitionManager : MonoBehaviour
 
         Scene loadedScene = SceneManager.GetSceneByName(sceneName);
         SceneManager.SetActiveScene(loadedScene);
-        InitializePlayerPosition(spawnPointName);
+        InitializePlayerPosition(spawnPointName, loadedScene);
     }
 
     private IEnumerator TransitionRoutine(string nextSceneName, string targetSpawnPointName)
@@ -120,17 +130,27 @@ public class SceneTransitionManager : MonoBehaviour
         Scene newScene = SceneManager.GetSceneByName(nextSceneName);
         SceneManager.SetActiveScene(newScene);
 
-        GameObject spawnPoint = GameObject.Find(targetSpawnPointName);
+        GameObject spawnPoint = FindObjectInScene(newScene, targetSpawnPointName);
+        Vector2 targetPosition = Vector2.zero;
+
         if (spawnPoint != null && player != null)
         {
             player.transform.position = spawnPoint.transform.position;
+            targetPosition = spawnPoint.transform.position;
             if (player.TryGetComponent<Rigidbody2D>(out var rb))
             {
+                rb.position = spawnPoint.transform.position;
                 rb.linearVelocity = Vector2.zero;
             }
         }
+        else if (player != null)
+        {
+            targetPosition = player.transform.position;
+        }
 
-        CameraLockArea newArea = Object.FindAnyObjectByType<CameraLockArea>();
+        Physics2D.SyncTransforms();
+
+        CameraLockArea newArea = FindTargetAreaInScene(newScene, targetPosition);
         if (CameraController.Instance != null && newArea != null)
         {
             CameraController.Instance.ForceSetArea(newArea);
@@ -155,5 +175,74 @@ public class SceneTransitionManager : MonoBehaviour
             yield return null;
         }
         fadeCanvasGroup.alpha = toAlpha;
+    }
+
+    private CameraLockArea FindTargetAreaInScene(Scene scene, Vector2 position)
+    {
+        if (!scene.IsValid() || !scene.isLoaded) return null;
+
+        CameraLockArea fallbackArea = null;
+
+        foreach (GameObject root in scene.GetRootGameObjects())
+        {
+            CameraLockArea[] areas = root.GetComponentsInChildren<CameraLockArea>(true);
+            foreach (CameraLockArea area in areas)
+            {
+                if (fallbackArea == null) fallbackArea = area;
+
+                if (position.x >= area.MinX && position.x <= area.MaxX &&
+                    position.y >= area.MinY && position.y <= area.MaxY)
+                {
+                    return area;
+                }
+            }
+        }
+
+        return fallbackArea;
+    }
+
+    private GameObject FindObjectInScene(Scene scene, string objectName)
+    {
+        if (string.IsNullOrEmpty(objectName) || !scene.IsValid() || !scene.isLoaded)
+        {
+            return null;
+        }
+
+        string cleanPath = objectName.TrimStart('/');
+
+        foreach (GameObject root in scene.GetRootGameObjects())
+        {
+            if (root.name == cleanPath)
+            {
+                return root;
+            }
+
+            if (cleanPath.StartsWith(root.name + "/"))
+            {
+                string subPath = cleanPath.Substring(root.name.Length + 1);
+                Transform target = root.transform.Find(subPath);
+                if (target != null)
+                {
+                    return target.gameObject;
+                }
+            }
+
+            Transform directTarget = root.transform.Find(cleanPath);
+            if (directTarget != null)
+            {
+                return directTarget.gameObject;
+            }
+
+            Transform[] children = root.GetComponentsInChildren<Transform>(true);
+            foreach (Transform child in children)
+            {
+                if (child.name == cleanPath)
+                {
+                    return child.gameObject;
+                }
+            }
+        }
+
+        return null;
     }
 }

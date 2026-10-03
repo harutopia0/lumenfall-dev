@@ -22,15 +22,32 @@ public class CameraLockArea : MonoBehaviour
 
     private BoxCollider2D box;
 
-    public float MinX => box.bounds.min.x;
-    public float MaxX => box.bounds.max.x;
-    public float MinY => box.bounds.min.y;
-    public float MaxY => box.bounds.max.y;
-    public Vector2 Center => box.bounds.center;
+    private BoxCollider2D Box
+    {
+        get
+        {
+            if (box == null) box = GetComponent<BoxCollider2D>();
+            return box;
+        }
+    }
+
+    public float MinX => Box.bounds.min.x;
+    public float MaxX => Box.bounds.max.x;
+    public float MinY => Box.bounds.min.y;
+    public float MaxY => Box.bounds.max.y;
+    public Vector2 Center => Box.bounds.center;
 
     private void Awake()
     {
         box = GetComponent<BoxCollider2D>();
+    }
+
+    private void OnDisable()
+    {
+        if (CameraController.Instance != null)
+        {
+            CameraController.Instance.UnregisterArea(this);
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -59,19 +76,18 @@ public class CameraLockArea : MonoBehaviour
     {
         if (!showGizmos) return;
 
-        if (box == null) box = GetComponent<BoxCollider2D>();
-        if (box != null)
+        if (Box != null)
         {
             if (drawMode == GizmoDrawMode.Fill || drawMode == GizmoDrawMode.Both)
             {
                 Gizmos.color = gizmoColor;
-                Gizmos.DrawCube(box.bounds.center, box.bounds.size);
+                Gizmos.DrawCube(Box.bounds.center, Box.bounds.size);
             }
 
             if (drawMode == GizmoDrawMode.Wireframe || drawMode == GizmoDrawMode.Both)
             {
                 Gizmos.color = new Color(gizmoColor.r, gizmoColor.g, gizmoColor.b, 0.8f);
-                Gizmos.DrawWireCube(box.bounds.center, box.bounds.size);
+                Gizmos.DrawWireCube(Box.bounds.center, Box.bounds.size);
             }
         }
     }

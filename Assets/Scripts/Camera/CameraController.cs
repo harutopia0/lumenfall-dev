@@ -109,8 +109,24 @@ public class CameraController : MonoBehaviour
 
     private void Awake()
     {
-        Instance = this;
-        cam = GetComponent<Camera>();
+        if (Instance == null)
+        {
+            Instance = this;
+            cam = GetComponent<Camera>();
+        }
+        else if (Instance != this)
+        {
+            Destroy(this);
+            return;
+        }
+    }
+
+    private void OnDestroy()
+    {
+        if (Instance == this)
+        {
+            Instance = null;
+        }
     }
 
     private void Start()
@@ -144,6 +160,8 @@ public class CameraController : MonoBehaviour
 
     public void RegisterArea(CameraLockArea area)
     {
+        if (area == null) return;
+
         if (!activeAreas.Contains(area))
         {
             activeAreas.Add(area);
@@ -165,6 +183,17 @@ public class CameraController : MonoBehaviour
 
     public void SnapToTarget()
     {
+        if (target == null)
+        {
+            Player p = Object.FindAnyObjectByType<Player>();
+            if (p != null)
+            {
+                target = p.transform;
+                targetRb = p.GetComponent<Rigidbody2D>();
+                player = p;
+            }
+        }
+
         if (target == null) return;
 
         if (cam == null) cam = GetComponent<Camera>();
@@ -228,9 +257,16 @@ public class CameraController : MonoBehaviour
 
     private void UpdateCurrentArea()
     {
+        for (int i = activeAreas.Count - 1; i >= 0; i--)
+        {
+            if (activeAreas[i] == null)
+            {
+                activeAreas.RemoveAt(i);
+            }
+        }
+
         if (activeAreas.Count == 0)
         {
-            ChangeArea(null);
             return;
         }
 
@@ -454,8 +490,21 @@ public class CameraController : MonoBehaviour
                 float distance = Mathf.Abs(cameraDistanceZ - target.position.z);
                 halfHeight = distance * Mathf.Tan(cam.fieldOfView * 0.5f * Mathf.Deg2Rad);
             }
+            float halfWidth = halfHeight * cam.aspect;
+
+            float minX = currentArea.MinX + halfWidth;
+            float maxX = currentArea.MaxX - halfWidth;
             float minY = currentArea.MinY + halfHeight;
             float maxY = currentArea.MaxY - halfHeight;
+
+            if (minX <= maxX)
+            {
+                newX = Mathf.Clamp(newX, minX, maxX);
+            }
+            else
+            {
+                newX = (currentArea.MinX + currentArea.MaxX) * 0.5f;
+            }
 
             if (minY <= maxY)
             {
