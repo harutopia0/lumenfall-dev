@@ -42,7 +42,7 @@ Material:
     m_Ints: []
     m_Floats:
     - PixelSnap: 0
-    - _AlphaCutoff: 0.5
+    - _AlphaCutoff: 0.01
     - _EnableExternalAlpha: 0
     - _ZWrite: 0
     m_Colors:

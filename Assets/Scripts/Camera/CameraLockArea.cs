@@ -11,8 +11,13 @@ public class CameraLockArea : MonoBehaviour
     }
 
     [Header("Gizmos")]
+    [Tooltip("Toggles rendering of boundary gizmos in the Scene view.")]
     [SerializeField] private bool showGizmos = true;
+
+    [Tooltip("Gizmo rendering style (Wireframe, Fill, or Both).")]
     [SerializeField] private GizmoDrawMode drawMode = GizmoDrawMode.Both;
+
+    [Tooltip("Color and opacity of the boundary gizmo.")]
     [SerializeField] private Color gizmoColor = new Color(0f, 1f, 0.5f, 0.2f);
 
     private BoxCollider2D box;
