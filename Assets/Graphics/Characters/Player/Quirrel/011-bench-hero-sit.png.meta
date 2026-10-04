@@ -1,0 +1,1807 @@
+fileFormatVersion: 2
+guid: ab6f07d5792d2a0f13cd89902832715d
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpMap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vramBitLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 8192
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 011-bench-hero-sit_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1404
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29f14e46d3ed334fc3770813c02ce852
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 011-bench-hero-sit_1
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 1404
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e06d52a9fdd353cc087421d9c289c21
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 011-bench-hero-sit_2
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 1404
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cb78f11032647bf8c6722930b864ae7
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 011-bench-hero-sit_3
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 1404
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93424fc323533a891bd6d986604bf14b
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 011-bench-hero-sit_4
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 1404
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cc8b44b8f9bde3dbaf336d4439dbf6d
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 011-bench-hero-sit_5
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 1404
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 585d4e1baa67c7bbc1634db8f157c7be
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 011-bench-hero-sit_6
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 1404
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 143cc9d3a1f4c6ddecd768f46fdbf55c
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 011-bench-hero-sit_7
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 1404
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81ab91956dcab78924f501a6d8bc3811
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 011-bench-hero-sit_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1248
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a737f00d29866247d8fea6cd867786e
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 011-bench-hero-sit_9
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 1248
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e5c984957f796dc1dc052c8bce8c728
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 011-bench-hero-sit_10
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 1248
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74f576272351fb0602812ccdeadaf42e
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 011-bench-hero-sit_11
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 1248
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64635f8c5b5e57d71bc12c32627f1ae8
+      internalID: 21300022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 011-bench-hero-sit_12
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 1248
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2319ef45582be4fc6c62b49ed6a50e9f
+      internalID: 21300024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 011-bench-hero-sit_13
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 1248
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1c070aea77ec3c5ede5932b0555694a
+      internalID: 21300026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 011-bench-hero-sit_14
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 1248
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98629724ab367b6811cee0f382097827
+      internalID: 21300028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 011-bench-hero-sit_15
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 1248
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e59e304fe373eb9703f8967986bff595
+      internalID: 21300030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 011-bench-hero-sit_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1092
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75383e00ea6017fcc163a7c7147181f2
+      internalID: 21300032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 011-bench-hero-sit_17
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 1092
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56e9e9ad7cdc3e8c96fe57bf074d2e1c
+      internalID: 21300034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 011-bench-hero-sit_18
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 1092
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0abe38e186071b2905ab32ef0b99aca
+      internalID: 21300036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 011-bench-hero-sit_19
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 1092
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a55b77a2e7c5badb7691dfc640b4ee5c
+      internalID: 21300038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 011-bench-hero-sit_20
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 1092
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 555a0bae50af5a67d3ff670ec35e06ea
+      internalID: 21300040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 011-bench-hero-sit_21
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 1092
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9622a4ebab977c1d90003b81b9413f1c
+      internalID: 21300042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 011-bench-hero-sit_22
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 1092
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ec3b5f787c6499e80919b9f666fa4d4
+      internalID: 21300044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 011-bench-hero-sit_23
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 1092
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dfaa7cf15afe3f32ab72cc0186a1e79
+      internalID: 21300046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 011-bench-hero-sit_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 936
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 639c366cd137b51c550fb65bec8040ea
+      internalID: 21300048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 011-bench-hero-sit_25
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 936
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12d82e8a8f3f4b088a4d7a446f1b6789
+      internalID: 21300050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 011-bench-hero-sit_26
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 936
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d9af27603b45655476ba833c00430c4
+      internalID: 21300052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 011-bench-hero-sit_27
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 936
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d55a6451e93751f0fa767bfac95f2c33
+      internalID: 21300054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 011-bench-hero-sit_28
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 936
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec18bfcb9fdb6bc179be85f2f346159f
+      internalID: 21300056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 011-bench-hero-sit_29
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 936
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e8ebb99bd7db299c2df0cc9ab4d9a78
+      internalID: 21300058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 011-bench-hero-sit_30
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 936
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae2103e5096c03256ffea0bb814a9c51
+      internalID: 21300060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 011-bench-hero-sit_31
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 936
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce18314c37766157acc4a2019929179c
+      internalID: 21300062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 011-bench-hero-sit_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 780
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aee9e649523bd67a609da4c6345211e3
+      internalID: 21300064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 011-bench-hero-sit_33
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 780
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55e2fb658dced9dce3dc74c7c07496f1
+      internalID: 21300066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 011-bench-hero-sit_34
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 780
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39b9df20aee4764ca39deb2eafe3fd30
+      internalID: 21300068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 011-bench-hero-sit_35
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 780
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 073d3d6d6737c764337ed881baeaaa68
+      internalID: 21300070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 011-bench-hero-sit_36
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 780
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cb7e75d26784d6780273d8177311e70
+      internalID: 21300072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 011-bench-hero-sit_37
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 780
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14c97690e9c230ee282223d866ba4563
+      internalID: 21300074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 011-bench-hero-sit_38
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 780
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 632db3b3386d4fb5980399df9403614c
+      internalID: 21300076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 011-bench-hero-sit_39
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 780
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09b00c0058754f54933689af2f7524b1
+      internalID: 21300078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 011-bench-hero-sit_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 624
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1abef574d8bef78c1928f547e593cd70
+      internalID: 21300080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 011-bench-hero-sit_41
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 624
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0154153a5081e4f87694fcca62086eb1
+      internalID: 21300082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 011-bench-hero-sit_42
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 624
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 970d94daf9be8a4beccc0a3742d81d91
+      internalID: 21300084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 011-bench-hero-sit_43
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 624
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ce90bc7f12fd916809a82ef6576facb
+      internalID: 21300086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 011-bench-hero-sit_44
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 624
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c74b59431e73b64d815868efce11e3c
+      internalID: 21300088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 011-bench-hero-sit_45
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 624
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b89624ef9cb649866303eae4a8c85d8
+      internalID: 21300090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 011-bench-hero-sit_46
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 624
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 906cb00d0f21f385fb11c33a953c94bd
+      internalID: 21300092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 011-bench-hero-sit_47
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 624
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4afdc75cd72d1f6b2cf53cb9ddfca1b3
+      internalID: 21300094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 011-bench-hero-sit_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 468
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b3c9e43db272ee7e7e432f458d7747f
+      internalID: 21300096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 011-bench-hero-sit_49
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 468
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd41527e8b2f941928ba8fec80abc02f
+      internalID: 21300098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 011-bench-hero-sit_50
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 468
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 087f949174cc7bfedbc154ef5789d364
+      internalID: 21300100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 011-bench-hero-sit_51
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 468
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd39593d24769c8cd07b3f4eddc5f257
+      internalID: 21300102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 011-bench-hero-sit_52
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 468
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6c7668ebeabd86d0a1843836201c70c
+      internalID: 21300104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 011-bench-hero-sit_53
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 468
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2b8cc7bcba87c333db855a8cd4fe128
+      internalID: 21300106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 011-bench-hero-sit_54
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 468
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e286c8e59fbd370319ebc125b70d596
+      internalID: 21300108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 011-bench-hero-sit_55
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 468
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eca1c5c917cd5a8c5bbde92b1d7a29d
+      internalID: 21300110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 011-bench-hero-sit_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 312
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcefa52ed8037b6ad8172d72356f111f
+      internalID: 21300112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 011-bench-hero-sit_57
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 312
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 763406a264dab5be7d794558a0606dfa
+      internalID: 21300114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 011-bench-hero-sit_58
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 312
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 356e5e657ca101d44d8797ead99f4c76
+      internalID: 21300116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 011-bench-hero-sit_59
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 312
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 459193ea5b03433c4c7dd8efca1aaf2c
+      internalID: 21300118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 011-bench-hero-sit_60
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 312
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ffd533533b173b8410f9f8cf65c961e
+      internalID: 21300120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 011-bench-hero-sit_61
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 312
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8afc2c7dda0b674e5c9e2fe1d2503531
+      internalID: 21300122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 011-bench-hero-sit_62
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 312
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9adc87c65bd6d131b313a1ed58adbdf
+      internalID: 21300124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 011-bench-hero-sit_63
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 312
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46f52726f3fb0eda7e63e95c28858766
+      internalID: 21300126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 011-bench-hero-sit_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 156
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa14d3da60ddc03ce75a12fc1c695b24
+      internalID: 21300128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 011-bench-hero-sit_65
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 156
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01519da077b5871c40ff5fd18cd0c14e
+      internalID: 21300130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 011-bench-hero-sit_66
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 156
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c3fc1c9c1e864e56be494e5452bcc5a
+      internalID: 21300132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 011-bench-hero-sit_67
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 156
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79de399cd1b0a1d2497909792f62b4e5
+      internalID: 21300134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 011-bench-hero-sit_68
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 156
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e38ef403bf9f2499de90b0c1cd3dcbe
+      internalID: 21300136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 011-bench-hero-sit_69
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 156
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 512ddd3dec255ebd395014ced1b209ca
+      internalID: 21300138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 011-bench-hero-sit_70
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 156
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b2da264df18330bf8319aae36079860
+      internalID: 21300140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 011-bench-hero-sit_71
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 156
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ac63fe0b5891374612afd4a9e36338c
+      internalID: 21300142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 011-bench-hero-sit_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 818b38b522a5b7671c268d842f8aa841
+      internalID: 21300144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 011-bench-hero-sit_73
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 0
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f44565fb870cbcba66419a231d312b18
+      internalID: 21300146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 011-bench-hero-sit_74
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 0
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec9307787d9837c20541b39d55bf9a4c
+      internalID: 21300148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 011-bench-hero-sit_75
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 0
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07a3ee2f85b14451eb2dce415e929486
+      internalID: 21300150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 011-bench-hero-sit_76
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 0
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 717ed39fe21ccaa32a3ba73cadd2b95f
+      internalID: 21300152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      011-bench-hero-sit_0: 21300000
+      011-bench-hero-sit_1: 21300002
+      011-bench-hero-sit_2: 21300004
+      011-bench-hero-sit_3: 21300006
+      011-bench-hero-sit_4: 21300008
+      011-bench-hero-sit_5: 21300010
+      011-bench-hero-sit_6: 21300012
+      011-bench-hero-sit_7: 21300014
+      011-bench-hero-sit_8: 21300016
+      011-bench-hero-sit_9: 21300018
+      011-bench-hero-sit_10: 21300020
+      011-bench-hero-sit_11: 21300022
+      011-bench-hero-sit_12: 21300024
+      011-bench-hero-sit_13: 21300026
+      011-bench-hero-sit_14: 21300028
+      011-bench-hero-sit_15: 21300030
+      011-bench-hero-sit_16: 21300032
+      011-bench-hero-sit_17: 21300034
+      011-bench-hero-sit_18: 21300036
+      011-bench-hero-sit_19: 21300038
+      011-bench-hero-sit_20: 21300040
+      011-bench-hero-sit_21: 21300042
+      011-bench-hero-sit_22: 21300044
+      011-bench-hero-sit_23: 21300046
+      011-bench-hero-sit_24: 21300048
+      011-bench-hero-sit_25: 21300050
+      011-bench-hero-sit_26: 21300052
+      011-bench-hero-sit_27: 21300054
+      011-bench-hero-sit_28: 21300056
+      011-bench-hero-sit_29: 21300058
+      011-bench-hero-sit_30: 21300060
+      011-bench-hero-sit_31: 21300062
+      011-bench-hero-sit_32: 21300064
+      011-bench-hero-sit_33: 21300066
+      011-bench-hero-sit_34: 21300068
+      011-bench-hero-sit_35: 21300070
+      011-bench-hero-sit_36: 21300072
+      011-bench-hero-sit_37: 21300074
+      011-bench-hero-sit_38: 21300076
+      011-bench-hero-sit_39: 21300078
+      011-bench-hero-sit_40: 21300080
+      011-bench-hero-sit_41: 21300082
+      011-bench-hero-sit_42: 21300084
+      011-bench-hero-sit_43: 21300086
+      011-bench-hero-sit_44: 21300088
+      011-bench-hero-sit_45: 21300090
+      011-bench-hero-sit_46: 21300092
+      011-bench-hero-sit_47: 21300094
+      011-bench-hero-sit_48: 21300096
+      011-bench-hero-sit_49: 21300098
+      011-bench-hero-sit_50: 21300100
+      011-bench-hero-sit_51: 21300102
+      011-bench-hero-sit_52: 21300104
+      011-bench-hero-sit_53: 21300106
+      011-bench-hero-sit_54: 21300108
+      011-bench-hero-sit_55: 21300110
+      011-bench-hero-sit_56: 21300112
+      011-bench-hero-sit_57: 21300114
+      011-bench-hero-sit_58: 21300116
+      011-bench-hero-sit_59: 21300118
+      011-bench-hero-sit_60: 21300120
+      011-bench-hero-sit_61: 21300122
+      011-bench-hero-sit_62: 21300124
+      011-bench-hero-sit_63: 21300126
+      011-bench-hero-sit_64: 21300128
+      011-bench-hero-sit_65: 21300130
+      011-bench-hero-sit_66: 21300132
+      011-bench-hero-sit_67: 21300134
+      011-bench-hero-sit_68: 21300136
+      011-bench-hero-sit_69: 21300138
+      011-bench-hero-sit_70: 21300140
+      011-bench-hero-sit_71: 21300142
+      011-bench-hero-sit_72: 21300144
+      011-bench-hero-sit_73: 21300146
+      011-bench-hero-sit_74: 21300148
+      011-bench-hero-sit_75: 21300150
+      011-bench-hero-sit_76: 21300152
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

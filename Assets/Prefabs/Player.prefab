@@ -146,7 +146,7 @@ SpriteRenderer:
   m_SortingLayer: -2
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 8793639957104055765, guid: 3059235c5f425cf48a1a2c75b1bbdc79, type: 3}
+  m_Sprite: {fileID: 21300000, guid: db972a9764414674e9a1fd1e5b4ec5e1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -527,7 +527,7 @@ MonoBehaviour:
   superDashBreakPrefab: {fileID: 3412074748612761282, guid: 3ad7c8c0754c6f243ac3b42552c59f8e, type: 3}
   superDashBreakOffset: {x: 1, y: 0}
   superDashChargeObj: {fileID: 5385097977521672502}
-  superDashChargeGroundOffset: {x: 0, y: 0.85}
+  superDashChargeGroundOffset: {x: -0.25, y: 0.85}
   superDashChargeWallOffset: {x: 1.75, y: 0}
   superDashBlingAnim: {fileID: 9197933162063898774}
   crystalPrefab: {fileID: 2738377523963846733, guid: 1023713ac91be27499d730122af25196, type: 3}
@@ -693,10 +693,10 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 2.453125, y: 1.78125}
+  m_Size: {x: 2.65625, y: 2.953125}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_SpriteSortPoint: 0
   m_BlendShapeWeights: []
 --- !u!95 &7876923276723215617
@@ -1223,7 +1223,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 6.703125, y: 2.359375}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 0
@@ -1369,7 +1369,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 5.633136, y: 5.578125}
+  m_Size: {x: 5.625, y: 5.578125}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 0

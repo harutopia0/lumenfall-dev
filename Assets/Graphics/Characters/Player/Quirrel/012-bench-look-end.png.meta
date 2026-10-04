@@ -1,0 +1,1389 @@
+fileFormatVersion: 2
+guid: 90046bf911ff01328fb42200c7c6525c
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpMap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vramBitLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 8192
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 012-bench-look-end_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1092
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4bf95c1e2ede97aa28f2f143a4dcc88
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 012-bench-look-end_1
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 1092
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60e5da66670b357f1d3e51dfc6ce203f
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 012-bench-look-end_2
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 1092
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9e8736c0ffe8e09c79f824dbf773e49
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 012-bench-look-end_3
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 1092
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a500a87458f1a04142f583569194c3b
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 012-bench-look-end_4
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 1092
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b3ee92a6c11042904ad1d0f49d433e6
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 012-bench-look-end_5
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 1092
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5140e94909f11d757b24d3ed21674d72
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 012-bench-look-end_6
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 1092
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59a037a9556c0ed117ebbfcb0adaab66
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 012-bench-look-end_7
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 1092
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51bf1249cb29538ad7b0b5d8152493dd
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 012-bench-look-end_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 936
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84a4bbaa38b1dab6c3fadcd9e881da6f
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 012-bench-look-end_9
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 936
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c437ed67e602fc9c51c7643a3c6264ec
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 012-bench-look-end_10
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 936
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88a944a8b71aa26db9f4e7b0bd346bcb
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 012-bench-look-end_11
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 936
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32b6ff5ac31639403168f82950ceffc6
+      internalID: 21300022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 012-bench-look-end_12
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 936
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8d66d3f705cba6a57e41356378aa848
+      internalID: 21300024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 012-bench-look-end_13
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 936
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a196dd816ed11a090d5b837ab5ac0534
+      internalID: 21300026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 012-bench-look-end_14
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 936
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b582747c47f3d95bcd558563f5820da
+      internalID: 21300028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 012-bench-look-end_15
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 936
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 414f629b245f74c32d86322d61635b83
+      internalID: 21300030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 012-bench-look-end_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 780
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29a8954de06badc207270b02b5c5d77f
+      internalID: 21300032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 012-bench-look-end_17
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 780
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe69d837cb6ef068287634b0b77e6717
+      internalID: 21300034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 012-bench-look-end_18
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 780
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf6c8e5a73a651f234ccd9d4ec15d561
+      internalID: 21300036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 012-bench-look-end_19
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 780
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 025ebedd61c499f4c3cacb3fa900c385
+      internalID: 21300038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 012-bench-look-end_20
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 780
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a334af798db6cbd1a4110b112709aaa2
+      internalID: 21300040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 012-bench-look-end_21
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 780
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49814b73854d4f0009607659a5a7ddec
+      internalID: 21300042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 012-bench-look-end_22
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 780
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c02f4635484a52705c000f878cb1450f
+      internalID: 21300044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 012-bench-look-end_23
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 780
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44abf217f6528b6dac091c3699111b05
+      internalID: 21300046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 012-bench-look-end_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 624
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ff3cecb4240b48bb20df63f50b10c87
+      internalID: 21300048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 012-bench-look-end_25
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 624
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2342a21ff3920740e93f2b4f37ed736
+      internalID: 21300050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 012-bench-look-end_26
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 624
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f79a1f4b85127d4f8a6e079e987745e8
+      internalID: 21300052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 012-bench-look-end_27
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 624
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2632dfc9265b9a7cada6207a2fbb36c
+      internalID: 21300054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 012-bench-look-end_28
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 624
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae477b754fb0a8cd21ce2e50f05a8898
+      internalID: 21300056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 012-bench-look-end_29
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 624
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 506537f9ea975e9e54b061042e4e7ca9
+      internalID: 21300058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 012-bench-look-end_30
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 624
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2038a213b5ecbd8b9fb084bd0f2ee331
+      internalID: 21300060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 012-bench-look-end_31
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 624
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 750f6beee0fc80bda4a6c550d93cb48a
+      internalID: 21300062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 012-bench-look-end_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 468
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca61a51781bec05fbcdb8e9b12d84feb
+      internalID: 21300064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 012-bench-look-end_33
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 468
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b73816b3206c77efd1542007c79c84a8
+      internalID: 21300066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 012-bench-look-end_34
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 468
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53866162883af7532b52ed7315dbfb28
+      internalID: 21300068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 012-bench-look-end_35
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 468
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 281b219be67d4a89b906381effedcb0f
+      internalID: 21300070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 012-bench-look-end_36
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 468
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7324d6fdee5cafd5a2c3699aa2c35afc
+      internalID: 21300072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 012-bench-look-end_37
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 468
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 732600044b1571daefa277a756dc4083
+      internalID: 21300074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 012-bench-look-end_38
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 468
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d3dfcf17bc50f84d1cf38d7c47c5b42
+      internalID: 21300076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 012-bench-look-end_39
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 468
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c128e4de4e556ef860a0d660f7c5e1a4
+      internalID: 21300078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 012-bench-look-end_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 312
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7608e18b8628972e899d1d87456a24a
+      internalID: 21300080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 012-bench-look-end_41
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 312
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 994df80d2ceeaecdb563aa09de07356d
+      internalID: 21300082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 012-bench-look-end_42
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 312
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca762fb29404406f88525822f6330b8a
+      internalID: 21300084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 012-bench-look-end_43
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 312
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1817f1cc8575e220f79aba6866d2df50
+      internalID: 21300086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 012-bench-look-end_44
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 312
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40d5c6bd79fcaa6ae884f41f312ed989
+      internalID: 21300088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 012-bench-look-end_45
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 312
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f6092fc63984163a09e0bee3c7c5c05
+      internalID: 21300090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 012-bench-look-end_46
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 312
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfa7de147d8a3f4f8bf218e07f860170
+      internalID: 21300092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 012-bench-look-end_47
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 312
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5384bb2f5254864c09ba321273f1ebe5
+      internalID: 21300094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 012-bench-look-end_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 156
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90a982b80c6a1c72b197644db1c14cfb
+      internalID: 21300096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 012-bench-look-end_49
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 156
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0186b9334bddeda1808b01bdcd40760
+      internalID: 21300098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 012-bench-look-end_50
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 156
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b59f48f57c90563cb73aa2150d2e79c5
+      internalID: 21300100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 012-bench-look-end_51
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 156
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 431960db6e30787d2ef4f89b64013878
+      internalID: 21300102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 012-bench-look-end_52
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 156
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4f5599847f4e0df05eeef53c7b81405
+      internalID: 21300104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 012-bench-look-end_53
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 156
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce860915408205b9b387b6c3c99f6e00
+      internalID: 21300106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 012-bench-look-end_54
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 156
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b0447ee2ccc17d15d0860abcac6fe6d
+      internalID: 21300108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 012-bench-look-end_55
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 156
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f93d4a288911f29aa419c6e321c833c
+      internalID: 21300110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 012-bench-look-end_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e82b710f910c341827b0f19329977122
+      internalID: 21300112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 012-bench-look-end_57
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 0
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b24136da18d265444c13e5be725b1a4
+      internalID: 21300114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      012-bench-look-end_0: 21300000
+      012-bench-look-end_1: 21300002
+      012-bench-look-end_2: 21300004
+      012-bench-look-end_3: 21300006
+      012-bench-look-end_4: 21300008
+      012-bench-look-end_5: 21300010
+      012-bench-look-end_6: 21300012
+      012-bench-look-end_7: 21300014
+      012-bench-look-end_8: 21300016
+      012-bench-look-end_9: 21300018
+      012-bench-look-end_10: 21300020
+      012-bench-look-end_11: 21300022
+      012-bench-look-end_12: 21300024
+      012-bench-look-end_13: 21300026
+      012-bench-look-end_14: 21300028
+      012-bench-look-end_15: 21300030
+      012-bench-look-end_16: 21300032
+      012-bench-look-end_17: 21300034
+      012-bench-look-end_18: 21300036
+      012-bench-look-end_19: 21300038
+      012-bench-look-end_20: 21300040
+      012-bench-look-end_21: 21300042
+      012-bench-look-end_22: 21300044
+      012-bench-look-end_23: 21300046
+      012-bench-look-end_24: 21300048
+      012-bench-look-end_25: 21300050
+      012-bench-look-end_26: 21300052
+      012-bench-look-end_27: 21300054
+      012-bench-look-end_28: 21300056
+      012-bench-look-end_29: 21300058
+      012-bench-look-end_30: 21300060
+      012-bench-look-end_31: 21300062
+      012-bench-look-end_32: 21300064
+      012-bench-look-end_33: 21300066
+      012-bench-look-end_34: 21300068
+      012-bench-look-end_35: 21300070
+      012-bench-look-end_36: 21300072
+      012-bench-look-end_37: 21300074
+      012-bench-look-end_38: 21300076
+      012-bench-look-end_39: 21300078
+      012-bench-look-end_40: 21300080
+      012-bench-look-end_41: 21300082
+      012-bench-look-end_42: 21300084
+      012-bench-look-end_43: 21300086
+      012-bench-look-end_44: 21300088
+      012-bench-look-end_45: 21300090
+      012-bench-look-end_46: 21300092
+      012-bench-look-end_47: 21300094
+      012-bench-look-end_48: 21300096
+      012-bench-look-end_49: 21300098
+      012-bench-look-end_50: 21300100
+      012-bench-look-end_51: 21300102
+      012-bench-look-end_52: 21300104
+      012-bench-look-end_53: 21300106
+      012-bench-look-end_54: 21300108
+      012-bench-look-end_55: 21300110
+      012-bench-look-end_56: 21300112
+      012-bench-look-end_57: 21300114
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

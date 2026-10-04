@@ -1,0 +1,1191 @@
+fileFormatVersion: 2
+guid: ddcd9198b9c6b097eca4360faabcf7b3
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpMap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vramBitLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 8192
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 047-hive-health-refill-b_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 864
+        width: 124
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0152f25d795d6a657d78b10e49cca8be
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 047-hive-health-refill-b_1
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 864
+        width: 124
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 785c1af4670b35dabd3922510ae9dedf
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 047-hive-health-refill-b_2
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 864
+        width: 124
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3bcb38ae6f460532b0ee5c2985026b8
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 047-hive-health-refill-b_3
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 864
+        width: 124
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bee0dc1610c7d1d6d885f4a009991267
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 047-hive-health-refill-b_4
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 864
+        width: 124
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c631946da0d8a64c78efed3aec38fa1e
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 047-hive-health-refill-b_5
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 864
+        width: 124
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aee08b1d2daa01b84dba2b9b57311db9
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 047-hive-health-refill-b_6
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 864
+        width: 124
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd1c2b62451ba629a0ff8659ae88902f
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 047-hive-health-refill-b_7
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 864
+        width: 124
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 403b450dcfe2df9898eac65774e7d791
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 047-hive-health-refill-b_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 720
+        width: 124
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69667c9ef93b82b8fd8cf4b6dacc4467
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 047-hive-health-refill-b_9
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 720
+        width: 124
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de4503f6085b1a5e73db1699955350ce
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 047-hive-health-refill-b_10
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 720
+        width: 124
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0ffa012d5c5b428af143906b223b3ef
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 047-hive-health-refill-b_11
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 720
+        width: 124
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d514ae00a9508368d534ad1468a32f4
+      internalID: 21300022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 047-hive-health-refill-b_12
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 720
+        width: 124
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f71d50265a948b03ed9d194ce493cea7
+      internalID: 21300024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 047-hive-health-refill-b_13
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 720
+        width: 124
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ff2145dfe8a8e5395c725ed09260a0e
+      internalID: 21300026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 047-hive-health-refill-b_14
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 720
+        width: 124
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da7355d8085fd8831fcbb9968433ce98
+      internalID: 21300028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 047-hive-health-refill-b_15
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 720
+        width: 124
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ab6115df30a8b10db44b3186e4bd292
+      internalID: 21300030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 047-hive-health-refill-b_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 576
+        width: 124
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab516044e773d3f5e753956ee1996ead
+      internalID: 21300032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 047-hive-health-refill-b_17
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 576
+        width: 124
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6ef46bd66ebe0a57f4301286196614b
+      internalID: 21300034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 047-hive-health-refill-b_18
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 576
+        width: 124
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a086a07fc1610a4964b61fd28e365237
+      internalID: 21300036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 047-hive-health-refill-b_19
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 576
+        width: 124
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd34093c3bf155d8942397a7cd701764
+      internalID: 21300038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 047-hive-health-refill-b_20
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 576
+        width: 124
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28196c728ae3200d4f00b2feef628b08
+      internalID: 21300040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 047-hive-health-refill-b_21
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 576
+        width: 124
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85866befa3f799dadbf173755a0c0f1a
+      internalID: 21300042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 047-hive-health-refill-b_22
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 576
+        width: 124
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d950a70c8b28c0fdb57d1f78ae18a07
+      internalID: 21300044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 047-hive-health-refill-b_23
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 576
+        width: 124
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56c6716860abd4b5b42a87a9fdab5278
+      internalID: 21300046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 047-hive-health-refill-b_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 432
+        width: 124
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7104e82849e53f777a5d7c38448e4d33
+      internalID: 21300048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 047-hive-health-refill-b_25
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 432
+        width: 124
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1704db4002e08040256390ddee2955c6
+      internalID: 21300050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 047-hive-health-refill-b_26
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 432
+        width: 124
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db63c11b27ae1c3e72e1c76b34e2d3e1
+      internalID: 21300052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 047-hive-health-refill-b_27
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 432
+        width: 124
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddff3dfae96231b512ad7260af34dc6d
+      internalID: 21300054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 047-hive-health-refill-b_28
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 432
+        width: 124
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dac8213ba2665a8130452ce1bd20913
+      internalID: 21300056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 047-hive-health-refill-b_29
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 432
+        width: 124
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2ff5fd38c1e14bed49c60d83320947c
+      internalID: 21300058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 047-hive-health-refill-b_30
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 432
+        width: 124
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6075b86e3822f2c107f670fd74c8ebd9
+      internalID: 21300060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 047-hive-health-refill-b_31
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 432
+        width: 124
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b735c76c2d1cfffa57e2f1ac261b176
+      internalID: 21300062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 047-hive-health-refill-b_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 124
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db6b473b2ec1e519da5d62f3a42fcf5b
+      internalID: 21300064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 047-hive-health-refill-b_33
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 288
+        width: 124
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db3f358b12528544efcd03328c35dbb7
+      internalID: 21300066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 047-hive-health-refill-b_34
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 288
+        width: 124
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85d75e3efefea7da81ee36ea5a5bed7f
+      internalID: 21300068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 047-hive-health-refill-b_35
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 288
+        width: 124
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be32a0d68fc914940b34bda415c62362
+      internalID: 21300070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 047-hive-health-refill-b_36
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 288
+        width: 124
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e75b0e04bbb654faa83774f4aaa73076
+      internalID: 21300072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 047-hive-health-refill-b_37
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 288
+        width: 124
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c52372c61c81bb63ee88c29f47c827fd
+      internalID: 21300074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 047-hive-health-refill-b_38
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 288
+        width: 124
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19146a1d493cebf6a2f21e84faf350ca
+      internalID: 21300076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 047-hive-health-refill-b_39
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 288
+        width: 124
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a541a4bce5f0320bca9a6ab6cddfbff8
+      internalID: 21300078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 047-hive-health-refill-b_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 144
+        width: 124
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 745f6b1da0b049d755c05f6bb89d41fe
+      internalID: 21300080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 047-hive-health-refill-b_41
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 144
+        width: 124
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e40e6d7666fba8790700ac6320055012
+      internalID: 21300082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 047-hive-health-refill-b_42
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 144
+        width: 124
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a52bb0e943a28ee573ad7e1fac007a8d
+      internalID: 21300084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 047-hive-health-refill-b_43
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 144
+        width: 124
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97cc63f369aaa97a9664c091ec14e64a
+      internalID: 21300086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 047-hive-health-refill-b_44
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 144
+        width: 124
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 635673306efa9a0828601500af165cfe
+      internalID: 21300088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 047-hive-health-refill-b_45
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 144
+        width: 124
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f8fb3e9b8d862ec1ce5e9a690492e5e
+      internalID: 21300090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 047-hive-health-refill-b_46
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 144
+        width: 124
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24f2e4e02cf1e32ca334b2d90d9bf099
+      internalID: 21300092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 047-hive-health-refill-b_47
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 144
+        width: 124
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28486ff47898169a56f03162dba15e89
+      internalID: 21300094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 047-hive-health-refill-b_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 124
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1d6b5bd2af5c76f3adc4ca72cdd5100
+      internalID: 21300096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      047-hive-health-refill-b_0: 21300000
+      047-hive-health-refill-b_1: 21300002
+      047-hive-health-refill-b_2: 21300004
+      047-hive-health-refill-b_3: 21300006
+      047-hive-health-refill-b_4: 21300008
+      047-hive-health-refill-b_5: 21300010
+      047-hive-health-refill-b_6: 21300012
+      047-hive-health-refill-b_7: 21300014
+      047-hive-health-refill-b_8: 21300016
+      047-hive-health-refill-b_9: 21300018
+      047-hive-health-refill-b_10: 21300020
+      047-hive-health-refill-b_11: 21300022
+      047-hive-health-refill-b_12: 21300024
+      047-hive-health-refill-b_13: 21300026
+      047-hive-health-refill-b_14: 21300028
+      047-hive-health-refill-b_15: 21300030
+      047-hive-health-refill-b_16: 21300032
+      047-hive-health-refill-b_17: 21300034
+      047-hive-health-refill-b_18: 21300036
+      047-hive-health-refill-b_19: 21300038
+      047-hive-health-refill-b_20: 21300040
+      047-hive-health-refill-b_21: 21300042
+      047-hive-health-refill-b_22: 21300044
+      047-hive-health-refill-b_23: 21300046
+      047-hive-health-refill-b_24: 21300048
+      047-hive-health-refill-b_25: 21300050
+      047-hive-health-refill-b_26: 21300052
+      047-hive-health-refill-b_27: 21300054
+      047-hive-health-refill-b_28: 21300056
+      047-hive-health-refill-b_29: 21300058
+      047-hive-health-refill-b_30: 21300060
+      047-hive-health-refill-b_31: 21300062
+      047-hive-health-refill-b_32: 21300064
+      047-hive-health-refill-b_33: 21300066
+      047-hive-health-refill-b_34: 21300068
+      047-hive-health-refill-b_35: 21300070
+      047-hive-health-refill-b_36: 21300072
+      047-hive-health-refill-b_37: 21300074
+      047-hive-health-refill-b_38: 21300076
+      047-hive-health-refill-b_39: 21300078
+      047-hive-health-refill-b_40: 21300080
+      047-hive-health-refill-b_41: 21300082
+      047-hive-health-refill-b_42: 21300084
+      047-hive-health-refill-b_43: 21300086
+      047-hive-health-refill-b_44: 21300088
+      047-hive-health-refill-b_45: 21300090
+      047-hive-health-refill-b_46: 21300092
+      047-hive-health-refill-b_47: 21300094
+      047-hive-health-refill-b_48: 21300096
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

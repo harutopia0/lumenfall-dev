@@ -1,0 +1,1367 @@
+fileFormatVersion: 2
+guid: 2ec9b196a43ae4172879c8aea9ba0ce5
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpMap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vramBitLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 8192
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 013-bench-talk-end_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1057
+        width: 152
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ca56bc2c6acd37365848f16b980424b
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 013-bench-talk-end_1
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 1057
+        width: 152
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ec558e7340308a19d8264b557f25c37
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 013-bench-talk-end_2
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 1057
+        width: 152
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ab85a7f46279752660152e0fd3e7182
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 013-bench-talk-end_3
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 1057
+        width: 152
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d65494e76f831cbc73c8625b985fbb0
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 013-bench-talk-end_4
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 1057
+        width: 152
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81b99e14b37596e53bda7918f071498b
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 013-bench-talk-end_5
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 1057
+        width: 152
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a75b984368c31cee84d843b7368f96b2
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 013-bench-talk-end_6
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 1057
+        width: 152
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8dd52947469e0c1c09770c8cebcf4d0
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 013-bench-talk-end_7
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 1057
+        width: 152
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1777cab750b4d33feec7c33a37e35ad
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 013-bench-talk-end_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 906
+        width: 152
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed483b31bb17fade2b7428047dd483cd
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 013-bench-talk-end_9
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 906
+        width: 152
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21734e9bbee1fd004850bbcf23a0b707
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 013-bench-talk-end_10
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 906
+        width: 152
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c30d34cfdbe69a0d55a449e5c9356f5
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 013-bench-talk-end_11
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 906
+        width: 152
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9641bb842c595354846a5f3cb9c22fa7
+      internalID: 21300022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 013-bench-talk-end_12
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 906
+        width: 152
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3d65104165b423dc7fbb155fca1d398
+      internalID: 21300024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 013-bench-talk-end_13
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 906
+        width: 152
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdc4e485f762a2fa83631cfbdadc729d
+      internalID: 21300026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 013-bench-talk-end_14
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 906
+        width: 152
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48673f63b43a1554235cfeb6e1aa462d
+      internalID: 21300028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 013-bench-talk-end_15
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 906
+        width: 152
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a77069d84738492d35e2ceb6466eb60
+      internalID: 21300030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 013-bench-talk-end_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 755
+        width: 152
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64b1732c3fbb0ef67737ab386f61c8e9
+      internalID: 21300032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 013-bench-talk-end_17
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 755
+        width: 152
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb5bd8724a999b98ce5b44028717c0a2
+      internalID: 21300034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 013-bench-talk-end_18
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 755
+        width: 152
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d8f2e27fda0b87b8c06839703280bf1
+      internalID: 21300036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 013-bench-talk-end_19
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 755
+        width: 152
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e89ef190aacc9a2bf8a4715bbf53ae0e
+      internalID: 21300038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 013-bench-talk-end_20
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 755
+        width: 152
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eec1a6ccb1cec7d794cde72b9e117fd4
+      internalID: 21300040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 013-bench-talk-end_21
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 755
+        width: 152
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8624704239d9478aeeedda3814b3832
+      internalID: 21300042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 013-bench-talk-end_22
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 755
+        width: 152
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3972b3d29f931fb7798b77e5d8e7735
+      internalID: 21300044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 013-bench-talk-end_23
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 755
+        width: 152
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 223964c4f9b65254bac25dca2b3f6886
+      internalID: 21300046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 013-bench-talk-end_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 604
+        width: 152
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34f786c560b329c0fd9b5ccdfc068600
+      internalID: 21300048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 013-bench-talk-end_25
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 604
+        width: 152
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8abfb0d7861a87faf012e2af0db14476
+      internalID: 21300050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 013-bench-talk-end_26
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 604
+        width: 152
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2142f573678a13762b4a1323848c7c0
+      internalID: 21300052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 013-bench-talk-end_27
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 604
+        width: 152
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea9f91e530bfb4869a84484088a8fe01
+      internalID: 21300054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 013-bench-talk-end_28
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 604
+        width: 152
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10343f0e4f185ee516f28e046281d229
+      internalID: 21300056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 013-bench-talk-end_29
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 604
+        width: 152
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 727e379a7ff666f1112d3103c66b3d85
+      internalID: 21300058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 013-bench-talk-end_30
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 604
+        width: 152
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e06141c4e3b762c6190ed4e17f9cf6f
+      internalID: 21300060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 013-bench-talk-end_31
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 604
+        width: 152
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3dbbae91d48b4567d4468efdf14d6b1
+      internalID: 21300062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 013-bench-talk-end_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 453
+        width: 152
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14c5b31b2c51b9df0da353150b13b57b
+      internalID: 21300064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 013-bench-talk-end_33
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 453
+        width: 152
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcdbf806047ed06cee21b69887536ffc
+      internalID: 21300066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 013-bench-talk-end_34
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 453
+        width: 152
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04e004c1dd4124e7329c31ae2ca73cf9
+      internalID: 21300068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 013-bench-talk-end_35
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 453
+        width: 152
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ad1fcd8f71b39eed43f2f69fa358c2a
+      internalID: 21300070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 013-bench-talk-end_36
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 453
+        width: 152
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7e546135b5ce41870ac7a3bef3e4b5e
+      internalID: 21300072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 013-bench-talk-end_37
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 453
+        width: 152
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1cec820ba47f5f745a60dc49114b60a
+      internalID: 21300074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 013-bench-talk-end_38
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 453
+        width: 152
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8619a4fb79c528704a9ce31e93c9639f
+      internalID: 21300076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 013-bench-talk-end_39
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 453
+        width: 152
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 240c939ff5a83de5b1977626ee423232
+      internalID: 21300078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 013-bench-talk-end_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 302
+        width: 152
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6995cd26cfda20786f582ae317b06825
+      internalID: 21300080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 013-bench-talk-end_41
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 302
+        width: 152
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82d96de0193a48a760c337e183036adb
+      internalID: 21300082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 013-bench-talk-end_42
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 302
+        width: 152
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a2a72f5b1f79bc4712555985666824a
+      internalID: 21300084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 013-bench-talk-end_43
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 302
+        width: 152
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19ab5da72c63e6fd2bc033020a37537d
+      internalID: 21300086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 013-bench-talk-end_44
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 302
+        width: 152
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8236986a46313329878b23621f3db3e3
+      internalID: 21300088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 013-bench-talk-end_45
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 302
+        width: 152
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a436352d85c1bc6ae34bdd6e7c7bd29b
+      internalID: 21300090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 013-bench-talk-end_46
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 302
+        width: 152
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35451f1b8233872908b1e14b6c5dba72
+      internalID: 21300092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 013-bench-talk-end_47
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 302
+        width: 152
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a913b3bf2b839bcc1690d7d44d3c2d4
+      internalID: 21300094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 013-bench-talk-end_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 151
+        width: 152
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a57a1ece2c1d3581cfa5e50e653ec28
+      internalID: 21300096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 013-bench-talk-end_49
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 151
+        width: 152
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f404f9c5f39027238f2840dc7c1f4ae2
+      internalID: 21300098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 013-bench-talk-end_50
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 151
+        width: 152
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b510c118da9ea41f7b43f7b534bfd19
+      internalID: 21300100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 013-bench-talk-end_51
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 151
+        width: 152
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c720d3b23a8b95f06c3cc4a70c98e3f
+      internalID: 21300102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 013-bench-talk-end_52
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 151
+        width: 152
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 680721daef9df279c27b9b154009bb0c
+      internalID: 21300104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 013-bench-talk-end_53
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 151
+        width: 152
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3dd851706f65be101777e64de2453d4
+      internalID: 21300106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 013-bench-talk-end_54
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 151
+        width: 152
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d434691722abcaf10df4306af622b0d1
+      internalID: 21300108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 013-bench-talk-end_55
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 151
+        width: 152
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17f932169d837f4a237a45628a4b3730
+      internalID: 21300110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 013-bench-talk-end_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 152
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a36dee637c64bf8644d7ab001d750a0
+      internalID: 21300112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      013-bench-talk-end_0: 21300000
+      013-bench-talk-end_1: 21300002
+      013-bench-talk-end_2: 21300004
+      013-bench-talk-end_3: 21300006
+      013-bench-talk-end_4: 21300008
+      013-bench-talk-end_5: 21300010
+      013-bench-talk-end_6: 21300012
+      013-bench-talk-end_7: 21300014
+      013-bench-talk-end_8: 21300016
+      013-bench-talk-end_9: 21300018
+      013-bench-talk-end_10: 21300020
+      013-bench-talk-end_11: 21300022
+      013-bench-talk-end_12: 21300024
+      013-bench-talk-end_13: 21300026
+      013-bench-talk-end_14: 21300028
+      013-bench-talk-end_15: 21300030
+      013-bench-talk-end_16: 21300032
+      013-bench-talk-end_17: 21300034
+      013-bench-talk-end_18: 21300036
+      013-bench-talk-end_19: 21300038
+      013-bench-talk-end_20: 21300040
+      013-bench-talk-end_21: 21300042
+      013-bench-talk-end_22: 21300044
+      013-bench-talk-end_23: 21300046
+      013-bench-talk-end_24: 21300048
+      013-bench-talk-end_25: 21300050
+      013-bench-talk-end_26: 21300052
+      013-bench-talk-end_27: 21300054
+      013-bench-talk-end_28: 21300056
+      013-bench-talk-end_29: 21300058
+      013-bench-talk-end_30: 21300060
+      013-bench-talk-end_31: 21300062
+      013-bench-talk-end_32: 21300064
+      013-bench-talk-end_33: 21300066
+      013-bench-talk-end_34: 21300068
+      013-bench-talk-end_35: 21300070
+      013-bench-talk-end_36: 21300072
+      013-bench-talk-end_37: 21300074
+      013-bench-talk-end_38: 21300076
+      013-bench-talk-end_39: 21300078
+      013-bench-talk-end_40: 21300080
+      013-bench-talk-end_41: 21300082
+      013-bench-talk-end_42: 21300084
+      013-bench-talk-end_43: 21300086
+      013-bench-talk-end_44: 21300088
+      013-bench-talk-end_45: 21300090
+      013-bench-talk-end_46: 21300092
+      013-bench-talk-end_47: 21300094
+      013-bench-talk-end_48: 21300096
+      013-bench-talk-end_49: 21300098
+      013-bench-talk-end_50: 21300100
+      013-bench-talk-end_51: 21300102
+      013-bench-talk-end_52: 21300104
+      013-bench-talk-end_53: 21300106
+      013-bench-talk-end_54: 21300108
+      013-bench-talk-end_55: 21300110
+      013-bench-talk-end_56: 21300112
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

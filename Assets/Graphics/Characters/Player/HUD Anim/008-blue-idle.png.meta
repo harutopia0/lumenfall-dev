@@ -1,0 +1,2291 @@
+fileFormatVersion: 2
+guid: a4a828955b1580b4a18d6de08c0231ff
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpMap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vramBitLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 8192
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 008-blue-idle_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1752
+        width: 85
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ccd450c07c4f4707b3f4f9718848565
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 008-blue-idle_1
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 1752
+        width: 85
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 549a5aa401a7c4c31511c8fd5972a0ea
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 008-blue-idle_2
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 1752
+        width: 85
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb11383c58e61d5ef5c462319f20e1c5
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 008-blue-idle_3
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 1752
+        width: 85
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bad3c31c5cae7fe5ae50ff433d31988f
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 008-blue-idle_4
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 1752
+        width: 85
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f85613d19ce8695741bed670826c735b
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 008-blue-idle_5
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 1752
+        width: 85
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d500f74639d433e22a43dd45e975b215
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 008-blue-idle_6
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 1752
+        width: 85
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5db404e5300b97ad0abb6883a11039d8
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 008-blue-idle_7
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 1752
+        width: 85
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c75e81e0971957349c5165926b34c05f
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 008-blue-idle_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1606
+        width: 85
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d58d6e05d51835364060e17d99d9886
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 008-blue-idle_9
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 1606
+        width: 85
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9100b8014ed5830e6f12ec68baa71224
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 008-blue-idle_10
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 1606
+        width: 85
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 033fd5d01f5df655b3f01cd63597befb
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 008-blue-idle_11
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 1606
+        width: 85
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85a28b3a8b53a8f684a6b90bf1060cb5
+      internalID: 21300022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 008-blue-idle_12
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 1606
+        width: 85
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22d70d3a44ad523c46e369ee1b56515c
+      internalID: 21300024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 008-blue-idle_13
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 1606
+        width: 85
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1e1aed9733cc67acf05df5abcfc7e9c
+      internalID: 21300026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 008-blue-idle_14
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 1606
+        width: 85
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b71749f62fe5808666056d7f3eb44e6d
+      internalID: 21300028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 008-blue-idle_15
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 1606
+        width: 85
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4142811d1daf6c601a7bb7358d9762ce
+      internalID: 21300030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 008-blue-idle_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1460
+        width: 85
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfdc9d66c3279e7acac60c88a624b928
+      internalID: 21300032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 008-blue-idle_17
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 1460
+        width: 85
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba513966a714af4d6537892a39e9333b
+      internalID: 21300034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 008-blue-idle_18
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 1460
+        width: 85
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb77e151a9b5b652477461d6b8747e6f
+      internalID: 21300036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 008-blue-idle_19
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 1460
+        width: 85
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e71c6816e1c5342fa7d96a54af2de10e
+      internalID: 21300038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 008-blue-idle_20
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 1460
+        width: 85
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60661677fba4c96487b52e2493a26724
+      internalID: 21300040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 008-blue-idle_21
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 1460
+        width: 85
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1540e61277330e88ff042041fe1612ed
+      internalID: 21300042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 008-blue-idle_22
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 1460
+        width: 85
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a132b03e96505e2dc17709202276cc84
+      internalID: 21300044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 008-blue-idle_23
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 1460
+        width: 85
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd02b2e18736d24c41d5634f4a0a6709
+      internalID: 21300046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 008-blue-idle_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1314
+        width: 85
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be2b35a3eb90a71edc43a8d5cf485abd
+      internalID: 21300048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 008-blue-idle_25
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 1314
+        width: 85
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c9e6af3ec7149736c6f9e53a2b96c85
+      internalID: 21300050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 008-blue-idle_26
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 1314
+        width: 85
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c19d238590aac1d6c7a569c97dd64f84
+      internalID: 21300052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 008-blue-idle_27
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 1314
+        width: 85
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43df81af124cae576edfcc950aaabbec
+      internalID: 21300054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 008-blue-idle_28
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 1314
+        width: 85
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a36c0c1bfdead152a9bb0ea3d7fcde9
+      internalID: 21300056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 008-blue-idle_29
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 1314
+        width: 85
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98f6fec1a7d3280f87084ee20d991daa
+      internalID: 21300058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 008-blue-idle_30
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 1314
+        width: 85
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3a1307197d5e40e8e5221d14ebc4514
+      internalID: 21300060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 008-blue-idle_31
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 1314
+        width: 85
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69e5e85ecaa13696e6b9bc7264b866a4
+      internalID: 21300062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 008-blue-idle_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1168
+        width: 85
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69f7341ccde34e22f4b8776a8c57d6d4
+      internalID: 21300064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 008-blue-idle_33
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 1168
+        width: 85
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae32ac01028a6a577b3f94467d53685c
+      internalID: 21300066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 008-blue-idle_34
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 1168
+        width: 85
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18d0b176116805c6f0c3e7e6122e1aa4
+      internalID: 21300068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 008-blue-idle_35
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 1168
+        width: 85
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa7694323611deed625fda7abb869d03
+      internalID: 21300070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 008-blue-idle_36
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 1168
+        width: 85
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bb19852701e459f0c29b15ac5f8516c
+      internalID: 21300072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 008-blue-idle_37
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 1168
+        width: 85
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cac217a6dbee0cfab015081329f783f4
+      internalID: 21300074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 008-blue-idle_38
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 1168
+        width: 85
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 570bf92f18c84f7839eb651232a98e0f
+      internalID: 21300076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 008-blue-idle_39
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 1168
+        width: 85
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1abe83ec793885d1c645059b00c02a62
+      internalID: 21300078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 008-blue-idle_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1022
+        width: 85
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1738b6b76a774e1d97a02590f4530a9
+      internalID: 21300080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 008-blue-idle_41
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 1022
+        width: 85
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cf91c854ff21b0137df3b7722197aa0
+      internalID: 21300082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 008-blue-idle_42
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 1022
+        width: 85
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d7ef6730b557f05e50df05f72ef12bf
+      internalID: 21300084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 008-blue-idle_43
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 1022
+        width: 85
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d229246a4de049a6e87f1e6a28db0e52
+      internalID: 21300086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 008-blue-idle_44
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 1022
+        width: 85
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: debc505dee0b89dd7b5a1942ce7fe239
+      internalID: 21300088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 008-blue-idle_45
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 1022
+        width: 85
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 470d96659b2473a0488824142a8227de
+      internalID: 21300090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 008-blue-idle_46
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 1022
+        width: 85
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a0b8d66568ab3cfb9c861f93fc2df5a
+      internalID: 21300092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 008-blue-idle_47
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 1022
+        width: 85
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31a6b3440016f608aea806beb6d78554
+      internalID: 21300094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 008-blue-idle_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 876
+        width: 85
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b672aee2b2fdcab952aedc2689e6c1ac
+      internalID: 21300096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 008-blue-idle_49
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 876
+        width: 85
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbff639f589076a8ecca6cf8bd2e9972
+      internalID: 21300098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 008-blue-idle_50
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 876
+        width: 85
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb8b0815d0e48e4a0e3a798c2df1f145
+      internalID: 21300100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 008-blue-idle_51
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 876
+        width: 85
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d904efd7100c0737ef85b26c0e2726ae
+      internalID: 21300102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 008-blue-idle_52
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 876
+        width: 85
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e528ff42f9acb029ca2b7d480a241602
+      internalID: 21300104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 008-blue-idle_53
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 876
+        width: 85
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ab54b4c52099e3e1c07913f3355e678
+      internalID: 21300106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 008-blue-idle_54
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 876
+        width: 85
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9655a6217a386045d4a5d12bb52d4b2
+      internalID: 21300108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 008-blue-idle_55
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 876
+        width: 85
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fbe6d00954fdd5f5c98ea486b422eb9
+      internalID: 21300110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 008-blue-idle_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 730
+        width: 85
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5f03893ab6115690055af425c6f33e2
+      internalID: 21300112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 008-blue-idle_57
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 730
+        width: 85
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c36389dff70a8e76b90c345c3b012b4
+      internalID: 21300114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 008-blue-idle_58
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 730
+        width: 85
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40dcfe28de7f689883b1af78a42b0de3
+      internalID: 21300116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 008-blue-idle_59
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 730
+        width: 85
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd6f43c7d6d8d4ebe97d158185e76154
+      internalID: 21300118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 008-blue-idle_60
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 730
+        width: 85
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d59a56a22594e7280b88dd958073733
+      internalID: 21300120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 008-blue-idle_61
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 730
+        width: 85
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5674f3f206e72d9f3039ef5ee09ad82b
+      internalID: 21300122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 008-blue-idle_62
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 730
+        width: 85
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8397bafb73cb47de4a311d2a9c7cd577
+      internalID: 21300124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 008-blue-idle_63
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 730
+        width: 85
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31b4c7c9e9d6524cb41ac52824e97f9e
+      internalID: 21300126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 008-blue-idle_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 584
+        width: 85
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d35b63a5c6ff543bf9a819f0fc9c5ba4
+      internalID: 21300128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 008-blue-idle_65
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 584
+        width: 85
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f340d880d2d5f5764c99a0154f1f124
+      internalID: 21300130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 008-blue-idle_66
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 584
+        width: 85
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 305f995a3cfe4232f80bea732bcd99b0
+      internalID: 21300132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 008-blue-idle_67
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 584
+        width: 85
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0583d5640b89c6333c780bfa47f0b5c
+      internalID: 21300134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 008-blue-idle_68
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 584
+        width: 85
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad33142db10cdaa1851eb86e8667ffa7
+      internalID: 21300136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 008-blue-idle_69
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 584
+        width: 85
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe63db9cfae911afcbe724c0b61d9505
+      internalID: 21300138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 008-blue-idle_70
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 584
+        width: 85
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f86b281a8def8ded02bdb5ce30fd1438
+      internalID: 21300140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 008-blue-idle_71
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 584
+        width: 85
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4db48d5d76ca185adc0ce48693acd32a
+      internalID: 21300142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 008-blue-idle_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 438
+        width: 85
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 646eca263e462e873ab70739a4a2074f
+      internalID: 21300144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 008-blue-idle_73
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 438
+        width: 85
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55bffa87195c8407ddf7caf2d1cc2b62
+      internalID: 21300146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 008-blue-idle_74
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 438
+        width: 85
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14cc8d20e3113c54a70fb47c8b051237
+      internalID: 21300148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 008-blue-idle_75
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 438
+        width: 85
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cfb262495320b4a692c51d50c48a893
+      internalID: 21300150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 008-blue-idle_76
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 438
+        width: 85
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9e41608ac55126bd6b6f26fc3924997
+      internalID: 21300152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 008-blue-idle_77
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 438
+        width: 85
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22dfb076cc6cfb0426a2866f6cd4931f
+      internalID: 21300154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 008-blue-idle_78
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 438
+        width: 85
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6039fe37830bf39975c470443b0eed3
+      internalID: 21300156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 008-blue-idle_79
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 438
+        width: 85
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d434159ba9b2c6a6740c154f980cb34
+      internalID: 21300158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 008-blue-idle_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 292
+        width: 85
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85e1953d5af4347fb766c760814895c1
+      internalID: 21300160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 008-blue-idle_81
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 292
+        width: 85
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b33d3c4bd595cfdd6dad65b7e09630c5
+      internalID: 21300162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 008-blue-idle_82
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 292
+        width: 85
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9ee9761086b3260f8487a3ce19f1edb
+      internalID: 21300164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 008-blue-idle_83
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 292
+        width: 85
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ded75723d6995f8edfb8d01e3ff6d09b
+      internalID: 21300166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 008-blue-idle_84
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 292
+        width: 85
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bf0180be396c3249b7636231193d1f6
+      internalID: 21300168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 008-blue-idle_85
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 292
+        width: 85
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a4978aad251d324fe7052609e18e652
+      internalID: 21300170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 008-blue-idle_86
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 292
+        width: 85
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c0af4b0c9367edc1efedb1da9fd971a
+      internalID: 21300172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 008-blue-idle_87
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 292
+        width: 85
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8cccb0e69b257c84a624ba2f8af0a26
+      internalID: 21300174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 008-blue-idle_88
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 146
+        width: 85
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05ab8b6807a03206ea0ff2ffbff3d36f
+      internalID: 21300176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 008-blue-idle_89
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 146
+        width: 85
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea0583ce2a358f498815802c0c988bfe
+      internalID: 21300178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 008-blue-idle_90
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 146
+        width: 85
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78321b25133e6684b95638612c5e3556
+      internalID: 21300180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 008-blue-idle_91
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 146
+        width: 85
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b518e0f3172b5694b70606ffbd03dcf3
+      internalID: 21300182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 008-blue-idle_92
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 146
+        width: 85
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c09ca8dacd2343b4db777335d57ccf9d
+      internalID: 21300184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 008-blue-idle_93
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 146
+        width: 85
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2e753f71c1a011abc99c02513575b07
+      internalID: 21300186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 008-blue-idle_94
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 146
+        width: 85
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f576ad56f726de1e833840f0107a4a12
+      internalID: 21300188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 008-blue-idle_95
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 146
+        width: 85
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e93e06fd7810776abdaf7f3b6c7a51e8
+      internalID: 21300190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 008-blue-idle_96
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 85
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 601147452b18ecded79ab452dd43b721
+      internalID: 21300192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 008-blue-idle_97
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 0
+        width: 85
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c9c1535f24112b6ca5431122d34fc6e
+      internalID: 21300194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 008-blue-idle_98
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 0
+        width: 85
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69970410d923875b80561c4515d2b985
+      internalID: 21300196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      008-blue-idle_0: 21300000
+      008-blue-idle_1: 21300002
+      008-blue-idle_2: 21300004
+      008-blue-idle_3: 21300006
+      008-blue-idle_4: 21300008
+      008-blue-idle_5: 21300010
+      008-blue-idle_6: 21300012
+      008-blue-idle_7: 21300014
+      008-blue-idle_8: 21300016
+      008-blue-idle_9: 21300018
+      008-blue-idle_10: 21300020
+      008-blue-idle_11: 21300022
+      008-blue-idle_12: 21300024
+      008-blue-idle_13: 21300026
+      008-blue-idle_14: 21300028
+      008-blue-idle_15: 21300030
+      008-blue-idle_16: 21300032
+      008-blue-idle_17: 21300034
+      008-blue-idle_18: 21300036
+      008-blue-idle_19: 21300038
+      008-blue-idle_20: 21300040
+      008-blue-idle_21: 21300042
+      008-blue-idle_22: 21300044
+      008-blue-idle_23: 21300046
+      008-blue-idle_24: 21300048
+      008-blue-idle_25: 21300050
+      008-blue-idle_26: 21300052
+      008-blue-idle_27: 21300054
+      008-blue-idle_28: 21300056
+      008-blue-idle_29: 21300058
+      008-blue-idle_30: 21300060
+      008-blue-idle_31: 21300062
+      008-blue-idle_32: 21300064
+      008-blue-idle_33: 21300066
+      008-blue-idle_34: 21300068
+      008-blue-idle_35: 21300070
+      008-blue-idle_36: 21300072
+      008-blue-idle_37: 21300074
+      008-blue-idle_38: 21300076
+      008-blue-idle_39: 21300078
+      008-blue-idle_40: 21300080
+      008-blue-idle_41: 21300082
+      008-blue-idle_42: 21300084
+      008-blue-idle_43: 21300086
+      008-blue-idle_44: 21300088
+      008-blue-idle_45: 21300090
+      008-blue-idle_46: 21300092
+      008-blue-idle_47: 21300094
+      008-blue-idle_48: 21300096
+      008-blue-idle_49: 21300098
+      008-blue-idle_50: 21300100
+      008-blue-idle_51: 21300102
+      008-blue-idle_52: 21300104
+      008-blue-idle_53: 21300106
+      008-blue-idle_54: 21300108
+      008-blue-idle_55: 21300110
+      008-blue-idle_56: 21300112
+      008-blue-idle_57: 21300114
+      008-blue-idle_58: 21300116
+      008-blue-idle_59: 21300118
+      008-blue-idle_60: 21300120
+      008-blue-idle_61: 21300122
+      008-blue-idle_62: 21300124
+      008-blue-idle_63: 21300126
+      008-blue-idle_64: 21300128
+      008-blue-idle_65: 21300130
+      008-blue-idle_66: 21300132
+      008-blue-idle_67: 21300134
+      008-blue-idle_68: 21300136
+      008-blue-idle_69: 21300138
+      008-blue-idle_70: 21300140
+      008-blue-idle_71: 21300142
+      008-blue-idle_72: 21300144
+      008-blue-idle_73: 21300146
+      008-blue-idle_74: 21300148
+      008-blue-idle_75: 21300150
+      008-blue-idle_76: 21300152
+      008-blue-idle_77: 21300154
+      008-blue-idle_78: 21300156
+      008-blue-idle_79: 21300158
+      008-blue-idle_80: 21300160
+      008-blue-idle_81: 21300162
+      008-blue-idle_82: 21300164
+      008-blue-idle_83: 21300166
+      008-blue-idle_84: 21300168
+      008-blue-idle_85: 21300170
+      008-blue-idle_86: 21300172
+      008-blue-idle_87: 21300174
+      008-blue-idle_88: 21300176
+      008-blue-idle_89: 21300178
+      008-blue-idle_90: 21300180
+      008-blue-idle_91: 21300182
+      008-blue-idle_92: 21300184
+      008-blue-idle_93: 21300186
+      008-blue-idle_94: 21300188
+      008-blue-idle_95: 21300190
+      008-blue-idle_96: 21300192
+      008-blue-idle_97: 21300194
+      008-blue-idle_98: 21300196
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
