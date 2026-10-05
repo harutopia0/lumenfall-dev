@@ -21,6 +21,12 @@ public class Player_GroundedState : PlayerState
 
         if (stateMachine.currentState != this) return;
 
+        if (input.Player.FocusCast.WasPressedThisFrame() && player.health.CanHeal())
+        {
+            stateMachine.ChangeState(player.focusChargeState);
+            return;
+        }
+
         if (rb.linearVelocity.y < 0 && !player.groundDetected)
         {
             stateMachine.ChangeState(player.fallState);

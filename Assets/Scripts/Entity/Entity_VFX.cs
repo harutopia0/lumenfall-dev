@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using static UnityEngine.EventSystems.EventTrigger;
 
 public class Entity_VFX : MonoBehaviour
@@ -18,14 +19,19 @@ public class Entity_VFX : MonoBehaviour
 
     [Header("Movement VFX")]
     [SerializeField] private GameObject dashVfxPrefab;
-    [SerializeField] private Vector2 dashVfxOffset = Vector2.zero;
+    [SerializeField] private Vector3 dashVfxOffset = Vector3.zero;
 
     [Header("Slash VFX")]
     [SerializeField] private Animator slashVfxAnim;
 
+    [Header("Focus VFX")]
+    [SerializeField] private GameObject focusChargeObj;
+    [SerializeField] private GameObject focusBurstPrefab;
+    [SerializeField] private Vector3 focusBurstOffset = Vector3.zero;
+
     [Header("Wall Jump VFX")]
     [SerializeField] private GameObject wallJumpPuffPrefab;
-    [SerializeField] private Vector2 wallJumpPuffOffset = Vector2.zero;
+    [SerializeField] private Vector3 wallJumpPuffOffset = Vector3.zero;
 
     [Header("Double Jump VFX")]
     [SerializeField] private Animator doubleJumpWingsAnim;
@@ -33,15 +39,15 @@ public class Entity_VFX : MonoBehaviour
     [Header("Super Dash VFX")]
     [SerializeField] private GameObject superDashTrailObj;
     [SerializeField] private GameObject superDashBurstPrefab;
-    [SerializeField] private Vector2 superDashBurstOffset = Vector2.zero;
+    [SerializeField] private Vector3 superDashBurstOffset = Vector3.zero;
     [SerializeField] private GameObject superDashTrailEndPrefab;
-    [SerializeField] private Vector2 superDashTrailEndOffset = Vector2.zero;
+    [SerializeField] private Vector3 superDashTrailEndOffset = Vector3.zero;
     [SerializeField] private GameObject superDashBreakPrefab;
-    [SerializeField] private Vector2 superDashBreakOffset = Vector2.zero;
+    [SerializeField] private Vector3 superDashBreakOffset = Vector3.zero;
     [SerializeField] private GameObject superDashChargeObj; 
-    [SerializeField] private Vector2 superDashChargeGroundOffset = Vector2.zero;
-    [SerializeField] private Vector2 superDashChargeWallOffset = Vector2.zero;
+    [SerializeField] private Vector3 superDashChargeWallOffset = Vector3.zero;
     [SerializeField] private Animator superDashBlingAnim;
+    private Vector3 initialChargeLocalPos;
     private Quaternion initialChargeLocalRot;
 
     private enum CornerType { DropCliff, ClimbWall }
@@ -55,6 +61,7 @@ public class Entity_VFX : MonoBehaviour
 
     [Header("Super Dash Extreme Criss-Cross U-Arch")]
     [SerializeField] private GameObject crystalPrefab;
+    [SerializeField] private Vector3 crystalOffset = Vector3.zero;
     [SerializeField] private int crystalCount = 20;
     [SerializeField] private float groundSpreadWidth = 5f;
     [SerializeField] private float wallSpreadHeight = 5f;
@@ -84,7 +91,10 @@ public class Entity_VFX : MonoBehaviour
         if (vfxContainer == null)
         {
             GameObject containerObj = new GameObject("_SuperDash_Crystal_Container");
-            containerObj.transform.SetParent(transform);
+            if (gameObject.scene.isLoaded)
+            {
+                SceneManager.MoveGameObjectToScene(containerObj, gameObject.scene);
+            }
             vfxContainer = containerObj.transform;
         }
 
@@ -102,10 +112,24 @@ public class Entity_VFX : MonoBehaviour
         if (vfxContainer != null) Destroy(vfxContainer.gameObject);
     }
 
+    public void SetFocusCharging(bool isCharging)
+    {
+        if (focusChargeObj != null)
+        {
+            focusChargeObj.SetActive(isCharging);
+        }
+    }
+    public void PlayFocusBurstVfx(Vector3 position)
+    {
+        if (focusBurstPrefab == null) return;
+        Vector3 spawnPos = position + new Vector3(focusBurstOffset.x * entity.facingDir, focusBurstOffset.y, focusBurstOffset.z);
+        Instantiate(focusBurstPrefab, spawnPos, Quaternion.identity);
+    }
+
     public void PlayWallJumpPuffVfx(Vector3 position, int jumpDirection)
     {
         if (wallJumpPuffPrefab == null) return;
-        Vector3 spawnPos = position + new Vector3(wallJumpPuffOffset.x * jumpDirection, wallJumpPuffOffset.y, 0f);
+        Vector3 spawnPos = position + new Vector3(wallJumpPuffOffset.x * jumpDirection, wallJumpPuffOffset.y, wallJumpPuffOffset.z);
         Quaternion rotation = jumpDirection > 0 ? Quaternion.identity : Quaternion.Euler(0f, 180f, 0f);
         Instantiate(wallJumpPuffPrefab, spawnPos, rotation);
     }
@@ -142,18 +166,18 @@ public class Entity_VFX : MonoBehaviour
                 if (isWallCharge)
                 {
                     superDashChargeObj.transform.localRotation = Quaternion.FromToRotation(Vector3.up, Vector3.right);
-                    superDashChargeObj.transform.localPosition = (Vector3)superDashChargeWallOffset;
+                    superDashChargeObj.transform.localPosition = superDashChargeWallOffset;
                 }
                 else
                 {
                     superDashChargeObj.transform.localRotation = initialChargeLocalRot;
-                    superDashChargeObj.transform.localPosition = (Vector3)superDashChargeGroundOffset;
+                    superDashChargeObj.transform.localPosition = initialChargeLocalPos;
                 }
             }
             else
             {
                 superDashChargeObj.transform.localRotation = initialChargeLocalRot;
-                superDashChargeObj.transform.localPosition = (Vector3)superDashChargeGroundOffset;
+                superDashChargeObj.transform.localPosition = initialChargeLocalPos;
             }
 
             superDashChargeObj.SetActive(charging);
@@ -344,6 +368,8 @@ public class Entity_VFX : MonoBehaviour
                 }
             }
 
+            targetPos += new Vector3(crystalOffset.x * facingDir, crystalOffset.y, crystalOffset.z);
+
             crystalAnim.transform.position = targetPos;
             crystalAnim.transform.rotation = targetRot;
             crystalAnim.SetBool("charging", true);
@@ -435,7 +461,7 @@ public class Entity_VFX : MonoBehaviour
     public void PlaySuperDashTrailEndVfx(Vector3 position, Quaternion rotation, int facingDir)
     {
         if (superDashTrailEndPrefab == null) return;
-        Vector3 spawnPos = position + new Vector3(superDashTrailEndOffset.x * facingDir, superDashTrailEndOffset.y, 0f);
+        Vector3 spawnPos = position + new Vector3(superDashTrailEndOffset.x * facingDir, superDashTrailEndOffset.y, superDashTrailEndOffset.z);
         Quaternion vfxRot = Quaternion.Euler(0f, facingDir == -1 ? 0f : 180f, rotation.eulerAngles.z);
         Instantiate(superDashTrailEndPrefab, spawnPos, vfxRot);
     }
@@ -449,7 +475,7 @@ public class Entity_VFX : MonoBehaviour
     {
         if (superDashBurstPrefab == null) return;
 
-        Vector3 spawnPos = position + new Vector3(superDashBurstOffset.x * facingDir, superDashBurstOffset.y, 0f);
+        Vector3 spawnPos = position + new Vector3(superDashBurstOffset.x * facingDir, superDashBurstOffset.y, superDashBurstOffset.z);
         Quaternion vfxRot = Quaternion.Euler(0f, facingDir == -1 ? 0f : 180f, rotation.eulerAngles.z);
         Instantiate(superDashBurstPrefab, spawnPos, vfxRot);
     }
@@ -457,7 +483,7 @@ public class Entity_VFX : MonoBehaviour
     public void PlaySuperDashBreakVfx(Vector3 position, Quaternion rotation, int facingDir)
     {
         if (superDashBreakPrefab == null) return;
-        Vector3 spawnPos = position + new Vector3(superDashBreakOffset.x * facingDir, superDashBreakOffset.y, 0f);
+        Vector3 spawnPos = position + new Vector3(superDashBreakOffset.x * facingDir, superDashBreakOffset.y, superDashBreakOffset.z);
         Quaternion vfxRot = Quaternion.Euler(0f, facingDir == -1 ? 0f : 180f, rotation.eulerAngles.z);
         Instantiate(superDashBreakPrefab, spawnPos, vfxRot);
     }
@@ -475,6 +501,7 @@ public class Entity_VFX : MonoBehaviour
 
         if (superDashChargeObj != null)
         {
+            initialChargeLocalPos = superDashChargeObj.transform.localPosition;
             initialChargeLocalRot = superDashChargeObj.transform.localRotation;
         }
 
@@ -512,7 +539,7 @@ public class Entity_VFX : MonoBehaviour
     {
         if (dashVfxPrefab == null) return;
 
-        Vector3 spawnPos = position + new Vector3(dashVfxOffset.x * facingDir, dashVfxOffset.y, 0f);
+        Vector3 spawnPos = position + new Vector3(dashVfxOffset.x * facingDir, dashVfxOffset.y, dashVfxOffset.z);
         Quaternion vfxRot = Quaternion.Euler(0f, facingDir == -1 ? 0f : 180f, rotation.eulerAngles.z);
         Instantiate(dashVfxPrefab, spawnPos, vfxRot);
     }

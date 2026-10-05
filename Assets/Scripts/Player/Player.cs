@@ -10,6 +10,7 @@ public class Player : Entity
     public static event Action OnPlayerDeath;
 
     public PlayerInputSet input { get; private set; }
+    public Player_Health health { get; private set; }
 
     public Player_IdleState idleState { get; private set; }
     public Player_RunState runState { get; private set; }
@@ -28,6 +29,9 @@ public class Player : Entity
     public Player_SuperDashAirBrakeState superDashAirBrakeState { get; private set; }
     public Player_SuperDashHitWallState superDashHitWallState { get; private set; }
     public Player_DoubleJumpState doubleJumpState { get; private set; }
+    public Player_FocusChargeState focusChargeState { get; private set; }
+    public Player_FocusGetState focusGetState { get; private set; }
+    public Player_FocusEndState focusEndState { get; private set; }
 
     [Header("Movements details")]
     public float moveSpeed = 8.5f;
@@ -58,6 +62,10 @@ public class Player : Entity
     [Header("Super Dash details")]
     public float superDashSpeed = 35f;
     public float superDashChargeTime = 0.8f;
+
+    [Header("Focus Details")]
+    public float focusChargeTime = 0.88f;
+
     public float defaultGravityScale { get; private set; }
 
     protected override void Awake()
@@ -66,6 +74,7 @@ public class Player : Entity
         base.Awake();
 
         input = new PlayerInputSet();
+        health = GetComponent<Player_Health>();
         defaultGravityScale = rb.gravityScale;
 
         idleState = new Player_IdleState(this, stateMachine, "idle");
@@ -85,6 +94,9 @@ public class Player : Entity
         superDashAirBrakeState = new Player_SuperDashAirBrakeState(this, stateMachine, "superDashAirBrake");
         superDashHitWallState = new Player_SuperDashHitWallState(this, stateMachine, "superDashHitWall");
         doubleJumpState = new Player_DoubleJumpState(this, stateMachine, "doubleJump");
+        focusChargeState = new Player_FocusChargeState(this, stateMachine, "focus");
+        focusGetState = new Player_FocusGetState(this, stateMachine, "focusGet");
+        focusEndState = new Player_FocusEndState(this, stateMachine, "focusEnd");
     }
     protected override void Update()
     {

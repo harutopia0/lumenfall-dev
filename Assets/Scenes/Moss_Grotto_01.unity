@@ -130,7 +130,7 @@ GameObject:
   - component: {fileID: 34193280}
   - component: {fileID: 34193279}
   - component: {fileID: 34193281}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: w
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3843,23 +3843,26 @@ MonoBehaviour:
   onDamageMaterial: {fileID: 2100000, guid: e3a77454b8657ba45af3abb96bf7bf96, type: 2}
   onDamageVfxDuration: 0.15
   dashVfxPrefab: {fileID: 0}
-  dashVfxOffset: {x: 0.6, y: 0}
+  dashVfxOffset: {x: 0.6, y: 0, z: 0}
   slashVfxAnim: {fileID: 0}
+  focusChargeObj: {fileID: 0}
+  focusBurstPrefab: {fileID: 0}
+  focusBurstOffset: {x: 0, y: 0, z: 0}
   wallJumpPuffPrefab: {fileID: 0}
-  wallJumpPuffOffset: {x: 0, y: 0}
+  wallJumpPuffOffset: {x: 0, y: 0, z: 0}
   doubleJumpWingsAnim: {fileID: 0}
   superDashTrailObj: {fileID: 0}
   superDashBurstPrefab: {fileID: 0}
-  superDashBurstOffset: {x: 0, y: 0}
+  superDashBurstOffset: {x: 0, y: 0, z: 0}
   superDashTrailEndPrefab: {fileID: 0}
-  superDashTrailEndOffset: {x: 0, y: 0}
+  superDashTrailEndOffset: {x: 0, y: 0, z: 0}
   superDashBreakPrefab: {fileID: 0}
-  superDashBreakOffset: {x: 0, y: 0}
+  superDashBreakOffset: {x: 0, y: 0, z: 0}
   superDashChargeObj: {fileID: 0}
-  superDashChargeGroundOffset: {x: 0, y: 0}
-  superDashChargeWallOffset: {x: 0.75, y: 0}
+  superDashChargeWallOffset: {x: 0.75, y: 0, z: 0}
   superDashBlingAnim: {fileID: 0}
   crystalPrefab: {fileID: 0}
+  crystalOffset: {x: 0, y: 0, z: 0}
   crystalCount: 5
   groundSpreadWidth: 1.4
   wallSpreadHeight: 1.2
@@ -5931,23 +5934,26 @@ MonoBehaviour:
   onDamageMaterial: {fileID: 2100000, guid: e3a77454b8657ba45af3abb96bf7bf96, type: 2}
   onDamageVfxDuration: 0.15
   dashVfxPrefab: {fileID: 0}
-  dashVfxOffset: {x: 0.6, y: 0}
+  dashVfxOffset: {x: 0.6, y: 0, z: 0}
   slashVfxAnim: {fileID: 0}
+  focusChargeObj: {fileID: 0}
+  focusBurstPrefab: {fileID: 0}
+  focusBurstOffset: {x: 0, y: 0, z: 0}
   wallJumpPuffPrefab: {fileID: 0}
-  wallJumpPuffOffset: {x: 0, y: 0}
+  wallJumpPuffOffset: {x: 0, y: 0, z: 0}
   doubleJumpWingsAnim: {fileID: 0}
   superDashTrailObj: {fileID: 0}
   superDashBurstPrefab: {fileID: 0}
-  superDashBurstOffset: {x: 0, y: 0}
+  superDashBurstOffset: {x: 0, y: 0, z: 0}
   superDashTrailEndPrefab: {fileID: 0}
-  superDashTrailEndOffset: {x: 0, y: 0}
+  superDashTrailEndOffset: {x: 0, y: 0, z: 0}
   superDashBreakPrefab: {fileID: 0}
-  superDashBreakOffset: {x: 0, y: 0}
+  superDashBreakOffset: {x: 0, y: 0, z: 0}
   superDashChargeObj: {fileID: 0}
-  superDashChargeGroundOffset: {x: 0, y: 0}
-  superDashChargeWallOffset: {x: 0.75, y: 0}
+  superDashChargeWallOffset: {x: 0.75, y: 0, z: 0}
   superDashBlingAnim: {fileID: 0}
   crystalPrefab: {fileID: 0}
+  crystalOffset: {x: 0, y: 0, z: 0}
   crystalCount: 5
   groundSpreadWidth: 1.4
   wallSpreadHeight: 1.2
@@ -10550,7 +10556,7 @@ GameObject:
   - component: {fileID: 1306125892}
   - component: {fileID: 1306125891}
   - component: {fileID: 1306125893}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: w (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12451,11 +12457,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7617325275317163727, guid: ee7b78ac77731c44382188c822b7acad, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.31611282
+      value: -1.0018011
       objectReference: {fileID: 0}
     - target: {fileID: 7617325275317163727, guid: ee7b78ac77731c44382188c822b7acad, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.4590354
+      value: 7.2575808
       objectReference: {fileID: 0}
     - target: {fileID: 7617325275317163727, guid: ee7b78ac77731c44382188c822b7acad, type: 3}
       propertyPath: m_LocalPosition.z

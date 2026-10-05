@@ -28,6 +28,10 @@ public class Player_Health : Entity_Health
         OnPlayerHealthChanged?.Invoke(currentMasks, maxMasks);
     }
 
+    public int CurrentMasks => currentMasks;
+    public int MaxMasks => maxMasks;
+    public bool CanHeal() => currentMasks < maxMasks && !isDead;
+
     public override void TakeDamage(float damage, Transform damageDealer)
     {
         if (isDead || isInvincible) return;
