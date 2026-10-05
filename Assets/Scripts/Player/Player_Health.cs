@@ -20,7 +20,7 @@ public class Player_Health : Entity_Health
     {
         base.Awake();
         sr = GetComponentInChildren<SpriteRenderer>();
-        currentMasks = maxMasks;
+        currentMasks = 5;
     }
 
     private void Start()

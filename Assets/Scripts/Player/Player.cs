@@ -31,6 +31,7 @@ public class Player : Entity
     public Player_DoubleJumpState doubleJumpState { get; private set; }
     public Player_FocusChargeState focusChargeState { get; private set; }
     public Player_FocusGetState focusGetState { get; private set; }
+    public Player_FocusGetOnceState focusGetOnceState { get; private set; }
     public Player_FocusEndState focusEndState { get; private set; }
 
     [Header("Movements details")]
@@ -96,6 +97,7 @@ public class Player : Entity
         doubleJumpState = new Player_DoubleJumpState(this, stateMachine, "doubleJump");
         focusChargeState = new Player_FocusChargeState(this, stateMachine, "focus");
         focusGetState = new Player_FocusGetState(this, stateMachine, "focusGet");
+        focusGetOnceState = new Player_FocusGetOnceState(this, stateMachine, "focusGetOnce");
         focusEndState = new Player_FocusEndState(this, stateMachine, "focusEnd");
     }
     protected override void Update()

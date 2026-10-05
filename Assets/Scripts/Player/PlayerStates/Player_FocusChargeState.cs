@@ -15,7 +15,6 @@ public class Player_FocusChargeState : PlayerState
 
         chargeTimer = player.focusChargeTime;
         player.SetVelocity(0f, 0f);
-
         player.vfx?.SetFocusCharging(true);
     }
 
@@ -39,7 +38,10 @@ public class Player_FocusChargeState : PlayerState
 
         if (chargeTimer <= 0f)
         {
-            stateMachine.ChangeState(player.focusGetState);
+            player.health.Heal(1);
+            player.vfx?.PlayFocusBurstVfx(player.transform.position);
+
+            stateMachine.ChangeState(player.focusGetOnceState);
         }
     }
 

@@ -2,8 +2,8 @@ using UnityEngine;
 
 public class Player_FocusGetState : Player_GroundedState
 {
-    private float getDuration = 0.45f;
-    private float getTimer;
+    private float chewDuration = 0.417f;
+    private float chewTimer;
 
     public Player_FocusGetState(Player player, StateMachine stateMachine, string animBoolName)
         : base(player, stateMachine, animBoolName)
@@ -14,12 +14,10 @@ public class Player_FocusGetState : Player_GroundedState
     {
         base.Enter();
 
-        getTimer = getDuration;
+        chewTimer = chewDuration;
         player.SetVelocity(0f, 0f);
 
-        player.health.Heal(1);
-
-        player.vfx?.PlayFocusBurstVfx(player.transform.position);
+        player.anim.Play("playerFocusGet", 0, 0.546f);
     }
 
     public override void PhysicsUpdate()
@@ -34,13 +32,23 @@ public class Player_FocusGetState : Player_GroundedState
 
         if (stateMachine.currentState != this) return;
 
-        getTimer -= Time.deltaTime;
-
-        if (getTimer <= 0f)
+        if (input.Player.FocusCast.WasReleasedThisFrame())
         {
+            stateMachine.ChangeState(player.focusEndState);
+            return;
+        }
+
+        chewTimer -= Time.deltaTime;
+
+        if (chewTimer <= 0f)
+        {
+            player.health.Heal(1);
+            player.vfx?.PlayFocusBurstVfx(player.transform.position);
+
             if (input.Player.FocusCast.IsPressed() && player.health.CanHeal())
             {
-                stateMachine.ChangeState(player.focusChargeState);
+                chewTimer = 0.917f;
+                player.anim.Play("playerFocusGet", 0, 0f);
             }
             else
             {

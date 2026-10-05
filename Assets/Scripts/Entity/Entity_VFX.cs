@@ -123,7 +123,8 @@ public class Entity_VFX : MonoBehaviour
     {
         if (focusBurstPrefab == null) return;
         Vector3 spawnPos = position + new Vector3(focusBurstOffset.x * entity.facingDir, focusBurstOffset.y, focusBurstOffset.z);
-        Instantiate(focusBurstPrefab, spawnPos, Quaternion.identity);
+        Quaternion vfxRot = Quaternion.Euler(0f, entity.facingDir == -1 ? 0f : 180f, 0f);
+        Instantiate(focusBurstPrefab, spawnPos, vfxRot);
     }
 
     public void PlayWallJumpPuffVfx(Vector3 position, int jumpDirection)
@@ -277,13 +278,40 @@ public class Entity_VFX : MonoBehaviour
             float crossAngle = crossDirection * Random.Range(12f, 24f);
             float finalAngle = (-t * 10f) + crossAngle;
 
-            if (crystalSr != null)
+            int depthTier = i % 4;
+            float baseZ;
+            Color tierColor;
+
+            switch (depthTier)
             {
-                bool isBehind = (i % 2 == 0);
-                crystalSr.sortingOrder = isBehind ? -1 : 1;
-                crystalSr.color = isBehind ? new Color(0.82f, 0.82f, 0.88f, 1f) : Color.white;
+                case 0:
+                    baseZ = 0.0004f;
+                    tierColor = new Color(0.85f, 0.87f, 0.95f, 1f);
+                    break;
+                case 1:
+                    baseZ = 0.0006f;
+                    tierColor = Color.white;
+                    break;
+                case 2:
+                    baseZ = 0.00045f;
+                    tierColor = new Color(0.90f, 0.92f, 0.98f, 1f);
+                    break;
+                default:
+                    baseZ = 0.00055f;
+                    tierColor = new Color(0.95f, 0.97f, 1f, 1f);
+                    break;
             }
 
+            float zMicroJitter = ((i * 0.000017f) % 0.00004f) - 0.00002f;
+            float finalZOffset = baseZ + zMicroJitter;
+
+            if (crystalSr != null)
+            {
+                crystalSr.sortingOrder = 0;
+                crystalSr.color = tierColor;
+            }
+
+            float zPos = transform.position.z + finalZOffset;
             Vector3 targetPos;
             Quaternion targetRot;
 
@@ -301,12 +329,12 @@ public class Entity_VFX : MonoBehaviour
 
                 if (!hasCorner || totalTargetDist < corner.distance - cornerBuffer)
                 {
-                    targetPos = new Vector3(centerPoint.x + (sign * totalTargetDist), centerPoint.y, transform.position.z);
+                    targetPos = new Vector3(centerPoint.x + (sign * totalTargetDist), centerPoint.y, zPos);
                     targetRot = Quaternion.Euler(0, 0, finalAngle);
                 }
                 else if (totalTargetDist <= corner.distance + cornerBuffer)
                 {
-                    targetPos = new Vector3(corner.edgeCoordinate, centerPoint.y, transform.position.z);
+                    targetPos = new Vector3(corner.edgeCoordinate, centerPoint.y, zPos);
                     Vector2 cornerNormal = (corner.type == CornerType.DropCliff)
                         ? (Vector2.up + (Vector2.right * sign)).normalized
                         : (Vector2.up - (Vector2.right * sign)).normalized;
@@ -318,13 +346,13 @@ public class Entity_VFX : MonoBehaviour
 
                     if (corner.type == CornerType.DropCliff)
                     {
-                        targetPos = new Vector3(corner.edgeCoordinate, centerPoint.y - overflow, transform.position.z);
+                        targetPos = new Vector3(corner.edgeCoordinate, centerPoint.y - overflow, zPos);
                         Vector2 cliffNormal = Vector2.right * sign;
                         targetRot = Quaternion.FromToRotation(Vector2.up, cliffNormal) * Quaternion.Euler(0, 0, finalAngle);
                     }
                     else
                     {
-                        targetPos = new Vector3(corner.edgeCoordinate, centerPoint.y + overflow, transform.position.z);
+                        targetPos = new Vector3(corner.edgeCoordinate, centerPoint.y + overflow, zPos);
                         Vector2 wallNormal = -Vector2.right * sign;
                         targetRot = Quaternion.FromToRotation(Vector2.up, wallNormal) * Quaternion.Euler(0, 0, finalAngle);
                     }
@@ -342,12 +370,12 @@ public class Entity_VFX : MonoBehaviour
 
                 if (!hasCorner || totalTargetDist < corner.distance - cornerBuffer)
                 {
-                    targetPos = new Vector3(centerPoint.x, centerPoint.y + (sign * totalTargetDist), transform.position.z);
+                    targetPos = new Vector3(centerPoint.x, centerPoint.y + (sign * totalTargetDist), zPos);
                     targetRot = Quaternion.FromToRotation(Vector2.up, wallOutNormal) * Quaternion.Euler(0, 0, finalAngle);
                 }
                 else if (totalTargetDist <= corner.distance + cornerBuffer)
                 {
-                    targetPos = new Vector3(centerPoint.x, corner.edgeCoordinate, transform.position.z);
+                    targetPos = new Vector3(centerPoint.x, corner.edgeCoordinate, zPos);
                     Vector2 cornerNormal = (wallOutNormal + Vector2.up).normalized;
                     targetRot = Quaternion.FromToRotation(Vector2.up, cornerNormal) * Quaternion.Euler(0, 0, finalAngle);
                 }
@@ -357,11 +385,11 @@ public class Entity_VFX : MonoBehaviour
 
                     if (t < 0)
                     {
-                        targetPos = new Vector3(centerPoint.x - (facingDir * overflow), corner.edgeCoordinate, transform.position.z);
+                        targetPos = new Vector3(centerPoint.x - (facingDir * overflow), corner.edgeCoordinate, zPos);
                     }
                     else
                     {
-                        targetPos = new Vector3(centerPoint.x + (facingDir * overflow), corner.edgeCoordinate, transform.position.z);
+                        targetPos = new Vector3(centerPoint.x + (facingDir * overflow), corner.edgeCoordinate, zPos);
                     }
 
                     targetRot = Quaternion.Euler(0, 0, finalAngle);
