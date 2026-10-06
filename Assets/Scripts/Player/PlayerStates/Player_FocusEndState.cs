@@ -2,8 +2,9 @@ using UnityEngine;
 
 public class Player_FocusEndState : Player_GroundedState
 {
-    private float endDuration = 0.2f;
-    private float endTimer;
+    // 3 frames @ 12 FPS: 3 / 12 = 0.25s
+    private const float END_DURATION = 3f / 12f;
+    private float timer;
 
     public Player_FocusEndState(Player player, StateMachine stateMachine, string animBoolName)
         : base(player, stateMachine, animBoolName)
@@ -14,7 +15,7 @@ public class Player_FocusEndState : Player_GroundedState
     {
         base.Enter();
 
-        endTimer = endDuration;
+        timer = END_DURATION;
         player.SetVelocity(0f, 0f);
         player.vfx?.SetFocusCharging(false);
     }
@@ -31,9 +32,9 @@ public class Player_FocusEndState : Player_GroundedState
 
         if (stateMachine.currentState != this) return;
 
-        endTimer -= Time.deltaTime;
+        timer -= Time.deltaTime;
 
-        if (endTimer <= 0f || triggerCalled)
+        if (timer <= 0f || triggerCalled)
         {
             stateMachine.ChangeState(player.idleState);
         }

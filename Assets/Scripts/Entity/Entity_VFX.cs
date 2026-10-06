@@ -112,11 +112,17 @@ public class Entity_VFX : MonoBehaviour
         if (vfxContainer != null) Destroy(vfxContainer.gameObject);
     }
 
-    public void SetFocusCharging(bool isCharging)
+    private Animator focusChargeAnim;
+
+    public void SetFocusCharging(bool isCharging, float normalizedStartTime = 0f)
     {
         if (focusChargeObj != null)
         {
             focusChargeObj.SetActive(isCharging);
+            if (isCharging && focusChargeAnim != null)
+            {
+                focusChargeAnim.Play("focusChargeEffect", 0, normalizedStartTime);
+            }
         }
     }
     public void PlayFocusBurstVfx(Vector3 position)
@@ -531,6 +537,11 @@ public class Entity_VFX : MonoBehaviour
         {
             initialChargeLocalPos = superDashChargeObj.transform.localPosition;
             initialChargeLocalRot = superDashChargeObj.transform.localRotation;
+        }
+
+        if (focusChargeObj != null)
+        {
+            focusChargeAnim = focusChargeObj.GetComponent<Animator>();
         }
 
         if (onDamageMaterial != null)

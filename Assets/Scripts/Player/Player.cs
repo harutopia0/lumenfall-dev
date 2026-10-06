@@ -65,7 +65,8 @@ public class Player : Entity
     public float superDashChargeTime = 0.8f;
 
     [Header("Focus Details")]
-    public float focusChargeTime = 0.88f;
+    // 7 frames @ 8 FPS: 7 / 8 = 0.875s (base focus charge time)
+    public float focusChargeTime = 7f / 8f;
 
     public float defaultGravityScale { get; private set; }
 

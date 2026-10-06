@@ -13,8 +13,10 @@ public class Player_FocusChargeState : PlayerState
     {
         base.Enter();
 
+        // 7 frames @ 8 FPS: 7 / 8 = 0.875s (base charge time)
         chargeTimer = player.focusChargeTime;
         player.SetVelocity(0f, 0f);
+
         player.vfx?.SetFocusCharging(true);
     }
 

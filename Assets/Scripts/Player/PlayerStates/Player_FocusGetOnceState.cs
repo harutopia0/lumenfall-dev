@@ -2,7 +2,8 @@ using UnityEngine;
 
 public class Player_FocusGetOnceState : Player_GroundedState
 {
-    private float duration = 0.417f;
+    // 5 frames @ 12 FPS: 5 / 12 = ~0.417s (burst & swallow animation)
+    private const float BURST_DURATION = 5f / 12f;
     private float timer;
 
     public Player_FocusGetOnceState(Player player, StateMachine stateMachine, string animBoolName)
@@ -13,7 +14,8 @@ public class Player_FocusGetOnceState : Player_GroundedState
     public override void Enter()
     {
         base.Enter();
-        timer = duration;
+
+        timer = BURST_DURATION;
         player.SetVelocity(0f, 0f);
     }
 
