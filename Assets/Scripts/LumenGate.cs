@@ -1,7 +1,7 @@
 using UnityEngine;
 
 [RequireComponent(typeof(Collider2D))]
-public class TransitionPoint : MonoBehaviour
+public class LumenGate : MonoBehaviour
 {
     public enum GizmoDrawMode
     {

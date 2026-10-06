@@ -484,7 +484,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SceneTransitionManager
   fadeCanvasGroup: {fileID: 878293283}
   fadeDuration: 0.35
-  defaultSpawnPointName: Spawn_Default
+  defaultSpawnPointName: _Spawns/Spawn_Default
   initialRoomScene: Moss_Grotto_01
 --- !u!1 &1996707703
 GameObject:

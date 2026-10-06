@@ -22,9 +22,12 @@ public class SceneTransitionManager : MonoBehaviour
     [SerializeField] private string initialRoomScene;
 
     private string currentLoadedRoomScene;
+    private string persistentSceneName;
 
     private void Awake()
     {
+        persistentSceneName = gameObject.scene.name;
+
         if (Instance == null)
         {
             Instance = this;
@@ -40,7 +43,7 @@ public class SceneTransitionManager : MonoBehaviour
     {
         Scene activeScene = SceneManager.GetActiveScene();
 
-        if (activeScene.name != gameObject.scene.name)
+        if (activeScene.name != persistentSceneName)
         {
             currentLoadedRoomScene = activeScene.name;
             InitializePlayerPosition(defaultSpawnPointName, activeScene);

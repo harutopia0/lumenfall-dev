@@ -1367,7 +1367,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SpawnPoint
   showGizmos: 1
   gizmoColor: {r: 1, g: 0.85, b: 0.2, a: 0.35}
-  playerSprite: {fileID: 8793639957104055765, guid: 3059235c5f425cf48a1a2c75b1bbdc79, type: 3}
+  playerSprite: {fileID: 21300000, guid: db972a9764414674e9a1fd1e5b4ec5e1, type: 3}
   visualScale: {x: 1.25, y: 1.25}
   visualOffset: {x: 0, y: 0}
 --- !u!1001 &225361285
@@ -3355,11 +3355,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7617325275317163727, guid: ee7b78ac77731c44382188c822b7acad, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.4995074
+      value: -0.50877655
       objectReference: {fileID: 0}
     - target: {fileID: 7617325275317163727, guid: ee7b78ac77731c44382188c822b7acad, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.8762035
+      value: 6.897269
       objectReference: {fileID: 0}
     - target: {fileID: 7617325275317163727, guid: ee7b78ac77731c44382188c822b7acad, type: 3}
       propertyPath: m_LocalPosition.z
@@ -28912,7 +28912,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SpawnPoint
   showGizmos: 1
   gizmoColor: {r: 1, g: 0.85, b: 0.2, a: 0.35}
-  playerSprite: {fileID: 8793639957104055765, guid: 3059235c5f425cf48a1a2c75b1bbdc79, type: 3}
+  playerSprite: {fileID: 21300000, guid: db972a9764414674e9a1fd1e5b4ec5e1, type: 3}
   visualScale: {x: 1.25, y: 1.25}
   visualOffset: {x: 0, y: 0}
 --- !u!1 &2097107111
@@ -29361,9 +29361,9 @@ SceneRoots:
   - {fileID: 1590563989}
   - {fileID: 430709860}
   - {fileID: 654510857}
+  - {fileID: 914764039}
+  - {fileID: 490684679}
   - {fileID: 619394802}
   - {fileID: 577605728}
   - {fileID: 1012597746}
   - {fileID: 1250864176}
-  - {fileID: 914764039}
-  - {fileID: 490684679}
