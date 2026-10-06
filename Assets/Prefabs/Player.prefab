@@ -673,7 +673,7 @@ MonoBehaviour:
   superDashBreakPrefab: {fileID: 3412074748612761282, guid: 3ad7c8c0754c6f243ac3b42552c59f8e, type: 3}
   superDashBreakOffset: {x: 1, y: 0, z: -0.0001}
   superDashChargeObj: {fileID: 5385097977521672502}
-  superDashChargeWallOffset: {x: 1.75, y: 0, z: 0}
+  superDashChargeWallOffset: {x: 1.6, y: 0, z: 0}
   superDashBlingAnim: {fileID: 9197933162063898774}
   crystalPrefab: {fileID: 2738377523963846733, guid: 1023713ac91be27499d730122af25196, type: 3}
   crystalOffset: {x: 0, y: 0, z: 0.0005}
