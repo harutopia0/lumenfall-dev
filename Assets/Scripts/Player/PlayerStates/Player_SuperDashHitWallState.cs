@@ -1,5 +1,7 @@
 public class Player_SuperDashHitWallState : PlayerState
 {
+    public override bool CanDashDuringState => false;
+
     public Player_SuperDashHitWallState(Player player, StateMachine stateMachine, string animBoolName) : base(player, stateMachine, animBoolName)
     {
     }

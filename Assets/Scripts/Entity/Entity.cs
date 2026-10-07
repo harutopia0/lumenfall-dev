@@ -78,6 +78,11 @@ public class Entity : MonoBehaviour
         stateMachine.currentState.AnimationTrigger();
     }
 
+    public void CustomAnimationTrigger(string triggerName)
+    {
+        stateMachine.currentState.AnimationTrigger(triggerName);
+    }
+
     public virtual void EntityDeath()
     {
         

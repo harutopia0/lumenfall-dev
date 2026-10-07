@@ -16,6 +16,11 @@ public class Entity_AnimationTriggers : MonoBehaviour
         entity.CurrentStateAnimationTrigger();
     }
 
+    private void CustomAnimationTrigger(string triggerName)
+    {
+        entity.CustomAnimationTrigger(triggerName);
+    }
+
     private void AttackTrigger()
     {
         entityCombat.PerformAttack();

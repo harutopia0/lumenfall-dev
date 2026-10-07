@@ -6,6 +6,8 @@ public class Player_DashState : PlayerState
     private float dashTimer;
     private int dashDir;
 
+    public override bool CanDashDuringState => false;
+
     public Player_DashState(Player player, StateMachine stateMachine, string animBoolName) : base(player, stateMachine, animBoolName)
     {
     }

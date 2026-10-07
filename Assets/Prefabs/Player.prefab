@@ -74,7 +74,6 @@ GameObject:
   - component: {fileID: 8015004707363790294}
   - component: {fileID: 4621919001189870412}
   - component: {fileID: 4693428427144766358}
-  - component: {fileID: 4629462880842441270}
   m_Layer: 0
   m_Name: Animator
   m_TagString: Untagged
@@ -191,20 +190,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d12ffa178e076e47a5e749ec45d98f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Player_AnimationTriggers
---- !u!114 &4629462880842441270
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 476409870934710214}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 38f48a8d66b2adc46887f23a3a88ac01, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.2D.Runtime::UnityEngine.Rendering.Universal.CompositeShadowCaster2D
-  m_ShadowGroup: 0
-  m_Priority: 0
 --- !u!1 &675771510182624250
 GameObject:
   m_ObjectHideFlags: 0

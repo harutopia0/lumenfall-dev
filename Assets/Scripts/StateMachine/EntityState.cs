@@ -46,6 +46,11 @@ public abstract class EntityState
         triggerCalled = true;
     }
 
+    public virtual void AnimationTrigger(string triggerName)
+    {
+        // This method can be overridden in derived classes to handle custom animation triggers
+    }
+
     public virtual void UpdateAnimationParameters()
     {
         // This method can be overridden in derived classes to update animation parameters

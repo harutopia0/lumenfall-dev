@@ -1,5 +1,7 @@
 public class Player_SuperDashAirBrakeState : PlayerState
 {
+    public override bool CanDashDuringState => false;
+
     public Player_SuperDashAirBrakeState(Player player, StateMachine stateMachine, string animBoolName) : base(player, stateMachine, animBoolName)
     {
     }

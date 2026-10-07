@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class Player_FocusChargeState : PlayerState
 {
-    private float chargeTimer;
+    public override bool CanDashDuringState => false;
 
     public Player_FocusChargeState(Player player, StateMachine stateMachine, string animBoolName)
         : base(player, stateMachine, animBoolName)
@@ -12,11 +12,7 @@ public class Player_FocusChargeState : PlayerState
     public override void Enter()
     {
         base.Enter();
-
-        // 7 frames @ 8 FPS: 7 / 8 = 0.875s (base charge time)
-        chargeTimer = player.focusChargeTime;
         player.SetVelocity(0f, 0f);
-
         player.vfx?.SetFocusCharging(true);
     }
 
@@ -36,13 +32,10 @@ public class Player_FocusChargeState : PlayerState
             return;
         }
 
-        chargeTimer -= Time.deltaTime;
-
-        if (chargeTimer <= 0f)
+        if (triggerCalled)
         {
             player.health.Heal(1);
             player.vfx?.PlayFocusBurstVfx(player.transform.position);
-
             stateMachine.ChangeState(player.focusGetOnceState);
         }
     }

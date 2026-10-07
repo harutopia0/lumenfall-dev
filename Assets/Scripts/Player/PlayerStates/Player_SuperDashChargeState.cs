@@ -6,6 +6,8 @@ public class Player_SuperDashChargeState : PlayerState
     private bool isFromWall;
     private bool playedBling;
 
+    public override bool CanDashDuringState => false;
+
     public Player_SuperDashChargeState(Player player, StateMachine stateMachine, string animBoolName) : base(player, stateMachine, animBoolName)
     {
     }

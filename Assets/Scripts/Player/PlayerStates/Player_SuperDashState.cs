@@ -4,6 +4,8 @@ public class Player_SuperDashState : PlayerState
 {
     private int launchDir;
 
+    public override bool CanDashDuringState => false;
+
     public Player_SuperDashState(Player player, StateMachine stateMachine, string animBoolName) : base(player, stateMachine, animBoolName)
     {
     }

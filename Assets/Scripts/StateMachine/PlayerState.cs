@@ -5,6 +5,8 @@ public abstract class PlayerState : EntityState
     protected Player player;
     protected PlayerInputSet input;
 
+    public virtual bool CanDashDuringState => true;
+
     public PlayerState(Player player, StateMachine stateMachine, string animBoolName) : base(stateMachine, animBoolName)
     {
         this.player = player;
@@ -33,7 +35,7 @@ public abstract class PlayerState : EntityState
 
     private bool CanDash()
     {
-        if (stateMachine.currentState == player.dashState || stateMachine.currentState == player.deadState)
+        if (stateMachine.currentState is PlayerState playerState && !playerState.CanDashDuringState)
         {
             return false;
         }

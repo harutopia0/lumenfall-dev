@@ -2,6 +2,8 @@ using UnityEngine;
 
 public class Player_DeadState : PlayerState
 {
+    public override bool CanDashDuringState => false;
+
     public Player_DeadState(Player player, StateMachine stateMachine, string animBoolName) : base(player, stateMachine, animBoolName)
     {
     }

@@ -2,6 +2,8 @@ using UnityEngine;
 
 public class Player_SuperDashChargeCancelState : PlayerState
 {
+    public override bool CanDashDuringState => false;
+
     public Player_SuperDashChargeCancelState(Player player, StateMachine stateMachine, string animBoolName) : base(player, stateMachine, animBoolName)
     {
     }

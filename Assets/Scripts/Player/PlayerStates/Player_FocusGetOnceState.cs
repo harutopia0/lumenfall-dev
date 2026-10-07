@@ -2,9 +2,7 @@ using UnityEngine;
 
 public class Player_FocusGetOnceState : Player_GroundedState
 {
-    // 5 frames @ 12 FPS: 5 / 12 = ~0.417s (burst & swallow animation)
-    private const float BURST_DURATION = 5f / 12f;
-    private float timer;
+    public override bool CanDashDuringState => false;
 
     public Player_FocusGetOnceState(Player player, StateMachine stateMachine, string animBoolName)
         : base(player, stateMachine, animBoolName)
@@ -14,8 +12,6 @@ public class Player_FocusGetOnceState : Player_GroundedState
     public override void Enter()
     {
         base.Enter();
-
-        timer = BURST_DURATION;
         player.SetVelocity(0f, 0f);
     }
 
@@ -31,9 +27,7 @@ public class Player_FocusGetOnceState : Player_GroundedState
 
         if (stateMachine.currentState != this) return;
 
-        timer -= Time.deltaTime;
-
-        if (timer <= 0f)
+        if (triggerCalled)
         {
             if (input.Player.FocusCast.IsPressed() && player.health.CanHeal())
             {
@@ -44,10 +38,5 @@ public class Player_FocusGetOnceState : Player_GroundedState
                 stateMachine.ChangeState(player.idleState);
             }
         }
-    }
-
-    public override void Exit()
-    {
-        base.Exit();
     }
 }
