@@ -57,9 +57,19 @@
                     "priority": 0
                 },
                 {
-                    "name": "Focus/Cast",
+                    "name": "Focus",
                     "type": "Button",
                     "id": "3a9f6896-3e40-48b7-ab59-9cb637773895",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false,
+                    "priority": 0
+                },
+                {
+                    "name": "Cast",
+                    "type": "Button",
+                    "id": "868d442d-28d5-46e2-bf3e-1582285be1ed",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
@@ -174,7 +184,18 @@
                     "interactions": "",
                     "processors": "",
                     "groups": ";Keyboard & Mouse",
-                    "action": "Focus/Cast",
+                    "action": "Focus",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "acceee3e-98d3-40fb-a1d0-0c007450c254",
+                    "path": "<Keyboard>/f",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Keyboard & Mouse",
+                    "action": "Cast",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

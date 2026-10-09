@@ -59,7 +59,15 @@ public class Entity_Combat : MonoBehaviour
         foreach (Collider2D target in targets)
         {
             IDamageable damageable = target.GetComponent<IDamageable>();
-            damageable?.TakeDamage(damage, transform);
+            if (damageable != null)
+            {
+                damageable.TakeDamage(damage, transform);
+
+                if (entity is Player player && player.soul != null)
+                {
+                    player.soul.GainSoul(11);
+                }
+            }
         }
     }
 

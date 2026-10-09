@@ -21,10 +21,18 @@ public class Player_GroundedState : PlayerState
 
         if (stateMachine.currentState != this) return;
 
-        if (input.Player.FocusCast.WasPressedThisFrame() && player.health.CanHeal())
+        if (input.Player.Cast.WasPressedThisFrame())
         {
-            stateMachine.ChangeState(player.focusChargeState);
-            return;
+            if (player.TryCastSpell()) return;
+        }
+
+        if (input.Player.Focus.WasPressedThisFrame() && player.health.CanHeal())
+        {
+            if (player.soul != null && player.soul.HasEnoughSoul(33))
+            {
+                stateMachine.ChangeState(player.focusChargeState);
+                return;
+            }
         }
 
         if (rb.linearVelocity.y < 0 && !player.groundDetected)

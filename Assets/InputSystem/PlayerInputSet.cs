@@ -143,9 +143,19 @@ public partial class @PlayerInputSet: IInputActionCollection2, IDisposable
                     ""priority"": 0
                 },
                 {
-                    ""name"": ""Focus/Cast"",
+                    ""name"": ""Focus"",
                     ""type"": ""Button"",
                     ""id"": ""3a9f6896-3e40-48b7-ab59-9cb637773895"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false,
+                    ""priority"": 0
+                },
+                {
+                    ""name"": ""Cast"",
+                    ""type"": ""Button"",
+                    ""id"": ""868d442d-28d5-46e2-bf3e-1582285be1ed"",
                     ""expectedControlType"": """",
                     ""processors"": """",
                     ""interactions"": """",
@@ -260,7 +270,18 @@ public partial class @PlayerInputSet: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": "";Keyboard & Mouse"",
-                    ""action"": ""Focus/Cast"",
+                    ""action"": ""Focus"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""acceee3e-98d3-40fb-a1d0-0c007450c254"",
+                    ""path"": ""<Keyboard>/f"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": "";Keyboard & Mouse"",
+                    ""action"": ""Cast"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -293,7 +314,8 @@ public partial class @PlayerInputSet: IInputActionCollection2, IDisposable
         m_Player_Dash = m_Player.FindAction("Dash", throwIfNotFound: true);
         m_Player_Attack = m_Player.FindAction("Attack", throwIfNotFound: true);
         m_Player_SuperDash = m_Player.FindAction("SuperDash", throwIfNotFound: true);
-        m_Player_FocusCast = m_Player.FindAction("Focus/Cast", throwIfNotFound: true);
+        m_Player_Focus = m_Player.FindAction("Focus", throwIfNotFound: true);
+        m_Player_Cast = m_Player.FindAction("Cast", throwIfNotFound: true);
     }
 
     ~@PlayerInputSet()
@@ -379,7 +401,8 @@ public partial class @PlayerInputSet: IInputActionCollection2, IDisposable
     private readonly InputAction m_Player_Dash;
     private readonly InputAction m_Player_Attack;
     private readonly InputAction m_Player_SuperDash;
-    private readonly InputAction m_Player_FocusCast;
+    private readonly InputAction m_Player_Focus;
+    private readonly InputAction m_Player_Cast;
     /// <summary>
     /// Provides access to input actions defined in input action map "Player".
     /// </summary>
@@ -412,9 +435,13 @@ public partial class @PlayerInputSet: IInputActionCollection2, IDisposable
         /// </summary>
         public InputAction @SuperDash => m_Wrapper.m_Player_SuperDash;
         /// <summary>
-        /// Provides access to the underlying input action "Player/FocusCast".
+        /// Provides access to the underlying input action "Player/Focus".
         /// </summary>
-        public InputAction @FocusCast => m_Wrapper.m_Player_FocusCast;
+        public InputAction @Focus => m_Wrapper.m_Player_Focus;
+        /// <summary>
+        /// Provides access to the underlying input action "Player/Cast".
+        /// </summary>
+        public InputAction @Cast => m_Wrapper.m_Player_Cast;
         /// <summary>
         /// Provides access to the underlying input action map instance.
         /// </summary>
@@ -456,9 +483,12 @@ public partial class @PlayerInputSet: IInputActionCollection2, IDisposable
             @SuperDash.started += instance.OnSuperDash;
             @SuperDash.performed += instance.OnSuperDash;
             @SuperDash.canceled += instance.OnSuperDash;
-            @FocusCast.started += instance.OnFocusCast;
-            @FocusCast.performed += instance.OnFocusCast;
-            @FocusCast.canceled += instance.OnFocusCast;
+            @Focus.started += instance.OnFocus;
+            @Focus.performed += instance.OnFocus;
+            @Focus.canceled += instance.OnFocus;
+            @Cast.started += instance.OnCast;
+            @Cast.performed += instance.OnCast;
+            @Cast.canceled += instance.OnCast;
         }
 
         /// <summary>
@@ -485,9 +515,12 @@ public partial class @PlayerInputSet: IInputActionCollection2, IDisposable
             @SuperDash.started -= instance.OnSuperDash;
             @SuperDash.performed -= instance.OnSuperDash;
             @SuperDash.canceled -= instance.OnSuperDash;
-            @FocusCast.started -= instance.OnFocusCast;
-            @FocusCast.performed -= instance.OnFocusCast;
-            @FocusCast.canceled -= instance.OnFocusCast;
+            @Focus.started -= instance.OnFocus;
+            @Focus.performed -= instance.OnFocus;
+            @Focus.canceled -= instance.OnFocus;
+            @Cast.started -= instance.OnCast;
+            @Cast.performed -= instance.OnCast;
+            @Cast.canceled -= instance.OnCast;
         }
 
         /// <summary>
@@ -577,11 +610,18 @@ public partial class @PlayerInputSet: IInputActionCollection2, IDisposable
         /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
         void OnSuperDash(InputAction.CallbackContext context);
         /// <summary>
-        /// Method invoked when associated input action "Focus/Cast" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// Method invoked when associated input action "Focus" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
         /// </summary>
         /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
-        void OnFocusCast(InputAction.CallbackContext context);
+        void OnFocus(InputAction.CallbackContext context);
+        /// <summary>
+        /// Method invoked when associated input action "Cast" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// </summary>
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+        void OnCast(InputAction.CallbackContext context);
     }
 }

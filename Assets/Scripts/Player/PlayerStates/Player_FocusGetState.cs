@@ -45,7 +45,7 @@ public class Player_FocusGetState : Player_GroundedState
 
         if (stateMachine.currentState != this) return;
 
-        if (input.Player.FocusCast.WasReleasedThisFrame())
+        if (input.Player.Focus.WasReleasedThisFrame())
         {
             stateMachine.ChangeState(player.focusEndState);
             return;
@@ -57,7 +57,7 @@ public class Player_FocusGetState : Player_GroundedState
             player.vfx?.PlayFocusBurstVfx(player.transform.position);
             player.vfx?.SetFocusCharging(false);
 
-            if (input.Player.FocusCast.IsPressed() && player.health.CanHeal())
+            if (input.Player.Focus.IsPressed() && player.health.CanHeal())
             {
                 triggerCalled = false;
                 player.anim.Play("playerFocusGet", 0, 0f);

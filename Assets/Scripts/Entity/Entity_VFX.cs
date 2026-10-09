@@ -29,6 +29,15 @@ public class Entity_VFX : MonoBehaviour
     [SerializeField] private GameObject focusBurstPrefab;
     [SerializeField] private Vector3 focusBurstOffset = Vector3.zero;
 
+    [Header("Fireball VFX")]
+    [SerializeField] private GameObject fireballMuzzlePrefab;
+    [SerializeField] private Vector3 fireballMuzzleOffset = Vector3.zero;
+
+    [Header("Scream VFX")]
+    [SerializeField] private GameObject screamPrefab;
+    [SerializeField] private Vector3 screamOffset = Vector3.zero;
+    [SerializeField] private Vector2 screamScale = Vector3.one;
+
     [Header("Wall Jump VFX")]
     [SerializeField] private GameObject wallJumpPuffPrefab;
     [SerializeField] private Vector3 wallJumpPuffOffset = Vector3.zero;
@@ -82,6 +91,29 @@ public class Entity_VFX : MonoBehaviour
         {
             doubleJumpWingsAnim.Play("doubleJumpWings", 0, 0f);
         }
+    }
+
+    public void PlayFireballMuzzleVfx()
+    {
+        if (fireballMuzzlePrefab == null) return;
+        Vector3 spawnPos = transform.position + new Vector3(fireballMuzzleOffset.x * entity.facingDir, fireballMuzzleOffset.y, fireballMuzzleOffset.z);
+        GameObject muzzle = Instantiate(fireballMuzzlePrefab, spawnPos, Quaternion.identity);
+        muzzle.transform.localScale = new Vector3(entity.facingDir, 1f, 1f);
+        if (entity is Player player)
+        {
+            muzzle.GetComponent<Fireball_Muzzle>()?.Setup(player);
+        }
+    }
+
+    public void PlayScreamVfx()
+    {
+        if (screamPrefab == null) return;
+
+        Vector3 spawnPos = transform.position + new Vector3(screamOffset.x * entity.facingDir, screamOffset.y, screamOffset.z);
+
+        GameObject screamObj = Instantiate(screamPrefab, spawnPos, Quaternion.identity);
+
+        screamObj.transform.localScale = new Vector3(screamScale.x * entity.facingDir, screamScale.y, 1f);
     }
 
     private void InitializeCrystalPool()

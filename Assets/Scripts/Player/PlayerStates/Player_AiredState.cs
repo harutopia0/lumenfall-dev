@@ -25,6 +25,11 @@ public class Player_AiredState : PlayerState
     {
         base.Update();
 
+        if (input.Player.Cast.WasPressedThisFrame())
+        {
+            if (player.TryCastSpell()) return;
+        }
+
         if (stateMachine.currentState != this) return;
 
         if (input.Player.Attack.WasPressedThisFrame())

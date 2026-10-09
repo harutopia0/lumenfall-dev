@@ -26,7 +26,7 @@ public class Player_FocusChargeState : PlayerState
     {
         base.Update();
 
-        if (input.Player.FocusCast.WasReleasedThisFrame())
+        if (input.Player.Focus.WasReleasedThisFrame())
         {
             stateMachine.ChangeState(player.focusEndState);
             return;

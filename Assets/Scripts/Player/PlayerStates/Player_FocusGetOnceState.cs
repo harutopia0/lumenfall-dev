@@ -29,7 +29,7 @@ public class Player_FocusGetOnceState : Player_GroundedState
 
         if (triggerCalled)
         {
-            if (input.Player.FocusCast.IsPressed() && player.health.CanHeal())
+            if (input.Player.Focus.IsPressed() && player.health.CanHeal())
             {
                 stateMachine.ChangeState(player.focusGetState);
             }

@@ -11,6 +11,7 @@ public class Player : Entity
 
     public PlayerInputSet input { get; private set; }
     public Player_Health health { get; private set; }
+    public Player_Soul soul { get; private set; }
 
     public Player_IdleState idleState { get; private set; }
     public Player_RunState runState { get; private set; }
@@ -33,6 +34,8 @@ public class Player : Entity
     public Player_FocusGetState focusGetState { get; private set; }
     public Player_FocusGetOnceState focusGetOnceState { get; private set; }
     public Player_FocusEndState focusEndState { get; private set; }
+    public Player_FireballState fireballState { get; private set; }
+    public Player_ScreamState screamState { get; private set; }
 
     [Header("Movements details")]
     public float moveSpeed = 8.5f;
@@ -68,6 +71,10 @@ public class Player : Entity
     // 7 frames @ 8 FPS: 7 / 8 = 0.875s (base focus charge time)
     public float focusChargeTime = 7f / 8f;
 
+    [Header("Spell Details")]
+    [SerializeField] private GameObject fireballPrefab;
+    [SerializeField] private Vector3 fireballOffset = Vector3.zero;
+
     public float defaultGravityScale { get; private set; }
 
     protected override void Awake()
@@ -77,6 +84,7 @@ public class Player : Entity
 
         input = new PlayerInputSet();
         health = GetComponent<Player_Health>();
+        soul = GetComponent<Player_Soul>();
         defaultGravityScale = rb.gravityScale;
 
         idleState = new Player_IdleState(this, stateMachine, "idle");
@@ -100,6 +108,8 @@ public class Player : Entity
         focusGetState = new Player_FocusGetState(this, stateMachine, "focusGet");
         focusGetOnceState = new Player_FocusGetOnceState(this, stateMachine, "focusGetOnce");
         focusEndState = new Player_FocusEndState(this, stateMachine, "focusEnd");
+        fireballState = new Player_FireballState(this, stateMachine, "fireball");
+        screamState = new Player_ScreamState(this, stateMachine, "scream");
     }
     protected override void Update()
     {
@@ -116,6 +126,64 @@ public class Player : Entity
         base.Update();
     }
 
+    private void OnDrawGizmosSelected()
+    {
+        Gizmos.color = Color.cyan;
+        Vector3 fbPos = transform.position + new Vector3(fireballOffset.x * (facingDir != 0 ? facingDir : 1), fireballOffset.y, fireballOffset.z);
+        Gizmos.DrawWireSphere(fbPos, 0.15f);
+    }
+
+    public bool TryCastSpell()
+    {
+        if (soul != null && !soul.HasEnoughSoul(33))
+        {
+            return false;
+        }
+
+        soul?.ConsumeSoul(33);
+
+        if (moveInput.y > 0.5f)
+        {
+            // UPWARD SPELL (W KEY): HOWLING WRAITHS
+            stateMachine.ChangeState(screamState);
+        }
+        else if (moveInput.y < -0.5f && !groundDetected)
+        {
+            // DOWNWARD AIR SPELL (S KEY IN AIR): DESOLATE DIVE / DESCENDING DARK (QUAKE)
+            // Note: Only triggers while mid-air (!groundDetected) matching Hollow Knight mechanics
+            // TODO: When implementing the dive/quake spell, replace with:
+            // stateMachine.ChangeState(quakeAnticState);
+            stateMachine.ChangeState(fireballState);
+        }
+        else
+        {
+            // DEFAULT / HORIZONTAL SPELL (NEUTRAL OR A/D): VENGEFUL SPIRIT / SHADE SOUL
+            stateMachine.ChangeState(fireballState);
+        }
+
+        return true;
+    }
+
+    public void TriggerScreamCast()
+    {
+        vfx?.PlayScreamVfx();
+    }
+
+    public void TriggerFireballCast()
+    {
+        vfx?.PlayFireballMuzzleVfx();
+    }
+
+    public void SpawnFireballProjectile()
+    {
+        if (fireballPrefab == null) return;
+        Vector3 spawnPos = transform.position + new Vector3(fireballOffset.x * facingDir, fireballOffset.y, fireballOffset.z);
+        GameObject fireball = Instantiate(fireballPrefab, spawnPos, Quaternion.identity);
+        Fireball_Projectile proj = fireball.GetComponent<Fireball_Projectile>();
+        proj?.Initialize(facingDir);
+        float recoilSpeed = groundDetected ? 4f : 5.5f;
+        rb.linearVelocity = new Vector2(-facingDir * recoilSpeed, 0f);
+    }
 
     protected override void Start()
     {

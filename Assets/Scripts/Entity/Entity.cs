@@ -16,9 +16,9 @@ public class Entity : MonoBehaviour
     protected StateMachine stateMachine;
 
     [Header("Facing Direction")]
-    [SerializeField] protected FacingDirection defaultFacing = FacingDirection.Right;
+    [SerializeField] protected FacingDirection defaultFacing = FacingDirection.Left;
 
-    public FacingDirection facingDirection { get; private set; } = FacingDirection.Right;
+    public FacingDirection facingDirection { get; private set; } = FacingDirection.Left;
     public int facingDir => (int)facingDirection;
 
     [Header("Collision detection")]
@@ -45,6 +45,11 @@ public class Entity : MonoBehaviour
 
     private bool isKnocked;
     private Coroutine knockbackCo;
+
+    protected virtual void OnValidate()
+    {
+        facingDirection = defaultFacing;
+    }
 
     protected virtual void Awake()
     {
