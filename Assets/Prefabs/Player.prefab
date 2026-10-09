@@ -654,8 +654,8 @@ MonoBehaviour:
   fireballMuzzlePrefab: {fileID: 3565353519369074600, guid: f11f0c49af986734988e859350093845, type: 3}
   fireballMuzzleOffset: {x: 2, y: -0.15, z: -0.0001}
   screamPrefab: {fileID: 3217570236982166687, guid: 3d780014fc8d5554c9e6322736df9077, type: 3}
-  screamOffset: {x: 0, y: 4, z: 0.0001}
-  screamScale: {x: 2, y: 2}
+  screamOffset: {x: 0, y: 2.5, z: 0.0001}
+  screamScale: {x: 1.5, y: 1.5}
   wallJumpPuffPrefab: {fileID: 576263223237463726, guid: ac3e06c5202589f499365a3541e19540, type: 3}
   wallJumpPuffOffset: {x: 0.5, y: 0, z: 0.0001}
   doubleJumpWingsAnim: {fileID: 8871348018407948615}
@@ -920,7 +920,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Unity.RenderPipelines.Universal.2D.Runtime::UnityEngine.Rendering.Universal.Light2D
   m_ComponentVersion: 4
-  m_LightType: 2
+  m_LightType: 3
   m_BlendStyleIndex: 0
   m_Light2DProvider:
     rid: -2
@@ -950,12 +950,12 @@ MonoBehaviour:
     serializedVersion: 0
     m_Bits: 1
   m_LocalBounds:
-    m_Center: {x: 0, y: 0, z: 0}
-    m_Extent: {x: 20.48, y: 20.48, z: 0}
+    m_Center: {x: 0, y: -0.00000011920929, z: 0}
+    m_Extent: {x: 0.9985302, y: 0.99853027, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
-  m_PointLightOuterRadius: 120
+  m_PointLightOuterRadius: 85
   m_ShapeLightParametricSides: 5
   m_ShapeLightParametricAngleOffset: 0
   m_ShapeLightParametricRadius: 1
@@ -971,23 +971,23 @@ MonoBehaviour:
     RefIds:
     - rid: -2
       type: {class: , ns: , asm: }
-    - rid: 7653214506381213706
+    - rid: 7653214670961246218
       type: {class: Light2DSource_BuiltIn, ns: UnityEngine.Rendering.Universal, asm: Unity.RenderPipelines.Universal.2D.Runtime}
       data:
         m_HashCode: 4
-        m_SourceType: 2
+        m_SourceType: 3
         m_MenuPriority: 0
         m_MenuName:
-          m_Text: Sprite
-          m_Image: {fileID: 2800000, guid: 8839c54710da3374f994e12f39b6d65f, type: 3}
+          m_Text: Spot
+          m_Image: {fileID: 2800000, guid: 6eaa9958d83ec43499e946a21edba283, type: 3}
           m_Tooltip: 
-          m_TextWithWhitespace: "Sprite\u200B"
+          m_TextWithWhitespace: "Spot\u200B"
     - rid: 8405754850484944918
       type: {class: Light2DProviderSources, ns: UnityEngine.Rendering.Universal, asm: Unity.RenderPipelines.Universal.2D.Runtime}
       data:
-        m_SelectedHashCode: 2
+        m_SelectedHashCode: 3
         m_SelectedSource:
-          rid: 7653214506381213706
+          rid: 7653214670961246218
         m_Provider2DCache:
           rid: 8405754850484944919
     - rid: 8405754850484944919
