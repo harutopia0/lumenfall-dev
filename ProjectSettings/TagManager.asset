@@ -80,6 +80,12 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: eyes
+    uniqueID: 2672688331
+    locked: 0
+  - name: bubbles
+    uniqueID: 3774791457
+    locked: 0
   m_RenderingLayers:
   - Default
   m_MigratedRenderPipelines: []

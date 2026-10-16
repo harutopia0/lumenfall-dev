@@ -697,7 +697,7 @@ MonoBehaviour:
   heavyKnockbackPower: {x: 7.5, y: 5}
   knockbackDuration: 0.2
   heavyKnockbackDuration: 0.5
-  maxMasks: 20
+  maxMasks: 5
   currentMasks: 0
   heavyDamageThreshold: 2
   invincibilityDuration: 1.5
@@ -728,7 +728,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Player_Soul
   maxSoul: 99
-  currentSoul: 2051
+  currentSoul: 99
 --- !u!1 &2430690471103759065
 GameObject:
   m_ObjectHideFlags: 0
