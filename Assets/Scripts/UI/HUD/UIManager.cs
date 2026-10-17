@@ -32,28 +32,42 @@ public class UIManager : MonoBehaviour
 
     private void SetupCanvasCamera()
     {
-        Canvas canvas = GetComponent<Canvas>();
-        if (canvas != null)
+        Camera targetCamera = Camera.main;
+        if (targetCamera == null)
         {
-            canvas.renderMode = RenderMode.ScreenSpaceCamera;
-            if (canvas.worldCamera == null)
-            {
-                canvas.worldCamera = Camera.main;
-            }
-            canvas.planeDistance = 100f;
+            targetCamera = FindAnyObjectByType<Camera>();
         }
+        Canvas[] canvases = GetComponentsInChildren<Canvas>(true);
+        foreach (Canvas c in canvases)
+        {
+            c.renderMode = RenderMode.ScreenSpaceCamera;
+            if (targetCamera != null)
+            {
+                c.worldCamera = targetCamera;
+            }
+            c.planeDistance = 100f;
+        }
+
+        RenderSettings.fog = false;
     }
 
     private void OnEnable()
     {
+        UnityEngine.SceneManagement.SceneManager.sceneLoaded += HandleSceneLoaded;
         Player_Health.OnPlayerHealthChanged += HandlePlayerHealthChanged;
         Player_Soul.OnPlayerSoulChanged += HandlePlayerSoulChanged;
     }
 
     private void OnDisable()
     {
+        UnityEngine.SceneManagement.SceneManager.sceneLoaded -= HandleSceneLoaded;
         Player_Health.OnPlayerHealthChanged -= HandlePlayerHealthChanged;
         Player_Soul.OnPlayerSoulChanged -= HandlePlayerSoulChanged;
+    }
+
+    private void HandleSceneLoaded(UnityEngine.SceneManagement.Scene scene, UnityEngine.SceneManagement.LoadSceneMode mode)
+    {
+        SetupCanvasCamera();
     }
 
     private void Start()
@@ -103,7 +117,7 @@ public class UIManager : MonoBehaviour
 
         if (isIncrease)
         {
-            updateSoulAnimation.Invoke(10f); // Wave splash
+            updateSoulAnimation.Invoke(1.2f); // Gentle wave splash
         }
         else
         {

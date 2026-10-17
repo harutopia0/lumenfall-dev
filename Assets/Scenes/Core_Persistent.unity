@@ -628,7 +628,7 @@ Canvas:
   m_GameObject: {fileID: 26866038}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 1
+  m_RenderMode: 0
   m_Camera: {fileID: 0}
   m_PlaneDistance: 100
   m_PixelPerfect: 1
@@ -1271,7 +1271,7 @@ GameObject:
   - component: {fileID: 532755695}
   - component: {fileID: 532755697}
   - component: {fileID: 532755696}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Visual Effect
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1330,8 +1330,8 @@ VFXRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -520175839
+  m_SortingLayer: 15
   m_SortingOrder: 0
 --- !u!2083052967 &532755697
 VisualEffect:
@@ -1860,7 +1860,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1865094442}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!73398921 &1045689153
@@ -1901,7 +1901,7 @@ VFXRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -520175839
-  m_SortingLayer: 2
+  m_SortingLayer: 15
   m_SortingOrder: 0
 --- !u!2083052967 &1045689154
 VisualEffect:
@@ -2346,6 +2346,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 532755695}
+  - {fileID: 1045689152}
   m_Father: {fileID: 411386408}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

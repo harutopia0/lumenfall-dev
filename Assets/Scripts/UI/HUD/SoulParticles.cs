@@ -6,23 +6,34 @@ public class SoulParticles : MonoBehaviour
     public RectTransform uiElement;
     public VisualEffect vfxGraphObject;
 
+    private void Awake()
+    {
+        EnsureAttached();
+    }
+
+    private void EnsureAttached()
+    {
+        if (uiElement != null && vfxGraphObject != null)
+        {
+            if (vfxGraphObject.transform.parent != uiElement)
+            {
+                vfxGraphObject.transform.SetParent(uiElement, false);
+            }
+            vfxGraphObject.transform.localPosition = Vector3.zero;
+            vfxGraphObject.transform.localRotation = Quaternion.identity;
+            vfxGraphObject.transform.localScale = Vector3.one;
+        }
+    }
+
     public void Spawn()
     {
         if (uiElement == null || vfxGraphObject == null) return;
+        EnsureAttached();
 
-        Vector3 worldCenter = GetRectTransformWorldCenter(uiElement);
-        float worldWidth = uiElement.rect.width * uiElement.lossyScale.x;
-        float worldHeight = uiElement.rect.height * uiElement.lossyScale.y;
-        Vector3 worldScale = new Vector3(worldWidth, worldHeight, 0);
+        Vector3 localScale = new Vector3(uiElement.rect.width, uiElement.rect.height, 0);
 
-        vfxGraphObject.SetVector3("spawnPosition", worldCenter);
-        vfxGraphObject.SetVector3("worldScale", worldScale);
+        vfxGraphObject.SetVector3("spawnPosition", Vector3.zero);
+        vfxGraphObject.SetVector3("worldScale", localScale);
         vfxGraphObject.Play();
-    }
-
-    private Vector3 GetRectTransformWorldCenter(RectTransform rect)
-    {
-        Vector3 worldPosition = rect.TransformPoint(rect.rect.center);
-        return worldPosition;
     }
 }

@@ -29,41 +29,46 @@ public class UISoul : MonoBehaviour
     Sequence glowAnimation;
     Sequence pulseAnimation;
     Sequence eyeAnimation;
+    Tween fillTween;
     float maxSoul = 99f;
     float currentSoul = 0f;
+    bool hasSoulCharge = false;
+    bool isInitialized = false;
 
     private void Start()
     {
         UIManager.updateSoul.AddListener(UpdateSoulFill);
         UIManager.updateSoulAnimation.AddListener(LenghtenWaves);
-        UIManager.updateSoulAnimation.AddListener(GlowPulse);
 
         if (soulMaterial != null)
         {
-            currentFill = soulMaterial.GetFloat("_fillAmount");
-            soulMaterial.SetFloat("_fillAmount", 1f);
+            currentFill = 0f;
+            soulMaterial.SetFloat("_fillAmount", 0f);
+            soulMaterial.SetFloat("_fillAlpha", 0f);
+            soulMaterial.SetFloat("_glowMultiplier", 0f);
+            soulMaterial.SetFloat("_waveMultiplier", 1f);
         }
 
         waveAnimation = DOTween.Sequence();
         glowAnimation = DOTween.Sequence();
         pulseAnimation = DOTween.Sequence();
         eyeAnimation = DOTween.Sequence();
-        GlowPulsing();
+        glowStrenght = 0f;
     }
 
     private void OnDisable()
     {
         UIManager.updateSoul.RemoveListener(UpdateSoulFill);
         UIManager.updateSoulAnimation.RemoveListener(LenghtenWaves);
-        UIManager.updateSoulAnimation.RemoveListener(GlowPulse);
 
+        fillTween?.Kill();
         waveAnimation?.Kill();
         glowAnimation?.Kill();
         pulseAnimation?.Kill();
         eyeAnimation?.Kill();
     }
 
-    private void FixedUpdate()
+    private void Update()
     {
         if (soulMaterial != null)
         {
@@ -74,17 +79,6 @@ public class UISoul : MonoBehaviour
         if (eyes != null && eyes.material != null)
         {
             UpdateMaterial("_edgeMultiplier", eyeEdgeStrenght, eyes.material);
-        }
-
-        if (isChanging && soulMaterial != null)
-        {
-            DOTween.To(() => currentFill, x => currentFill = x, newFill, 0.2f);
-            soulMaterial.SetFloat("_fillAmount", currentFill);
-            if (Mathf.Approximately(soulMaterial.GetFloat("_fillAmount"), newFill))
-            {
-                isChanging = false;
-                soulMaterial.SetFloat("_waveMultiplier", 1f);
-            }
         }
     }
 
@@ -116,6 +110,7 @@ public class UISoul : MonoBehaviour
 
     private void UpdateSoulFill(float _currentSoul, float _maxSoul, float _soulModifier)
     {
+        float prevSoul = currentSoul;
         currentSoul = _currentSoul;
         maxSoul = _maxSoul;
 
@@ -151,30 +146,65 @@ public class UISoul : MonoBehaviour
             }
         }
 
-        if (soulMaterial != null)
+        // In Hollow Knight, circular particles around the vessel only burst upon crossing the spell charge threshold (33 soul),
+        // signaling a spell / Focus heal is ready, NOT on every individual nail hit (+11).
+        if (!isInitialized)
         {
-            if (_currentSoul < _soulModifier && !Mathf.Approximately(soulMaterial.GetFloat("_fillAlpha"), 0.2f))
+            isInitialized = true;
+            hasSoulCharge = _currentSoul >= _soulModifier;
+        }
+        else
+        {
+            if (_currentSoul >= _soulModifier && !hasSoulCharge)
             {
-                soulMaterial.SetFloat("_fillAlpha", 0.2f);
-            }
-            if (_currentSoul >= _soulModifier && Mathf.Approximately(soulMaterial.GetFloat("_fillAlpha"), 0.2f))
-            {
+                hasSoulCharge = true;
                 if (soulParticles != null)
                 {
                     soulParticles.Spawn();
                 }
-
-                if (soulIncrease != null)
+                else if (soulIncrease != null)
                 {
                     soulIncrease.Play();
                 }
+            }
+            else if (_currentSoul < _soulModifier)
+            {
+                hasSoulCharge = false;
+            }
+        }
 
+        if (soulMaterial != null)
+        {
+            // Fluid is always solid pure white when soul > 0 (never semi-transparent 0.2f cyan)
+            if (_currentSoul > 0.001f)
+            {
                 soulMaterial.SetFloat("_fillAlpha", 1f);
             }
 
             newFill = _maxSoul > 0 ? _currentSoul / _maxSoul : 0f;
             currentFill = soulMaterial.GetFloat("_fillAmount");
             isChanging = true;
+
+            fillTween?.Kill();
+            fillTween = DOTween.To(() => currentFill, x =>
+            {
+                currentFill = x;
+                if (soulMaterial != null)
+                {
+                    soulMaterial.SetFloat("_fillAmount", currentFill);
+                }
+            }, newFill, 0.2f).SetEase(Ease.OutSine).OnComplete(() =>
+            {
+                isChanging = false;
+                if (soulMaterial != null)
+                {
+                    soulMaterial.SetFloat("_waveMultiplier", 1f);
+                    if (_currentSoul <= 0.001f)
+                    {
+                        soulMaterial.SetFloat("_fillAlpha", 0f);
+                    }
+                }
+            });
         }
 
         if (Mathf.Approximately(_currentSoul, _maxSoul) && _maxSoul > 0)

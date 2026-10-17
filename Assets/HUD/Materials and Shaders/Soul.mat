@@ -26,8 +26,7 @@ Material:
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
   - _ALPHATEST_ON
-  m_InvalidKeywords:
-  - _SURFACE_TYPE_TRANSPARENT
+  m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 1
@@ -82,10 +81,10 @@ Material:
     - _ZWrite: 0
     - _ZWriteControl: 0
     - _fillAlpha: 1
-    - _fillAmount: 0.9999991
+    - _fillAmount: 0.33333334
     - _generatedAlpha: 0
-    - _glowIntensity: 0.46
-    - _glowMultiplier: 0.20915788
+    - _glowIntensity: 0
+    - _glowMultiplier: 0
     - _outlineFadeSize: 0.54
     - _outlineSize: 0.9473
     - _waveMultiplier: 1
