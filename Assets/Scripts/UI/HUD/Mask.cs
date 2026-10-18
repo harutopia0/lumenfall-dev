@@ -1,3 +1,4 @@
+using System.Collections;
 using DG.Tweening;
 using UnityEngine;
 using UnityEngine.UI;
@@ -6,18 +7,44 @@ using UnityEngine.VFX;
 public class Mask : MonoBehaviour
 {
     public Image idleMask;
-    public VisualEffect maskBreak;
     [SerializeField] public VisualEffect maskIncrease;
     [SerializeField] public VisualEffect maskShakePrt;
+
+    [Header("Sprite Animations")]
+    [SerializeField] private Sprite[] idleFrames;
+    [SerializeField] private float idleFps = 30f;
+    [SerializeField] public Image breakMask;
+    [SerializeField] private Sprite[] breakFrames;
+    [SerializeField] private float breakFps = 30f;
 
     private Tween maskShake;
     private bool isShaking = false;
     private Tween maskTween;
+    private Coroutine breakCoroutine;
+
+    private void Update()
+    {
+        if (idleMask != null && idleMask.enabled && idleFrames != null && idleFrames.Length > 0)
+        {
+            int frameIndex = (int)(Time.time * idleFps) % idleFrames.Length;
+            idleMask.sprite = idleFrames[frameIndex];
+        }
+    }
 
     public void ChangeMask(bool _enable, int _health)
     {
         if (_enable)
         {
+            if (breakCoroutine != null)
+            {
+                StopCoroutine(breakCoroutine);
+                breakCoroutine = null;
+            }
+            if (breakMask != null)
+            {
+                breakMask.enabled = false;
+            }
+
             if (idleMask != null)
             {
                 idleMask.enabled = true;
@@ -39,15 +66,38 @@ public class Mask : MonoBehaviour
         }
         else
         {
-            if (maskBreak != null)
-            {
-                maskBreak.Play();
-            }
-
             if (idleMask != null)
             {
                 idleMask.enabled = false;
             }
+
+            if (breakMask != null && breakFrames != null && breakFrames.Length > 0)
+            {
+                if (breakCoroutine != null) StopCoroutine(breakCoroutine);
+                breakCoroutine = StartCoroutine(PlayBreakAnimation());
+            }
+        }
+    }
+
+    private IEnumerator PlayBreakAnimation()
+    {
+        breakMask.enabled = true;
+        float frameDuration = 1f / Mathf.Max(1f, breakFps);
+        for (int i = 0; i < breakFrames.Length; i++)
+        {
+            breakMask.sprite = breakFrames[i];
+            yield return new WaitForSeconds(frameDuration);
+        }
+        breakMask.enabled = false;
+        breakCoroutine = null;
+    }
+
+    private void OnDisable()
+    {
+        if (breakCoroutine != null)
+        {
+            StopCoroutine(breakCoroutine);
+            breakCoroutine = null;
         }
     }
 

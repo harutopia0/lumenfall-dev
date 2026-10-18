@@ -81,10 +81,10 @@ Material:
     - _ZWrite: 0
     - _ZWriteControl: 0
     - _fillAlpha: 1
-    - _fillAmount: 0.44444445
+    - _fillAmount: 1
     - _generatedAlpha: 0
     - _glowIntensity: 0
-    - _glowMultiplier: 0
+    - _glowMultiplier: 0.96756893
     - _outlineFadeSize: 0.54
     - _outlineSize: 0.9473
     - _waveMultiplier: 1
