@@ -84,7 +84,7 @@ Material:
     - _fillAmount: 1
     - _generatedAlpha: 0
     - _glowIntensity: 0
-    - _glowMultiplier: 0.96756893
+    - _glowMultiplier: 0.7506293
     - _outlineFadeSize: 0.54
     - _outlineSize: 0.9473
     - _waveMultiplier: 1

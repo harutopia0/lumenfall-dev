@@ -139,6 +139,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   idleMask: {fileID: 8570551912042106581}
+  emptyMask: {fileID: 1594122353199538099}
   maskIncrease: {fileID: 8098556426619348998}
   maskShakePrt: {fileID: 1441458179476286109}
   idleFrames:
@@ -248,7 +249,7 @@ RectTransform:
   m_GameObject: {fileID: 3141592653589793238}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.985, y: 0.985, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1140264602686298132}
