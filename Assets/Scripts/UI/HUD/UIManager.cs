@@ -37,15 +37,21 @@ public class UIManager : MonoBehaviour
         {
             targetCamera = FindAnyObjectByType<Camera>();
         }
+
+        if (targetCamera == null) return;
+
         Canvas[] canvases = GetComponentsInChildren<Canvas>(true);
         foreach (Canvas c in canvases)
         {
-            c.renderMode = RenderMode.ScreenSpaceCamera;
-            if (targetCamera != null)
+            if (c.renderMode != RenderMode.ScreenSpaceCamera)
+            {
+                c.renderMode = RenderMode.ScreenSpaceCamera;
+            }
+
+            if (c.worldCamera != targetCamera)
             {
                 c.worldCamera = targetCamera;
             }
-            c.planeDistance = 100f;
         }
 
         RenderSettings.fog = false;

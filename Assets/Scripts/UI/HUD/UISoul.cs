@@ -34,6 +34,16 @@ public class UISoul : MonoBehaviour
     bool hasSoulCharge = false;
     bool isInitialized = false;
 
+    [Header("Fill Mapping")]
+    [Tooltip("Shader _fillAmount at low soul level (lifted to prevent soul from appearing too low).")]
+    [SerializeField] private float minShaderFill = 0.05f;
+    [Tooltip("Shader _fillAmount around 88% soul (keeps waves visible before max).")]
+    [SerializeField] private float midShaderFill = 0.72f;
+    [Tooltip("Shader _fillAmount when soul is 100% max (submerges vessel so waves completely disappear).")]
+    [SerializeField] private float maxShaderFill = 1.02f;
+    [Tooltip("Curvature exponent (< 1.0 lifts 33-soul / spell charges to match spherical volume).")]
+    [SerializeField] private float fillCurvePower = 0.85f;
+
     [Header("Liquid Skin")]
     [SerializeField] private Texture2D liquidTexture;
     private Texture2D generatedFluidTexture;
@@ -43,6 +53,23 @@ public class UISoul : MonoBehaviour
     private bool colorsCached = false;
     private Color[] pixelBuffer;
     private const int FluidTexSize = 128;
+
+    public float RemapSoulToShaderFill(float soulRatio)
+    {
+        if (soulRatio <= 0.001f) return minShaderFill - 0.10f;
+        float r = Mathf.Clamp01(soulRatio);
+        if (r < 0.88f)
+        {
+            float t = r / 0.88f;
+            float curvedT = Mathf.Pow(t, fillCurvePower);
+            return Mathf.Lerp(minShaderFill, midShaderFill, curvedT);
+        }
+
+        // From 88% to 100%: smoothly rise to maxShaderFill so waves submerge and vanish completely at full soul
+        float s = (r - 0.88f) / 0.12f;
+        float smoothS = s * s * (3f - 2f * s);
+        return Mathf.Lerp(midShaderFill, maxShaderFill, smoothS);
+    }
 
     private void Start()
     {
@@ -54,7 +81,8 @@ public class UISoul : MonoBehaviour
         if (soulMaterial != null)
         {
             currentFill = 0f;
-            soulMaterial.SetFloat("_fillAmount", 0f);
+            newFill = 0f;
+            soulMaterial.SetFloat("_fillAmount", RemapSoulToShaderFill(0f));
             soulMaterial.SetFloat("_fillAlpha", 0f);
             soulMaterial.SetFloat("_glowMultiplier", 0f);
             soulMaterial.SetFloat("_waveMultiplier", 1f);
@@ -192,23 +220,25 @@ public class UISoul : MonoBehaviour
                 soulMaterial.SetFloat("_fillAlpha", 1f);
             }
 
-            newFill = _maxSoul > 0 ? _currentSoul / _maxSoul : 0f;
-            currentFill = soulMaterial.GetFloat("_fillAmount");
+            newFill = _maxSoul > 0 ? Mathf.Clamp01(_currentSoul / _maxSoul) : 0f;
+            float startFill = currentFill;
 
             fillTween?.Kill();
-            fillTween = DOTween.To(() => currentFill, x =>
+            fillTween = DOTween.To(() => startFill, x =>
             {
                 currentFill = x;
                 if (soulMaterial != null)
                 {
-                    soulMaterial.SetFloat("_fillAmount", currentFill);
+                    soulMaterial.SetFloat("_fillAmount", RemapSoulToShaderFill(currentFill));
                 }
                 UpdateFluidColor(currentFill);
             }, newFill, 0.2f).SetEase(Ease.OutSine).OnComplete(() =>
             {
+                currentFill = newFill;
                 if (soulMaterial != null)
                 {
                     soulMaterial.SetFloat("_waveMultiplier", 1f);
+                    soulMaterial.SetFloat("_fillAmount", RemapSoulToShaderFill(newFill));
                     if (_currentSoul <= 0.001f)
                     {
                         soulMaterial.SetFloat("_fillAlpha", 0f);
@@ -297,31 +327,35 @@ public class UISoul : MonoBehaviour
         UpdateFluidTexturePixels(fillRatio);
     }
 
+    private Color SampleLiquidColor(float v, Color shadow, Color body, Color highlight)
+    {
+        // Phân bổ 50% dải gradient:
+        // - Nửa dưới (v < 0.5f): 50% vùng tối chuyển từ shadow (đáy bình) lên body (thân chất lỏng).
+        // - Nửa trên (v >= 0.5f): chuyển từ body lên highlight tự nhiên được trích xuất từ liquid (không ép sang màu trắng).
+        if (v < 0.5f)
+        {
+            float t = v / 0.5f;
+            return Color.Lerp(shadow, body, t);
+        }
+        else
+        {
+            float t = (v - 0.5f) / 0.5f;
+            return Color.Lerp(body, highlight, t);
+        }
+    }
+
     private void UpdateFluidTexturePixels(float fillRatio)
     {
         if (generatedFluidTexture == null || pixelBuffer == null) return;
 
-        float fill = Mathf.Clamp01(fillRatio);
+        float actualWaterLevel = Mathf.Clamp01(RemapSoulToShaderFill(fillRatio));
         float center = FluidTexSize / 2f;
 
         for (int y = 0; y < FluidTexSize; y++)
         {
             float normY = y / (float)(FluidTexSize - 1);
-            // Light penetration depth:
-            // At surface (normY = fill): v = 1.0 (Highlight)
-            // At bottom (normY = 0): v = 1.0 - fill
-            float v = Mathf.Clamp01(1f - fill + normY);
-            Color baseColor;
-            if (v < 0.5f)
-            {
-                float t = v / 0.5f;
-                baseColor = Color.Lerp(cachedShadow, cachedBody, t);
-            }
-            else
-            {
-                float t = (v - 0.5f) / 0.5f;
-                baseColor = Color.Lerp(cachedBody, cachedHighlight, t);
-            }
+            float v = Mathf.Clamp01(1f - actualWaterLevel + normY);
+            Color baseColor = SampleLiquidColor(v, cachedShadow, cachedBody, cachedHighlight);
 
             for (int x = 0; x < FluidTexSize; x++)
             {
@@ -365,9 +399,10 @@ public class UISoul : MonoBehaviour
 
     private void ExtractLiquidGradient(Texture2D source, out Color shadow, out Color body, out Color highlight)
     {
-        shadow = Color.black;
-        body = Color.white;
-        highlight = Color.white;
+        // Màu mặc định chuẩn từ bảng màu Sprite Liquid thực tế:
+        shadow = new Color(0.118f, 0.192f, 0.345f); // Deep liquid navy RGB(30, 49, 88)
+        body = new Color(0.424f, 0.502f, 0.655f);   // Mid liquid blue RGB(108, 128, 167)
+        highlight = new Color(0.796f, 0.875f, 1.0f); // Radiant soul blue RGB(203, 223, 255)
 
         try
         {
@@ -386,42 +421,62 @@ public class UISoul : MonoBehaviour
             RenderTexture.ReleaseTemporary(rt);
 
             Color[] pixels = temp.GetPixels();
-            Destroy(temp);
+            if (Application.isPlaying)
+            {
+                Destroy(temp);
+            }
+            else
+            {
+                DestroyImmediate(temp);
+            }
 
-            var opaqueColors = new System.Collections.Generic.List<Color>(pixels.Length / 2);
+            var seen = new System.Collections.Generic.HashSet<int>();
+            var uniqueLiquidColors = new System.Collections.Generic.List<Color>();
+
             for (int i = 0; i < pixels.Length; i++)
             {
                 Color c = pixels[i];
                 if (c.a > 0.35f)
                 {
-                    opaqueColors.Add(c);
+                    // Lọc bỏ bọt trắng viền sóng / specular white (r, g, b > 0.90f)
+                    // để màu đỉnh (highlight) giữ trọn vẹn sắc lam phát sáng của chất lỏng, không bị chuyển thành màu trắng thuần:
+                    if (c.r > 0.90f && c.g > 0.90f && c.b > 0.90f)
+                    {
+                        continue;
+                    }
+
+                    // Khử trùng lặp màu để hàng chục nghìn pixel nền navy đồng nhất không bóp méo phân vị màu:
+                    int r = Mathf.RoundToInt(c.r * 255f);
+                    int g = Mathf.RoundToInt(c.g * 255f);
+                    int b = Mathf.RoundToInt(c.b * 255f);
+                    int key = (r << 16) | (g << 8) | b;
+
+                    if (seen.Add(key))
+                    {
+                        uniqueLiquidColors.Add(c);
+                    }
                 }
             }
 
-            if (opaqueColors.Count > 0)
+            if (uniqueLiquidColors.Count > 0)
             {
-                opaqueColors.Sort((a, b) =>
+                uniqueLiquidColors.Sort((a, b) =>
                 {
                     float lumA = 0.299f * a.r + 0.587f * a.g + 0.114f * a.b;
                     float lumB = 0.299f * b.r + 0.587f * b.g + 0.114f * b.b;
                     return lumA.CompareTo(lumB);
                 });
 
-                int count = opaqueColors.Count;
-                shadow = opaqueColors[Mathf.Clamp((int)(count * 0.05f), 0, count - 1)];
-                body = opaqueColors[Mathf.Clamp((int)(count * 0.50f), 0, count - 1)];
-                highlight = opaqueColors[Mathf.Clamp((int)(count * 0.95f), 0, count - 1)];
-                return;
+                int count = uniqueLiquidColors.Count;
+                shadow = uniqueLiquidColors[Mathf.Clamp((int)(count * 0.05f), 0, count - 1)];
+                body = uniqueLiquidColors[Mathf.Clamp((int)(count * 0.50f), 0, count - 1)];
+                highlight = uniqueLiquidColors[Mathf.Clamp((int)(count * 0.95f), 0, count - 1)];
             }
         }
         catch (System.Exception ex)
         {
             Debug.LogWarning($"[UISoul] Could not extract gradient colors from liquid texture: {ex.Message}");
         }
-
-        shadow = new Color(0.1f, 0.15f, 0.3f);
-        body = new Color(0.15f, 0.25f, 0.5f);
-        highlight = Color.white;
     }
 
 #if UNITY_EDITOR
@@ -440,7 +495,7 @@ public class UISoul : MonoBehaviour
         for (int y = 0; y < 256; y++)
         {
             float normY = y / 255f;
-            Color baseColor = normY < 0.5f ? Color.Lerp(shadow, body, normY / 0.5f) : Color.Lerp(body, highlight, (normY - 0.5f) / 0.5f);
+            Color baseColor = SampleLiquidColor(normY, shadow, body, highlight);
             baseColor.a = 1f;
 
             for (int x = 0; x < 256; x++)
@@ -450,11 +505,11 @@ public class UISoul : MonoBehaviour
         }
         baked.Apply();
 
+        string assetPath = "Assets/Graphics/HUD/HUD_Soul_LiquidColor.png";
+        string fullPath = System.IO.Path.Combine(Application.dataPath, "Graphics/HUD/HUD_Soul_LiquidColor.png");
         byte[] pngData = baked.EncodeToPNG();
         DestroyImmediate(baked);
 
-        string assetPath = "Assets/Graphics/HUD/HUD_Soul_LiquidColor.png";
-        string fullPath = System.IO.Path.Combine(Application.dataPath, "Graphics/HUD/HUD_Soul_LiquidColor.png");
         System.IO.File.WriteAllBytes(fullPath, pngData);
         UnityEditor.AssetDatabase.ImportAsset(assetPath, UnityEditor.ImportAssetOptions.ForceUpdate);
         Debug.Log($"[UISoul] Successfully baked new liquid gradient to {assetPath}!");

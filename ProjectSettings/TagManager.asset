@@ -74,11 +74,11 @@ TagManager:
   - name: Gameplay
     uniqueID: 822795231
     locked: 0
-  - name: 'UI '
-    uniqueID: 2445576419
-    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: UI
+    uniqueID: 2445576419
     locked: 0
   - name: eyes
     uniqueID: 2672688331
