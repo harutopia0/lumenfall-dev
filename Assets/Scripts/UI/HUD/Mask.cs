@@ -7,7 +7,6 @@ using UnityEngine.VFX;
 public class Mask : MonoBehaviour
 {
     public Image idleMask;
-    [SerializeField] public Image emptyMask;
     [SerializeField] public VisualEffect maskIncrease;
     [SerializeField] public VisualEffect maskShakePrt;
 
@@ -22,15 +21,6 @@ public class Mask : MonoBehaviour
     private bool isShaking = false;
     private Tween maskTween;
     private Coroutine breakCoroutine;
-
-    private void Awake()
-    {
-        if (emptyMask == null)
-        {
-            Transform back = transform.Find("Back");
-            if (back != null) emptyMask = back.GetComponent<Image>();
-        }
-    }
 
     private void Update()
     {
@@ -53,10 +43,6 @@ public class Mask : MonoBehaviour
             if (breakMask != null)
             {
                 breakMask.enabled = false;
-            }
-            if (emptyMask != null)
-            {
-                emptyMask.enabled = true;
             }
 
             if (idleMask != null)
@@ -90,16 +76,11 @@ public class Mask : MonoBehaviour
                 if (breakCoroutine != null) StopCoroutine(breakCoroutine);
                 breakCoroutine = StartCoroutine(PlayBreakAnimation());
             }
-            else
-            {
-                if (emptyMask != null) emptyMask.enabled = true;
-            }
         }
     }
 
     private IEnumerator PlayBreakAnimation()
     {
-        if (emptyMask != null) emptyMask.enabled = false;
         breakMask.enabled = true;
         float frameDuration = 1f / Mathf.Max(1f, breakFps);
         for (int i = 0; i < breakFrames.Length; i++)
@@ -108,7 +89,6 @@ public class Mask : MonoBehaviour
             yield return new WaitForSeconds(frameDuration);
         }
         breakMask.enabled = false;
-        if (emptyMask != null) emptyMask.enabled = true;
         breakCoroutine = null;
     }
 
@@ -119,7 +99,6 @@ public class Mask : MonoBehaviour
             StopCoroutine(breakCoroutine);
             breakCoroutine = null;
         }
-        if (emptyMask != null) emptyMask.enabled = true;
         if (breakMask != null) breakMask.enabled = false;
     }
 

@@ -1135,6 +1135,7 @@ MonoBehaviour:
   waveLenghtSpeed: 0.2
   eyeAppearThreshold: 0.33
   transparencyThreshold: 0
+  liquidTexture: {fileID: 2800000, guid: ca1fbd39a1ea3a123103dd9232dc4bf1, type: 3}
 --- !u!114 &411386413
 MonoBehaviour:
   m_ObjectHideFlags: 0
