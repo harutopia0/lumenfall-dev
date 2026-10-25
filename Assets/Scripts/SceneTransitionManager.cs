@@ -60,9 +60,45 @@ public class SceneTransitionManager : MonoBehaviour
         StartCoroutine(TransitionRoutine(nextSceneName, targetSpawnPointName));
     }
 
-    private void InitializePlayerPosition(string spawnPointName, Scene targetScene)
+    public void InitializePlayerPosition(string spawnPointName, Scene targetScene)
     {
-        GameObject spawnPoint = FindObjectInScene(targetScene, spawnPointName);
+        currentLoadedRoomScene = targetScene.name;
+
+        GameObject spawnPoint = null;
+
+        if (!string.IsNullOrEmpty(spawnPointName))
+        {
+            spawnPoint = FindObjectInScene(targetScene, spawnPointName);
+        }
+
+        // Fallback: search for configured defaultSpawnPointName or Spawn_Default
+        if (spawnPoint == null)
+        {
+            if (!string.IsNullOrEmpty(defaultSpawnPointName))
+            {
+                spawnPoint = FindObjectInScene(targetScene, defaultSpawnPointName);
+            }
+
+            if (spawnPoint == null)
+            {
+                spawnPoint = FindObjectInScene(targetScene, "Spawn_Default");
+            }
+        }
+
+        // Secondary fallback: search for any SpawnPoint component in the scene
+        if (spawnPoint == null && targetScene.IsValid())
+        {
+            foreach (GameObject root in targetScene.GetRootGameObjects())
+            {
+                SpawnPoint sp = root.GetComponentInChildren<SpawnPoint>(true);
+                if (sp != null)
+                {
+                    spawnPoint = sp.gameObject;
+                    break;
+                }
+            }
+        }
+
         Player player = Object.FindAnyObjectByType<Player>();
 
         Vector2 targetPosition = Vector2.zero;
@@ -88,6 +124,11 @@ public class SceneTransitionManager : MonoBehaviour
         if (CameraController.Instance != null && area != null)
         {
             CameraController.Instance.ForceSetArea(area);
+        }
+
+        if (UIManager.Instance != null)
+        {
+            UIManager.Instance.SetupCanvasCamera();
         }
     }
 
@@ -133,31 +174,7 @@ public class SceneTransitionManager : MonoBehaviour
         Scene newScene = SceneManager.GetSceneByName(nextSceneName);
         SceneManager.SetActiveScene(newScene);
 
-        GameObject spawnPoint = FindObjectInScene(newScene, targetSpawnPointName);
-        Vector2 targetPosition = Vector2.zero;
-
-        if (spawnPoint != null && player != null)
-        {
-            player.transform.position = spawnPoint.transform.position;
-            targetPosition = spawnPoint.transform.position;
-            if (player.TryGetComponent<Rigidbody2D>(out var rb))
-            {
-                rb.position = spawnPoint.transform.position;
-                rb.linearVelocity = Vector2.zero;
-            }
-        }
-        else if (player != null)
-        {
-            targetPosition = player.transform.position;
-        }
-
-        Physics2D.SyncTransforms();
-
-        CameraLockArea newArea = FindTargetAreaInScene(newScene, targetPosition);
-        if (CameraController.Instance != null && newArea != null)
-        {
-            CameraController.Instance.ForceSetArea(newArea);
-        }
+        InitializePlayerPosition(targetSpawnPointName, newScene);
 
         yield return new WaitForEndOfFrame();
         yield return StartCoroutine(FadeRoutine(1f, 0f));

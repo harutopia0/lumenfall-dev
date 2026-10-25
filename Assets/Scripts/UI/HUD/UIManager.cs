@@ -30,9 +30,29 @@ public class UIManager : MonoBehaviour
         SetupCanvasCamera();
     }
 
-    private void SetupCanvasCamera()
+    public void SetupCanvasCamera()
     {
-        Camera targetCamera = Camera.main;
+        Camera targetCamera = null;
+
+        if (CameraController.Instance != null)
+        {
+            targetCamera = CameraController.Instance.GetComponent<Camera>();
+        }
+
+        if (targetCamera == null)
+        {
+            Camera mainCam = Camera.main;
+            if (mainCam != null && mainCam.gameObject.scene.name != "MainMenu")
+            {
+                targetCamera = mainCam;
+            }
+        }
+
+        if (targetCamera == null)
+        {
+            targetCamera = Camera.main;
+        }
+
         if (targetCamera == null)
         {
             targetCamera = FindAnyObjectByType<Camera>();
@@ -57,6 +77,26 @@ public class UIManager : MonoBehaviour
         RenderSettings.fog = false;
     }
 
+    public void RefreshHUD()
+    {
+        SetupCanvasCamera();
+
+        Player player = FindAnyObjectByType<Player>();
+        if (player != null)
+        {
+            Player_Health hp = player.GetComponent<Player_Health>();
+            if (hp != null)
+            {
+                HandlePlayerHealthChanged(hp.CurrentMasks, hp.MaxMasks);
+            }
+            Player_Soul sl = player.GetComponent<Player_Soul>();
+            if (sl != null)
+            {
+                HandlePlayerSoulChanged(sl.CurrentSoul, sl.MaxSoul);
+            }
+        }
+    }
+
     private void OnEnable()
     {
         UnityEngine.SceneManagement.SceneManager.sceneLoaded += HandleSceneLoaded;
@@ -73,7 +113,7 @@ public class UIManager : MonoBehaviour
 
     private void HandleSceneLoaded(UnityEngine.SceneManagement.Scene scene, UnityEngine.SceneManagement.LoadSceneMode mode)
     {
-        SetupCanvasCamera();
+        RefreshHUD();
     }
 
     private void Start()
