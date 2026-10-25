@@ -1,0 +1,5982 @@
+fileFormatVersion: 2
+guid: 2cf85c7644e2c03488f081dae0213bba
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3259530492038170283
+    second: vignette_mask_0
+  - first:
+      213: 4350509645684150910
+    second: vignette_mask_1
+  - first:
+      213: 5859482931364350343
+    second: vignette_mask_2
+  - first:
+      213: -1876927230416611905
+    second: vignette_mask_3
+  - first:
+      213: -7439816828775912406
+    second: vignette_mask_4
+  - first:
+      213: -8200377271988263901
+    second: vignette_mask_5
+  - first:
+      213: 4301368095319778737
+    second: vignette_mask_6
+  - first:
+      213: -4192301335746659483
+    second: vignette_mask_7
+  - first:
+      213: 8478373313285054576
+    second: vignette_mask_8
+  - first:
+      213: -3480491310197339938
+    second: vignette_mask_9
+  - first:
+      213: 4541397864935899361
+    second: vignette_mask_10
+  - first:
+      213: -1430949274583314802
+    second: vignette_mask_11
+  - first:
+      213: 5241373826736237009
+    second: vignette_mask_12
+  - first:
+      213: -871286280083843452
+    second: vignette_mask_13
+  - first:
+      213: 9086084115005137437
+    second: vignette_mask_14
+  - first:
+      213: 3520957514714221952
+    second: vignette_mask_15
+  - first:
+      213: 8892558023874527731
+    second: vignette_mask_16
+  - first:
+      213: -3346859562081217196
+    second: vignette_mask_17
+  - first:
+      213: -2538284642810786530
+    second: vignette_mask_18
+  - first:
+      213: -6904342749218152088
+    second: vignette_mask_19
+  - first:
+      213: -3874929405211828415
+    second: vignette_mask_20
+  - first:
+      213: 805822797322027927
+    second: vignette_mask_21
+  - first:
+      213: -5169584642693710910
+    second: vignette_mask_22
+  - first:
+      213: -277675784849913185
+    second: vignette_mask_23
+  - first:
+      213: -9080170934611092057
+    second: vignette_mask_24
+  - first:
+      213: 4850273256356151943
+    second: vignette_mask_25
+  - first:
+      213: 348135138548631009
+    second: vignette_mask_26
+  - first:
+      213: -3997535009791977143
+    second: vignette_mask_27
+  - first:
+      213: 4353423192732166729
+    second: vignette_mask_28
+  - first:
+      213: -3187689865228279239
+    second: vignette_mask_29
+  - first:
+      213: 3314184012853552556
+    second: vignette_mask_30
+  - first:
+      213: 2520513393951798191
+    second: vignette_mask_31
+  - first:
+      213: -3367235557779428981
+    second: vignette_mask_32
+  - first:
+      213: -8091638645428893552
+    second: vignette_mask_33
+  - first:
+      213: -2143691586340175932
+    second: vignette_mask_34
+  - first:
+      213: -6720223119355572288
+    second: vignette_mask_35
+  - first:
+      213: -4869359706154815127
+    second: vignette_mask_36
+  - first:
+      213: 9080869817410472315
+    second: vignette_mask_37
+  - first:
+      213: -9173028867225093512
+    second: vignette_mask_38
+  - first:
+      213: -8268705324150526233
+    second: vignette_mask_39
+  - first:
+      213: -6438111354209420981
+    second: vignette_mask_40
+  - first:
+      213: 1302871791175710471
+    second: vignette_mask_41
+  - first:
+      213: -347999945503077261
+    second: vignette_mask_42
+  - first:
+      213: 5538523461136612149
+    second: vignette_mask_43
+  - first:
+      213: -3200573465839682879
+    second: vignette_mask_44
+  - first:
+      213: -3703296438025457990
+    second: vignette_mask_45
+  - first:
+      213: -9062178965810285638
+    second: vignette_mask_46
+  - first:
+      213: -8749281337104108314
+    second: vignette_mask_47
+  - first:
+      213: -3291642603872031252
+    second: vignette_mask_48
+  - first:
+      213: -6246064489479443987
+    second: vignette_mask_49
+  - first:
+      213: 5459444505677592331
+    second: vignette_mask_50
+  - first:
+      213: -4715792061475309910
+    second: vignette_mask_51
+  - first:
+      213: -146058511368717259
+    second: vignette_mask_52
+  - first:
+      213: 4574622137542823335
+    second: vignette_mask_53
+  - first:
+      213: 1674088052757574911
+    second: vignette_mask_54
+  - first:
+      213: 6095959841029656682
+    second: vignette_mask_55
+  - first:
+      213: -8910166583009771707
+    second: vignette_mask_56
+  - first:
+      213: 1419076539365432876
+    second: vignette_mask_57
+  - first:
+      213: 527747496138538055
+    second: vignette_mask_58
+  - first:
+      213: 704227797461727834
+    second: vignette_mask_59
+  - first:
+      213: -3640650650672751077
+    second: vignette_mask_60
+  - first:
+      213: -5374280320853787993
+    second: vignette_mask_61
+  - first:
+      213: 5076799288130363666
+    second: vignette_mask_62
+  - first:
+      213: -7289080307628016663
+    second: vignette_mask_63
+  - first:
+      213: -1796543248878946995
+    second: vignette_mask_64
+  - first:
+      213: 3709913819985707049
+    second: vignette_mask_65
+  - first:
+      213: 2136704585300309512
+    second: vignette_mask_66
+  - first:
+      213: 4324567520945584358
+    second: vignette_mask_67
+  - first:
+      213: 5810142173203314649
+    second: vignette_mask_68
+  - first:
+      213: -1065643510739226007
+    second: vignette_mask_69
+  - first:
+      213: -7014535976503220764
+    second: vignette_mask_70
+  - first:
+      213: 2938343439140753697
+    second: vignette_mask_71
+  - first:
+      213: 840454669260332130
+    second: vignette_mask_72
+  - first:
+      213: 4420933872643385168
+    second: vignette_mask_73
+  - first:
+      213: 7969768647593751378
+    second: vignette_mask_74
+  - first:
+      213: -5809644219776151444
+    second: vignette_mask_75
+  - first:
+      213: -1727987434757629008
+    second: vignette_mask_76
+  - first:
+      213: 546274211752144103
+    second: vignette_mask_77
+  - first:
+      213: 6524191200685759048
+    second: vignette_mask_78
+  - first:
+      213: -1680302574735763807
+    second: vignette_mask_79
+  - first:
+      213: -4709212490309425306
+    second: vignette_mask_80
+  - first:
+      213: -3309564967511268502
+    second: vignette_mask_81
+  - first:
+      213: 8945121340101374844
+    second: vignette_mask_82
+  - first:
+      213: -2464597650435195379
+    second: vignette_mask_83
+  - first:
+      213: 5588996887456821503
+    second: vignette_mask_84
+  - first:
+      213: 4577181923617678955
+    second: vignette_mask_85
+  - first:
+      213: 3013034966751777494
+    second: vignette_mask_86
+  - first:
+      213: 8668860491208855864
+    second: vignette_mask_87
+  - first:
+      213: -8576415262067886074
+    second: vignette_mask_88
+  - first:
+      213: 5173054213222989121
+    second: vignette_mask_89
+  - first:
+      213: 3144288990634018438
+    second: vignette_mask_90
+  - first:
+      213: 1734113477469507043
+    second: vignette_mask_91
+  - first:
+      213: -4029408565412704455
+    second: vignette_mask_92
+  - first:
+      213: -3124335353540991550
+    second: vignette_mask_93
+  - first:
+      213: 6555647156870901549
+    second: vignette_mask_94
+  - first:
+      213: 4456361459378725183
+    second: vignette_mask_95
+  - first:
+      213: 4976529604165111067
+    second: vignette_mask_96
+  - first:
+      213: -3548846397538874120
+    second: vignette_mask_97
+  - first:
+      213: -8415444661026456270
+    second: vignette_mask_98
+  - first:
+      213: -6449443755726830501
+    second: vignette_mask_99
+  - first:
+      213: 676089488182021175
+    second: vignette_mask_100
+  - first:
+      213: -3720933388911314176
+    second: vignette_mask_101
+  - first:
+      213: 2677593086580808895
+    second: vignette_mask_102
+  - first:
+      213: 5951231712437455814
+    second: vignette_mask_103
+  - first:
+      213: -8268945430178629008
+    second: vignette_mask_104
+  - first:
+      213: -7265608291149713342
+    second: vignette_mask_105
+  - first:
+      213: -6290211990836681612
+    second: vignette_mask_106
+  - first:
+      213: -1319099295709920056
+    second: vignette_mask_107
+  - first:
+      213: -5877432466853140275
+    second: vignette_mask_108
+  - first:
+      213: -5957718706575170148
+    second: vignette_mask_109
+  - first:
+      213: -5223417813739448155
+    second: vignette_mask_110
+  - first:
+      213: 7116362461496576485
+    second: vignette_mask_111
+  - first:
+      213: -7762778258422421199
+    second: vignette_mask_112
+  - first:
+      213: -3346373390430735233
+    second: vignette_mask_113
+  - first:
+      213: -1832611335552138972
+    second: vignette_mask_114
+  - first:
+      213: -4234749465274117297
+    second: vignette_mask_115
+  - first:
+      213: 1071496793269758185
+    second: vignette_mask_116
+  - first:
+      213: -1053575235133311773
+    second: vignette_mask_117
+  - first:
+      213: 215741135567346644
+    second: vignette_mask_118
+  - first:
+      213: 1200547171144589923
+    second: vignette_mask_119
+  - first:
+      213: 1238118656016402532
+    second: vignette_mask_120
+  - first:
+      213: 110790045599610803
+    second: vignette_mask_121
+  - first:
+      213: 4505474033377823695
+    second: vignette_mask_122
+  - first:
+      213: -6363778035150460192
+    second: vignette_mask_123
+  - first:
+      213: -7655064822982213801
+    second: vignette_mask_124
+  - first:
+      213: 7402526352847625402
+    second: vignette_mask_125
+  - first:
+      213: -7251326631377398121
+    second: vignette_mask_126
+  - first:
+      213: -8535929462494064030
+    second: vignette_mask_127
+  - first:
+      213: 5899821047556966002
+    second: vignette_mask_128
+  - first:
+      213: 2256879146416573917
+    second: vignette_mask_129
+  - first:
+      213: 6864236316725247961
+    second: vignette_mask_130
+  - first:
+      213: -278663130088572961
+    second: vignette_mask_131
+  - first:
+      213: 782875392398184794
+    second: vignette_mask_132
+  - first:
+      213: -6758697622860188193
+    second: vignette_mask_133
+  - first:
+      213: -1242225684950638881
+    second: vignette_mask_134
+  - first:
+      213: -1260165142035686379
+    second: vignette_mask_135
+  - first:
+      213: 7079554387271881814
+    second: vignette_mask_136
+  - first:
+      213: -8771670665847903295
+    second: vignette_mask_137
+  - first:
+      213: -8024351012295080491
+    second: vignette_mask_138
+  - first:
+      213: 9159201242115184241
+    second: vignette_mask_139
+  - first:
+      213: 8705437996420008919
+    second: vignette_mask_140
+  - first:
+      213: -3862625619148843418
+    second: vignette_mask_141
+  - first:
+      213: 3991253430805445912
+    second: vignette_mask_142
+  - first:
+      213: 3167786231304691391
+    second: vignette_mask_143
+  - first:
+      213: -7481850597370420998
+    second: vignette_mask_144
+  - first:
+      213: -2313220804262318912
+    second: vignette_mask_145
+  - first:
+      213: -9034482600232322510
+    second: vignette_mask_146
+  - first:
+      213: -7109374020957612023
+    second: vignette_mask_147
+  - first:
+      213: -577744149217873145
+    second: vignette_mask_148
+  - first:
+      213: -6705380426206743249
+    second: vignette_mask_149
+  - first:
+      213: -1340096462393189949
+    second: vignette_mask_150
+  - first:
+      213: 4154424663292867071
+    second: vignette_mask_151
+  - first:
+      213: 5858789127513211661
+    second: vignette_mask_152
+  - first:
+      213: 1545519772419697765
+    second: vignette_mask_153
+  - first:
+      213: -7727273483000670934
+    second: vignette_mask_154
+  - first:
+      213: 615176268563469019
+    second: vignette_mask_155
+  - first:
+      213: 1239908889151142667
+    second: vignette_mask_156
+  - first:
+      213: -6736793462148004046
+    second: vignette_mask_157
+  - first:
+      213: 5390655137935239927
+    second: vignette_mask_158
+  - first:
+      213: 8492188716590026264
+    second: vignette_mask_159
+  - first:
+      213: -346289463739767847
+    second: vignette_mask_160
+  - first:
+      213: 2155606844041070671
+    second: vignette_mask_161
+  - first:
+      213: -6735627676649320147
+    second: vignette_mask_162
+  - first:
+      213: -8603965388862627585
+    second: vignette_mask_163
+  - first:
+      213: -4895618228329844435
+    second: vignette_mask_164
+  - first:
+      213: 5564469468875399498
+    second: vignette_mask_165
+  - first:
+      213: -3415148008428863354
+    second: vignette_mask_166
+  - first:
+      213: -3820103788796884089
+    second: vignette_mask_167
+  - first:
+      213: 366194673014687798
+    second: vignette_mask_168
+  - first:
+      213: -5339441469054137731
+    second: vignette_mask_169
+  - first:
+      213: -8394663897902222134
+    second: vignette_mask_170
+  - first:
+      213: 5924320002830341957
+    second: vignette_mask_171
+  - first:
+      213: -7757257470372861347
+    second: vignette_mask_172
+  - first:
+      213: 3564121667415180585
+    second: vignette_mask_173
+  - first:
+      213: -352596877515477581
+    second: vignette_mask_174
+  - first:
+      213: 3868836848562480253
+    second: vignette_mask_175
+  - first:
+      213: -6765240776964015821
+    second: vignette_mask_176
+  - first:
+      213: 4828896347504736515
+    second: vignette_mask_177
+  - first:
+      213: 6824540924425315564
+    second: vignette_mask_178
+  - first:
+      213: -7078241613236021423
+    second: vignette_mask_179
+  - first:
+      213: 8021741870949045857
+    second: vignette_mask_180
+  - first:
+      213: -1005074297528083697
+    second: vignette_mask_181
+  - first:
+      213: 290879928400266277
+    second: vignette_mask_182
+  - first:
+      213: 6823647159532639050
+    second: vignette_mask_183
+  - first:
+      213: -7322995791976368840
+    second: vignette_mask_184
+  - first:
+      213: -5373683198235144963
+    second: vignette_mask_185
+  - first:
+      213: 3282291258381735791
+    second: vignette_mask_186
+  - first:
+      213: -5093719355534643473
+    second: vignette_mask_187
+  - first:
+      213: -3099495118373760065
+    second: vignette_mask_188
+  - first:
+      213: 6660157696605674933
+    second: vignette_mask_189
+  - first:
+      213: 5719197679391026494
+    second: vignette_mask_190
+  - first:
+      213: 7776756401904084386
+    second: vignette_mask_191
+  - first:
+      213: 4565283290587674508
+    second: vignette_mask_192
+  - first:
+      213: 1282870520752151031
+    second: vignette_mask_193
+  - first:
+      213: -1724160435384342997
+    second: vignette_mask_194
+  - first:
+      213: -1010682476152186766
+    second: vignette_mask_195
+  - first:
+      213: 1047350298847429080
+    second: vignette_mask_196
+  - first:
+      213: -1468297310109826901
+    second: vignette_mask_197
+  - first:
+      213: 7899417431783997553
+    second: vignette_mask_198
+  - first:
+      213: 1510835658589305568
+    second: vignette_mask_199
+  - first:
+      213: 4480626651414435669
+    second: vignette_mask_200
+  - first:
+      213: -1694111296250999037
+    second: vignette_mask_201
+  - first:
+      213: -3888341440694301438
+    second: vignette_mask_202
+  - first:
+      213: 6585789592105624704
+    second: vignette_mask_203
+  - first:
+      213: 158301385659914136
+    second: vignette_mask_204
+  - first:
+      213: 199957935128191845
+    second: vignette_mask_205
+  - first:
+      213: -3597808018690372670
+    second: vignette_mask_206
+  - first:
+      213: -734016126710197606
+    second: vignette_mask_207
+  - first:
+      213: -1677783441615547357
+    second: vignette_mask_208
+  - first:
+      213: 2042609688650551552
+    second: vignette_mask_209
+  - first:
+      213: -2456831387840090872
+    second: vignette_mask_210
+  - first:
+      213: 496642224294941403
+    second: vignette_mask_211
+  - first:
+      213: 922753218813988232
+    second: vignette_mask_212
+  - first:
+      213: -4610707014812466286
+    second: vignette_mask_213
+  - first:
+      213: 1642968125584290671
+    second: vignette_mask_214
+  - first:
+      213: 4458014298899648218
+    second: vignette_mask_215
+  - first:
+      213: -8333950116169810713
+    second: vignette_mask_216
+  - first:
+      213: 5043246575345987391
+    second: vignette_mask_217
+  - first:
+      213: -1455413208141879463
+    second: vignette_mask_218
+  - first:
+      213: 2781224504044678870
+    second: vignette_mask_219
+  - first:
+      213: 3590516369897149308
+    second: vignette_mask_220
+  - first:
+      213: -5376941092121347863
+    second: vignette_mask_221
+  - first:
+      213: -7052603587537297504
+    second: vignette_mask_222
+  - first:
+      213: 6647442869544353772
+    second: vignette_mask_223
+  - first:
+      213: -3068339144382748797
+    second: vignette_mask_224
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: vignette_mask_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 930
+        width: 2048
+        height: 522
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 559b2878942d3c2d0800000000000000
+      internalID: -3259530492038170283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_1
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 946
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e721ae6097d106c30800000000000000
+      internalID: 4350509645684150910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_2
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 943
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 789cf636ea0115150800000000000000
+      internalID: 5859482931364350343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_3
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 946
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb592c9d0a0d3f5e0800000000000000
+      internalID: -1876927230416611905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_4
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 947
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2ca6d6130670c890800000000000000
+      internalID: -7439816828775912406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_5
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 947
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 324e3fe8158623e80800000000000000
+      internalID: -8200377271988263901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_6
+      rect:
+        serializedVersion: 2
+        x: 1435
+        y: 946
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b5ebb93e7781bb30800000000000000
+      internalID: 4301368095319778737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_7
+      rect:
+        serializedVersion: 2
+        x: 1699
+        y: 947
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56bbc6b9524f1d5c0800000000000000
+      internalID: -4192301335746659483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_8
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 715
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 070e18bab9b39a570800000000000000
+      internalID: 8478373313285054576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_9
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 711
+        width: 30
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed88ad3089fc2bfc0800000000000000
+      internalID: -3480491310197339938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_10
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 715
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e0c83bfb49460f30800000000000000
+      internalID: 4541397864935899361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_11
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 715
+        width: 18
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8ecbdc573f342ce0800000000000000
+      internalID: -1430949274583314802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_12
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 715
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d9a4a5b9b91db840800000000000000
+      internalID: 5241373826736237009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_13
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 711
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4865ee99eb198e3f0800000000000000
+      internalID: -871286280083843452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_14
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 711
+        width: 26
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d12633acc51481e70800000000000000
+      internalID: 9086084115005137437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_15
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 719
+        width: 17
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08d88cd6434fcd030800000000000000
+      internalID: 3520957514714221952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_16
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 711
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f1479d6866b86b70800000000000000
+      internalID: 8892558023874527731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_17
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 715
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4559701f5f09d81d0800000000000000
+      internalID: -3346859562081217196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_18
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 711
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1d0f66d09336ccd0800000000000000
+      internalID: -2538284642810786530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_19
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 711
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 861ee41b9d8de20a0800000000000000
+      internalID: -6904342749218152088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_20
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 719
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14f12a87c3c793ac0800000000000000
+      internalID: -3874929405211828415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_21
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 719
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7938a42909bde2b00800000000000000
+      internalID: 805822797322027927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_22
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 715
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cb3de73822f148b0800000000000000
+      internalID: -5169584642693710910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_23
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 714
+        width: 26
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9a0b49485f752cf0800000000000000
+      internalID: -277675784849913185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_24
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 711
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7adddaec4a0ccf180800000000000000
+      internalID: -9080170934611092057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_25
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 719
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7828fac24d1af4340800000000000000
+      internalID: 4850273256356151943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_26
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 711
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e5c5036013d4d400800000000000000
+      internalID: 348135138548631009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_27
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 715
+        width: 27
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9495924a617e588c0800000000000000
+      internalID: -3997535009791977143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_28
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 715
+        width: 40
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94a6fbf04577a6c30800000000000000
+      internalID: 4353423192732166729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_29
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 713
+        width: 33
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 932a4f8e4fc03c3d0800000000000000
+      internalID: -3187689865228279239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_30
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 715
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca52a66ecc85efd20800000000000000
+      internalID: 3314184012853552556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_31
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 715
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa37c1ad399aaf220800000000000000
+      internalID: 2520513393951798191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_32
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 715
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b892e7fb91d2541d0800000000000000
+      internalID: -3367235557779428981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_33
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 715
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0984368f589b4bf80800000000000000
+      internalID: -8091638645428893552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_34
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 715
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cf33382cd31042e0800000000000000
+      internalID: -2143691586340175932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_35
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 715
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cf817f9da8fcb2a0800000000000000
+      internalID: -6720223119355572288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_36
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 715
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 961ba0f652f8c6cb0800000000000000
+      internalID: -4869359706154815127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_37
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 711
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7941568cfab50e70800000000000000
+      internalID: 9080869817410472315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_38
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 711
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87af4a698dad2b080800000000000000
+      internalID: -9173028867225093512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_39
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 715
+        width: 20
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ee60a13158af3d80800000000000000
+      internalID: -8268705324150526233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_40
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 715
+        width: 51
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4930fb75db37a6a0800000000000000
+      internalID: -6438111354209420981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_41
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 711
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 707b7ecbdfab41210800000000000000
+      internalID: 1302871791175710471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_42
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 715
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37c0f62b4e7ab2bf0800000000000000
+      internalID: -347999945503077261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_43
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 715
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53bf6395eb9ccdc40800000000000000
+      internalID: 5538523461136612149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_44
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 719
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cab513e3674593d0800000000000000
+      internalID: -3200573465839682879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_45
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 719
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abee581b28f3b9cc0800000000000000
+      internalID: -3703296438025457990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_46
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 715
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab37cdb7e3cac3280800000000000000
+      internalID: -9062178965810285638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_47
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 711
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e474f5cafe449680800000000000000
+      internalID: -8749281337104108314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_48
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 715
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ced6aacdd7cb152d0800000000000000
+      internalID: -3291642603872031252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_49
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 715
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de9656c90758159a0800000000000000
+      internalID: -6246064489479443987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_50
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 715
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b07fedf3ad7d3cb40800000000000000
+      internalID: 5459444505677592331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_51
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 711
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa6382dfa142e8eb0800000000000000
+      internalID: -4715792061475309910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_52
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 711
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53cf179ce8819fdf0800000000000000
+      internalID: -146058511368717259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_53
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 715
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7adc0e1c8925c7f30800000000000000
+      internalID: 4574622137542823335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_54
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 715
+        width: 22
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff4375bd63e8b3710800000000000000
+      internalID: 1674088052757574911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_55
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 715
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a609e997d23399450800000000000000
+      internalID: 6095959841029656682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_56
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 711
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54f752a63bab85480800000000000000
+      internalID: -8910166583009771707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_57
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 711
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2e97fd089291b310800000000000000
+      internalID: 1419076539365432876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_58
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 715
+        width: 22
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74c70763d8fe25700800000000000000
+      internalID: 527747496138538055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_59
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 715
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5a79ac537be5c900800000000000000
+      internalID: 704227797461727834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_60
+      rect:
+        serializedVersion: 2
+        x: 1051
+        y: 719
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1e1b5fa58fc97dc0800000000000000
+      internalID: -3640650650672751077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_61
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 711
+        width: 27
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7aa3328b588ba65b0800000000000000
+      internalID: -5374280320853787993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_62
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 711
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21167f4fd0a647640800000000000000
+      internalID: 5076799288130363666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_63
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 715
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9eb7984541cf7da90800000000000000
+      internalID: -7289080307628016663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_64
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 711
+        width: 22
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d45b1f20f656117e0800000000000000
+      internalID: -1796543248878946995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_65
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 715
+        width: 30
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9208f8b96f24c7330800000000000000
+      internalID: 3709913819985707049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_66
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 715
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 806f5c4ef7917ad10800000000000000
+      internalID: 2136704585300309512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_67
+      rect:
+        serializedVersion: 2
+        x: 1207
+        y: 711
+        width: 20
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e8372d6f33f30c30800000000000000
+      internalID: 4324567520945584358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_68
+      rect:
+        serializedVersion: 2
+        x: 1239
+        y: 714
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d7bc48e585c1a050800000000000000
+      internalID: 5810142173203314649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_69
+      rect:
+        serializedVersion: 2
+        x: 1251
+        y: 719
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 962303d7fd21631f0800000000000000
+      internalID: -1065643510739226007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_70
+      rect:
+        serializedVersion: 2
+        x: 1267
+        y: 714
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e5e358a1bc57ae90800000000000000
+      internalID: -7014535976503220764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_71
+      rect:
+        serializedVersion: 2
+        x: 1299
+        y: 719
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12195163ac717c820800000000000000
+      internalID: 2938343439140753697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_72
+      rect:
+        serializedVersion: 2
+        x: 1307
+        y: 715
+        width: 30
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26c941b9115e9ab00800000000000000
+      internalID: 840454669260332130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_73
+      rect:
+        serializedVersion: 2
+        x: 1337
+        y: 711
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 057a66e1fef4a5d30800000000000000
+      internalID: 4420933872643385168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_74
+      rect:
+        serializedVersion: 2
+        x: 1363
+        y: 711
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 253feddfb5e4a9e60800000000000000
+      internalID: 7969768647593751378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_75
+      rect:
+        serializedVersion: 2
+        x: 1387
+        y: 715
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6057d8ec5fff5fa0800000000000000
+      internalID: -5809644219776151444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_76
+      rect:
+        serializedVersion: 2
+        x: 1395
+        y: 715
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bbdee65594f408e0800000000000000
+      internalID: -1727987434757629008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_77
+      rect:
+        serializedVersion: 2
+        x: 1417
+        y: 719
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ec61755081c49700800000000000000
+      internalID: 546274211752144103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_78
+      rect:
+        serializedVersion: 2
+        x: 1435
+        y: 711
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84a9a9394559a8a50800000000000000
+      internalID: 6524191200685759048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_79
+      rect:
+        serializedVersion: 2
+        x: 1451
+        y: 715
+        width: 26
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a653bdf5bd5ea8e0800000000000000
+      internalID: -1680302574735763807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_80
+      rect:
+        serializedVersion: 2
+        x: 1487
+        y: 715
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6672647c03485aeb0800000000000000
+      internalID: -4709212490309425306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_81
+      rect:
+        serializedVersion: 2
+        x: 1515
+        y: 711
+        width: 25
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a63e96662301212d0800000000000000
+      internalID: -3309564967511268502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_82
+      rect:
+        serializedVersion: 2
+        x: 1547
+        y: 715
+        width: 54
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c73328d2774732c70800000000000000
+      internalID: 8945121340101374844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_83
+      rect:
+        serializedVersion: 2
+        x: 1603
+        y: 715
+        width: 39
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0e3c83be7dfbcdd0800000000000000
+      internalID: -2464597650435195379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_84
+      rect:
+        serializedVersion: 2
+        x: 1643
+        y: 715
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff0b0afae0b109d40800000000000000
+      internalID: 5588996887456821503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_85
+      rect:
+        serializedVersion: 2
+        x: 1663
+        y: 715
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b66229565ba658f30800000000000000
+      internalID: 4577181923617678955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_86
+      rect:
+        serializedVersion: 2
+        x: 1683
+        y: 711
+        width: 29
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d21219a65370d920800000000000000
+      internalID: 3013034966751777494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_87
+      rect:
+        serializedVersion: 2
+        x: 1723
+        y: 715
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8311ce9efaafd4870800000000000000
+      internalID: 8668860491208855864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_88
+      rect:
+        serializedVersion: 2
+        x: 1735
+        y: 715
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 608743a42c37af880800000000000000
+      internalID: -8576415262067886074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_89
+      rect:
+        serializedVersion: 2
+        x: 1745
+        y: 715
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14d7efe16616ac740800000000000000
+      internalID: 5173054213222989121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_90
+      rect:
+        serializedVersion: 2
+        x: 1751
+        y: 711
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68689e58d22c2ab20800000000000000
+      internalID: 3144288990634018438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_91
+      rect:
+        serializedVersion: 2
+        x: 1779
+        y: 719
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ed89c0250fc01810800000000000000
+      internalID: 1734113477469507043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_92
+      rect:
+        serializedVersion: 2
+        x: 1791
+        y: 715
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93fc8ab224aa418c0800000000000000
+      internalID: -4029408565412704455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_93
+      rect:
+        serializedVersion: 2
+        x: 1807
+        y: 711
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c5aef4ac8124a4d0800000000000000
+      internalID: -3124335353540991550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_94
+      rect:
+        serializedVersion: 2
+        x: 1827
+        y: 715
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2fe61a1b565afa50800000000000000
+      internalID: 6555647156870901549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_95
+      rect:
+        serializedVersion: 2
+        x: 1839
+        y: 711
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f31a201f22d28dd30800000000000000
+      internalID: 4456361459378725183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_96
+      rect:
+        serializedVersion: 2
+        x: 1851
+        y: 711
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1d0a76ee4f201540800000000000000
+      internalID: 4976529604165111067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_97
+      rect:
+        serializedVersion: 2
+        x: 1887
+        y: 715
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fc45480107ffbec0800000000000000
+      internalID: -3548846397538874120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_98
+      rect:
+        serializedVersion: 2
+        x: 1902
+        y: 711
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23d7f80faa5563b80800000000000000
+      internalID: -8415444661026456270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_99
+      rect:
+        serializedVersion: 2
+        x: 1918
+        y: 711
+        width: 23
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b548a052319fe76a0800000000000000
+      internalID: -6449443755726830501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_100
+      rect:
+        serializedVersion: 2
+        x: 1947
+        y: 715
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73c0773bec3f16900800000000000000
+      internalID: 676089488182021175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_101
+      rect:
+        serializedVersion: 2
+        x: 1961
+        y: 719
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00bfc011cc69c5cc0800000000000000
+      internalID: -3720933388911314176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_102
+      rect:
+        serializedVersion: 2
+        x: 1971
+        y: 715
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbcd0bac9b8b82520800000000000000
+      internalID: 2677593086580808895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_103
+      rect:
+        serializedVersion: 2
+        x: 1977
+        y: 711
+        width: 20
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cbcfd326b5079250800000000000000
+      internalID: 5951231712437455814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_104
+      rect:
+        serializedVersion: 2
+        x: 2003
+        y: 715
+        width: 28
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07afc1721fdce3d80800000000000000
+      internalID: -8268945430178629008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_105
+      rect:
+        serializedVersion: 2
+        x: 2034
+        y: 715
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24073e801cf5b2b90800000000000000
+      internalID: -7265608291149713342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_106
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 711
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 474e644758da4b8a0800000000000000
+      internalID: -6290211990836681612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_107
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 711
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c40ebfed2e91bde0800000000000000
+      internalID: -1319099295709920056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_108
+      rect:
+        serializedVersion: 2
+        x: 1227
+        y: 711
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc8eed5bf4a2f6ea0800000000000000
+      internalID: -5877432466853140275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_109
+      rect:
+        serializedVersion: 2
+        x: 1503
+        y: 711
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9523e6d66ee15da0800000000000000
+      internalID: -5957718706575170148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_110
+      rect:
+        serializedVersion: 2
+        x: 1951
+        y: 711
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a8dc9a5c21b287b0800000000000000
+      internalID: -5223417813739448155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_111
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 599
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e98d6264f562c260800000000000000
+      internalID: 7116362461496576485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_112
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 603
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1392b9c8d42154490800000000000000
+      internalID: -7762778258422421199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_113
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 599
+        width: 23
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f747e89912b4f81d0800000000000000
+      internalID: -3346373390430735233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_114
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 603
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4218f0d23b14196e0800000000000000
+      internalID: -1832611335552138972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_115
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 603
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f439f894cc52b35c0800000000000000
+      internalID: -4234749465274117297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_116
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 603
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e860dc08a8bede00800000000000000
+      internalID: 1071496793269758185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_117
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 599
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e4fabdd7e2f061f0800000000000000
+      internalID: -1053575235133311773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_118
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 606
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4db5ee47b677ef200800000000000000
+      internalID: 215741135567346644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_119
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 603
+        width: 18
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3626c289a4339a010800000000000000
+      internalID: 1200547171144589923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_120
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 603
+        width: 37
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46844a99b5eae2110800000000000000
+      internalID: 1238118656016402532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_121
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 601
+        width: 23
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b73d90a5fa998100800000000000000
+      internalID: 110790045599610803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_122
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 603
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcb4b3823c8a68e30800000000000000
+      internalID: 4505474033377823695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_123
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 602
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ea6c6108915fa7a0800000000000000
+      internalID: -6363778035150460192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_124
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 599
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75f7e8d0a1fb3c590800000000000000
+      internalID: -7655064822982213801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_125
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 603
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abc53f56f7e0bb660800000000000000
+      internalID: 7402526352847625402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_126
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 604
+        width: 27
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7969b6219dc1e5b90800000000000000
+      internalID: -7251326631377398121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_127
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 607
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 262104011694a8980800000000000000
+      internalID: -8535929462494064030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_128
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 607
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2768102fbff50e150800000000000000
+      internalID: 5899821047556966002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_129
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 599
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddd852f40ab025f10800000000000000
+      internalID: 2256879146416573917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_130
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 603
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9df7eb0df8aa24f50800000000000000
+      internalID: 6864236316725247961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_131
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 603
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd7721f0c5df12cf0800000000000000
+      internalID: -278663130088572961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_132
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 605
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a51d94385055dda00800000000000000
+      internalID: 782875392398184794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_133
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 601
+        width: 29
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd5342532584432a0800000000000000
+      internalID: -6758697622860188193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_134
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 606
+        width: 18
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fde96a5325ab2cee0800000000000000
+      internalID: -1242225684950638881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_135
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 605
+        width: 21
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51c12aeda7ef28ee0800000000000000
+      internalID: -1260165142035686379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_136
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 604
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6541665c431af3260800000000000000
+      internalID: 7079554387271881814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_137
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 601
+        width: 42
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cbeb63f004c44680800000000000000
+      internalID: -8771670665847903295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_138
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 603
+        width: 19
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d50b17e447c3a090800000000000000
+      internalID: -8024351012295080491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_139
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 603
+        width: 26
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 176979e80050c1f70800000000000000
+      internalID: 9159201242115184241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_140
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 603
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7db8dcefbbdefc870800000000000000
+      internalID: 8705437996420008919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_141
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 607
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6665f46e672356ac0800000000000000
+      internalID: -3862625619148843418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_142
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 607
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81db7b749d7c36730800000000000000
+      internalID: 3991253430805445912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_143
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 603
+        width: 22
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbe1a413bcc36fb20800000000000000
+      internalID: 3167786231304691391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_144
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 603
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af02131b5802b2890800000000000000
+      internalID: -7481850597370420998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_145
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 605
+        width: 22
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cca6ea3fe9c5efd0800000000000000
+      internalID: -2313220804262318912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_146
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 604
+        width: 21
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23a74bb11f11f9280800000000000000
+      internalID: -9034482600232322510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_147
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 601
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9085e69befd665d90800000000000000
+      internalID: -7109374020957612023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_148
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 600
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 703feced1c07bf7f0800000000000000
+      internalID: -577744149217873145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_149
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 604
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f25f61c6704b1f2a0800000000000000
+      internalID: -6705380426206743249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_150
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 601
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c9db4a1e55076de0800000000000000
+      internalID: -1340096462393189949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_151
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 601
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff171bd583b77a930800000000000000
+      internalID: 4154424663292867071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_152
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 603
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0388579ba99e4150800000000000000
+      internalID: 5858789127513211661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_153
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 603
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56c2b646b0ac27510800000000000000
+      internalID: 1545519772419697765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_154
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 607
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a25137345b533c490800000000000000
+      internalID: -7727273483000670934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_155
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 603
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd2d9f19e8b898800800000000000000
+      internalID: 615176268563469019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_156
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 604
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0bf3bbb09a053110800000000000000
+      internalID: 1239908889151142667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_157
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 601
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2378e7b0a0a1282a0800000000000000
+      internalID: -6736793462148004046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_158
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 603
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7faa34b79447fca40800000000000000
+      internalID: 5390655137935239927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_159
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 607
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81ecde9e4a05ad570800000000000000
+      internalID: 8492188716590026264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_160
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 601
+        width: 28
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d3a454419bb13bf0800000000000000
+      internalID: -346289463739767847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_161
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 607
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f480876f0014aed10800000000000000
+      internalID: 2155606844041070671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_162
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 603
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d211702a05e3682a0800000000000000
+      internalID: -6735627676649320147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_163
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 603
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff066198013989880800000000000000
+      internalID: -8603965388862627585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_164
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 601
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d21f870d8254f0cb0800000000000000
+      internalID: -4895618228329844435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_165
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 602
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4123d70087f83d40800000000000000
+      internalID: 5564469468875399498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_166
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 601
+        width: 34
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68007360bf4fa90d0800000000000000
+      internalID: -3415148008428863354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_167
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 603
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78b43a708d34cfac0800000000000000
+      internalID: -3820103788796884089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_168
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 603
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6384eab6d1cf41500800000000000000
+      internalID: 366194673014687798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_169
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 603
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7ac902064e76e5b0800000000000000
+      internalID: -5339441469054137731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_170
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 607
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac4fdb469a9208b80800000000000000
+      internalID: -8394663897902222134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_171
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 603
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 547917877a9673250800000000000000
+      internalID: 5924320002830341957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_172
+      rect:
+        serializedVersion: 2
+        x: 1111
+        y: 599
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5a2e2f2e6fa85490800000000000000
+      internalID: -7757257470372861347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_173
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 600
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9250e82e5cd467130800000000000000
+      internalID: 3564121667415180585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_174
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 604
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bd27ce02035b1bf0800000000000000
+      internalID: -352596877515477581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_175
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 602
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d742284ad9ed0b530800000000000000
+      internalID: 3868836848562480253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_176
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 603
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 339721d6b590d12a0800000000000000
+      internalID: -6765240776964015821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_177
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 603
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 309733ab4afa30340800000000000000
+      internalID: 4828896347504736515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_178
+      rect:
+        serializedVersion: 2
+        x: 1187
+        y: 603
+        width: 24
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce4ac7310d3a5be50800000000000000
+      internalID: 6824540924425315564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_179
+      rect:
+        serializedVersion: 2
+        x: 1211
+        y: 607
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 157dda041c805cd90800000000000000
+      internalID: -7078241613236021423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_180
+      rect:
+        serializedVersion: 2
+        x: 1219
+        y: 595
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1669bc90bb3f25f60800000000000000
+      internalID: 8021741870949045857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_181
+      rect:
+        serializedVersion: 2
+        x: 1243
+        y: 607
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0b96f260424d02f0800000000000000
+      internalID: -1005074297528083697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_182
+      rect:
+        serializedVersion: 2
+        x: 1251
+        y: 603
+        width: 18
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 524c694f0c9690400800000000000000
+      internalID: 290879928400266277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_183
+      rect:
+        serializedVersion: 2
+        x: 1275
+        y: 605
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a43db8830f672be50800000000000000
+      internalID: 6823647159532639050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_184
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 601
+        width: 33
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8357197402e7f5a90800000000000000
+      internalID: -7322995791976368840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_185
+      rect:
+        serializedVersion: 2
+        x: 1327
+        y: 600
+        width: 22
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfc85b92a97dc65b0800000000000000
+      internalID: -5373683198235144963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_186
+      rect:
+        serializedVersion: 2
+        x: 1357
+        y: 600
+        width: 23
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f679639528a0d8d20800000000000000
+      internalID: 3282291258381735791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_187
+      rect:
+        serializedVersion: 2
+        x: 1383
+        y: 603
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fee63dbdb397f49b0800000000000000
+      internalID: -5093719355534643473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_188
+      rect:
+        serializedVersion: 2
+        x: 1402
+        y: 603
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb356469c916cf4d0800000000000000
+      internalID: -3099495118373760065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_189
+      rect:
+        serializedVersion: 2
+        x: 1415
+        y: 604
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bdd3465322ad6c50800000000000000
+      internalID: 6660157696605674933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_190
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 604
+        width: 25
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3d2750ecfbae5f40800000000000000
+      internalID: 5719197679391026494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_191
+      rect:
+        serializedVersion: 2
+        x: 1459
+        y: 604
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a5ec389eb69ceb60800000000000000
+      internalID: 7776756401904084386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_192
+      rect:
+        serializedVersion: 2
+        x: 1475
+        y: 601
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c87318207f42b5f30800000000000000
+      internalID: 4565283290587674508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_193
+      rect:
+        serializedVersion: 2
+        x: 1491
+        y: 602
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f9904211fbadc110800000000000000
+      internalID: 1282870520752151031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_194
+      rect:
+        serializedVersion: 2
+        x: 1499
+        y: 605
+        width: 20
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b262221183d8218e0800000000000000
+      internalID: -1724160435384342997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_195
+      rect:
+        serializedVersion: 2
+        x: 1531
+        y: 607
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2789c3c84a559f1f0800000000000000
+      internalID: -1010682476152186766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_196
+      rect:
+        serializedVersion: 2
+        x: 1543
+        y: 604
+        width: 30
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d143363c8fe88e00800000000000000
+      internalID: 1047350298847429080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_197
+      rect:
+        serializedVersion: 2
+        x: 1579
+        y: 607
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba00e36306f8f9be0800000000000000
+      internalID: -1468297310109826901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_198
+      rect:
+        serializedVersion: 2
+        x: 1595
+        y: 602
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17083022d4e50ad60800000000000000
+      internalID: 7899417431783997553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_199
+      rect:
+        serializedVersion: 2
+        x: 1611
+        y: 603
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ea7538d60197f410800000000000000
+      internalID: 1510835658589305568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_200
+      rect:
+        serializedVersion: 2
+        x: 1635
+        y: 603
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55794b833326e2e30800000000000000
+      internalID: 4480626651414435669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_201
+      rect:
+        serializedVersion: 2
+        x: 1643
+        y: 601
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30f8bf870ce4d78e0800000000000000
+      internalID: -1694111296250999037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_202
+      rect:
+        serializedVersion: 2
+        x: 1663
+        y: 603
+        width: 22
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20d4cfd9f06d90ac0800000000000000
+      internalID: -3888341440694301438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_203
+      rect:
+        serializedVersion: 2
+        x: 1687
+        y: 603
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 084abe2bdbc656b50800000000000000
+      internalID: 6585789592105624704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_204
+      rect:
+        serializedVersion: 2
+        x: 1695
+        y: 607
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89716b38546623200800000000000000
+      internalID: 158301385659914136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_205
+      rect:
+        serializedVersion: 2
+        x: 1708
+        y: 601
+        width: 29
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 563265dbea466c200800000000000000
+      internalID: 199957935128191845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_206
+      rect:
+        serializedVersion: 2
+        x: 1743
+        y: 603
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cb88e34ba4021ec0800000000000000
+      internalID: -3597808018690372670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_207
+      rect:
+        serializedVersion: 2
+        x: 1763
+        y: 601
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a92d704c83040d5f0800000000000000
+      internalID: -734016126710197606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_208
+      rect:
+        serializedVersion: 2
+        x: 1787
+        y: 603
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 324197069d057b8e0800000000000000
+      internalID: -1677783441615547357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_209
+      rect:
+        serializedVersion: 2
+        x: 1799
+        y: 603
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00199ca80bec85c10800000000000000
+      internalID: 2042609688650551552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_210
+      rect:
+        serializedVersion: 2
+        x: 1807
+        y: 603
+        width: 26
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80de2ce9ed497edd0800000000000000
+      internalID: -2456831387840090872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_211
+      rect:
+        serializedVersion: 2
+        x: 1833
+        y: 602
+        width: 31
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd25f8fb87d64e600800000000000000
+      internalID: 496642224294941403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_212
+      rect:
+        serializedVersion: 2
+        x: 1867
+        y: 604
+        width: 22
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88d81ced9274ecc00800000000000000
+      internalID: 922753218813988232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_213
+      rect:
+        serializedVersion: 2
+        x: 1896
+        y: 597
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29383ba066a7300c0800000000000000
+      internalID: -4610707014812466286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_214
+      rect:
+        serializedVersion: 2
+        x: 1915
+        y: 606
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f63bdbe2ecefcc610800000000000000
+      internalID: 1642968125584290671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_215
+      rect:
+        serializedVersion: 2
+        x: 1931
+        y: 606
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ade8681a26c0edd30800000000000000
+      internalID: 4458014298899648218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_216
+      rect:
+        serializedVersion: 2
+        x: 1939
+        y: 603
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ec7fd5468cd75c80800000000000000
+      internalID: -8333950116169810713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_217
+      rect:
+        serializedVersion: 2
+        x: 1955
+        y: 603
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3fe33e3a063df540800000000000000
+      internalID: 5043246575345987391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_218
+      rect:
+        serializedVersion: 2
+        x: 1963
+        y: 603
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 957aa47f5655dcbe0800000000000000
+      internalID: -1455413208141879463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_219
+      rect:
+        serializedVersion: 2
+        x: 1975
+        y: 601
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dee13c63f4e89620800000000000000
+      internalID: 2781224504044678870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_220
+      rect:
+        serializedVersion: 2
+        x: 1999
+        y: 605
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c73d1f37d9314d130800000000000000
+      internalID: 3590516369897149308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_221
+      rect:
+        serializedVersion: 2
+        x: 2004
+        y: 603
+        width: 40
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e8f7e1a0944165b0800000000000000
+      internalID: -5376941092121347863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_222
+      rect:
+        serializedVersion: 2
+        x: 1599
+        y: 599
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0af9137476e102e90800000000000000
+      internalID: -7052603587537297504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_223
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 2048
+        height: 396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ceff4e7f116704c50800000000000000
+      internalID: 6647442869544353772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vignette_mask_224
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 378
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 387e3a01ec11b65d0800000000000000
+      internalID: -3068339144382748797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      vignette_mask_0: -3259530492038170283
+      vignette_mask_1: 4350509645684150910
+      vignette_mask_10: 4541397864935899361
+      vignette_mask_100: 676089488182021175
+      vignette_mask_101: -3720933388911314176
+      vignette_mask_102: 2677593086580808895
+      vignette_mask_103: 5951231712437455814
+      vignette_mask_104: -8268945430178629008
+      vignette_mask_105: -7265608291149713342
+      vignette_mask_106: -6290211990836681612
+      vignette_mask_107: -1319099295709920056
+      vignette_mask_108: -5877432466853140275
+      vignette_mask_109: -5957718706575170148
+      vignette_mask_11: -1430949274583314802
+      vignette_mask_110: -5223417813739448155
+      vignette_mask_111: 7116362461496576485
+      vignette_mask_112: -7762778258422421199
+      vignette_mask_113: -3346373390430735233
+      vignette_mask_114: -1832611335552138972
+      vignette_mask_115: -4234749465274117297
+      vignette_mask_116: 1071496793269758185
+      vignette_mask_117: -1053575235133311773
+      vignette_mask_118: 215741135567346644
+      vignette_mask_119: 1200547171144589923
+      vignette_mask_12: 5241373826736237009
+      vignette_mask_120: 1238118656016402532
+      vignette_mask_121: 110790045599610803
+      vignette_mask_122: 4505474033377823695
+      vignette_mask_123: -6363778035150460192
+      vignette_mask_124: -7655064822982213801
+      vignette_mask_125: 7402526352847625402
+      vignette_mask_126: -7251326631377398121
+      vignette_mask_127: -8535929462494064030
+      vignette_mask_128: 5899821047556966002
+      vignette_mask_129: 2256879146416573917
+      vignette_mask_13: -871286280083843452
+      vignette_mask_130: 6864236316725247961
+      vignette_mask_131: -278663130088572961
+      vignette_mask_132: 782875392398184794
+      vignette_mask_133: -6758697622860188193
+      vignette_mask_134: -1242225684950638881
+      vignette_mask_135: -1260165142035686379
+      vignette_mask_136: 7079554387271881814
+      vignette_mask_137: -8771670665847903295
+      vignette_mask_138: -8024351012295080491
+      vignette_mask_139: 9159201242115184241
+      vignette_mask_14: 9086084115005137437
+      vignette_mask_140: 8705437996420008919
+      vignette_mask_141: -3862625619148843418
+      vignette_mask_142: 3991253430805445912
+      vignette_mask_143: 3167786231304691391
+      vignette_mask_144: -7481850597370420998
+      vignette_mask_145: -2313220804262318912
+      vignette_mask_146: -9034482600232322510
+      vignette_mask_147: -7109374020957612023
+      vignette_mask_148: -577744149217873145
+      vignette_mask_149: -6705380426206743249
+      vignette_mask_15: 3520957514714221952
+      vignette_mask_150: -1340096462393189949
+      vignette_mask_151: 4154424663292867071
+      vignette_mask_152: 5858789127513211661
+      vignette_mask_153: 1545519772419697765
+      vignette_mask_154: -7727273483000670934
+      vignette_mask_155: 615176268563469019
+      vignette_mask_156: 1239908889151142667
+      vignette_mask_157: -6736793462148004046
+      vignette_mask_158: 5390655137935239927
+      vignette_mask_159: 8492188716590026264
+      vignette_mask_16: 8892558023874527731
+      vignette_mask_160: -346289463739767847
+      vignette_mask_161: 2155606844041070671
+      vignette_mask_162: -6735627676649320147
+      vignette_mask_163: -8603965388862627585
+      vignette_mask_164: -4895618228329844435
+      vignette_mask_165: 5564469468875399498
+      vignette_mask_166: -3415148008428863354
+      vignette_mask_167: -3820103788796884089
+      vignette_mask_168: 366194673014687798
+      vignette_mask_169: -5339441469054137731
+      vignette_mask_17: -3346859562081217196
+      vignette_mask_170: -8394663897902222134
+      vignette_mask_171: 5924320002830341957
+      vignette_mask_172: -7757257470372861347
+      vignette_mask_173: 3564121667415180585
+      vignette_mask_174: -352596877515477581
+      vignette_mask_175: 3868836848562480253
+      vignette_mask_176: -6765240776964015821
+      vignette_mask_177: 4828896347504736515
+      vignette_mask_178: 6824540924425315564
+      vignette_mask_179: -7078241613236021423
+      vignette_mask_18: -2538284642810786530
+      vignette_mask_180: 8021741870949045857
+      vignette_mask_181: -1005074297528083697
+      vignette_mask_182: 290879928400266277
+      vignette_mask_183: 6823647159532639050
+      vignette_mask_184: -7322995791976368840
+      vignette_mask_185: -5373683198235144963
+      vignette_mask_186: 3282291258381735791
+      vignette_mask_187: -5093719355534643473
+      vignette_mask_188: -3099495118373760065
+      vignette_mask_189: 6660157696605674933
+      vignette_mask_19: -6904342749218152088
+      vignette_mask_190: 5719197679391026494
+      vignette_mask_191: 7776756401904084386
+      vignette_mask_192: 4565283290587674508
+      vignette_mask_193: 1282870520752151031
+      vignette_mask_194: -1724160435384342997
+      vignette_mask_195: -1010682476152186766
+      vignette_mask_196: 1047350298847429080
+      vignette_mask_197: -1468297310109826901
+      vignette_mask_198: 7899417431783997553
+      vignette_mask_199: 1510835658589305568
+      vignette_mask_2: 5859482931364350343
+      vignette_mask_20: -3874929405211828415
+      vignette_mask_200: 4480626651414435669
+      vignette_mask_201: -1694111296250999037
+      vignette_mask_202: -3888341440694301438
+      vignette_mask_203: 6585789592105624704
+      vignette_mask_204: 158301385659914136
+      vignette_mask_205: 199957935128191845
+      vignette_mask_206: -3597808018690372670
+      vignette_mask_207: -734016126710197606
+      vignette_mask_208: -1677783441615547357
+      vignette_mask_209: 2042609688650551552
+      vignette_mask_21: 805822797322027927
+      vignette_mask_210: -2456831387840090872
+      vignette_mask_211: 496642224294941403
+      vignette_mask_212: 922753218813988232
+      vignette_mask_213: -4610707014812466286
+      vignette_mask_214: 1642968125584290671
+      vignette_mask_215: 4458014298899648218
+      vignette_mask_216: -8333950116169810713
+      vignette_mask_217: 5043246575345987391
+      vignette_mask_218: -1455413208141879463
+      vignette_mask_219: 2781224504044678870
+      vignette_mask_22: -5169584642693710910
+      vignette_mask_220: 3590516369897149308
+      vignette_mask_221: -5376941092121347863
+      vignette_mask_222: -7052603587537297504
+      vignette_mask_223: 6647442869544353772
+      vignette_mask_224: -3068339144382748797
+      vignette_mask_23: -277675784849913185
+      vignette_mask_24: -9080170934611092057
+      vignette_mask_25: 4850273256356151943
+      vignette_mask_26: 348135138548631009
+      vignette_mask_27: -3997535009791977143
+      vignette_mask_28: 4353423192732166729
+      vignette_mask_29: -3187689865228279239
+      vignette_mask_3: -1876927230416611905
+      vignette_mask_30: 3314184012853552556
+      vignette_mask_31: 2520513393951798191
+      vignette_mask_32: -3367235557779428981
+      vignette_mask_33: -8091638645428893552
+      vignette_mask_34: -2143691586340175932
+      vignette_mask_35: -6720223119355572288
+      vignette_mask_36: -4869359706154815127
+      vignette_mask_37: 9080869817410472315
+      vignette_mask_38: -9173028867225093512
+      vignette_mask_39: -8268705324150526233
+      vignette_mask_4: -7439816828775912406
+      vignette_mask_40: -6438111354209420981
+      vignette_mask_41: 1302871791175710471
+      vignette_mask_42: -347999945503077261
+      vignette_mask_43: 5538523461136612149
+      vignette_mask_44: -3200573465839682879
+      vignette_mask_45: -3703296438025457990
+      vignette_mask_46: -9062178965810285638
+      vignette_mask_47: -8749281337104108314
+      vignette_mask_48: -3291642603872031252
+      vignette_mask_49: -6246064489479443987
+      vignette_mask_5: -8200377271988263901
+      vignette_mask_50: 5459444505677592331
+      vignette_mask_51: -4715792061475309910
+      vignette_mask_52: -146058511368717259
+      vignette_mask_53: 4574622137542823335
+      vignette_mask_54: 1674088052757574911
+      vignette_mask_55: 6095959841029656682
+      vignette_mask_56: -8910166583009771707
+      vignette_mask_57: 1419076539365432876
+      vignette_mask_58: 527747496138538055
+      vignette_mask_59: 704227797461727834
+      vignette_mask_6: 4301368095319778737
+      vignette_mask_60: -3640650650672751077
+      vignette_mask_61: -5374280320853787993
+      vignette_mask_62: 5076799288130363666
+      vignette_mask_63: -7289080307628016663
+      vignette_mask_64: -1796543248878946995
+      vignette_mask_65: 3709913819985707049
+      vignette_mask_66: 2136704585300309512
+      vignette_mask_67: 4324567520945584358
+      vignette_mask_68: 5810142173203314649
+      vignette_mask_69: -1065643510739226007
+      vignette_mask_7: -4192301335746659483
+      vignette_mask_70: -7014535976503220764
+      vignette_mask_71: 2938343439140753697
+      vignette_mask_72: 840454669260332130
+      vignette_mask_73: 4420933872643385168
+      vignette_mask_74: 7969768647593751378
+      vignette_mask_75: -5809644219776151444
+      vignette_mask_76: -1727987434757629008
+      vignette_mask_77: 546274211752144103
+      vignette_mask_78: 6524191200685759048
+      vignette_mask_79: -1680302574735763807
+      vignette_mask_8: 8478373313285054576
+      vignette_mask_80: -4709212490309425306
+      vignette_mask_81: -3309564967511268502
+      vignette_mask_82: 8945121340101374844
+      vignette_mask_83: -2464597650435195379
+      vignette_mask_84: 5588996887456821503
+      vignette_mask_85: 4577181923617678955
+      vignette_mask_86: 3013034966751777494
+      vignette_mask_87: 8668860491208855864
+      vignette_mask_88: -8576415262067886074
+      vignette_mask_89: 5173054213222989121
+      vignette_mask_9: -3480491310197339938
+      vignette_mask_90: 3144288990634018438
+      vignette_mask_91: 1734113477469507043
+      vignette_mask_92: -4029408565412704455
+      vignette_mask_93: -3124335353540991550
+      vignette_mask_94: 6555647156870901549
+      vignette_mask_95: 4456361459378725183
+      vignette_mask_96: 4976529604165111067
+      vignette_mask_97: -3548846397538874120
+      vignette_mask_98: -8415444661026456270
+      vignette_mask_99: -6449443755726830501
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
