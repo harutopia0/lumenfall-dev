@@ -65,7 +65,6 @@ public class UISoul : MonoBehaviour
             return Mathf.Lerp(minShaderFill, midShaderFill, curvedT);
         }
 
-        // From 88% to 100%: smoothly rise to maxShaderFill so waves submerge and vanish completely at full soul
         float s = (r - 0.88f) / 0.12f;
         float smoothS = s * s * (3f - 2f * s);
         return Mathf.Lerp(midShaderFill, maxShaderFill, smoothS);
@@ -185,8 +184,6 @@ public class UISoul : MonoBehaviour
             }
         }
 
-        // In Hollow Knight, circular particles around the vessel only burst upon crossing the spell charge threshold (33 soul),
-        // signaling a spell / Focus heal is ready, NOT on every individual nail hit (+11).
         if (!isInitialized)
         {
             isInitialized = true;
@@ -214,7 +211,6 @@ public class UISoul : MonoBehaviour
 
         if (soulMaterial != null)
         {
-            // Fluid is always solid pure white when soul > 0 (never semi-transparent 0.2f cyan)
             if (_currentSoul > 0.001f)
             {
                 soulMaterial.SetFloat("_fillAlpha", 1f);
@@ -395,9 +391,9 @@ public class UISoul : MonoBehaviour
 
     private void ExtractLiquidGradient(Texture2D source, out Color shadow, out Color body, out Color highlight)
     {
-        shadow = new Color(0.118f, 0.192f, 0.345f); // Deep liquid navy RGB(30, 49, 88)
-        body = new Color(0.424f, 0.502f, 0.655f);   // Mid liquid blue RGB(108, 128, 167)
-        highlight = new Color(0.796f, 0.875f, 1.0f); // Radiant soul blue RGB(203, 223, 255)
+        shadow = new Color(0.118f, 0.192f, 0.345f);
+        body = new Color(0.424f, 0.502f, 0.655f);
+        highlight = new Color(0.796f, 0.875f, 1.0f);
 
         try
         {

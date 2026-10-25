@@ -15,8 +15,8 @@ public class UIManager : MonoBehaviour
     public static UnityEvent<float, float, float> updateSoul = new UnityEvent<float, float, float>();
     public static UnityEvent<float> updateSoulAnimation = new UnityEvent<float>();
 
-    private int lastHealth = -1;
-    private int lastSoul = -1;
+    private int? lastHealth = null;
+    private int? lastSoul = null;
 
     private void Awake()
     {
@@ -130,31 +130,15 @@ public class UIManager : MonoBehaviour
             fadeIn.DOFade(0, 1);
         }
 
-        if (SceneTransitionManager.Instance != null && SceneTransitionManager.Instance.IsMenuScene(UnityEngine.SceneManagement.SceneManager.GetActiveScene().name))
+        if (SceneTransitionManager.Instance != null && SceneTransitionManager.Instance.IsGameplayScene(UnityEngine.SceneManagement.SceneManager.GetActiveScene().name))
         {
-            SetHUDActive(false);
-            return;
-        }
-
-        Player player = FindAnyObjectByType<Player>();
-        if (player != null)
-        {
-            Player_Health hp = player.GetComponent<Player_Health>();
-            if (hp != null)
-            {
-                HandlePlayerHealthChanged(hp.CurrentMasks, hp.MaxMasks);
-            }
-            Player_Soul sl = player.GetComponent<Player_Soul>();
-            if (sl != null)
-            {
-                HandlePlayerSoulChanged(sl.CurrentSoul, sl.MaxSoul);
-            }
+            SetHUDActive(true);
         }
     }
 
     private void HandlePlayerHealthChanged(int currentHealth, int maxHealth)
     {
-        bool isIncrease = (lastHealth == -1) || (currentHealth >= lastHealth);
+        bool isIncrease = !lastHealth.HasValue || (currentHealth >= lastHealth.Value);
         lastHealth = currentHealth;
         updateHealth.Invoke(currentHealth, isIncrease);
     }
@@ -166,7 +150,7 @@ public class UIManager : MonoBehaviour
         float normalizedMax = 1f;
         float soulModifier = 33f / maxVal;
 
-        bool isIncrease = (lastSoul == -1) || (currentSoul >= lastSoul);
+        bool isIncrease = !lastSoul.HasValue || (currentSoul >= lastSoul.Value);
         lastSoul = currentSoul;
 
         updateSoul.Invoke(normalizedCurrent, normalizedMax, soulModifier);

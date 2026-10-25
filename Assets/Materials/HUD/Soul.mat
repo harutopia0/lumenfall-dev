@@ -80,8 +80,8 @@ Material:
     - _ZTest: 4
     - _ZWrite: 0
     - _ZWriteControl: 0
-    - _fillAlpha: 1
-    - _fillAmount: 0.18902858
+    - _fillAlpha: 0
+    - _fillAmount: -0.15
     - _generatedAlpha: 0
     - _glowIntensity: 0
     - _glowMultiplier: 0
