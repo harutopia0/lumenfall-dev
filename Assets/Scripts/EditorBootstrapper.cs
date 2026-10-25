@@ -8,16 +8,15 @@ public static class EditorBootstrapper
     [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.BeforeSceneLoad)]
     private static void InitCoreScene()
     {
-        string coreSceneName = "Core_Persistent";
+        string coreSceneName = SceneNames.PersistentCore;
 
-        // Neu khoi dong tu MainMenu (hoac Tester Mode bat dau tu MainMenu), KHONG spawn Core_Persistent
-        if (EditorSceneManager.playModeStartScene != null && EditorSceneManager.playModeStartScene.name == "MainMenu")
+        if (EditorSceneManager.playModeStartScene != null && EditorSceneManager.playModeStartScene.name == coreSceneName)
         {
             return;
         }
 
         Scene activeScene = EditorSceneManager.GetActiveScene();
-        if (activeScene.name == "MainMenu")
+        if (activeScene.name == coreSceneName)
         {
             return;
         }

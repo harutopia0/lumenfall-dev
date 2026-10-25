@@ -329,9 +329,6 @@ public class UISoul : MonoBehaviour
 
     private Color SampleLiquidColor(float v, Color shadow, Color body, Color highlight)
     {
-        // Phân bổ 50% dải gradient:
-        // - Nửa dưới (v < 0.5f): 50% vùng tối chuyển từ shadow (đáy bình) lên body (thân chất lỏng).
-        // - Nửa trên (v >= 0.5f): chuyển từ body lên highlight tự nhiên được trích xuất từ liquid (không ép sang màu trắng).
         if (v < 0.5f)
         {
             float t = v / 0.5f;
@@ -363,7 +360,6 @@ public class UISoul : MonoBehaviour
                 float dy = (y - center) / center;
                 float dist = Mathf.Sqrt(dx * dx + dy * dy);
 
-                // Circular soft glow outline (viền mờ phát quang như HUD_Common_GlowOutline):
                 float alpha;
                 if (dist <= 0.78f)
                 {
@@ -399,7 +395,6 @@ public class UISoul : MonoBehaviour
 
     private void ExtractLiquidGradient(Texture2D source, out Color shadow, out Color body, out Color highlight)
     {
-        // Màu mặc định chuẩn từ bảng màu Sprite Liquid thực tế:
         shadow = new Color(0.118f, 0.192f, 0.345f); // Deep liquid navy RGB(30, 49, 88)
         body = new Color(0.424f, 0.502f, 0.655f);   // Mid liquid blue RGB(108, 128, 167)
         highlight = new Color(0.796f, 0.875f, 1.0f); // Radiant soul blue RGB(203, 223, 255)
@@ -438,14 +433,11 @@ public class UISoul : MonoBehaviour
                 Color c = pixels[i];
                 if (c.a > 0.35f)
                 {
-                    // Lọc bỏ bọt trắng viền sóng / specular white (r, g, b > 0.90f)
-                    // để màu đỉnh (highlight) giữ trọn vẹn sắc lam phát sáng của chất lỏng, không bị chuyển thành màu trắng thuần:
                     if (c.r > 0.90f && c.g > 0.90f && c.b > 0.90f)
                     {
                         continue;
                     }
 
-                    // Khử trùng lặp màu để hàng chục nghìn pixel nền navy đồng nhất không bóp méo phân vị màu:
                     int r = Mathf.RoundToInt(c.r * 255f);
                     int g = Mathf.RoundToInt(c.g * 255f);
                     int b = Mathf.RoundToInt(c.b * 255f);

@@ -54,7 +54,7 @@ Material:
     - _SrcBlend: 5
     - _Surface: 1
     - _ZWrite: 0
-    - _edgeMultiplier: 0.04825461
+    - _edgeMultiplier: 1
     - _edgeSoftness: 0.23
     - _hardEdge: 0.76
     - _softEdge: 1.35

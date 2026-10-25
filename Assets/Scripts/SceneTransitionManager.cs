@@ -6,20 +6,21 @@ public class SceneTransitionManager : MonoBehaviour
 {
     public static SceneTransitionManager Instance { get; private set; }
 
-    [Header("Fade Settings")]
-    [Tooltip("CanvasGroup controlling transition overlay opacity.")]
-    [SerializeField] private CanvasGroup fadeCanvasGroup;
+    [Header("Scene Configuration")]
+    [Tooltip("Scene name identifying the Main Menu / Non-gameplay screen.")]
+    [SerializeField] private string menuSceneName = SceneNames.MainMenu;
 
-    [Tooltip("Duration in seconds for the screen fade transition.")]
+    [Header("Fade Settings")]
+    [SerializeField] private CanvasGroup fadeCanvasGroup;
     [SerializeField] private float fadeDuration = 0.35f;
 
     [Header("Spawn Settings")]
     [Tooltip("Default spawn point identifier to search for when entering a room.")]
-    [SerializeField] private string defaultSpawnPointName;
+    [SerializeField] private string defaultSpawnPointName = SceneNames.DefaultSpawnPoint;
 
     [Header("Startup")]
     [Tooltip("Initial room scene to load when starting from persistent core.")]
-    [SerializeField] private string initialRoomScene;
+    [SerializeField] private string initialRoomScene = SceneNames.MainMenu;
 
     private string currentLoadedRoomScene;
     private string persistentSceneName;
@@ -46,12 +47,63 @@ public class SceneTransitionManager : MonoBehaviour
         if (activeScene.name != persistentSceneName)
         {
             currentLoadedRoomScene = activeScene.name;
-            InitializePlayerPosition(defaultSpawnPointName, activeScene);
+            bool isGameplay = IsGameplayScene(activeScene.name);
+
+            SetPlayerActive(isGameplay);
+
+            if (UIManager.Instance != null)
+            {
+                UIManager.Instance.SetHUDActive(isGameplay);
+            }
+
+            if (isGameplay)
+            {
+                InitializePlayerPosition(defaultSpawnPointName, activeScene);
+            }
         }
         else if (!string.IsNullOrEmpty(initialRoomScene))
         {
             currentLoadedRoomScene = initialRoomScene;
+            if (IsMenuScene(initialRoomScene))
+            {
+                SetPlayerActive(false);
+                if (UIManager.Instance != null)
+                {
+                    UIManager.Instance.SetHUDActive(false);
+                }
+            }
             StartCoroutine(LoadInitialRoomRoutine(initialRoomScene, defaultSpawnPointName));
+        }
+    }
+
+    public bool IsMenuScene(string sceneName)
+    {
+        return !string.IsNullOrEmpty(sceneName) &&
+               string.Equals(sceneName, menuSceneName, System.StringComparison.OrdinalIgnoreCase);
+    }
+
+    public bool IsGameplayScene(string sceneName)
+    {
+        if (string.IsNullOrEmpty(sceneName)) return false;
+        if (IsMenuScene(sceneName)) return false;
+        if (string.Equals(sceneName, persistentSceneName, System.StringComparison.OrdinalIgnoreCase)) return false;
+        return true;
+    }
+
+    public void SetPlayerActive(bool active)
+    {
+        Player player = Object.FindAnyObjectByType<Player>(FindObjectsInactive.Include);
+        if (player != null)
+        {
+            player.gameObject.SetActive(active);
+            if (active && player.input != null)
+            {
+                player.input.Enable();
+            }
+            else if (!active && player.input != null)
+            {
+                player.input.Disable();
+            }
         }
     }
 
@@ -71,7 +123,6 @@ public class SceneTransitionManager : MonoBehaviour
             spawnPoint = FindObjectInScene(targetScene, spawnPointName);
         }
 
-        // Fallback: search for configured defaultSpawnPointName or Spawn_Default
         if (spawnPoint == null)
         {
             if (!string.IsNullOrEmpty(defaultSpawnPointName))
@@ -85,7 +136,6 @@ public class SceneTransitionManager : MonoBehaviour
             }
         }
 
-        // Secondary fallback: search for any SpawnPoint component in the scene
         if (spawnPoint == null && targetScene.IsValid())
         {
             foreach (GameObject root in targetScene.GetRootGameObjects())
@@ -99,23 +149,31 @@ public class SceneTransitionManager : MonoBehaviour
             }
         }
 
-        Player player = Object.FindAnyObjectByType<Player>();
+        Player player = Object.FindAnyObjectByType<Player>(FindObjectsInactive.Include);
 
         Vector2 targetPosition = Vector2.zero;
 
-        if (spawnPoint != null && player != null)
+        if (player != null)
         {
-            player.transform.position = spawnPoint.transform.position;
-            targetPosition = spawnPoint.transform.position;
-            if (player.TryGetComponent<Rigidbody2D>(out var rb))
+            if (!player.gameObject.activeSelf)
             {
-                rb.position = spawnPoint.transform.position;
-                rb.linearVelocity = Vector2.zero;
+                player.gameObject.SetActive(true);
             }
-        }
-        else if (player != null)
-        {
-            targetPosition = player.transform.position;
+
+            if (spawnPoint != null)
+            {
+                player.transform.position = spawnPoint.transform.position;
+                targetPosition = spawnPoint.transform.position;
+                if (player.TryGetComponent<Rigidbody2D>(out var rb))
+                {
+                    rb.position = spawnPoint.transform.position;
+                    rb.linearVelocity = Vector2.zero;
+                }
+            }
+            else
+            {
+                targetPosition = player.transform.position;
+            }
         }
 
         Physics2D.SyncTransforms();
@@ -142,12 +200,24 @@ public class SceneTransitionManager : MonoBehaviour
 
         Scene loadedScene = SceneManager.GetSceneByName(sceneName);
         SceneManager.SetActiveScene(loadedScene);
-        InitializePlayerPosition(spawnPointName, loadedScene);
+
+        bool isGameplay = IsGameplayScene(sceneName);
+        SetPlayerActive(isGameplay);
+
+        if (UIManager.Instance != null)
+        {
+            UIManager.Instance.SetHUDActive(isGameplay);
+        }
+
+        if (isGameplay)
+        {
+            InitializePlayerPosition(spawnPointName, loadedScene);
+        }
     }
 
     private IEnumerator TransitionRoutine(string nextSceneName, string targetSpawnPointName)
     {
-        Player player = Object.FindAnyObjectByType<Player>();
+        Player player = Object.FindAnyObjectByType<Player>(FindObjectsInactive.Include);
         if (player != null && player.input != null)
         {
             player.input.Disable();
@@ -174,14 +244,29 @@ public class SceneTransitionManager : MonoBehaviour
         Scene newScene = SceneManager.GetSceneByName(nextSceneName);
         SceneManager.SetActiveScene(newScene);
 
-        InitializePlayerPosition(targetSpawnPointName, newScene);
+        bool isGameplay = IsGameplayScene(nextSceneName);
+        SetPlayerActive(isGameplay);
+
+        if (UIManager.Instance != null)
+        {
+            UIManager.Instance.SetHUDActive(isGameplay);
+        }
+
+        if (isGameplay)
+        {
+            InitializePlayerPosition(targetSpawnPointName, newScene);
+        }
 
         yield return new WaitForEndOfFrame();
         yield return StartCoroutine(FadeRoutine(1f, 0f));
 
-        if (player != null && player.input != null)
+        if (isGameplay)
         {
-            player.input.Enable();
+            player = Object.FindAnyObjectByType<Player>(FindObjectsInactive.Include);
+            if (player != null && player.input != null)
+            {
+                player.input.Enable();
+            }
         }
     }
 

@@ -41,15 +41,6 @@ public class UIManager : MonoBehaviour
 
         if (targetCamera == null)
         {
-            Camera mainCam = Camera.main;
-            if (mainCam != null && mainCam.gameObject.scene.name != "MainMenu")
-            {
-                targetCamera = mainCam;
-            }
-        }
-
-        if (targetCamera == null)
-        {
             targetCamera = Camera.main;
         }
 
@@ -75,6 +66,20 @@ public class UIManager : MonoBehaviour
         }
 
         RenderSettings.fog = false;
+    }
+
+    public void SetHUDActive(bool active)
+    {
+        Canvas[] canvases = GetComponentsInChildren<Canvas>(true);
+        foreach (Canvas c in canvases)
+        {
+            c.enabled = active;
+        }
+
+        if (active)
+        {
+            RefreshHUD();
+        }
     }
 
     public void RefreshHUD()
@@ -125,7 +130,12 @@ public class UIManager : MonoBehaviour
             fadeIn.DOFade(0, 1);
         }
 
-        // Failsafe: Query player if already active in scene
+        if (SceneTransitionManager.Instance != null && SceneTransitionManager.Instance.IsMenuScene(UnityEngine.SceneManagement.SceneManager.GetActiveScene().name))
+        {
+            SetHUDActive(false);
+            return;
+        }
+
         Player player = FindAnyObjectByType<Player>();
         if (player != null)
         {
@@ -154,7 +164,7 @@ public class UIManager : MonoBehaviour
         float maxVal = maxSoul > 0 ? (float)maxSoul : 99f;
         float normalizedCurrent = Mathf.Clamp01((float)currentSoul / maxVal);
         float normalizedMax = 1f;
-        float soulModifier = 33f / maxVal; // e.g. 0.333f for Focus or spell cost
+        float soulModifier = 33f / maxVal;
 
         bool isIncrease = (lastSoul == -1) || (currentSoul >= lastSoul);
         lastSoul = currentSoul;
@@ -163,11 +173,11 @@ public class UIManager : MonoBehaviour
 
         if (isIncrease)
         {
-            updateSoulAnimation.Invoke(1.2f); // Gentle wave splash
+            updateSoulAnimation.Invoke(1.2f);
         }
         else
         {
-            updateSoulAnimation.Invoke(0.4f); // Wave drain
+            updateSoulAnimation.Invoke(0.4f);
         }
     }
 }

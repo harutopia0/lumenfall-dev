@@ -7,17 +7,11 @@ using UnityEditor;
 using UnityEditor.SceneManagement;
 using UnityEngine;
 
-/// <summary>
-/// Bo dieu khien che do khoi chay Play Mode:
-/// - Tester Mode (Mac dinh): Khoi chay tu man hinh Menu chinh (MainMenu.unity) va mo Game View toan man hinh khong vien
-///   (Borderless Fullscreen) tach biet hoan toan khoi Unity Editor giong het chay file .exe doc lap.
-/// - Editor Mode: Vao thang Scene dang mo trong Editor (o Game View thong thuong, tu nap Core_Persistent).
-/// </summary>
 [InitializeOnLoad]
 public static class PlayModeLauncher
 {
     private const string PREF_TESTER_MODE = "Lumenfall_PlayLauncher_IsTesterMode";
-    private const string MAIN_MENU_SCENE_PATH = "Assets/Scenes/MainMenu.unity";
+    private const string CORE_SCENE_PATH = "Assets/Scenes/Core_Persistent.unity";
     private const string POPUP_MARKER = "Lumenfall_Tester_Fullscreen";
 
     private static bool isDialogActive = false;
@@ -32,9 +26,6 @@ public static class PlayModeLauncher
         EditorApplication.quitting -= ForceRestore;
         EditorApplication.quitting += ForceRestore;
 
-        AssemblyReloadEvents.beforeAssemblyReload -= ForceRestore;
-        AssemblyReloadEvents.beforeAssemblyReload += ForceRestore;
-
         HookGlobalKeyHandler();
     }
 
@@ -46,32 +37,34 @@ public static class PlayModeLauncher
             isDialogActive = true;
 
             int choice = EditorUtility.DisplayDialogComplex(
-                "Lumenfall - Chon Che Do Choi (Launch Mode)",
-                "Chon cach ban muon khoi chay game:\n\n" +
-                "- [Tester Mode]: Khoi chay tu man hinh Menu (MainMenu.unity) va toan man hinh borderless giong het file .exe (an taskbar va giao dien Unity).\n\n" +
-                "- [Editor Mode]: Vao thang Scene dang chon/mo trong Editor (Game View thong thuong).",
-                "Tester Mode (.EXE Fullscreen)",     // Button 0 (Default khi nhan Enter)
-                "Huy (Cancel)",                     // Button 1
-                "Editor Mode"                       // Button 2
+                "Select Launch Mode (Lumenfall)",
+                @"Choose play mode to launch:
+
+- [Tester Mode]: Launches from Core_Persistent into borderless fullscreen, simulating a standalone build.
+
+- [Editor Mode]: Enters directly into the currently active scene in Editor Game View.",
+                "Tester Mode (Fullscreen)",
+                "Cancel",
+                "Editor Mode"
             );
 
-            if (choice == 1) // Huy
+            if (choice == 1)
             {
                 EditorApplication.isPlaying = false;
                 isDialogActive = false;
                 return;
             }
 
-            if (choice == 0) // Tester Mode
+            if (choice == 0)
             {
                 EditorPrefs.SetBool(PREF_TESTER_MODE, true);
-                SceneAsset menuScene = AssetDatabase.LoadAssetAtPath<SceneAsset>(MAIN_MENU_SCENE_PATH);
-                if (menuScene != null)
+                SceneAsset coreScene = AssetDatabase.LoadAssetAtPath<SceneAsset>(CORE_SCENE_PATH);
+                if (coreScene != null)
                 {
-                    EditorSceneManager.playModeStartScene = menuScene;
+                    EditorSceneManager.playModeStartScene = coreScene;
                 }
             }
-            else // Editor Mode (choice == 2)
+            else
             {
                 EditorPrefs.SetBool(PREF_TESTER_MODE, false);
                 EditorSceneManager.playModeStartScene = null;
@@ -87,7 +80,6 @@ public static class PlayModeLauncher
             }
             else
             {
-                // O che do Editor, neu GameView dang bi Maximize thi tra ve binh thuong
                 Type gvType = FindGameViewType();
                 if (gvType != null)
                 {
@@ -119,7 +111,17 @@ public static class PlayModeLauncher
 
     private static void ForceRestore()
     {
-        CloseFullscreenGameView();
+        try
+        {
+            CloseFullscreenGameView();
+            Platform.ClearTopmost();
+        }
+        catch { }
+    }
+
+    private static Type FindGameViewType()
+    {
+        return typeof(EditorWindow).Assembly.GetType("UnityEditor.GameView");
     }
 
     private static void OpenFullscreenGameView()
@@ -129,39 +131,30 @@ public static class PlayModeLauncher
         Type gameViewType = FindGameViewType();
         if (gameViewType == null)
         {
-            Debug.LogError("[PlayModeLauncher] Khong tim thay UnityEditor.GameView!");
+            Debug.LogError("[PlayModeLauncher] UnityEditor.GameView type not found!");
             return;
         }
 
         editorWindowBefore = Platform.GetForegroundWindowHandle();
 
-        // 1. An Taskbar cua Windows
-        Platform.SetTaskbarVisible(false);
-
-        // 2. Tao mot cua so GameView doc lap
         fullscreenWindow = (EditorWindow)ScriptableObject.CreateInstance(gameViewType);
         fullscreenWindow.titleContent = new GUIContent(POPUP_MARKER);
 
-        // 3. An thanh Toolbar cua GameView (khong hien Display, Aspect, Stats...)
         SetShowToolbar(fullscreenWindow, false);
 
-        // 4. Tinh toan kich thuoc Monitor
         Rect monitorBounds = Platform.GetFullscreenBounds();
         Rect editorPoints = ToEditorPoints(monitorBounds);
 
-        // 5. Hien thi dang Popup (khong vien, khong header, khong thanh docking)
         fullscreenWindow.position = editorPoints;
         fullscreenWindow.ShowPopup();
         fullscreenWindow.Focus();
 
-        // 6. Win32: Set TOPMOST va phu toan bo pixel man hinh
-        Platform.BeginTopmostRetry(monitorBounds, editorWindowBefore);
+        Platform.PositionFullscreenWindow(monitorBounds, editorWindowBefore);
     }
 
     private static void CloseFullscreenGameView()
     {
         Platform.ClearTopmost();
-        Platform.SetTaskbarVisible(true);
 
         if (fullscreenWindow != null)
         {
@@ -174,8 +167,7 @@ public static class PlayModeLauncher
         {
             foreach (var candidate in Resources.FindObjectsOfTypeAll<EditorWindow>())
             {
-                if (candidate != null && candidate.GetType() == gameViewType &&
-                    candidate.titleContent != null && candidate.titleContent.text == POPUP_MARKER)
+                if (candidate != null && candidate.GetType() == gameViewType && candidate.titleContent != null && candidate.titleContent.text == POPUP_MARKER)
                 {
                     try { candidate.Close(); } catch { }
                 }
@@ -186,42 +178,18 @@ public static class PlayModeLauncher
         editorWindowBefore = IntPtr.Zero;
     }
 
-    private static Type FindGameViewType()
-    {
-        // 1. Tim truc tiep tu cac EditorWindow dang ton tai trong Editor
-        var windows = Resources.FindObjectsOfTypeAll<EditorWindow>();
-        foreach (var w in windows)
-        {
-            if (w != null && (w.GetType().Name == "GameView" || w.GetType().Name == "PlayModeView"))
-            {
-                return w.GetType();
-            }
-        }
-
-        // 2. Fallback tim qua Reflection
-        Type type = typeof(UnityEditor.Editor).Assembly.GetType("UnityEditor.GameView");
-        if (type != null) return type;
-
-        type = typeof(UnityEditor.Editor).Assembly.GetType("UnityEditor.PlayModeView");
-        if (type != null) return type;
-
-        type = Type.GetType("UnityEditor.GameView,UnityEditor");
-        if (type != null) return type;
-
-        type = Type.GetType("UnityEditor.PlayModeView,UnityEditor");
-        if (type != null) return type;
-
-        return null;
-    }
-
     private static void SetShowToolbar(EditorWindow window, bool value)
     {
         if (window == null) return;
-        Type type = window.GetType();
-        for (Type t = type; t != null; t = t.BaseType)
+        Type t = window.GetType();
+
+        for (int depth = 0; depth < 3 && t != null; depth++, t = t.BaseType)
         {
             PropertyInfo prop = t.GetProperty("showToolbar",
                 BindingFlags.Instance | BindingFlags.NonPublic | BindingFlags.Public | BindingFlags.DeclaredOnly);
+            if (prop == null)
+                prop = t.GetProperty("m_ShowToolbar", BindingFlags.Instance | BindingFlags.NonPublic | BindingFlags.Public | BindingFlags.DeclaredOnly);
+
             if (prop != null && prop.CanWrite)
             {
                 prop.SetValue(window, value);
@@ -269,7 +237,6 @@ public static class PlayModeLauncher
         Event e = Event.current;
         if (e == null || e.type != EventType.KeyDown) return;
 
-        // F11 hoac Escape de thoat che do Fullscreen / dung Play Mode
         if (e.keyCode == KeyCode.F11 || e.keyCode == KeyCode.Escape)
         {
             e.Use();
@@ -302,14 +269,11 @@ public static class PlayModeLauncher
             public uint dwFlags;
         }
 
-        [DllImport("user32.dll")]
-        private static extern IntPtr FindWindow(string className, string windowName);
+        [DllImport("user32.dll", EntryPoint = "GetWindowLong")]
+        private static extern int GetWindowLong(IntPtr hWnd, int nIndex);
 
-        [DllImport("user32.dll")]
-        private static extern IntPtr FindWindowEx(IntPtr parent, IntPtr childAfter, string className, string windowName);
-
-        [DllImport("user32.dll")]
-        private static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);
+        [DllImport("user32.dll", EntryPoint = "SetWindowLong")]
+        private static extern int SetWindowLong(IntPtr hWnd, int nIndex, int dwNewLong);
 
         [DllImport("user32.dll")]
         private static extern bool SetWindowPos(IntPtr hWnd, IntPtr hWndInsertAfter, int x, int y, int cx, int cy, uint uFlags);
@@ -332,13 +296,15 @@ public static class PlayModeLauncher
         [DllImport("user32.dll", CharSet = CharSet.Auto)]
         private static extern bool GetMonitorInfo(IntPtr monitor, ref MONITORINFO info);
 
-        private static readonly IntPtr HWND_TOPMOST = new IntPtr(-1);
+        private static readonly IntPtr HWND_TOP = IntPtr.Zero;
         private static readonly IntPtr HWND_NOTOPMOST = new IntPtr(-2);
 
         private const uint SWP_SHOWWINDOW = 0x0040;
         private const uint MONITOR_DEFAULTTONEAREST = 2;
-        private const int SW_HIDE = 0;
-        private const int SW_SHOW = 5;
+
+        private const int GWL_EXSTYLE = -20;
+        private const int WS_EX_APPWINDOW = 0x00040000;
+        private const int WS_EX_TOOLWINDOW = 0x00000080;
 
         private static IntPtr _fullscreenHwnd = IntPtr.Zero;
 
@@ -361,7 +327,7 @@ public static class PlayModeLauncher
             return new Rect(0, 0, res.width, res.height);
         }
 
-        public static void BeginTopmostRetry(Rect bounds, IntPtr foregroundBefore)
+        public static void PositionFullscreenWindow(Rect bounds, IntPtr foregroundBefore)
         {
             int attempts = 0;
             EditorApplication.CallbackFunction step = null;
@@ -372,7 +338,18 @@ public static class PlayModeLauncher
                 if (hwnd != IntPtr.Zero && hwnd != foregroundBefore)
                 {
                     _fullscreenHwnd = hwnd;
-                    SetWindowPos(hwnd, HWND_TOPMOST, (int)bounds.x, (int)bounds.y, (int)bounds.width, (int)bounds.height, SWP_SHOWWINDOW);
+
+                    try
+                    {
+                        int exStyle = GetWindowLong(hwnd, GWL_EXSTYLE);
+                        exStyle = (exStyle | WS_EX_APPWINDOW) & ~WS_EX_TOOLWINDOW;
+                        SetWindowLong(hwnd, GWL_EXSTYLE, exStyle);
+                    }
+                    catch { }
+
+                    SetWindowPos(hwnd, HWND_NOTOPMOST, (int)bounds.x, (int)bounds.y, (int)bounds.width, (int)bounds.height, SWP_SHOWWINDOW);
+                    SetWindowPos(hwnd, HWND_TOP, (int)bounds.x, (int)bounds.y, (int)bounds.width, (int)bounds.height, SWP_SHOWWINDOW);
+
                     EditorApplication.update -= step;
                     return;
                 }
@@ -395,22 +372,6 @@ public static class PlayModeLauncher
                     SetWindowPos(_fullscreenHwnd, HWND_NOTOPMOST, 0, 0, 0, 0, SWP_SHOWWINDOW);
                 }
                 _fullscreenHwnd = IntPtr.Zero;
-            }
-        }
-
-        public static void SetTaskbarVisible(bool visible)
-        {
-            int command = visible ? SW_SHOW : SW_HIDE;
-            IntPtr primary = FindWindow("Shell_TrayWnd", null);
-            if (primary != IntPtr.Zero)
-            {
-                ShowWindow(primary, command);
-            }
-
-            IntPtr secondary = IntPtr.Zero;
-            while ((secondary = FindWindowEx(IntPtr.Zero, secondary, "Shell_SecondaryTrayWnd", null)) != IntPtr.Zero)
-            {
-                ShowWindow(secondary, command);
             }
         }
 
@@ -442,9 +403,8 @@ public static class PlayModeLauncher
             Resolution res = Screen.currentResolution;
             return new Rect(0, 0, res.width, res.height);
         }
-        public static void BeginTopmostRetry(Rect bounds, IntPtr foregroundBefore) { }
+        public static void PositionFullscreenWindow(Rect bounds, IntPtr foregroundBefore) { }
         public static void ClearTopmost() { }
-        public static void SetTaskbarVisible(bool visible) { }
         public static void RestoreEditorFocus(IntPtr preferred) { }
 #endif
     }
