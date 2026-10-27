@@ -11,6 +11,9 @@ public class UISoul : MonoBehaviour
     [SerializeField] SoulParticles soulParticles;
     [SerializeField] Image eyes;
     [SerializeField] Material soulMaterial;
+    [SerializeField] private Image soulImage;
+    private Material soulMaterialInstance;
+    private Material eyesMaterialInstance;
     [SerializeField] float newFill;
     [SerializeField] float currentFill;
     [SerializeField] VisualEffect bubbles;
@@ -68,6 +71,42 @@ public class UISoul : MonoBehaviour
         float s = (r - 0.88f) / 0.12f;
         float smoothS = s * s * (3f - 2f * s);
         return Mathf.Lerp(midShaderFill, maxShaderFill, smoothS);
+    }
+
+    private void Awake()
+    {
+        if (soulMaterial != null)
+        {
+            soulMaterialInstance = new Material(soulMaterial);
+            soulMaterialInstance.name = soulMaterial.name + " (Instance)";
+            soulMaterial = soulMaterialInstance;
+
+            if (soulImage == null)
+            {
+                Image[] images = GetComponentsInChildren<Image>(true);
+                foreach (var img in images)
+                {
+                    if (img != null && img != eyes && img.material != null &&
+                        (img.material.shader == soulMaterialInstance.shader || img.name.Contains("Soul") || img.name == "Image"))
+                    {
+                        soulImage = img;
+                        break;
+                    }
+                }
+            }
+
+            if (soulImage != null)
+            {
+                soulImage.material = soulMaterialInstance;
+            }
+        }
+
+        if (eyes != null && eyes.material != null)
+        {
+            eyesMaterialInstance = new Material(eyes.material);
+            eyesMaterialInstance.name = eyes.material.name + " (Instance)";
+            eyes.material = eyesMaterialInstance;
+        }
     }
 
     private void Start()
@@ -525,8 +564,33 @@ public class UISoul : MonoBehaviour
     {
         if (generatedFluidTexture != null)
         {
-            Destroy(generatedFluidTexture);
+            SafeDestroy(generatedFluidTexture);
             generatedFluidTexture = null;
+        }
+
+        if (soulMaterialInstance != null)
+        {
+            SafeDestroy(soulMaterialInstance);
+            soulMaterialInstance = null;
+        }
+
+        if (eyesMaterialInstance != null)
+        {
+            SafeDestroy(eyesMaterialInstance);
+            eyesMaterialInstance = null;
+        }
+    }
+
+    private void SafeDestroy(UnityEngine.Object obj)
+    {
+        if (obj == null) return;
+        if (Application.isPlaying)
+        {
+            Destroy(obj);
+        }
+        else
+        {
+            DestroyImmediate(obj);
         }
     }
 }

@@ -15,11 +15,17 @@ public class MainMenuController : MonoBehaviour
     [Tooltip("Full-screen button to capture click/tap anywhere on screen.")]
     [SerializeField] private Button fullScreenButton;
 
-    [Tooltip("Optional blinking prompt text (e.g. 'Press anywhere to start').")]
+    [Tooltip("Optional prompt root GameObject containing the banner and label.")]
+    [SerializeField] private GameObject promptRoot;
+
+    [Tooltip("Optional CanvasGroup on prompt root for pulsing breathing animation.")]
+    [SerializeField] private CanvasGroup promptCanvasGroup;
+
+    [Tooltip("Optional prompt text component.")]
     [SerializeField] private TextMeshProUGUI promptText;
 
-    [Tooltip("Blinking speed of the prompt text.")]
-    [SerializeField] private float promptBlinkSpeed = 2.0f;
+    [Tooltip("Pulse animation speed for the prompt.")]
+    [SerializeField] private float promptBlinkSpeed = 3.14159f;
 
     private bool isTransitioning = false;
 
@@ -34,12 +40,21 @@ public class MainMenuController : MonoBehaviour
 
     private void Update()
     {
-        if (promptText != null && !isTransitioning)
+        if (!isTransitioning)
         {
-            float alpha = (Mathf.Sin(Time.time * promptBlinkSpeed) + 1f) * 0.5f;
-            Color col = promptText.color;
-            col.a = alpha;
-            promptText.color = col;
+            float t = (Mathf.Sin(Time.time * promptBlinkSpeed) + 1f) * 0.5f;
+            float alpha = Mathf.Lerp(0.80f, 1.0f, t);
+
+            if (promptCanvasGroup != null)
+            {
+                promptCanvasGroup.alpha = alpha;
+            }
+            else if (promptText != null)
+            {
+                Color col = promptText.color;
+                col.a = alpha;
+                promptText.color = col;
+            }
         }
 
         if (isTransitioning) return;
@@ -92,7 +107,11 @@ public class MainMenuController : MonoBehaviour
             fullScreenButton.interactable = false;
         }
 
-        if (promptText != null)
+        if (promptRoot != null)
+        {
+            promptRoot.SetActive(false);
+        }
+        else if (promptText != null)
         {
             promptText.gameObject.SetActive(false);
         }

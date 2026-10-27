@@ -144,20 +144,20 @@ public class Player : Entity
 
         if (moveInput.y > 0.5f)
         {
-            // UPWARD SPELL (W KEY): HOWLING WRAITHS
+            // Upward Spell (W key)
             stateMachine.ChangeState(screamState);
         }
         else if (moveInput.y < -0.5f && !groundDetected)
         {
-            // DOWNWARD AIR SPELL (S KEY IN AIR): DESOLATE DIVE / DESCENDING DARK (QUAKE)
-            // Note: Only triggers while mid-air (!groundDetected) matching Hollow Knight mechanics
+            // Downward Air Spell (S key in air)
+            // Note: Only triggers while mid-air (!groundDetected)
             // TODO: When implementing the dive/quake spell, replace with:
             // stateMachine.ChangeState(quakeAnticState);
             stateMachine.ChangeState(fireballState);
         }
         else
         {
-            // DEFAULT / HORIZONTAL SPELL (NEUTRAL OR A/D): VENGEFUL SPIRIT / SHADE SOUL
+            // Default / Horizontal Spell (neutral or A/D)
             stateMachine.ChangeState(fireballState);
         }
 
