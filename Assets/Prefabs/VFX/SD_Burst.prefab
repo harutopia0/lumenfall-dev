@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 2766131749701190188}
   - component: {fileID: 2027533888010429392}
   - component: {fileID: 1190052529049617830}
+  - component: {fileID: 4400033791243246986}
   m_Layer: 7
   m_Name: SD_Burst
   m_TagString: Untagged
@@ -128,3 +129,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8acea8effc5dcc84ba65c74c12d561f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AutoDestroyVFX
+--- !u!114 &4400033791243246986
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4400033791243246886}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9f13444c5c881e41841cad03a7f5a13, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Lumenfall.Core.PooledObject

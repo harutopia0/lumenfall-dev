@@ -2,6 +2,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Lumenfall.Core;
 
+[RequireComponent(typeof(PooledObject))]
 public class Fireball_Projectile : MonoBehaviour, IPoolable
 {
     [Header("Movement")]
@@ -102,6 +103,11 @@ public class Fireball_Projectile : MonoBehaviour, IPoolable
         if (vfxPrefab != null)
         {
             SpawnImpactVfx(vfxPrefab, transform.position);
+        }
+
+        if (pooledObject == null)
+        {
+            pooledObject = GetComponent<PooledObject>();
         }
 
         if (pooledObject != null && PoolManager.HasInstance)

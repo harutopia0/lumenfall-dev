@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 4985073411011372583}
   - component: {fileID: 1254237237583445659}
   - component: {fileID: 1672530962566685277}
+  - component: {fileID: 6501585057806374159}
   m_Layer: 0
   m_Name: Fireball_Muzzle_VFX
   m_TagString: Untagged
@@ -141,3 +142,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17411c29992d5ee4cb88d20f81965760, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Fireball_Muzzle
+--- !u!114 &6501585057806374159
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3565353519369074600}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9f13444c5c881e41841cad03a7f5a13, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Lumenfall.Core.PooledObject

@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8436488904114845523}
   - component: {fileID: 1755608078387874903}
   - component: {fileID: 3724528314869118798}
+  - component: {fileID: 8436488904114845623}
   m_Layer: 7
   m_Name: SD_Break
   m_TagString: Untagged
@@ -128,3 +129,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8acea8effc5dcc84ba65c74c12d561f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AutoDestroyVFX
+--- !u!114 &8436488904114845623
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3412074748612761282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9f13444c5c881e41841cad03a7f5a13, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Lumenfall.Core.PooledObject

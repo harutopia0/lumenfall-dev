@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3216254366926985082}
   - component: {fileID: 4896017621236912945}
   - component: {fileID: 2922519073972751729}
+  - component: {fileID: 9109454677523980935}
   m_Layer: 0
   m_Name: Dash_Effect_VFX
   m_TagString: Untagged
@@ -128,3 +129,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8acea8effc5dcc84ba65c74c12d561f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AutoDestroyVFX
+--- !u!114 &9109454677523980935
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8991136664824991262}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9f13444c5c881e41841cad03a7f5a13, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Lumenfall.Core.PooledObject

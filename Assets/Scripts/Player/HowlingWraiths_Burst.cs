@@ -1,7 +1,9 @@
 using System.Collections.Generic;
 using UnityEngine;
+using Lumenfall.Core;
 
-public class HowlingWraiths_Burst : MonoBehaviour
+[RequireComponent(typeof(PooledObject))]
+public class HowlingWraiths_Burst : MonoBehaviour, IPoolable
 {
     [Header("Damage Settings")]
     [SerializeField] private float damagePerHit = 2.5f;
@@ -49,9 +51,26 @@ public class HowlingWraiths_Burst : MonoBehaviour
 
                 if (hitImpactPrefab != null)
                 {
-                    Instantiate(hitImpactPrefab, collision.bounds.center, Quaternion.identity);
+                    if (PoolManager.HasInstance)
+                    {
+                        PoolManager.Instance.Spawn(hitImpactPrefab, collision.bounds.center, Quaternion.identity);
+                    }
+                    else
+                    {
+                        Instantiate(hitImpactPrefab, collision.bounds.center, Quaternion.identity);
+                    }
                 }
             }
         }
+    }
+
+    public void OnSpawnFromPool()
+    {
+        hitRecords.Clear();
+    }
+
+    public void OnReturnToPool()
+    {
+        hitRecords.Clear();
     }
 }

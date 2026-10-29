@@ -1,6 +1,7 @@
 using UnityEngine;
 using Lumenfall.Core;
 
+[RequireComponent(typeof(PooledObject))]
 public class AutoDestroyVFX : MonoBehaviour, IPoolable
 {
     private PooledObject pooledObject;
@@ -14,6 +15,11 @@ public class AutoDestroyVFX : MonoBehaviour, IPoolable
 
     public void DestroySelf()
     {
+        if (pooledObject == null)
+        {
+            pooledObject = GetComponent<PooledObject>();
+        }
+
         if (pooledObject != null && PoolManager.HasInstance)
         {
             pooledObject.ReturnToPool();
@@ -37,4 +43,3 @@ public class AutoDestroyVFX : MonoBehaviour, IPoolable
     {
     }
 }
-
