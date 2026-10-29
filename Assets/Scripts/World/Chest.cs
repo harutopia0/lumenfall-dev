@@ -15,7 +15,5 @@ public class Chest : MonoBehaviour, IDamageable
         anim.SetBool("chestOpen", true);
         rb.linearVelocity = knockback;
         rb.angularVelocity = Random.Range(-200, 200);
-
-        // Drop items
     }
 }

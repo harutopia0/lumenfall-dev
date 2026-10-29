@@ -1,11 +1,10 @@
 using System;
 using System.Collections;
 using UnityEngine;
+using Lumenfall.Core;
 
-public class Player_Health : Entity_Health
+public class Player_Health : Entity_Health, IHealable
 {
-    public static event Action<int, int> OnPlayerHealthChanged;
-
     [Header("Mask Details")]
     [SerializeField] private int maxMasks = 5;
     [SerializeField] private int currentMasks;
@@ -23,9 +22,14 @@ public class Player_Health : Entity_Health
         currentMasks = 5;
     }
 
+    private void OnEnable()
+    {
+        EventBus.Publish(new PlayerHealthChangedEvent(currentMasks, maxMasks, true));
+    }
+
     private void Start()
     {
-        OnPlayerHealthChanged?.Invoke(currentMasks, maxMasks);
+        EventBus.Publish(new PlayerHealthChangedEvent(currentMasks, maxMasks, true));
     }
 
     public int CurrentMasks => currentMasks;
@@ -51,7 +55,7 @@ public class Player_Health : Entity_Health
         currentMasks -= masksToLose;
         currentMasks = Mathf.Clamp(currentMasks, 0, maxMasks);
 
-        OnPlayerHealthChanged?.Invoke(currentMasks, maxMasks);
+        EventBus.Publish(new PlayerHealthChangedEvent(currentMasks, maxMasks, false));
 
         if (currentMasks <= 0)
         {
@@ -64,7 +68,7 @@ public class Player_Health : Entity_Health
         if (isDead || currentMasks >= maxMasks) return;
 
         currentMasks = Mathf.Min(currentMasks + maskAmount, maxMasks);
-        OnPlayerHealthChanged?.Invoke(currentMasks, maxMasks);
+        EventBus.Publish(new PlayerHealthChangedEvent(currentMasks, maxMasks, true));
     }
 
     private IEnumerator InvincibilityCo()

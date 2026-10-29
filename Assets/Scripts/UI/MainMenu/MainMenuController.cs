@@ -38,6 +38,14 @@ public class MainMenuController : MonoBehaviour
         }
     }
 
+    private void OnDestroy()
+    {
+        if (fullScreenButton != null)
+        {
+            fullScreenButton.onClick.RemoveListener(OnScreenClicked);
+        }
+    }
+
     private void Update()
     {
         if (!isTransitioning)
@@ -78,23 +86,6 @@ public class MainMenuController : MonoBehaviour
             return;
         }
 
-        bool clickDetected = false;
-#if ENABLE_INPUT_SYSTEM
-        if (UnityEngine.InputSystem.Mouse.current != null && UnityEngine.InputSystem.Mouse.current.leftButton.wasPressedThisFrame)
-            clickDetected = true;
-        else if (UnityEngine.InputSystem.Touchscreen.current != null && UnityEngine.InputSystem.Touchscreen.current.primaryTouch.press.wasPressedThisFrame)
-            clickDetected = true;
-#endif
-#if ENABLE_LEGACY_INPUT_MANAGER
-        if (Input.GetMouseButtonDown(0) || (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began))
-        {
-            clickDetected = true;
-        }
-#endif
-        if (clickDetected)
-        {
-            OnScreenClicked();
-        }
     }
 
     public void OnScreenClicked()
@@ -107,18 +98,26 @@ public class MainMenuController : MonoBehaviour
             fullScreenButton.interactable = false;
         }
 
-        if (promptRoot != null)
+        if (promptCanvasGroup != null)
         {
-            promptRoot.SetActive(false);
+            promptCanvasGroup.alpha = 1f;
         }
         else if (promptText != null)
         {
-            promptText.gameObject.SetActive(false);
+            Color col = promptText.color;
+            col.a = 1f;
+            promptText.color = col;
         }
 
         if (SceneTransitionManager.Instance != null)
         {
             SceneTransitionManager.Instance.TransitionToScene(targetSceneName, targetSpawnPointName);
+        }
+        else
+        {
+            Debug.LogError("[MainMenuController] SceneTransitionManager.Instance is null! Cannot transition.");
+            isTransitioning = false;
+            if (fullScreenButton != null) fullScreenButton.interactable = true;
         }
     }
 }

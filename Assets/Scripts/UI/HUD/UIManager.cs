@@ -5,18 +5,12 @@ using UnityEngine.Events;
 using UnityEngine.UI;
 using DG.Tweening;
 
+using Lumenfall.Core;
+
 public class UIManager : MonoBehaviour
 {
     public static UIManager Instance;
     [SerializeField] private Image fadeIn;
-
-    [Header("UI Events")]
-    public static UnityEvent<int, bool> updateHealth = new UnityEvent<int, bool>();
-    public static UnityEvent<float, float, float> updateSoul = new UnityEvent<float, float, float>();
-    public static UnityEvent<float> updateSoulAnimation = new UnityEvent<float>();
-
-    private int? lastHealth = null;
-    private int? lastSoul = null;
 
     private void Awake()
     {
@@ -36,7 +30,7 @@ public class UIManager : MonoBehaviour
 
         if (CameraController.Instance != null)
         {
-            targetCamera = CameraController.Instance.GetComponent<Camera>();
+            targetCamera = CameraController.Instance.Cam;
         }
 
         if (targetCamera == null)
@@ -59,10 +53,7 @@ public class UIManager : MonoBehaviour
                 c.renderMode = RenderMode.ScreenSpaceCamera;
             }
 
-            if (c.worldCamera != targetCamera)
-            {
-                c.worldCamera = targetCamera;
-            }
+            c.worldCamera = targetCamera;
         }
 
         RenderSettings.fog = false;
@@ -86,18 +77,18 @@ public class UIManager : MonoBehaviour
     {
         SetupCanvasCamera();
 
-        Player player = FindAnyObjectByType<Player>();
+        Player player = FindAnyObjectByType<Player>(FindObjectsInactive.Include);
         if (player != null)
         {
             Player_Health hp = player.GetComponent<Player_Health>();
             if (hp != null)
             {
-                HandlePlayerHealthChanged(hp.CurrentMasks, hp.MaxMasks);
+                EventBus.Publish(new PlayerHealthChangedEvent(hp.CurrentMasks, hp.MaxMasks, true));
             }
             Player_Soul sl = player.GetComponent<Player_Soul>();
             if (sl != null)
             {
-                HandlePlayerSoulChanged(sl.CurrentSoul, sl.MaxSoul);
+                EventBus.Publish(new PlayerSoulChangedEvent(sl.CurrentSoul, sl.MaxSoul, true));
             }
         }
     }
@@ -105,15 +96,11 @@ public class UIManager : MonoBehaviour
     private void OnEnable()
     {
         UnityEngine.SceneManagement.SceneManager.sceneLoaded += HandleSceneLoaded;
-        Player_Health.OnPlayerHealthChanged += HandlePlayerHealthChanged;
-        Player_Soul.OnPlayerSoulChanged += HandlePlayerSoulChanged;
     }
 
     private void OnDisable()
     {
         UnityEngine.SceneManagement.SceneManager.sceneLoaded -= HandleSceneLoaded;
-        Player_Health.OnPlayerHealthChanged -= HandlePlayerHealthChanged;
-        Player_Soul.OnPlayerSoulChanged -= HandlePlayerSoulChanged;
     }
 
     private void HandleSceneLoaded(UnityEngine.SceneManagement.Scene scene, UnityEngine.SceneManagement.LoadSceneMode mode)
@@ -133,35 +120,6 @@ public class UIManager : MonoBehaviour
         if (SceneTransitionManager.Instance != null && SceneTransitionManager.Instance.IsGameplayScene(UnityEngine.SceneManagement.SceneManager.GetActiveScene().name))
         {
             SetHUDActive(true);
-        }
-    }
-
-    private void HandlePlayerHealthChanged(int currentHealth, int maxHealth)
-    {
-        bool isIncrease = !lastHealth.HasValue || (currentHealth >= lastHealth.Value);
-        lastHealth = currentHealth;
-        updateHealth.Invoke(currentHealth, isIncrease);
-    }
-
-    private void HandlePlayerSoulChanged(int currentSoul, int maxSoul)
-    {
-        float maxVal = maxSoul > 0 ? (float)maxSoul : 99f;
-        float normalizedCurrent = Mathf.Clamp01((float)currentSoul / maxVal);
-        float normalizedMax = 1f;
-        float soulModifier = 33f / maxVal;
-
-        bool isIncrease = !lastSoul.HasValue || (currentSoul >= lastSoul.Value);
-        lastSoul = currentSoul;
-
-        updateSoul.Invoke(normalizedCurrent, normalizedMax, soulModifier);
-
-        if (isIncrease)
-        {
-            updateSoulAnimation.Invoke(1.2f);
-        }
-        else
-        {
-            updateSoulAnimation.Invoke(0.4f);
         }
     }
 }

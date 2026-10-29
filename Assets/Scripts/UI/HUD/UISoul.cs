@@ -5,6 +5,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.VFX;
+using Lumenfall.Core;
+using Lumenfall.UI;
 
 public class UISoul : MonoBehaviour
 {
@@ -49,13 +51,7 @@ public class UISoul : MonoBehaviour
 
     [Header("Liquid Skin")]
     [SerializeField] private Texture2D liquidTexture;
-    private Texture2D generatedFluidTexture;
-    private Color cachedShadow = new Color(0.1f, 0.15f, 0.3f);
-    private Color cachedBody = new Color(0.15f, 0.25f, 0.5f);
-    private Color cachedHighlight = Color.white;
-    private bool colorsCached = false;
-    private Color[] pixelBuffer;
-    private const int FluidTexSize = 128;
+    private readonly SoulFluidTextureGenerator fluidGenerator = new SoulFluidTextureGenerator();
 
     public float RemapSoulToShaderFill(float soulRatio)
     {
@@ -109,12 +105,14 @@ public class UISoul : MonoBehaviour
         }
     }
 
+    private void OnEnable()
+    {
+        EventBus.Subscribe<PlayerSoulChangedEvent>(OnSoulChanged);
+    }
+
     private void Start()
     {
         UpdateFluidColor(0f);
-
-        UIManager.updateSoul.AddListener(UpdateSoulFill);
-        UIManager.updateSoulAnimation.AddListener(LenghtenWaves);
 
         if (soulMaterial != null)
         {
@@ -126,23 +124,34 @@ public class UISoul : MonoBehaviour
             soulMaterial.SetFloat("_waveMultiplier", 1f);
         }
 
-        waveAnimation = DOTween.Sequence();
-        glowAnimation = DOTween.Sequence();
-        pulseAnimation = DOTween.Sequence();
-        eyeAnimation = DOTween.Sequence();
-        glowStrenght = 0f;
+        if (pulseAnimation == null || !pulseAnimation.IsActive())
+        {
+            glowStrenght = 0f;
+            eyeEdgeStrenght = 1f;
+            if (eyes != null && eyes.material != null)
+            {
+                UpdateMaterial("_edgeMultiplier", eyeEdgeStrenght, eyes.material);
+            }
+        }
     }
 
     private void OnDisable()
     {
-        UIManager.updateSoul.RemoveListener(UpdateSoulFill);
-        UIManager.updateSoulAnimation.RemoveListener(LenghtenWaves);
+        EventBus.Unsubscribe<PlayerSoulChangedEvent>(OnSoulChanged);
 
+        DOTween.Kill("SoulPulse");
         fillTween?.Kill();
         waveAnimation?.Kill();
         glowAnimation?.Kill();
         pulseAnimation?.Kill();
+        pulseAnimation = null;
         eyeAnimation?.Kill();
+    }
+
+    private void OnSoulChanged(PlayerSoulChangedEvent evt)
+    {
+        UpdateSoulFill(evt.NormalizedCurrent, evt.NormalizedMax, evt.SoulModifier, evt.HasCharge, evt.IsFullSoul);
+        LenghtenWaves(evt.WaveAffector);
     }
 
     private void Update()
@@ -161,9 +170,11 @@ public class UISoul : MonoBehaviour
 
     void GlowPulsing()
     {
+        DOTween.Kill("SoulPulse");
         pulseAnimation?.Kill();
         glowAnimation?.Kill();
         pulseAnimation = DOTween.Sequence();
+        pulseAnimation.SetId("SoulPulse");
         pulseAnimation.SetLoops(-1);
 
         float start = 1f;
@@ -185,7 +196,7 @@ public class UISoul : MonoBehaviour
         }
     }
 
-    private void UpdateSoulFill(float _currentSoul, float _maxSoul, float _soulModifier)
+    private void UpdateSoulFill(float _currentSoul, float _maxSoul, float _soulModifier, bool? explicitHasCharge = null, bool? explicitIsFull = null)
     {
         float prevSoul = currentSoul;
         currentSoul = _currentSoul;
@@ -223,14 +234,16 @@ public class UISoul : MonoBehaviour
             }
         }
 
+        bool chargeAvailable = explicitHasCharge.HasValue ? explicitHasCharge.Value : (_currentSoul >= (_soulModifier - 0.001f));
+
         if (!isInitialized)
         {
             isInitialized = true;
-            hasSoulCharge = _currentSoul >= _soulModifier;
+            hasSoulCharge = chargeAvailable;
         }
         else
         {
-            if (_currentSoul >= _soulModifier && !hasSoulCharge)
+            if (chargeAvailable && !hasSoulCharge)
             {
                 hasSoulCharge = true;
                 if (soulParticles != null)
@@ -242,7 +255,7 @@ public class UISoul : MonoBehaviour
                     soulIncrease.Play();
                 }
             }
-            else if (_currentSoul < _soulModifier)
+            else if (!chargeAvailable)
             {
                 hasSoulCharge = false;
             }
@@ -283,23 +296,33 @@ public class UISoul : MonoBehaviour
             });
         }
 
-        if (Mathf.Approximately(_currentSoul, _maxSoul) && _maxSoul > 0)
+        bool isFull = explicitIsFull.HasValue
+            ? explicitIsFull.Value
+            : (_maxSoul > 0 && (_currentSoul >= (_maxSoul - 0.001f)));
+
+        if (isFull)
         {
-            GlowPulsing();
+            if (pulseAnimation == null || !pulseAnimation.IsActive() || !pulseAnimation.IsPlaying())
+            {
+                GlowPulsing();
+            }
         }
         else
         {
-            glowAnimation?.Kill();
+            DOTween.Kill("SoulPulse");
             pulseAnimation?.Kill();
+            pulseAnimation = null;
+            glowAnimation?.Kill();
+            glowAnimation = null;
             eyeEdgeStrenght = 1f;
             glowStrenght = 0f;
             if (eyes != null && eyes.material != null)
             {
-                UpdateMaterial("_edgeMultiplier", eyeEdgeStrenght, eyes.material);
+                UpdateMaterial("_edgeMultiplier", 1f, eyes.material);
             }
             if (soulMaterial != null)
             {
-                UpdateMaterial("_glowMultiplier", glowStrenght, soulMaterial);
+                UpdateMaterial("_glowMultiplier", 0f, soulMaterial);
             }
         }
     }
@@ -343,167 +366,7 @@ public class UISoul : MonoBehaviour
 
     public void UpdateFluidColor(float fillRatio = 1f)
     {
-        if (soulMaterial == null || liquidTexture == null) return;
-
-        if (!colorsCached)
-        {
-            ExtractLiquidGradient(liquidTexture, out cachedShadow, out cachedBody, out cachedHighlight);
-            colorsCached = true;
-        }
-
-        if (generatedFluidTexture == null)
-        {
-            generatedFluidTexture = new Texture2D(FluidTexSize, FluidTexSize, TextureFormat.RGBA32, false);
-            generatedFluidTexture.wrapMode = TextureWrapMode.Clamp;
-            pixelBuffer = new Color[FluidTexSize * FluidTexSize];
-            soulMaterial.SetTexture("_smallerTex", generatedFluidTexture);
-        }
-
-        UpdateFluidTexturePixels(fillRatio);
-    }
-
-    private Color SampleLiquidColor(float v, Color shadow, Color body, Color highlight)
-    {
-        if (v < 0.5f)
-        {
-            float t = v / 0.5f;
-            return Color.Lerp(shadow, body, t);
-        }
-        else
-        {
-            float t = (v - 0.5f) / 0.5f;
-            return Color.Lerp(body, highlight, t);
-        }
-    }
-
-    private void UpdateFluidTexturePixels(float fillRatio)
-    {
-        if (generatedFluidTexture == null || pixelBuffer == null) return;
-
-        float actualWaterLevel = Mathf.Clamp01(RemapSoulToShaderFill(fillRatio));
-        float center = FluidTexSize / 2f;
-
-        for (int y = 0; y < FluidTexSize; y++)
-        {
-            float normY = y / (float)(FluidTexSize - 1);
-            float v = Mathf.Clamp01(1f - actualWaterLevel + normY);
-            Color baseColor = SampleLiquidColor(v, cachedShadow, cachedBody, cachedHighlight);
-
-            for (int x = 0; x < FluidTexSize; x++)
-            {
-                float dx = (x - center) / center;
-                float dy = (y - center) / center;
-                float dist = Mathf.Sqrt(dx * dx + dy * dy);
-
-                float alpha;
-                if (dist <= 0.78f)
-                {
-                    alpha = 1f;
-                }
-                else if (dist <= 0.90f)
-                {
-                    float st = (dist - 0.78f) / (0.90f - 0.78f);
-                    alpha = 1f - (st * st * (3f - 2f * st));
-                }
-                else
-                {
-                    alpha = 0f;
-                }
-
-                if (alpha > 0f)
-                {
-                    float radialGlow = Mathf.Max(0f, 1f - dist / 0.78f);
-                    Color finalColor = baseColor * (1f + 0.15f * radialGlow);
-                    finalColor.a = alpha;
-                    pixelBuffer[y * FluidTexSize + x] = finalColor;
-                }
-                else
-                {
-                    pixelBuffer[y * FluidTexSize + x] = Color.clear;
-                }
-            }
-        }
-
-        generatedFluidTexture.SetPixels(pixelBuffer);
-        generatedFluidTexture.Apply();
-    }
-
-    private void ExtractLiquidGradient(Texture2D source, out Color shadow, out Color body, out Color highlight)
-    {
-        shadow = new Color(0.118f, 0.192f, 0.345f);
-        body = new Color(0.424f, 0.502f, 0.655f);
-        highlight = new Color(0.796f, 0.875f, 1.0f);
-
-        try
-        {
-            RenderTexture rt = RenderTexture.GetTemporary(source.width, source.height, 0, RenderTextureFormat.ARGB32);
-            Graphics.Blit(source, rt);
-            RenderTexture prevRT = RenderTexture.active;
-            RenderTexture.active = rt;
-
-            int sampleH = Mathf.Max(1, rt.height / 2);
-            int sampleW = Mathf.Max(1, rt.width);
-            Texture2D temp = new Texture2D(sampleW, sampleH, TextureFormat.RGBA32, false);
-            temp.ReadPixels(new Rect(0, 0, sampleW, sampleH), 0, 0);
-            temp.Apply();
-
-            RenderTexture.active = prevRT;
-            RenderTexture.ReleaseTemporary(rt);
-
-            Color[] pixels = temp.GetPixels();
-            if (Application.isPlaying)
-            {
-                Destroy(temp);
-            }
-            else
-            {
-                DestroyImmediate(temp);
-            }
-
-            var seen = new System.Collections.Generic.HashSet<int>();
-            var uniqueLiquidColors = new System.Collections.Generic.List<Color>();
-
-            for (int i = 0; i < pixels.Length; i++)
-            {
-                Color c = pixels[i];
-                if (c.a > 0.35f)
-                {
-                    if (c.r > 0.90f && c.g > 0.90f && c.b > 0.90f)
-                    {
-                        continue;
-                    }
-
-                    int r = Mathf.RoundToInt(c.r * 255f);
-                    int g = Mathf.RoundToInt(c.g * 255f);
-                    int b = Mathf.RoundToInt(c.b * 255f);
-                    int key = (r << 16) | (g << 8) | b;
-
-                    if (seen.Add(key))
-                    {
-                        uniqueLiquidColors.Add(c);
-                    }
-                }
-            }
-
-            if (uniqueLiquidColors.Count > 0)
-            {
-                uniqueLiquidColors.Sort((a, b) =>
-                {
-                    float lumA = 0.299f * a.r + 0.587f * a.g + 0.114f * a.b;
-                    float lumB = 0.299f * b.r + 0.587f * b.g + 0.114f * b.b;
-                    return lumA.CompareTo(lumB);
-                });
-
-                int count = uniqueLiquidColors.Count;
-                shadow = uniqueLiquidColors[Mathf.Clamp((int)(count * 0.05f), 0, count - 1)];
-                body = uniqueLiquidColors[Mathf.Clamp((int)(count * 0.50f), 0, count - 1)];
-                highlight = uniqueLiquidColors[Mathf.Clamp((int)(count * 0.95f), 0, count - 1)];
-            }
-        }
-        catch (System.Exception ex)
-        {
-            Debug.LogWarning($"[UISoul] Could not extract gradient colors from liquid texture: {ex.Message}");
-        }
+        fluidGenerator.UpdateFluidColor(soulMaterial, liquidTexture, fillRatio, RemapSoulToShaderFill);
     }
 
 #if UNITY_EDITOR
@@ -516,13 +379,13 @@ public class UISoul : MonoBehaviour
             return;
         }
 
-        ExtractLiquidGradient(liquidTexture, out Color shadow, out Color body, out Color highlight);
+        SoulFluidTextureGenerator.ExtractLiquidGradient(liquidTexture, out Color shadow, out Color body, out Color highlight);
         Texture2D baked = new Texture2D(256, 256, TextureFormat.RGBA32, false);
         baked.wrapMode = TextureWrapMode.Clamp;
         for (int y = 0; y < 256; y++)
         {
             float normY = y / 255f;
-            Color baseColor = SampleLiquidColor(normY, shadow, body, highlight);
+            Color baseColor = SoulFluidTextureGenerator.SampleLiquidColor(normY, shadow, body, highlight);
             baseColor.a = 1f;
 
             for (int x = 0; x < 256; x++)
@@ -548,7 +411,7 @@ public class UISoul : MonoBehaviour
         if (liquidTexture != null && liquidTexture != lastLiquidTexture && !Application.isPlaying)
         {
             lastLiquidTexture = liquidTexture;
-            colorsCached = false;
+            fluidGenerator.InvalidateCache();
             UnityEditor.EditorApplication.delayCall += () =>
             {
                 if (this != null && liquidTexture != null)
@@ -562,11 +425,8 @@ public class UISoul : MonoBehaviour
 
     private void OnDestroy()
     {
-        if (generatedFluidTexture != null)
-        {
-            SafeDestroy(generatedFluidTexture);
-            generatedFluidTexture = null;
-        }
+        DOTween.Kill("SoulPulse");
+        fluidGenerator?.Cleanup();
 
         if (soulMaterialInstance != null)
         {

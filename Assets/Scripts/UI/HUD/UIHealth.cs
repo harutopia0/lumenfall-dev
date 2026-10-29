@@ -1,17 +1,23 @@
 using UnityEngine;
+using Lumenfall.Core;
 
 public class UIHealth : MonoBehaviour
 {
     private int currentHealth;
 
-    private void Start()
+    private void OnEnable()
     {
-        UIManager.updateHealth.AddListener(UpdateHealthUI);
+        EventBus.Subscribe<PlayerHealthChangedEvent>(OnHealthChanged);
     }
 
     private void OnDisable()
     {
-        UIManager.updateHealth.RemoveListener(UpdateHealthUI);
+        EventBus.Unsubscribe<PlayerHealthChangedEvent>(OnHealthChanged);
+    }
+
+    private void OnHealthChanged(PlayerHealthChangedEvent evt)
+    {
+        UpdateHealthUI(evt.CurrentHealth, evt.IsIncrease);
     }
 
     private void UpdateHealthUI(int _currentHealth, bool _increase)

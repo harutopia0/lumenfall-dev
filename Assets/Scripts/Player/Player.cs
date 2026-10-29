@@ -1,9 +1,8 @@
 using System;
 using System.Collections;
 using System.Linq;
-using Unity.VisualScripting;
-using UnityEditorInternal;
 using UnityEngine;
+using Lumenfall.Core;
 
 public class Player : Entity
 {
@@ -178,7 +177,10 @@ public class Player : Entity
     {
         if (fireballPrefab == null) return;
         Vector3 spawnPos = transform.position + new Vector3(fireballOffset.x * facingDir, fireballOffset.y, fireballOffset.z);
-        GameObject fireball = Instantiate(fireballPrefab, spawnPos, Quaternion.identity);
+        GameObject fireball = PoolManager.HasInstance
+            ? PoolManager.Instance.Spawn(fireballPrefab, spawnPos, Quaternion.identity)
+            : Instantiate(fireballPrefab, spawnPos, Quaternion.identity);
+
         Fireball_Projectile proj = fireball.GetComponent<Fireball_Projectile>();
         proj?.Initialize(facingDir);
         float recoilSpeed = groundDetected ? 4f : 5.5f;
@@ -197,6 +199,7 @@ public class Player : Entity
         base.EntityDeath();
 
         OnPlayerDeath?.Invoke();
+        EventBus.Publish(new PlayerDeathEvent(transform.position));
         stateMachine.ChangeState(deadState);
     }
 

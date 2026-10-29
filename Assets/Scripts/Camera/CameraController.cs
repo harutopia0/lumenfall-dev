@@ -1,6 +1,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+using Lumenfall.Core;
+
 [RequireComponent(typeof(Camera))]
 public class CameraController : MonoBehaviour
 {
@@ -90,6 +92,8 @@ public class CameraController : MonoBehaviour
     [SerializeField] private float cameraDistanceZ = -10f;
 
     private Camera cam;
+    public Camera Cam => cam != null ? cam : (cam = GetComponent<Camera>());
+
     private CameraLockArea currentArea;
     private readonly List<CameraLockArea> activeAreas = new List<CameraLockArea>();
 
@@ -119,6 +123,8 @@ public class CameraController : MonoBehaviour
             Destroy(this);
             return;
         }
+
+        EnsureTargetReferences();
     }
 
     private void OnDestroy()
@@ -129,13 +135,36 @@ public class CameraController : MonoBehaviour
         }
     }
 
-    private void Start()
+    public void EnsureTargetReferences()
     {
+        if (target == null)
+        {
+            Player p = Object.FindAnyObjectByType<Player>(FindObjectsInactive.Include);
+            if (p != null)
+            {
+                target = p.transform;
+            }
+        }
+
         if (target != null)
         {
-            targetRb = target.GetComponentInParent<Rigidbody2D>();
-            player = target.GetComponentInParent<Player>();
+            if (targetRb == null)
+            {
+                targetRb = target.GetComponentInParent<Rigidbody2D>(true);
+            }
+            if (player == null)
+            {
+                player = target.GetComponentInParent<Player>(true);
+            }
+        }
+    }
 
+    private void Start()
+    {
+        EnsureTargetReferences();
+
+        if (target != null)
+        {
             if (autoEnableRigidbodyInterpolation && targetRb != null)
             {
                 if (targetRb.interpolation == RigidbodyInterpolation2D.None)
@@ -183,16 +212,7 @@ public class CameraController : MonoBehaviour
 
     public void SnapToTarget()
     {
-        if (target == null)
-        {
-            Player p = Object.FindAnyObjectByType<Player>();
-            if (p != null)
-            {
-                target = p.transform;
-                targetRb = p.GetComponent<Rigidbody2D>();
-                player = p;
-            }
-        }
+        EnsureTargetReferences();
 
         if (target == null) return;
 
@@ -312,7 +332,9 @@ public class CameraController : MonoBehaviour
 
     private void LateUpdate()
     {
+        EnsureTargetReferences();
         if (target == null) return;
+        if (cam == null) cam = GetComponent<Camera>();
 
         if (activeAreas.Count > 1)
         {

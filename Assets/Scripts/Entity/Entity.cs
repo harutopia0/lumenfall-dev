@@ -7,7 +7,7 @@ public enum FacingDirection
     Right = 1
 }
 
-public class Entity : MonoBehaviour
+public class Entity : MonoBehaviour, IKnockbackable
 {
     public Entity_VFX vfx { get; private set; }
     public Animator anim { get; private set; }

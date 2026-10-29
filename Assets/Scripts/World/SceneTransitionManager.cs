@@ -1,11 +1,10 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using Lumenfall.Core;
 
-public class SceneTransitionManager : MonoBehaviour
+public class SceneTransitionManager : PersistentSingleton<SceneTransitionManager>
 {
-    public static SceneTransitionManager Instance { get; private set; }
-
     [Header("Scene Configuration")]
     [Tooltip("Scene name identifying the Main Menu / Non-gameplay screen.")]
     [SerializeField] private string menuSceneName = SceneNames.MainMenu;
@@ -25,18 +24,15 @@ public class SceneTransitionManager : MonoBehaviour
     private string currentLoadedRoomScene;
     private string persistentSceneName;
 
-    private void Awake()
+    protected override void Awake()
     {
         persistentSceneName = gameObject.scene.name;
+        base.Awake();
 
-        if (Instance == null)
+        if (fadeCanvasGroup != null)
         {
-            Instance = this;
-            DontDestroyOnLoad(gameObject);
-        }
-        else
-        {
-            Destroy(gameObject);
+            fadeCanvasGroup.alpha = 0f;
+            fadeCanvasGroup.blocksRaycasts = false;
         }
     }
 
@@ -193,25 +189,28 @@ public class SceneTransitionManager : MonoBehaviour
     private IEnumerator LoadInitialRoomRoutine(string sceneName, string spawnPointName)
     {
         AsyncOperation loadOp = SceneManager.LoadSceneAsync(sceneName, LoadSceneMode.Additive);
-        while (!loadOp.isDone)
+        while (loadOp != null && !loadOp.isDone)
         {
             yield return null;
         }
 
         Scene loadedScene = SceneManager.GetSceneByName(sceneName);
-        SceneManager.SetActiveScene(loadedScene);
+        if (loadedScene.IsValid() && loadedScene.isLoaded)
+        {
+            SceneManager.SetActiveScene(loadedScene);
+        }
 
         bool isGameplay = IsGameplayScene(sceneName);
         SetPlayerActive(isGameplay);
 
-        if (UIManager.Instance != null)
-        {
-            UIManager.Instance.SetHUDActive(isGameplay);
-        }
-
         if (isGameplay)
         {
             InitializePlayerPosition(spawnPointName, loadedScene);
+        }
+
+        if (UIManager.Instance != null)
+        {
+            UIManager.Instance.SetHUDActive(isGameplay);
         }
     }
 
@@ -223,42 +222,59 @@ public class SceneTransitionManager : MonoBehaviour
             player.input.Disable();
         }
 
+        if (fadeCanvasGroup != null)
+        {
+            fadeCanvasGroup.blocksRaycasts = true;
+        }
+
         yield return StartCoroutine(FadeRoutine(0f, 1f));
 
-        if (!string.IsNullOrEmpty(currentLoadedRoomScene))
+        if (!string.IsNullOrEmpty(currentLoadedRoomScene) && currentLoadedRoomScene != nextSceneName)
         {
-            AsyncOperation unloadOp = SceneManager.UnloadSceneAsync(currentLoadedRoomScene);
-            while (unloadOp != null && !unloadOp.isDone)
+            Scene oldScene = SceneManager.GetSceneByName(currentLoadedRoomScene);
+            if (oldScene.IsValid() && oldScene.isLoaded)
             {
-                yield return null;
+                AsyncOperation unloadOp = SceneManager.UnloadSceneAsync(oldScene);
+                while (unloadOp != null && !unloadOp.isDone)
+                {
+                    yield return null;
+                }
             }
         }
 
         AsyncOperation loadOp = SceneManager.LoadSceneAsync(nextSceneName, LoadSceneMode.Additive);
-        while (!loadOp.isDone)
+        while (loadOp != null && !loadOp.isDone)
         {
             yield return null;
         }
 
         currentLoadedRoomScene = nextSceneName;
         Scene newScene = SceneManager.GetSceneByName(nextSceneName);
-        SceneManager.SetActiveScene(newScene);
+        if (newScene.IsValid() && newScene.isLoaded)
+        {
+            SceneManager.SetActiveScene(newScene);
+        }
 
         bool isGameplay = IsGameplayScene(nextSceneName);
         SetPlayerActive(isGameplay);
-
-        if (UIManager.Instance != null)
-        {
-            UIManager.Instance.SetHUDActive(isGameplay);
-        }
 
         if (isGameplay)
         {
             InitializePlayerPosition(targetSpawnPointName, newScene);
         }
 
+        if (UIManager.Instance != null)
+        {
+            UIManager.Instance.SetHUDActive(isGameplay);
+        }
+
         yield return new WaitForEndOfFrame();
         yield return StartCoroutine(FadeRoutine(1f, 0f));
+
+        if (fadeCanvasGroup != null)
+        {
+            fadeCanvasGroup.blocksRaycasts = false;
+        }
 
         if (isGameplay)
         {
@@ -272,6 +288,8 @@ public class SceneTransitionManager : MonoBehaviour
 
     private IEnumerator FadeRoutine(float fromAlpha, float toAlpha)
     {
+        if (fadeCanvasGroup == null) yield break;
+
         float timer = 0f;
         while (timer < fadeDuration)
         {

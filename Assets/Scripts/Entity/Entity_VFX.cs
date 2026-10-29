@@ -1,9 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using static UnityEngine.EventSystems.EventTrigger;
+using Lumenfall.Core;
 
 public class Entity_VFX : MonoBehaviour
 {
@@ -93,15 +92,28 @@ public class Entity_VFX : MonoBehaviour
         }
     }
 
+    private GameObject SpawnVfx(GameObject prefab, Vector3 position, Quaternion rotation)
+    {
+        if (prefab == null) return null;
+        if (PoolManager.HasInstance)
+        {
+            return PoolManager.Instance.Spawn(prefab, position, rotation);
+        }
+        return Instantiate(prefab, position, rotation);
+    }
+
     public void PlayFireballMuzzleVfx()
     {
         if (fireballMuzzlePrefab == null) return;
         Vector3 spawnPos = transform.position + new Vector3(fireballMuzzleOffset.x * entity.facingDir, fireballMuzzleOffset.y, fireballMuzzleOffset.z);
-        GameObject muzzle = Instantiate(fireballMuzzlePrefab, spawnPos, Quaternion.identity);
-        muzzle.transform.localScale = new Vector3(entity.facingDir, 1f, 1f);
-        if (entity is Player player)
+        GameObject muzzle = SpawnVfx(fireballMuzzlePrefab, spawnPos, Quaternion.identity);
+        if (muzzle != null)
         {
-            muzzle.GetComponent<Fireball_Muzzle>()?.Setup(player);
+            muzzle.transform.localScale = new Vector3(entity.facingDir, 1f, 1f);
+            if (entity is Player player)
+            {
+                muzzle.GetComponent<Fireball_Muzzle>()?.Setup(player);
+            }
         }
     }
 
@@ -111,9 +123,11 @@ public class Entity_VFX : MonoBehaviour
 
         Vector3 spawnPos = transform.position + new Vector3(screamOffset.x * entity.facingDir, screamOffset.y, screamOffset.z);
 
-        GameObject screamObj = Instantiate(screamPrefab, spawnPos, Quaternion.identity);
-
-        screamObj.transform.localScale = new Vector3(screamScale.x * entity.facingDir, screamScale.y, 1f);
+        GameObject screamObj = SpawnVfx(screamPrefab, spawnPos, Quaternion.identity);
+        if (screamObj != null)
+        {
+            screamObj.transform.localScale = new Vector3(screamScale.x * entity.facingDir, screamScale.y, 1f);
+        }
     }
 
     private void InitializeCrystalPool()
@@ -162,7 +176,7 @@ public class Entity_VFX : MonoBehaviour
         if (focusBurstPrefab == null) return;
         Vector3 spawnPos = position + new Vector3(focusBurstOffset.x * entity.facingDir, focusBurstOffset.y, focusBurstOffset.z);
         Quaternion vfxRot = Quaternion.Euler(0f, entity.facingDir == -1 ? 0f : 180f, 0f);
-        Instantiate(focusBurstPrefab, spawnPos, vfxRot);
+        SpawnVfx(focusBurstPrefab, spawnPos, vfxRot);
     }
 
     public void PlayWallJumpPuffVfx(Vector3 position, int jumpDirection)
@@ -170,7 +184,7 @@ public class Entity_VFX : MonoBehaviour
         if (wallJumpPuffPrefab == null) return;
         Vector3 spawnPos = position + new Vector3(wallJumpPuffOffset.x * jumpDirection, wallJumpPuffOffset.y, wallJumpPuffOffset.z);
         Quaternion rotation = jumpDirection > 0 ? Quaternion.identity : Quaternion.Euler(0f, 180f, 0f);
-        Instantiate(wallJumpPuffPrefab, spawnPos, rotation);
+        SpawnVfx(wallJumpPuffPrefab, spawnPos, rotation);
     }
 
     public void SetSuperDashCharging(bool charging, bool isWallCharge = false)
@@ -529,7 +543,7 @@ public class Entity_VFX : MonoBehaviour
         if (superDashTrailEndPrefab == null) return;
         Vector3 spawnPos = position + new Vector3(superDashTrailEndOffset.x * facingDir, superDashTrailEndOffset.y, superDashTrailEndOffset.z);
         Quaternion vfxRot = Quaternion.Euler(0f, facingDir == -1 ? 0f : 180f, rotation.eulerAngles.z);
-        Instantiate(superDashTrailEndPrefab, spawnPos, vfxRot);
+        SpawnVfx(superDashTrailEndPrefab, spawnPos, vfxRot);
     }
 
     public void SetSuperDashTrail(bool active)
@@ -543,7 +557,7 @@ public class Entity_VFX : MonoBehaviour
 
         Vector3 spawnPos = position + new Vector3(superDashBurstOffset.x * facingDir, superDashBurstOffset.y, superDashBurstOffset.z);
         Quaternion vfxRot = Quaternion.Euler(0f, facingDir == -1 ? 0f : 180f, rotation.eulerAngles.z);
-        Instantiate(superDashBurstPrefab, spawnPos, vfxRot);
+        SpawnVfx(superDashBurstPrefab, spawnPos, vfxRot);
     }
 
     public void PlaySuperDashBreakVfx(Vector3 position, Quaternion rotation, int facingDir)
@@ -551,7 +565,7 @@ public class Entity_VFX : MonoBehaviour
         if (superDashBreakPrefab == null) return;
         Vector3 spawnPos = position + new Vector3(superDashBreakOffset.x * facingDir, superDashBreakOffset.y, superDashBreakOffset.z);
         Quaternion vfxRot = Quaternion.Euler(0f, facingDir == -1 ? 0f : 180f, rotation.eulerAngles.z);
-        Instantiate(superDashBreakPrefab, spawnPos, vfxRot);
+        SpawnVfx(superDashBreakPrefab, spawnPos, vfxRot);
     }
 
     private void Awake()
@@ -612,7 +626,7 @@ public class Entity_VFX : MonoBehaviour
 
         Vector3 spawnPos = position + new Vector3(dashVfxOffset.x * facingDir, dashVfxOffset.y, dashVfxOffset.z);
         Quaternion vfxRot = Quaternion.Euler(0f, facingDir == -1 ? 0f : 180f, rotation.eulerAngles.z);
-        Instantiate(dashVfxPrefab, spawnPos, vfxRot);
+        SpawnVfx(dashVfxPrefab, spawnPos, vfxRot);
     }
 
     public void PlayOnDamageVfx()

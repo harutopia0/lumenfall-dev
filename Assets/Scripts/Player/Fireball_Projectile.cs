@@ -1,7 +1,8 @@
 using System.Collections.Generic;
 using UnityEngine;
+using Lumenfall.Core;
 
-public class Fireball_Projectile : MonoBehaviour
+public class Fireball_Projectile : MonoBehaviour, IPoolable
 {
     [Header("Movement")]
     [SerializeField] private float speed = 32f;
@@ -22,12 +23,14 @@ public class Fireball_Projectile : MonoBehaviour
     private int direction = 1;
     private float lifetimeTimer;
     private bool isDestroyed;
+    private PooledObject pooledObject;
 
     private Dictionary<Collider2D, float> hitCooldownDict = new Dictionary<Collider2D, float>();
 
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
+        pooledObject = GetComponent<PooledObject>();
     }
 
     public void Initialize(int shootDirection)
@@ -85,7 +88,7 @@ public class Fireball_Projectile : MonoBehaviour
 
                 if (hitImpactPrefab != null)
                 {
-                    Instantiate(hitImpactPrefab, collision.bounds.center, Quaternion.identity);
+                    SpawnImpactVfx(hitImpactPrefab, collision.bounds.center);
                 }
             }
         }
@@ -98,9 +101,43 @@ public class Fireball_Projectile : MonoBehaviour
 
         if (vfxPrefab != null)
         {
-            Instantiate(vfxPrefab, transform.position, Quaternion.identity);
+            SpawnImpactVfx(vfxPrefab, transform.position);
         }
 
-        Destroy(gameObject);
+        if (pooledObject != null && PoolManager.HasInstance)
+        {
+            pooledObject.ReturnToPool();
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+    }
+
+    private void SpawnImpactVfx(GameObject prefab, Vector3 position)
+    {
+        if (prefab == null) return;
+        if (PoolManager.HasInstance)
+        {
+            PoolManager.Instance.Spawn(prefab, position, Quaternion.identity);
+        }
+        else
+        {
+            Instantiate(prefab, position, Quaternion.identity);
+        }
+    }
+
+    public void OnSpawnFromPool()
+    {
+        isDestroyed = false;
+        hitCooldownDict.Clear();
+    }
+
+    public void OnReturnToPool()
+    {
+        if (rb != null)
+        {
+            rb.linearVelocity = Vector2.zero;
+        }
     }
 }
