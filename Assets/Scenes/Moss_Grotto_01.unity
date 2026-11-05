@@ -2694,7 +2694,7 @@ GameObject:
   - component: {fileID: 366818871}
   - component: {fileID: 366818870}
   m_Layer: 11
-  m_Name: Anti-detect Object
+  m_Name: Ground_NoSlide
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

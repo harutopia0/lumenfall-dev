@@ -512,7 +512,7 @@ MonoBehaviour:
   defaultFacing: -1
   whatIsGround:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 4160
   groundCheck: {fileID: 3173265058692832367}
   groundCheckDistance: 1.3
   groundBoxSize: {x: 0.25, y: 0.1}
@@ -679,7 +679,7 @@ MonoBehaviour:
   edgeScale: {x: 1.75, y: 3.5}
   surfaceLayer:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 4160
 --- !u!114 &7597995309216956605
 MonoBehaviour:
   m_ObjectHideFlags: 0
