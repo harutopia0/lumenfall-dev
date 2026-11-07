@@ -17,8 +17,8 @@ TagManager:
   - Enemy
   - Spikes
   - Interactive
-  - Anti-detect
-  - 
+  - Ground_NoSlide
+  - Breakable
   - 
   - 
   - 
@@ -48,7 +48,7 @@ TagManager:
   - name: Ground
     uniqueID: 1427886523
     locked: 0
-  - name: Anti-detect
+  - name: Ground_NoSlide
     uniqueID: 2884456807
     locked: 0
   - name: Interactive

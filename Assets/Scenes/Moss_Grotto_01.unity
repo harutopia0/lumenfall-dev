@@ -840,7 +840,7 @@ SpriteRenderer:
   m_Size: {x: 1.15625, y: 0.6875}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_SpriteSortPoint: 0
   m_BlendShapeWeights: []
 --- !u!95 &100051762
@@ -2694,7 +2694,7 @@ GameObject:
   - component: {fileID: 366818871}
   - component: {fileID: 366818870}
   m_Layer: 11
-  m_Name: Anti-detect Object
+  m_Name: Ground_NoSlide
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
