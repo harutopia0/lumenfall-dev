@@ -35,6 +35,20 @@
 _agents/
 AGENTS.md
 GEMINI.md
+.claude/
+CLAUDE.md
+CLAUDE.local.md
+.worktreeinclude
+/project.yaml
+/project.local.yaml
+/design/
+/docs/
+/production/
+/studio-tests/
+/.scratch/
+/tools/
+/[Aa]ssets/Scripts/Editor/LevelBlockoutImporter.cs
+/[Aa]ssets/Scripts/Editor/LevelBlockoutImporter.cs.meta
 
 # Visual Studio cache directory
 .vs/
