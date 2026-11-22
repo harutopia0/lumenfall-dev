@@ -358,7 +358,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3908284833767513418, guid: f3f3e885da454088a1b9541328fbd5f9, type: 3}
       propertyPath: m_Name
-      value: bone_deep_0140_p
+      value: RH_Deep_BoneOverhang_03
       objectReference: {fileID: 0}
     - target: {fileID: 7158238853487027078, guid: f3f3e885da454088a1b9541328fbd5f9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4473,7 +4473,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7983200154319607515, guid: 5dfec83c5ea747899dcd09880dfc1410, type: 3}
       propertyPath: m_Name
-      value: Bonechurch_middle_bits_0010_cage_break
+      value: RH_Cage_Ornate_01_Broken
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5430,7 +5430,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1770324538765031172, guid: c4c9cd45e53f40869a0c6e1765daf906, type: 3}
       propertyPath: m_Name
-      value: Hornet_bone_rubble_03
+      value: RH_Rubble_Strip_02
       objectReference: {fileID: 0}
     - target: {fileID: 2394319423761169624, guid: c4c9cd45e53f40869a0c6e1765daf906, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6446,7 +6446,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3908284833767513418, guid: f3f3e885da454088a1b9541328fbd5f9, type: 3}
       propertyPath: m_Name
-      value: bone_deep_0140_p (1)
+      value: RH_Deep_BoneOverhang_03 (1)
       objectReference: {fileID: 0}
     - target: {fileID: 7158238853487027078, guid: f3f3e885da454088a1b9541328fbd5f9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8072,7 +8072,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3773352543796156316, guid: f469543c85fc46c5a986c0a8e1a199b4, type: 3}
       propertyPath: m_Name
-      value: bone_town_floor_larger_0000_2
+      value: RH_Floor_BoneLog_01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9756,7 +9756,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7824979362406500776, guid: cd97c88662c541b1bda15792aa825282, type: 3}
       propertyPath: m_Name
-      value: bone_spine_pieces
+      value: RH_Spike_SpineStrip_01
       objectReference: {fileID: 0}
     - target: {fileID: 7882541652108212965, guid: cd97c88662c541b1bda15792aa825282, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13806,7 +13806,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6133507801282320421, guid: 0696322bd93f466993c606cd87fd6242, type: 3}
       propertyPath: m_Name
-      value: Bonechurch_middle_bits_0013_cage_back
+      value: RH_Cage_Ornate_01_Back
       objectReference: {fileID: 0}
     - target: {fileID: 6133507801282320421, guid: 0696322bd93f466993c606cd87fd6242, type: 3}
       propertyPath: m_IsActive
