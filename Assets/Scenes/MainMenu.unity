@@ -918,7 +918,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de1b3ad4544a19a43b634bbe1f3c8893, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MainMenuController
-  targetSceneName: Moss_Grotto_01
+  targetSceneName: Glowcap_Caverns_01
   targetSpawnPointName: _Spawns/Spawn_Default
   fullScreenButton: {fileID: 2300000004}
   promptRoot: {fileID: 1589184690}

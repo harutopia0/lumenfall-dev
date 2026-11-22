@@ -12,25 +12,25 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: 2304e91fd5309aa4688460ff0117716a
   - enabled: 1
-    path: Assets/Scenes/Moss_Grotto_01.unity
+    path: Assets/Scenes/Glowcap_Caverns_01.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
-    path: Assets/Scenes/Moss_Grotto_02.unity
+    path: Assets/Scenes/Glowcap_Caverns_02.unity
     guid: 6c8b6350f085e3447b006367bde754c9
   - enabled: 1
-    path: Assets/Scenes/Moss_Grotto_03.unity
+    path: Assets/Scenes/Glowcap_Caverns_03.unity
     guid: e0bb8bde533c1c1418a696fc8b5cf2ee
   - enabled: 1
-    path: Assets/Scenes/Moss_Grotto_04.unity
+    path: Assets/Scenes/Glowcap_Caverns_04.unity
     guid: de67dbfa3f95bdf41812d922a577b8d0
   - enabled: 1
-    path: Assets/Scenes/Moss_Grotto_05.unity
+    path: Assets/Scenes/Glowcap_Caverns_05.unity
     guid: b60ddde257a099b4f92a6dffda99def7
   - enabled: 1
-    path: Assets/Scenes/Moss_Grotto_06.unity
+    path: Assets/Scenes/Glowcap_Caverns_06.unity
     guid: 65413ff0e32f49248a5d353d1d12183e
   - enabled: 1
-    path: Assets/Scenes/Moss_Grotto_07.unity
+    path: Assets/Scenes/Glowcap_Caverns_07.unity
     guid: 2d08491adc97cca479ebd08bc3b665db
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
