@@ -49,6 +49,10 @@ CLAUDE.local.md
 /tools/
 /[Aa]ssets/Scripts/Editor/LevelBlockoutImporter.cs
 /[Aa]ssets/Scripts/Editor/LevelBlockoutImporter.cs.meta
+/[Aa]ssets/Scripts/Editor/GlowcapRoomDresser.cs
+/[Aa]ssets/Scripts/Editor/GlowcapRoomDresser.cs.meta
+/[Aa]ssets/Scripts/Editor/GlowcapSceneViewShots.cs
+/[Aa]ssets/Scripts/Editor/GlowcapSceneViewShots.cs.meta
 
 # Visual Studio cache directory
 .vs/
